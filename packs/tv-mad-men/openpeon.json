@@ -1,0 +1,54 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-mad-men",
+  "display_name": "TV — Mad Men",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/f3ae794bcf9a-i-want-to-tell-you-something-you-are-very-dear-to-me.mp3",
+          "label": "I Want To Tell You Something. You Are Very Dear To Me",
+          "sha256": "8fc65e407615f58c5839e58f70fdfb7cdbf578cd52b23a7a7957a0f023c13fe3"
+        },
+        {
+          "file": "sounds/dc1dd7eed0d0-when-god-close-the-door-he-opens-the-dress.mp3",
+          "label": "When God Close The Door He Opens The Dress",
+          "sha256": "a31e137c5d3707c3e8cd3d19931d3e53829bedcc75659cb6e47a7494aed6cfdf"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/5759701d3921-nobody-knows-what-im-doing.mp3",
+          "label": "Nobody Knows What I'm Doing",
+          "sha256": "830d19bc23ae29f3a5105128ae09d71c96e4ca568c223a9d3b21ffe264e227d7"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/0f373a49c653-i-dont-think-i-have-to-tell-you-what-you-witnessed-here.mp3",
+          "label": "I Don't Think I Have To Tell You What You Witnessed Here",
+          "sha256": "4df570ff3238688d8b17312f3c87d99d74bb3c76d9c125d0e06b42b7c400f6c3"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/dc1dd7eed0d0-when-god-close-the-door-he-opens-the-dress.mp3",
+          "label": "When God Close The Door He Opens The Dress",
+          "sha256": "a31e137c5d3707c3e8cd3d19931d3e53829bedcc75659cb6e47a7494aed6cfdf"
+        }
+      ]
+    }
+  }
+}

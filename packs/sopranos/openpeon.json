@@ -1,0 +1,202 @@
+{
+  "cesp_version": "1.0",
+  "name": "sopranos",
+  "display_name": "Tony Soprano",
+  "version": "1.0.0",
+  "author": {
+    "name": "voider1",
+    "github": "voider1"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/Greeting_HiItsMe.mp3",
+          "label": "Hi, it's me",
+          "sha256": "be6436b86f2e916c7940dd93fa9cc4e3b5f69589e0358e98fe8cbec6e6c4f455"
+        },
+        {
+          "file": "sounds/Greeting_OhYeah.mp3",
+          "label": "Oh yeah?",
+          "sha256": "967793bf0ce59cf584a5a0cc3617a4ab14514cbf25412e44184eccdc4523d9dd"
+        },
+        {
+          "file": "sounds/Greeting_SomethingToSay.mp3",
+          "label": "Something you wanna say to me?",
+          "sha256": "8eb6c5ee9b31b90da72e0d407fb30545f435955f5b7e07889b42bd271e4e53a4"
+        },
+        {
+          "file": "sounds/ResourceLimit_LordTakeMe.mp3",
+          "label": "I wish the Lord would take me now",
+          "sha256": "5e5fa6148417ba8ebae7454232194b69b904f28a840ff2fc7e71cc918e7916c7"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/Acknowledge_DulyNoted.mp3",
+          "label": "Duly noted",
+          "sha256": "3e95c00c7e641071fd171cb748c86fe05001ea533dc278ce30e695ac2262798f"
+        },
+        {
+          "file": "sounds/Acknowledge_MakeItHappen.mp3",
+          "label": "Make it happen",
+          "sha256": "2c3c55a55132bfc42fb84a29c54be7cd6203930dfe9792bfecae1e2e05e31a57"
+        },
+        {
+          "file": "sounds/Acknowledge_SitDown.mp3",
+          "label": "Sit down",
+          "sha256": "7a420f5c4301de51c85de0117df6832b4ed13d37286d3c89e3a4af3ae91e4b45"
+        },
+        {
+          "file": "sounds/Acknowledge_Conserve.mp3",
+          "label": "Conserve!",
+          "sha256": "eefe35d4562310a663163e170e9b1b612c25b3cbc987d14f027e8a2a1399acb9"
+        },
+        {
+          "file": "sounds/Acknowledge_ThatsIt.mp3",
+          "label": "That's it",
+          "sha256": "9f47e5ce52a40f949bb3146d497d34f75e8f3b3d4dc7162796fe09dc2586b9e4"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/Complete_Oooooh.mp3",
+          "label": "Ohhh!",
+          "sha256": "7814c3ac2c2fbe224bac88e1a5b44243d32d14580554ff9957a26b78bf4915f7"
+        },
+        {
+          "file": "sounds/Complete_TakeItEasy.mp3",
+          "label": "Take it easy",
+          "sha256": "c0a2376b1345d74ae70667f0c11447ffd7206ce5b4ad22418742225defb69b12"
+        },
+        {
+          "file": "sounds/Complete_ThankGod.mp3",
+          "label": "Thank God",
+          "sha256": "aae92da388c2ab01c454dd182d1a06280e606f1e1b612f0481792c809c25c4d3"
+        },
+        {
+          "file": "sounds/Complete_Progress.mp3",
+          "label": "Progress",
+          "sha256": "ee9dd609e20cc4b43ca8b709510790343af8f3105f9036ef78a79afaf25155a4"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/Error_OofMarone.mp3",
+          "label": "Oof, marone!",
+          "sha256": "9b691371fe0fe225742eae1f392d5e713930a06c85b21ed0cbf2211ea83ee01e"
+        },
+        {
+          "file": "sounds/Error_FkThat.mp3",
+          "label": "F*ck that",
+          "sha256": "081afdd0bd26fe3493ae6151c67f37b1d834bcb8fdea4388849972aa5a632e43"
+        },
+        {
+          "file": "sounds/Error_Wtf.mp3",
+          "label": "What the f*ck?",
+          "sha256": "b32e56f5fa802d568143c89dfefa0deb2b3ddc8eddf6f2e3473b1347df368b94"
+        },
+        {
+          "file": "sounds/Error_FknInterwebs.mp3",
+          "label": "F*ckin' internet",
+          "sha256": "7ea89123548d98b823dde0672dca92801983a2876798392c5bd0cdaaf8aaa0b7"
+        },
+        {
+          "file": "sounds/ResourceLimit_LordTakeMe.mp3",
+          "label": "I wish the Lord would take me now",
+          "sha256": "5e5fa6148417ba8ebae7454232194b69b904f28a840ff2fc7e71cc918e7916c7"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/Greeting_GabagoolOvaHere.mp3",
+          "label": "Gabagool? Ova here!",
+          "sha256": "ebede257636fd90fde5f9196f29d4eea161fec45cea18dcf0f6f6c4b8492dc49"
+        },
+        {
+          "file": "sounds/Permission_WhatGonnaDo.mp3",
+          "label": "What are you gonna do?",
+          "sha256": "32e3d54a1fb16181ba24aa4ebb9cc28f3e0c507f12919e0421fd40160ecc0a3d"
+        },
+        {
+          "file": "sounds/Permission_TellMe.mp3",
+          "label": "Tell me",
+          "sha256": "9efc926b7654cffde5f79392cbc14772e4d28cfd0c83893d3e7c16c3fa39ebe3"
+        },
+        {
+          "file": "sounds/Permission_WhatsHeWant.mp3",
+          "label": "What's he want?",
+          "sha256": "36e7a88108f29138d26b9710a69f41705a318746fa234f3e19bc30c298edbfd9"
+        },
+        {
+          "file": "sounds/Permission_DidIAngerYou.mp3",
+          "label": "Did I anger you?",
+          "sha256": "1d207087609388f50b31f53257015b59ab8085d77567abdd4d94d01f2c80aa92"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ResourceLimit_Crazy.mp3",
+          "label": "That's crazy",
+          "sha256": "7806833cbd78f6323c25a39af75bfefe029b668a1aaa8843cd64c1f4d15436a8"
+        },
+        {
+          "file": "sounds/ResourceLimit_DontDoIt.mp3",
+          "label": "Don't do it",
+          "sha256": "fcdb7e1f572f4152843c0af7b948cd4c731b0ac45d9645b946d9c2cfa8110ef7"
+        },
+        {
+          "file": "sounds/ResourceLimit_LordTakeMe.mp3",
+          "label": "I wish the Lord would take me now",
+          "sha256": "5e5fa6148417ba8ebae7454232194b69b904f28a840ff2fc7e71cc918e7916c7"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/Annoyed_StopGettingCunty.mp3",
+          "label": "Stop getting cunty!",
+          "sha256": "51fa8e4b1fef0c14d3addb47a94acaab3f6749255a8ac145246d1ca61e0dada8"
+        },
+        {
+          "file": "sounds/Annoyed_ShutUp.mp3",
+          "label": "Shut up",
+          "sha256": "1171b8729b61ba051cf82d22086d4fd784a1433a8d625e8aa944be8be1378435"
+        },
+        {
+          "file": "sounds/Annoyed_ShutUp2.mp3",
+          "label": "Shut up!",
+          "sha256": "0261852aa3932404e0d1bb1415c9e1583a6aa6555cb44b8d86c29c372550835e"
+        },
+        {
+          "file": "sounds/Annoyed_OhPoorYou.mp3",
+          "label": "Oh, poor you",
+          "sha256": "9a4214f89ee04eb6bc2f228e057f26c577775f4cdaeb7426c7d7f3b9eb8d2728"
+        },
+        {
+          "file": "sounds/Annoyed_TalkNoMore.mp3",
+          "label": "I don't wanna talk no more",
+          "sha256": "1005a9a5db2196508beffacc99cf7eb388f1bde268bb6613ec99af3f93fa9ac6"
+        },
+        {
+          "file": "sounds/Annoyed_StopNow.mp3",
+          "label": "Stop, now",
+          "sha256": "ec1f4c2317f8be9ca5dc857b67dc6c8239a6c0f164764fadc6e73bd0c071a3d8"
+        }
+      ]
+    }
+  }
+}

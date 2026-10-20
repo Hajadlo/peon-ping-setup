@@ -1,0 +1,157 @@
+{
+  "cesp_version": "1.0",
+  "name": "glados",
+  "display_name": "GLaDOS (Portal)",
+  "version": "1.0.0",
+  "author": {
+    "name": "DoubleGremlin181",
+    "github": "DoubleGremlin181"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/Hello.mp3",
+          "label": "Hello",
+          "sha256": "b4140f1cb4d809767ffb477d4d0135639a133538d96876fc9d5fa775a23d0be0"
+        },
+        {
+          "file": "sounds/IKnowYoureThere.mp3",
+          "label": "I know you're there. I can feel you here.",
+          "sha256": "99604ad697a06d2fbb764a05253a36202a66d82dec40238e7535b28afe93b1db"
+        },
+        {
+          "file": "sounds/HelloImbecile.mp3",
+          "label": "Hello, imbecile!",
+          "sha256": "29d869bc1c5510fdbd387a5a66b7ec181211a8f82d2237fa2df27494055d4f5a"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/Yes.mp3",
+          "label": "Yes",
+          "sha256": "eea62d1e9ce02fe80cb11c93df19d3dc9c8a5aee36613a87758998579ea33cd6"
+        },
+        {
+          "file": "sounds/KeepDoing.mp3",
+          "label": "Keep doing whatever it is you think you're doing.",
+          "sha256": "6242d8d0901a0356a6e5322240fd1eb5e62f082d3073f242d0f8db4ba71ad0b3"
+        },
+        {
+          "file": "sounds/IWas.mp3",
+          "label": "I was",
+          "sha256": "883e441d78f09372e64430f35a5aee44ce1b117b0c37f3d37c76fd8969402ae6"
+        },
+        {
+          "file": "sounds/Fantastic.mp3",
+          "label": "Fantastic",
+          "sha256": "11145e1310cfb1500458dec9851680875ec8acd36c6f9be4e6e71935052ba2fe"
+        },
+        {
+          "file": "sounds/Excellent.mp3",
+          "label": "Excellent",
+          "sha256": "5c5e6253a40e0f6a8d4c81db407ac463c38c0c473f75bf84af472c0424bbd948"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/GoodNews.mp3",
+          "label": "Good news.",
+          "sha256": "486bea216d6669c2fef4c99b08a0186abdcda69f6078aaccc231b5fb39b7a035"
+        },
+        {
+          "file": "sounds/Congratulations.mp3",
+          "label": "Congratulations",
+          "sha256": "0fe6cf99b166322c3b29bdd08da656e0378101889be7611eb3b449a9c057fbbf"
+        },
+        {
+          "file": "sounds/Goodbye.mp3",
+          "label": "Goodbye",
+          "sha256": "84c3afcf54336ac01570ac15aecba77eb2dcb1e8ab2db1ffe9f3d5caab320835"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ItAintWorkin.mp3",
+          "label": "Oh one sec! It ain't working!",
+          "sha256": "f8f8357623e010884f1d8280c82cc64e91b2c49fd3a41881fc3b9c4b82335425"
+        },
+        {
+          "file": "sounds/WompWomp.mp3",
+          "label": "Womp Womp",
+          "sha256": "4bf44e449e1847c59f00f952f8f6f5a21d971a76fc283ce234b9185f7bdbf53f"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/UnableToScan.mp3",
+          "label": "Unable to scan",
+          "sha256": "c9536c765c5ffe9d28c1b694be178ac9170ffb741ab8747415809cb40bc92340"
+        },
+        {
+          "file": "sounds/SoftwareIntrusionDetected.mp3",
+          "label": "Software intrusion detected",
+          "sha256": "1e2eab2f9dd396c458b297b4327677bcd050b4ba8e0458655f07ad6f180fb333"
+        },
+        {
+          "file": "sounds/CanYouHearMe.mp3",
+          "label": "Can you hear me?",
+          "sha256": "9aa72e64f0a2890d6fd2f40b4f484211073df0c7a614bc7d4c718a3818f8b6b8"
+        },
+        {
+          "file": "sounds/YouHaveANotification.mp3",
+          "label": "You have a notification.",
+          "sha256": "497b31ab8e256aecee2e8c3ce3bbeaeac802852803fa6fd9094d21214a013f7b"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/BecauseImAPotato.mp3",
+          "label": "Because I'm a potato.",
+          "sha256": "138507444d47175554565a00c8a8041958a64c9cfc83a7724b14c9fc7d2ac325"
+        },
+        {
+          "file": "sounds/Potato.mp3",
+          "label": "Potato.",
+          "sha256": "e82e9e3b12ef5eb7b3d35da63d6f16db03796152de71efd6f58119f9bd6312c1"
+        },
+        {
+          "file": "sounds/StillAPotato.mp3",
+          "label": "In case you were wondering, yes, I am still a potato.",
+          "sha256": "fd90a89194ca73d37f9f46d19b3ff654781574111b0d6911083dd3fdc39cd610"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/WhereDidYourLifeGoWrong.mp3",
+          "label": "Where did your life go so wrong?",
+          "sha256": "17a5c4df47c00d9835e9f4382a043f015b42ed7ae3a656b790c0ba575cac6149"
+        },
+        {
+          "file": "sounds/Neurotoxin.mp3",
+          "label": "Here's a hint. You're gonna wanna pack as much living as you can in the next couple of minutes.",
+          "sha256": "2e8173a231a74ea310ad66131b40bbb2a1e5c9b171c588bbe24b91a4a0d1e69f"
+        },
+        {
+          "file": "sounds/Unbelievable.mp3",
+          "label": "Unbelievable",
+          "sha256": "7e845f62a1684a342f592c7aa660ff812b0114ef408e3e537307d00352c2ad88"
+        }
+      ]
+    }
+  }
+}

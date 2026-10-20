@@ -1,0 +1,212 @@
+{
+  "cesp_version": "1.0",
+  "name": "dota2_zeus",
+  "display_name": "Zeus (Dota 2)",
+  "version": "1.0.0",
+  "author": {
+    "name": "kmelkon",
+    "github": "kmelkon"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/Zeus.mp3",
+          "label": "Zeus!",
+          "sha256": "cc452dc74b1d8ed3cccb0921bfbf972fdc71fa81e3e87e59fd003a6818e2d6ea"
+        },
+        {
+          "file": "sounds/IAmZeus.mp3",
+          "label": "It's true. I am Zeus.",
+          "sha256": "dc1d87d07e48181e509e006f23f05d4c314875855fc798f8c90b37e65501dfc8"
+        },
+        {
+          "file": "sounds/YourGodHasArrived.mp3",
+          "label": "Your god has arrived.",
+          "sha256": "89da0e06622cce551fc693dbe9909cf2f23aeae1af3591d9443d5395797bf45f"
+        },
+        {
+          "file": "sounds/TimeToPlayGod.mp3",
+          "label": "Time to play God.",
+          "sha256": "048a8834532e574bef2e63b9c29d5b26ad8f1ad7fc0eb174317f3ed35ba3b6c9"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/Onward.mp3",
+          "label": "Onward.",
+          "sha256": "0dc85349715478e38d693a71e27e85581672042ca09add4cf796522a8658d73e"
+        },
+        {
+          "file": "sounds/DivineInvasion.mp3",
+          "label": "Divine invasion!",
+          "sha256": "05bea4cf23fc2102e41cf892e44ff591022fec778b0f0d231773ed52c143a5e4"
+        },
+        {
+          "file": "sounds/IOrdainIt.mp3",
+          "label": "I ordain it.",
+          "sha256": "61d18ea5c45c6e3f3ece4b0e11c31adb638d5696a8458dc9084fd1b97cc4d93e"
+        },
+        {
+          "file": "sounds/YourPrayerAnswered.mp3",
+          "label": "Your prayer, answered.",
+          "sha256": "cc13c61cbac3842f135f09266a1255188766d9a5a70d7e692fbcc8dc3512bda1"
+        },
+        {
+          "file": "sounds/SoundAdvice.mp3",
+          "label": "Sound advice.",
+          "sha256": "736fdb7a5765b7a047dee24836e6a85b3f60c03023931b40cfa09078d1e12f7c"
+        },
+        {
+          "file": "sounds/ByTheGods.mp3",
+          "label": "By the gods.",
+          "sha256": "f38927b02faab2f34c1207a512411386ab32cccb14caff0ba44e99595a649e6e"
+        },
+        {
+          "file": "sounds/WithHaste.mp3",
+          "label": "With haste.",
+          "sha256": "d100a8d2933d1fed4f1061ea78539c023a7086f7653b7898e915f5ed82bdfa48"
+        },
+        {
+          "file": "sounds/StormIsComing.mp3",
+          "label": "Storm is coming.",
+          "sha256": "72c46e005ae4f1c33325b4f51f856f6002a8254258f4b3ea2b6aa9df37c5169a"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/Thunderstruck.mp3",
+          "label": "Thunderstruck!",
+          "sha256": "c70319d0a4f792bddb2e9ad1ebaa357fb49b082537e535aa1df0491a1e5e5861"
+        },
+        {
+          "file": "sounds/ManProposesGodDisposes.mp3",
+          "label": "Man proposes, God disposes.",
+          "sha256": "a089786e4b25b3d7a9ddbc6fe12a1c1f77ec793dfc4c66401cb7b65bbb71dd63"
+        },
+        {
+          "file": "sounds/ThunderousApplause.mp3",
+          "label": "Thunderous applause!",
+          "sha256": "88935eaf9ec225a14ecc67dcbb0f3e618a4d71ae01c9de645b692af94b2edafb"
+        },
+        {
+          "file": "sounds/GodsWrath.mp3",
+          "label": "God's wrath!",
+          "sha256": "0bbfbd21fd1ca18f4fd1261070424e288571089a5346e2d61a8b27eeba69bf78"
+        },
+        {
+          "file": "sounds/InTheBag.mp3",
+          "label": "He he he. It's in the bag!",
+          "sha256": "c7a2f1b2056f6d2f8307650d087f87e1ce4217336f386c9c57451e1cef38a338"
+        },
+        {
+          "file": "sounds/IAmHolierThanThou.mp3",
+          "label": "Yes, I am holier than thou.",
+          "sha256": "e681112e4da87b395fcace3de2a30d478cee3ef2217e25caf9d3f04ceed6156c"
+        },
+        {
+          "file": "sounds/EhMortal.mp3",
+          "label": "Eh, mortal.",
+          "sha256": "b6c020097e40f2e55cf84bc98fa00e38d14090ef0fdb1e328f73031fc9d60404"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/YouCantRunFromHeaven.mp3",
+          "label": "You can't run from Heaven!",
+          "sha256": "b25dd0de64511fb941a46082c391e403854e3b1d73560ff562418e15f46bae7f"
+        },
+        {
+          "file": "sounds/FaceUpToYourMortality.mp3",
+          "label": "Face up to your mortality.",
+          "sha256": "f0a81eb8db95aad61fe28427315fa5c6e0648c06394ef7a29d8e9627e41a176c"
+        },
+        {
+          "file": "sounds/ThatsAllItTakes.mp3",
+          "label": "That's all it takes to kill you?",
+          "sha256": "ae7287829b11d292ff550d897ffcc4e3acd5cbb00f75244f4cb423170b08fc33"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/HeavenHelpYou.mp3",
+          "label": "Heaven help you!",
+          "sha256": "f6037588d9feb3769dc5d9b61e5784376593321c1159c165e7937a04ba34d258"
+        },
+        {
+          "file": "sounds/Beware.mp3",
+          "label": "Beware!",
+          "sha256": "4e941522da2a1d8a9543c33b00e406b6abba4b7b04d098f0701af84c05c8b3f7"
+        },
+        {
+          "file": "sounds/Attack.mp3",
+          "label": "Attack!",
+          "sha256": "11842f7cdd4a050ac6d21d1cbd696fe0df5030caeaf6fde4a17a81b10aafedb8"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/TheHeavensSeemCloserNow.mp3",
+          "label": "The heavens seem closer now!",
+          "sha256": "90df03a1f282c1f1f8e918f365f4da1b2fecb8b080c8bba3c15d09320e5881ad"
+        },
+        {
+          "file": "sounds/ADivineInfusion.mp3",
+          "label": "A divine infusion!",
+          "sha256": "754bc1aeb310a3a22555df47c1d26848244e6308cb170091ae61870f313e11e6"
+        },
+        {
+          "file": "sounds/ByMyWhiskers.mp3",
+          "label": "By my whiskers, that's good stuff!",
+          "sha256": "f29297684de4c1a4935e8c3843dc0c27514cc2837d44cc584ba2b6c17523de6b"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/GodGivethYouBeatings.mp3",
+          "label": "God giveth you beatings!",
+          "sha256": "9729e2d807455a8d76f1b2290e2cfdafc37e895a98ae36f210b5c0c130b64c02"
+        },
+        {
+          "file": "sounds/YoullWishYouWereNeverSpawned.mp3",
+          "label": "You'll wish you were never spawned!",
+          "sha256": "ab7e1b2584000a59e6f83dc2e1dfa6fe2abbcc0721f9fbbec26a8cc4a84cd3e5"
+        },
+        {
+          "file": "sounds/HateToLordItOverYou.mp3",
+          "label": "Hate to lord it over you.",
+          "sha256": "47445f2cdfd44fca1cba5d2f4eb7b3e98b96f67e48194d3e0e96c8f28b6af59e"
+        },
+        {
+          "file": "sounds/IfYouWereMe.mp3",
+          "label": "If you were me, you'd still be alive.",
+          "sha256": "e755f4ac88db8f2bea99bf4bea1cb826b50a849f8cd5489b48f1937a40b9d534"
+        },
+        {
+          "file": "sounds/OYeOfLittleFaith.mp3",
+          "label": "O ye of little faith!",
+          "sha256": "7ef410db90a24d1c1bb589f38252ee1e848ae3999b8845867ac8b1bab53b2168"
+        },
+        {
+          "file": "sounds/AtLeastIDeigned.mp3",
+          "label": "At least I deigned to notice you.",
+          "sha256": "be17344bcddc612b8f64dd115304a7923f5ae7e67b4ab06a7d42a7a343da23c4"
+        }
+      ]
+    }
+  }
+}

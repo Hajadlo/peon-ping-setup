@@ -1,0 +1,2 @@
+- task.complete: Well, well, well. How the turntables? — https://tuna.voicemod.net/sound/d8793b6b-694e-4aaa-aa26-1b71133c8f3b
+- input.required: I declare bankruptcy! — https://tuna.voicemod.net/sound/e956a5d5-2901-40e6-8e41-9a5edcadee4e

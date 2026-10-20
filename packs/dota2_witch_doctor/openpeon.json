@@ -1,0 +1,172 @@
+{
+  "cesp_version": "1.0",
+  "name": "dota2_witch_doctor",
+  "display_name": "Witch Doctor (Dota 2)",
+  "version": "1.0.0",
+  "author": {
+    "name": "kmelkon",
+    "github": "kmelkon"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/DeDoctorisIn.mp3",
+          "label": "De Doctor is in!",
+          "sha256": "d42c541d8a206684987122b1f4b5e8e466d36d347a4fac8eeab6fb0a023d1697"
+        },
+        {
+          "file": "sounds/WitchDoctor.mp3",
+          "label": "Witch Doctor!",
+          "sha256": "417819c54a805aae44213af5673940b2d7cebbf84f6313e43e50b16b1c68dee5"
+        },
+        {
+          "file": "sounds/WhichDoctor.mp3",
+          "label": "Which doctor you expecting?",
+          "sha256": "5bdc6593a8bbfa3b29c2094480633002b64cf2064864db1dfdbb0f545ba559fa"
+        },
+        {
+          "file": "sounds/WithBonesAndSpells.mp3",
+          "label": "With bones and spells I come.",
+          "sha256": "6059b810d85dccdc8984e4ca5911ab0a0af40664e8789222bf63edb5a016d69c"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/OnMyRounds.mp3",
+          "label": "On my rounds!",
+          "sha256": "96268bc038ef40d13f04ec787ec2d8e017ac04fee084902165417ba964a9055d"
+        },
+        {
+          "file": "sounds/AllsWell.mp3",
+          "label": "All's well!",
+          "sha256": "6b5ac0b9aea1bd7ee1eb00e8b93cc784bb81c9c788f7cd4b79143a6ed9cef748"
+        },
+        {
+          "file": "sounds/ByMyBones.mp3",
+          "label": "By my bones.",
+          "sha256": "9a77c232b8682628fe6d9a40a180544aa5f538a33cfaf95e79742cc42e783088"
+        },
+        {
+          "file": "sounds/DisWontHurtABit.mp3",
+          "label": "Dis won't hurt a bit.",
+          "sha256": "d5f97330a6c44fc6a1f4b0e7ddb58c043a9420c2af7be3ee19f809962619b4da"
+        },
+        {
+          "file": "sounds/ReadyForYourDose.mp3",
+          "label": "Ready for your dose?",
+          "sha256": "33f10ac6490eded6abd0b937bfdc00514cebab87885c21515a4ee3b9daf86270"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/HexMarksDeSpot.mp3",
+          "label": "Hex marks de spot.",
+          "sha256": "086caa5d57ede76953f7dd6dddd4290ff9411e4484b18a166fabc6916f563863"
+        },
+        {
+          "file": "sounds/ItWasAMercyKilling.mp3",
+          "label": "It was a mercy killing.",
+          "sha256": "e6175bf602f4390acc5cb1820c121602db5ccaf08881f6d722229f64aeb7fc3b"
+        },
+        {
+          "file": "sounds/AskNotForWhom.mp3",
+          "label": "Ask not for whom the spell tolls.",
+          "sha256": "3329a477edc94525a8e757255c96ee73017a5c5b58e9a5abd20a85fc61a3749e"
+        },
+        {
+          "file": "sounds/LookAtItGo.mp3",
+          "label": "Look at it go!",
+          "sha256": "3c4c7c52dcd59e90d4bda1be2e0ce405e3d982beb70cf864e5c10b54d969fdfa"
+        },
+        {
+          "file": "sounds/InTheBag.mp3",
+          "label": "Oh yeah, it's in the bag!",
+          "sha256": "b86f7f976d492e1363ff521de3ba0714f31e7d5514a2cff9f4259e6719c66648"
+        },
+        {
+          "file": "sounds/FeelingGoodMan.mp3",
+          "label": "Feeling good, man.",
+          "sha256": "ed0f5169cf283e3671cf37e57e12da2c3e2163e73c8797e538c2466c0649539a"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/MySpellsFailMe.mp3",
+          "label": "My spells...fail me.",
+          "sha256": "3ed5dc0c37f96febe5bfd9a268ce3a6fc1231a685ede8e37c9ab7319c6a18ae1"
+        },
+        {
+          "file": "sounds/DeDoctorisOut.mp3",
+          "label": "De doctor is...out.",
+          "sha256": "9c45ab89eb04b528f49bffcc9517633618808d334aa6ec3d59452a91d408b27e"
+        },
+        {
+          "file": "sounds/BadMedicine.mp3",
+          "label": "Bad medicine!",
+          "sha256": "ed4632168cd56380df9b2f6c3f009794aadf9c43a5e171021e58a744fe37119a"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/HereCatch.mp3",
+          "label": "Here, catch.",
+          "sha256": "6a9bb10b8f0a7ae78195f6d169c8ca2ca22b813668b7948181991ad23bf1b0ee"
+        },
+        {
+          "file": "sounds/RollOutTheBarrel.mp3",
+          "label": "Roll out the barrel!",
+          "sha256": "0caa2bc1d633bbf6a021dd038d6b4bb325d1637a39250a8c312488ec9884e74c"
+        },
+        {
+          "file": "sounds/ACurseLaid.mp3",
+          "label": "A curse laid.",
+          "sha256": "fd13ae7ac4271ac13efed6863be406e4edefa02430e3fc92db39f0908b351bb2"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/StrongMedicine.mp3",
+          "label": "Strong medicine.",
+          "sha256": "f801f585bf51fe8277a7d4a1ced63e86fa84dc3fdde61fb51d7e2238c204c679"
+        },
+        {
+          "file": "sounds/MalpracticeMakesPerfect.mp3",
+          "label": "Malpractice makes perfect.",
+          "sha256": "cc0360c47906d42ad1f079185bc8a55e7cce9890d4bc28a5b02512dd278cb9db"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/YourBonesMakeFinePowder.mp3",
+          "label": "Your bones will make a fine powder.",
+          "sha256": "baa5ed293dced991b86169b1e2eb9099a5026ffe9c4d6f7dc914b1f1149b7b01"
+        },
+        {
+          "file": "sounds/ITwistYourBack.mp3",
+          "label": "I twist your back.",
+          "sha256": "d7f6ed12a30e02bf506a0c7b661cada55806262216829116b211b892a02c749f"
+        },
+        {
+          "file": "sounds/OhLookAtItGo.mp3",
+          "label": "Oh, look at it go.",
+          "sha256": "5b38bc20cdb769c97e09d7b45883cc396bd6100975726644ee08221e5f2d8248"
+        }
+      ]
+    }
+  }
+}

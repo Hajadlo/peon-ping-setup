@@ -1,0 +1,111 @@
+{
+  "cesp_version": "1.0",
+  "name": "d2_deckard_cain",
+  "display_name": "Deckard Cain (Diablo 2)",
+  "version": "1.0.0",
+  "author": {
+    "name": "lukasbarbagallo",
+    "github": "lukasbarbagallo"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/StayAWhileAndListen.wav",
+          "label": "Stay a while and listen!",
+          "sha256": "6981aedcc7672d4661e95d051545e6070229dc810ebf2ded51572b676860c208"
+        },
+        {
+          "file": "sounds/Hello.wav",
+          "label": "Hello.",
+          "sha256": "63b8b4eb677d28b950947d6eaaff49f276e3ac48aaa5cdc243f98f5232773476"
+        },
+        {
+          "file": "sounds/Greetings.wav",
+          "label": "Greetings.",
+          "sha256": "fa2c70b292d6222478036b8ae9dbdbd255e602f0b03cb514eccda223b78af18a"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/Yes.wav",
+          "label": "Yes.",
+          "sha256": "b5dd0879fea4c396fbf777d9ac19fece89aeca7dce90c4de3dca6a6dc57a1d13"
+        },
+        {
+          "file": "sounds/Help1.wav",
+          "label": "Help 1",
+          "sha256": "09698bcf08fd440dfc37e458c6d23fbf417dfaa6450fd2061fb7698cb617e760"
+        },
+        {
+          "file": "sounds/Help2.wav",
+          "label": "Help 2",
+          "sha256": "b84a7ead4537a1b77750ce53cbec78f02f011be1fd98e78eaa3d0082b5c38d3e"
+        },
+        {
+          "file": "sounds/Help3.wav",
+          "label": "Help 3",
+          "sha256": "67cbcb1068c9d133a28d130ae414c288bcc4293893a9573e60401a7028e58d2a"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/GoodToSeeYou.wav",
+          "label": "Good to see you.",
+          "sha256": "31a33f8c483077b649edcb838f1a19143439cb829496ca4653103ebef213e0f4"
+        },
+        {
+          "file": "sounds/GoodDay.wav",
+          "label": "Good day.",
+          "sha256": "48375799dd17b94397ab57ca363070b84df195337d72379df9e1c97f9f6098cb"
+        },
+        {
+          "file": "sounds/GoodMorning.wav",
+          "label": "Good morning.",
+          "sha256": "97c5093d669148178e3a2aefc84d8cd3c8d20b40b8be4247f814f7f32826354c"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/Goodbye.wav",
+          "label": "Goodbye.",
+          "sha256": "64dc8bddd65dc31629ec844967987d423b068e62a81e2572aa3bd77c7aa84d26"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/NeedHelp.wav",
+          "label": "Need help?",
+          "sha256": "35775953fc1a599840654eda0bc3e503bb78937ff7ea7c875b418d0d60b036b6"
+        },
+        {
+          "file": "sounds/GoodEvening.wav",
+          "label": "Good evening.",
+          "sha256": "aae83ff31e69ee5782abcb989e995271ff18d8f424edf4106df2ebde9d91cd34"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/Farewell.wav",
+          "label": "Farewell.",
+          "sha256": "92368b6509293b481fe14ab9a0f7c3e41d459141b3a3c5335ca87f04259fd811"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": []
+    }
+  }
+}

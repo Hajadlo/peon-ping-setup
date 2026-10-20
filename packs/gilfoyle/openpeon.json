@@ -1,0 +1,210 @@
+{
+  "cesp_version": "1.0",
+  "name": "gilfoyle",
+  "display_name": "Gilfoyle",
+  "version": "1.0.0",
+  "description": "Bertram Gilfoyle from Silicon Valley",
+  "author": {
+    "name": "mpospirit"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/bro-you-are-my-bro.wav",
+          "label": "Bro, you're my bro"
+        },
+        {
+          "file": "sounds/i-will-listen-to-the-sound-of-you-chortling-on-my-balls.wav",
+          "label": "I will listen to the sound of you chortling on my balls"
+        },
+        {
+          "file": "sounds/im-gilfoyle-are-you-a-bartender.wav",
+          "label": "I'm Gilfoyle. Are you a bartender?"
+        },
+        {
+          "file": "sounds/oh-hey-man.wav",
+          "label": "Oh hey man"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/alright.wav",
+          "label": "Alright"
+        },
+        {
+          "file": "sounds/now-thats-worth-exploring.wav",
+          "label": "Now that's worth exploring"
+        },
+        {
+          "file": "sounds/spoken-by-a-280-pound-pile-of-shit.wav",
+          "label": "Spoken by a 280 pound pile of shit"
+        },
+        {
+          "file": "sounds/dont-touch-the-fucking-lights.wav",
+          "label": "Don't touch the fucking lights, one surge and we're dead"
+        },
+        {
+          "file": "sounds/alright-im-in.wav",
+          "label": "Alright I'm in"
+        },
+        {
+          "file": "sounds/each-one-tasks-would-take-me-3-max.wav",
+          "label": "Each one tasks would take me 3 max"
+        },
+        {
+          "file": "sounds/this-isnt-easy-for-me-to-do.wav",
+          "label": "This isn't easy for me to do"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/thats-what-the-fuck-i-do.wav",
+          "label": "That's what the fuck I do"
+        },
+        {
+          "file": "sounds/i-should-get-more-equity-than-dinesh.wav",
+          "label": "I should get more equity than Dinesh"
+        },
+        {
+          "file": "sounds/were-all-set-here.wav",
+          "label": "We're all set here"
+        },
+        {
+          "file": "sounds/maybe-my-leisurely-pace-is-just-a-little-faster-than-yours.wav",
+          "label": "Maybe my leisurely pace is just a little faster than yours"
+        },
+        {
+          "file": "sounds/youre-gay-for-my-code-youre-code-gay.wav",
+          "label": "You're gay for my code, you're code gay"
+        },
+        {
+          "file": "sounds/its-not-magic-its-talent-and-sweat.wav",
+          "label": "It's not magic, it's talent and sweat"
+        },
+        {
+          "file": "sounds/people-like-me-ensuring-your-packets-get-delivered-unsniffed.wav",
+          "label": "People like me ensuring your packets get delivered unsniffed"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/holy-shit.wav",
+          "label": "Holy shit"
+        },
+        {
+          "file": "sounds/i-spilled-coffee-on-it.wav",
+          "label": "I spilled coffee on it"
+        },
+        {
+          "file": "sounds/fuck-was-that.wav",
+          "label": "Fuck was that?"
+        },
+        {
+          "file": "sounds/this-thing-is-addressing-problems-that-dont-exist.wav",
+          "label": "This thing is addressing problems that don't exist"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/what.wav",
+          "label": "What?"
+        },
+        {
+          "file": "sounds/sorry-i-couldnt-remember-your-mothers-name.wav",
+          "label": "Sorry I couldn't remember your mother's name"
+        },
+        {
+          "file": "sounds/not-for-myself-obviously-but-for-the-team.wav",
+          "label": "Not for myself obviously but for the team"
+        },
+        {
+          "file": "sounds/let-me-put-this-in-terms-youll-understand.wav",
+          "label": "Let me put this in terms you'll understand"
+        },
+        {
+          "file": "sounds/what-2.wav",
+          "label": "What? (2)"
+        },
+        {
+          "file": "sounds/which-do-you-think-it-is-im-on-the-fence.wav",
+          "label": "Which do you think it is? I'm on the fence"
+        },
+        {
+          "file": "sounds/what-do-i-do.wav",
+          "label": "What do I do?"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/i-was-one-click-away-from-starting-the-second-iranian-revolution.wav",
+          "label": "I was one click away from starting the second Iranian revolution"
+        },
+        {
+          "file": "sounds/you-have-to-pay-a-lot-more.wav",
+          "label": "You have to pay a lot more"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/stop-talking-about-this-or-i-have-to-punch-you-in-the-face.wav",
+          "label": "Stop talking about this or I have to punch you in the face"
+        },
+        {
+          "file": "sounds/fuck-you.wav",
+          "label": "Fuck you"
+        },
+        {
+          "file": "sounds/how-do-i-shut-you-the-fuck-up.wav",
+          "label": "How do I shut you the fuck up?"
+        },
+        {
+          "file": "sounds/fuck-you-fuck-you.wav",
+          "label": "Fuck you. Fuck you."
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/later-chain-the-virgin.wav",
+          "label": "Later chain the virgin"
+        },
+        {
+          "file": "sounds/by-saying-the-words-i-and-quit.wav",
+          "label": "By saying the words 'I' and 'quit' in conjunction together, i.e., I quit"
+        },
+        {
+          "file": "sounds/see-you-later.wav",
+          "label": "See you later"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/shut-the-fuck-up.wav",
+          "label": "Shut the fuck up"
+        },
+        {
+          "file": "sounds/anton-is-really-starting-to-sweat.wav",
+          "label": "Anton is really starting to sweat"
+        }
+      ]
+    }
+  }
+}

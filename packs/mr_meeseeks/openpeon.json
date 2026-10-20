@@ -1,0 +1,151 @@
+{
+  "cesp_version": "1.0",
+  "name": "openpeon-mrmeeseeks",
+  "display_name": "Mr. Meeseeks",
+  "version": "1.0.0",
+  "description": "Look at me! Sound pack featuring Mr. Meeseeks from Rick and Morty.",
+  "author": {
+    "name": "kasperhendriks",
+    "github": "kasperhendriks"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/im_mr_meeseeks.mp3",
+          "label": "I'm Mr. Meeseeks!"
+        },
+        {
+          "file": "sounds/im_mr_meeseeks_2.mp3",
+          "label": "I'm Mr. Meeseeks! (2)"
+        },
+        {
+          "file": "sounds/im_mr_meeseeks_3.mp3",
+          "label": "I'm Mr. Meeseeks! (3)"
+        },
+        {
+          "file": "sounds/im_mr_meeseeks_4.mp3",
+          "label": "I'm Mr. Meeseeks! (4)"
+        },
+        {
+          "file": "sounds/im_mr_meeseeks_look_at_me.mp3",
+          "label": "I'm Mr. Meeseeks, look at me!"
+        },
+        {
+          "file": "sounds/look_at_me.mp3",
+          "label": "Look at me!"
+        },
+        {
+          "file": "sounds/can_do.mp3",
+          "label": "Can do!"
+        },
+        {
+          "file": "sounds/can_do_2.mp3",
+          "label": "Can do! (2)"
+        },
+        {
+          "file": "sounds/excuse_me.mp3",
+          "label": "Excuse me"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/all_done.mp3",
+          "label": "All done!"
+        },
+        {
+          "file": "sounds/i_have_to_fulfill_my_purpose_so_i_can_go_away.mp3",
+          "label": "I have to fulfill my purpose so I can go away"
+        },
+        {
+          "file": "sounds/ooooooooh_yeah.mp3",
+          "label": "Ooooooh yeah!"
+        },
+        {
+          "file": "sounds/oh_yeah_yes_maam.mp3",
+          "label": "Oh yeah, yes ma'am!"
+        },
+        {
+          "file": "sounds/yes_sirreeee.mp3",
+          "label": "Yes sireeee!"
+        },
+        {
+          "file": "sounds/okay.mp3",
+          "label": "Okay!"
+        },
+        {
+          "file": "sounds/ooh_okay.mp3",
+          "label": "Ooh okay!"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/i_cant_take_it_anymore.mp3",
+          "label": "I can't take it anymore!"
+        },
+        {
+          "file": "sounds/i_just_wanna_die_we_all_wanna_die_were_meeseeks.mp3",
+          "label": "I just wanna die, we all wanna die, we're Meeseeks"
+        },
+        {
+          "file": "sounds/im_sorry_jerry_but_it_doesnt_work_like_that.mp3",
+          "label": "I'm sorry Jerry, but it doesn't work like that"
+        },
+        {
+          "file": "sounds/meeseeks_dont_usually_have_to_exist_this_long.mp3",
+          "label": "Meeseeks don't usually have to exist this long"
+        },
+        {
+          "file": "sounds/this_is_as_frustrating_for_us_as_it_is_for_you.mp3",
+          "label": "This is as frustrating for us as it is for you"
+        },
+        {
+          "file": "sounds/im_the_one_who_sucks.mp3",
+          "label": "I'm the one who sucks"
+        },
+        {
+          "file": "sounds/oh_come_on_jerry_weve_been_over_this.mp3",
+          "label": "Oh come on Jerry, we've been over this"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/do_you_mind_if_we_get_back_to_the_task_at_hand.mp3",
+          "label": "Do you mind if we get back to the task at hand?"
+        },
+        {
+          "file": "sounds/let_me_try_something.mp3",
+          "label": "Let me try something"
+        },
+        {
+          "file": "sounds/most_importantly_you_gotta_relax.mp3",
+          "label": "Most importantly, you gotta relax"
+        },
+        {
+          "file": "sounds/remember_to_square_your_shoulders_jerry.mp3",
+          "label": "Remember to square your shoulders, Jerry"
+        },
+        {
+          "file": "sounds/okay_jerry_you_gotta_just_choke_up_on_the_club.mp3",
+          "label": "Okay Jerry, you gotta just choke up on the club"
+        },
+        {
+          "file": "sounds/can_you_help_me_get_two_strokes_off_of_jerrys_golf_swing.mp3",
+          "label": "Can you help me get two strokes off of Jerry's golf swing?"
+        },
+        {
+          "file": "sounds/what_do_you_got.mp3",
+          "label": "What do you got?"
+        }
+      ]
+    }
+  }
+}

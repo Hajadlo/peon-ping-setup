@@ -1,0 +1,64 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-seinfeld",
+  "display_name": "TV — Seinfeld",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/acc036088e9e-i-got-it.mp3",
+          "label": "I Got It!",
+          "sha256": "c35a0db216c39ad182d1440f285969e45a2242f6d1391a2af18fc56ba4b93f4e"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/5a88af30388f-serenity-now.mp3",
+          "label": "Serenity Now",
+          "sha256": "566e6d56f05ada4fd64603fcd36dfa69c4b70687deb63a1c80f59ef70afc3501"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/cdaddad10168-serenity-now-cantsantya.mp3",
+          "label": "Serenity Now! (Cantsantya)",
+          "sha256": "b3e1067b02505aa69f604b735a232cff3cdd8ed019c5ba13f8ca5fb59dc376db"
+        },
+        {
+          "file": "sounds/no-soup.mp3",
+          "label": "No soup for you!",
+          "sha256": "fe502f0908a65a68eb5e65fd7399dc904599eb9d80d44c8f7c23c2e1c3ab19b1"
+        },
+        {
+          "file": "sounds/george.mp3",
+          "label": "George is getting upset!",
+          "sha256": "c0c27fabcbd4d16ffc1f0d9b42705090018f7a8db3c04954a7347c909e4b9546"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/5a88af30388f-serenity-now.mp3",
+          "label": "Serenity Now",
+          "sha256": "566e6d56f05ada4fd64603fcd36dfa69c4b70687deb63a1c80f59ef70afc3501"
+        },
+        {
+          "file": "sounds/cdaddad10168-serenity-now-cantsantya.mp3",
+          "label": "Serenity Now! (Cantsantya)",
+          "sha256": "b3e1067b02505aa69f604b735a232cff3cdd8ed019c5ba13f8ca5fb59dc376db"
+        }
+      ]
+    }
+  }
+}

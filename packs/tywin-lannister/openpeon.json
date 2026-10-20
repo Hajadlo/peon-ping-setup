@@ -1,0 +1,93 @@
+{
+  "cesp_version": "1.0",
+  "name": "tywin-lannister",
+  "display_name": "Tywin Lannister",
+  "version": "1.1.1",
+  "description": "Sound pack featuring Tywin Lannister, Lord of Casterly Rock and Hand of the King. Some voice lines are AI-generated.",
+  "author": {
+    "name": "dmltdev",
+    "github": "dmltdev"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/any-man-who-must-say-i-am-the-king-is-no-true-king.mp3",
+          "label": "Any man who must say I am the king is no true king"
+        },
+        {
+          "file": "sounds/if-you-serve-faithfully.mp3",
+          "label": "If you serve faithfully"
+        },
+        {
+          "file": "sounds/do-you-really-think-a-crown-gives-you-power.mp3",
+          "label": "Do you really think a crown gives you power"
+        },
+        {
+          "file": "sounds/i-distrust-you-because-you-re-not-as-smart-as-you-think-you-are.mp3",
+          "label": "I distrust you because you're not as smart as you think you are"
+        },
+        {
+          "file": "sounds/ai-history-does-not-remember-blood-it-remembers-names.mp3",
+          "label": "(AI) History does not remember blood. It remembers names"
+        },
+        {
+          "file": "sounds/ai-i-need-you-to-become-the-man-you-were-always-meant-to-be.mp3",
+          "label": "(AI) I need you to become the man you were always meant to be"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/good.mp3", "label": "Good" },
+        { "file": "sounds/i-respect-that.mp3", "label": "I respect that" },
+        { "file": "sounds/of-course.mp3", "label": "Of course" },
+        { "file": "sounds/i-can-and-i-do.mp3", "label": "I can and I do" },
+        { "file": "sounds/ai-well-done-now-do-it-again-faster.mp3", "label": "(AI) Well done. Now do it again, faster" },
+        { "file": "sounds/ai-youve-exceeded-my-expectations-dont-let-it-become-a-habit.mp3", "label": "(AI) You've exceeded my expectations. Don't let it become a habit" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/try-harder.mp3", "label": "Try harder" },
+        { "file": "sounds/youre-late.mp3", "label": "You're late" },
+        { "file": "sounds/no.mp3", "label": "No" },
+        { "file": "sounds/nevermind-that-now.mp3", "label": "Nevermind that now" },
+        { "file": "sounds/i-wanted-to-carry-you-into-the-sea.mp3", "label": "I wanted to carry you into the sea" },
+        { "file": "sounds/ai-incompetence-is-its-own-punishment-usually.mp3", "label": "(AI) Incompetence is its own punishment. Usually" },
+        { "file": "sounds/ai-start-again-think-this-time.mp3", "label": "(AI) Start again. Think this time" },
+        { "file": "sounds/ai-when-i-give-an-order-i-expect-it-carried-out-correctly.mp3", "label": "(AI) When I give an order, I expect it carried out. Correctly" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/what-do-you-want.mp3", "label": "What do you want" },
+        { "file": "sounds/tell-me-what-you-want.mp3", "label": "Tell me what you want" },
+        { "file": "sounds/you-wanted-to-speak-to-me.mp3", "label": "You wanted to speak to me" },
+        { "file": "sounds/ai-make-a-decision-any-decision-but-make-one.mp3", "label": "(AI) Make a decision. Any decision. But make one" },
+        { "file": "sounds/ai-speak-plainly-i-have-no-patience-for-riddles.mp3", "label": "(AI) Speak plainly. I have no patience for riddles" },
+        { "file": "sounds/ai-your-hesitation-tells-me-more-than-your-answer-ever-could.mp3", "label": "(AI) Your hesitation tells me more than your answer ever could" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/never.mp3", "label": "Never" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/alright.mp3", "label": "Alright" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/i-dont-believe-i-asked-you-a-question.mp3", "label": "I don't believe I asked you a question" },
+        { "file": "sounds/youre-still-here.mp3", "label": "You're still here" },
+        { "file": "sounds/ai-my-name-commands-respect-not-your-pitiful-attempts-at-manipulation.mp3", "label": "(AI) My name commands respect, not your pitiful attempts at manipulation" },
+        { "file": "sounds/ai-patience-is-not-your-strong-suit.mp3", "label": "(AI) Patience is not your strong suit" }
+      ]
+    }
+  }
+}

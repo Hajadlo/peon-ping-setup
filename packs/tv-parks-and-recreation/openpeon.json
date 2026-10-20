@@ -1,0 +1,69 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-parks-and-recreation",
+  "display_name": "TV — Parks and Recreation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/2185c97929dd-i-have-very-big-news-for-you.mp3",
+          "label": "I Have Very Big News For You",
+          "sha256": "76421c21fe3446a95faa9c9039345ca125bfd11d5ececdaddf18021ca8b51d2b"
+        },
+        {
+          "file": "sounds/805bb38e188b-pikitis.mp3",
+          "label": "PIKITIS!",
+          "sha256": "67b3f047922bc85016ef267a2ac4abc4f4950bb1b77f77aa2f639cac0ac972da"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/33199e9a965d-i-have-no-idea-what-im-doing.mp3",
+          "label": "I Have No Idea What I'm Doing",
+          "sha256": "32402c2c77e7be087f3c74f33c104fa4ff950229ddd6343883ed0a6814c59d24"
+        },
+        {
+          "file": "sounds/9fe8b7e9cf53-im-just-gonna-stay-angry.mp3",
+          "label": "I'm Just Gonna Stay Angry",
+          "sha256": "8ff0c4a5e5d67d71d9513ada7dd710c728b58cc66b24569a84fa4a010076bdc4"
+        },
+        {
+          "file": "sounds/f3ce13dd9d07-it-says-you-got-network-connectivity-problem.mp3",
+          "label": "It says you got network connectivity problem",
+          "sha256": "c94b32ca435f9d647e2f6e665b59967d52a63c3dd96c1a9221b49143160c1b7b"
+        },
+        {
+          "file": "sounds/22654b4fb232-thats-embarrassing.mp3",
+          "label": "That's Embarrassing",
+          "sha256": "86d035e6c6002a00429f770601ce4917a31e2ad6307b2dab5be58a20f0b19734"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/2185c97929dd-i-have-very-big-news-for-you.mp3",
+          "label": "I Have Very Big News For You",
+          "sha256": "76421c21fe3446a95faa9c9039345ca125bfd11d5ececdaddf18021ca8b51d2b"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/f3ce13dd9d07-it-says-you-got-network-connectivity-problem.mp3",
+          "label": "It says you got network connectivity problem",
+          "sha256": "c94b32ca435f9d647e2f6e665b59967d52a63c3dd96c1a9221b49143160c1b7b"
+        }
+      ]
+    }
+  }
+}

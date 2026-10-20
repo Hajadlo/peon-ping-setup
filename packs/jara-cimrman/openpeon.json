@@ -1,0 +1,349 @@
+{
+  "cesp_version": "1.0",
+  "name": "jara-cimrman",
+  "display_name": "Jára Cimrman",
+  "version": "1.0.0",
+  "description": "Citáty z her Divadla Járy Cimrmana pro peon-ping.",
+  "author": {
+    "name": "Majkle",
+    "github": "Majkle"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "cs",
+  "tags": [
+    "theatre",
+    "comedy",
+    "czech",
+    "cimrman"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/KxnXEMefkNkwRNesdo.mp3",
+          "label": "nepouštět lehkomyslně slova do větru"
+        },
+        {
+          "file": "sounds/fqbr4NqjewYxcswliK.mp3",
+          "label": "přeji vám dobrý den"
+        },
+        {
+          "file": "sounds/jriamHJBvjsPsPgvMM.mp3",
+          "label": "stručně a jasně"
+        },
+        {
+          "file": "sounds/kyjHJReK27COhDRCJy.mp3",
+          "label": "dovolíte abych vám potřásl pravicí"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/L40cFMX3nT2s5HuNHi.mp3",
+          "label": "to každý ví"
+        },
+        {
+          "file": "sounds/L4CIP0a3EIbk3U6sze.mp3",
+          "label": "taktoje krásné neštěstí"
+        },
+        {
+          "file": "sounds/QsbDtuXEUKYnsYCNvI.mp3",
+          "label": "ty jsi nějakej zvědavej hele"
+        },
+        {
+          "file": "sounds/Qxqu6Le5hnpNMFtHMR.mp3",
+          "label": "s tímedle"
+        },
+        {
+          "file": "sounds/Wsp6UnprXCLtgCvHFo.mp3",
+          "label": "je to taková hloupost"
+        },
+        {
+          "file": "sounds/XZgeQHl4zAnmmh1vi3.mp3",
+          "label": "to už taky hodně starších lidí zapomnělo"
+        },
+        {
+          "file": "sounds/YqyxGpDneZquVvYq21.mp3",
+          "label": "uvidíte jaké vám dám kapky"
+        },
+        {
+          "file": "sounds/cj8BWpw2jSeoq8Vj7Q.mp3",
+          "label": "to je odvážné"
+        },
+        {
+          "file": "sounds/dtCbMqCJYAXK0iCvKV.mp3",
+          "label": "nemá talent"
+        },
+        {
+          "file": "sounds/h7AMklW1awSJiy6xio.mp3",
+          "label": "že vy jste zase pil"
+        },
+        {
+          "file": "sounds/llVOKniK4iETq6JKsl.mp3",
+          "label": "nevycházím údivu"
+        },
+        {
+          "file": "sounds/mFqD1N0sqB9WS3mTgg.mp3",
+          "label": "já myslím že je to nesmysl"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/KeVkJXjUN655TvLYYN.mp3",
+          "label": "vše se nakonec v dobré zvrátilo"
+        },
+        {
+          "file": "sounds/LrS5VPyu6IcK6eqVZZ.mp3",
+          "label": "máto šťastný konec"
+        },
+        {
+          "file": "sounds/SuHRzEqaGQSD6MJ5oW.mp3",
+          "label": "s budoucnost patří aluminiu"
+        },
+        {
+          "file": "sounds/W2WtiFplx1dG5ZXVH4.mp3",
+          "label": "srabe"
+        },
+        {
+          "file": "sounds/XCgvvSpEqeY7PVZMBO.mp3",
+          "label": "ní hej hola hej hola"
+        },
+        {
+          "file": "sounds/YqVHRSjankMAqfCIZ4.mp3",
+          "label": "já jak se napiju"
+        },
+        {
+          "file": "sounds/ZBiZoRBJq5lUckLdOZ.mp3",
+          "label": "nadešla konečně vytoužená chvíle"
+        },
+        {
+          "file": "sounds/eGNsPYFS3NA4TRA5e8.mp3",
+          "label": "dobyt"
+        },
+        {
+          "file": "sounds/fXmnXGQOkqTLLilhKe.mp3",
+          "label": "co ty na to maryšo"
+        },
+        {
+          "file": "sounds/ft5WYiQmrM7hsT7B4o.mp3",
+          "label": "pohádka pěkně končí"
+        },
+        {
+          "file": "sounds/h4aNvBSMJM1tEKaWsc.mp3",
+          "label": "rozhodnutí padlo"
+        },
+        {
+          "file": "sounds/jUFHeb6500OCt5P5kb.mp3",
+          "label": "teď přijde to hlavní"
+        },
+        {
+          "file": "sounds/kFCf6z8sgebkXySL1Y.mp3",
+          "label": "nevíme sice nic ale zato to víme správně"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/JPrP6emi4sXZCxet1s.mp3",
+          "label": "no sakra"
+        },
+        {
+          "file": "sounds/KESYKxJI72r1v4ApDb.mp3",
+          "label": "jsem osel"
+        },
+        {
+          "file": "sounds/Q9w23jZm7GSm7kcnGB.mp3",
+          "label": "zlý nepěkná věc"
+        },
+        {
+          "file": "sounds/SVTduKO2op48W6PF8h.mp3",
+          "label": "pomoc"
+        },
+        {
+          "file": "sounds/TGLI7c0LdmCHuxm3hm.mp3",
+          "label": "my si na to příště dáme pozor"
+        },
+        {
+          "file": "sounds/UrySHfXZQhH01Mu6dg.mp3",
+          "label": "poblil jsem se"
+        },
+        {
+          "file": "sounds/YqVHRSjankMAqfCIZ4.mp3",
+          "label": "já jak se napiju"
+        },
+        {
+          "file": "sounds/dZuBqAHcMPBiZdQ1Ob.mp3",
+          "label": "do prdele to je mi smutno"
+        },
+        {
+          "file": "sounds/jOn57YvrVdNk4RdVZG.mp3",
+          "label": "zase vypli proud"
+        },
+        {
+          "file": "sounds/kg7SsvxJOtCMU4ysWe.mp3",
+          "label": "tam tam je chyba"
+        },
+        {
+          "file": "sounds/mCmjRE6Pkg8UKntBjT.mp3",
+          "label": "nerad to říkám ale musím si postěžovat"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/JQw7F8cJOMwOJU3VoE.mp3",
+          "label": "nechte si ty svý laický rady"
+        },
+        {
+          "file": "sounds/JmbAoUtabeuDSvqe3m.mp3",
+          "label": "řekni něco"
+        },
+        {
+          "file": "sounds/SVTduKO2op48W6PF8h.mp3",
+          "label": "pomoc"
+        },
+        {
+          "file": "sounds/UoMYMvB4fL13gKqwvM.mp3",
+          "label": "čekáme na další rozkazy"
+        },
+        {
+          "file": "sounds/Vzr5bX7785rvCeUceQ.mp3",
+          "label": "co tím chceš říct"
+        },
+        {
+          "file": "sounds/WRRGu6YxbbOWnVc6wk.mp3",
+          "label": "i když je to irelevantní"
+        },
+        {
+          "file": "sounds/Wsp6UnprXCLtgCvHFo.mp3",
+          "label": "je to taková hloupost"
+        },
+        {
+          "file": "sounds/XcA8aUIj3v2cAcXGOr.mp3",
+          "label": "kdo to mohl tušit"
+        },
+        {
+          "file": "sounds/Z8kZiO7WjGD5Tou7qM.mp3",
+          "label": "úsudek já mám slabej"
+        },
+        {
+          "file": "sounds/eGNmwRMdUQ5YT7TCcb.mp3",
+          "label": "podej mi hůl"
+        },
+        {
+          "file": "sounds/hvk96U5zCL9AGxwnEV.mp3",
+          "label": "tq chci vidět tedy"
+        },
+        {
+          "file": "sounds/iebqsCtweufTT6ZsST.mp3",
+          "label": "co byste po mně chtěli"
+        },
+        {
+          "file": "sounds/kfG01Vo7d2U29c6jM1.mp3",
+          "label": "čech se přizpůsobí"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/L4Ub4QZhxXQpPJZHO8.mp3",
+          "label": "neplačte sami jste si to zavinili"
+        },
+        {
+          "file": "sounds/XcS3bmwCVS5gC3fxOR.mp3",
+          "label": "dals"
+        },
+        {
+          "file": "sounds/dzI4yQ6lnUI9kYvoa9.mp3",
+          "label": "já bych si s dovolením také vzal"
+        },
+        {
+          "file": "sounds/ejDwEDlZSEuwaKnhgv.mp3",
+          "label": "nic novýho nerozjíždět"
+        },
+        {
+          "file": "sounds/jOn57YvrVdNk4RdVZG.mp3",
+          "label": "zase vypli proud"
+        },
+        {
+          "file": "sounds/kGF6TQ1oE62PlAhDnA.mp3",
+          "label": "tomu jde jenom o bohatství"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/QTDWDQVpfnm09GU4YG.mp3",
+          "label": "ho dveřmi vrátí se ti oknem"
+        },
+        {
+          "file": "sounds/S7KqPhcJVfu8Hao61n.mp3",
+          "label": "nechoďte ještě"
+        },
+        {
+          "file": "sounds/Xb6Q5o577D2iGeIpIM.mp3",
+          "label": "tak končí naše komedie"
+        },
+        {
+          "file": "sounds/ft5WYiQmrM7hsT7B4o.mp3",
+          "label": "pohádka pěkně končí"
+        },
+        {
+          "file": "sounds/hrM7jsJRCFSWWBgow8.mp3",
+          "label": "tak to vám nezapomenu"
+        },
+        {
+          "file": "sounds/jOn57YvrVdNk4RdVZG.mp3",
+          "label": "zase vypli proud"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/J1RWLAAKm5Y6aDtjSi.mp3",
+          "label": "konce tomu není"
+        },
+        {
+          "file": "sounds/QTDWDQVpfnm09GU4YG.mp3",
+          "label": "ho dveřmi vrátí se ti oknem"
+        },
+        {
+          "file": "sounds/QsykpMBoRP5cVgeWCE.mp3",
+          "label": "vleče se to"
+        },
+        {
+          "file": "sounds/WV9b4p1bGxXMW5h1xd.mp3",
+          "label": "ň vím že jsi tady"
+        },
+        {
+          "file": "sounds/loRXGmYNL7LRufotHv.mp3",
+          "label": "very crazy"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/L4Ub4QZhxXQpPJZHO8.mp3",
+          "label": "neplačte sami jste si to zavinili"
+        },
+        {
+          "file": "sounds/PlZzLntMHB15N1O7Os.mp3",
+          "label": "mlčte"
+        },
+        {
+          "file": "sounds/loRXGmYNL7LRufotHv.mp3",
+          "label": "very crazy"
+        }
+      ]
+    }
+  }
+}

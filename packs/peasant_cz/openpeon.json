@@ -1,0 +1,167 @@
+{
+  "cesp_version": "1.0",
+  "name": "peasant_cz",
+  "display_name": "Lidský rolník (CZ)",
+  "version": "1.0.0",
+  "author": {
+    "name": "vojtabiberle",
+    "github": "vojtabiberle"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "cs",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantReady1.wav",
+          "label": "Připraven k práci.",
+          "sha256": "f1e23d806cdc96dc877dd1e391e85370960f94ba83466cf5d9838a5a148955ce"
+        },
+        {
+          "file": "sounds/PeasantWhat1.wav",
+          "label": "Ano, pane?",
+          "sha256": "89f83509f72fb0e3edab428ad7072a89936b6c806530fa8b51879bf99806a2d5"
+        },
+        {
+          "file": "sounds/PeasantWhat2.wav",
+          "label": "Co je?",
+          "sha256": "f3e2f047bf4b709648335677470e2946a7deb7a5b24bc87f19b84144d79dc4f2"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantYes1.wav",
+          "label": "Správně.",
+          "sha256": "1f6231625220f212aeefad67d5cf0293d36b19bcadc3ea2bd24168a6e8b38bc4"
+        },
+        {
+          "file": "sounds/PeasantYes2.wav",
+          "label": "Ano, pane.",
+          "sha256": "97589dcfbfa3d3ca9b80d52b2ca8424cdcd893f6076e94e53e795a341d519e03"
+        },
+        {
+          "file": "sounds/PeasantYes3.wav",
+          "label": "Dobrá.",
+          "sha256": "0cf5e93f23e220331d5d5b8b1f97c946719aad29593174e5c943bba35a8c02e9"
+        },
+        {
+          "file": "sounds/PeasantYes4.wav",
+          "label": "Tak já teda jdu!",
+          "sha256": "70af8be999eeb830b08628af77ac763c5b0fa335b12a4900d20071696cb937b2"
+        },
+        {
+          "file": "sounds/PeasantYesAttack1.wav",
+          "label": "Asi budu muset...",
+          "sha256": "90a6293576add27f376a612194bd235601f6125b2f4e4b68de895f50d5bd6fc5"
+        },
+        {
+          "file": "sounds/PeasantYesAttack2.wav",
+          "label": "Když chcete...",
+          "sha256": "52c69ede795223ccc95ebb963deff67f931987ce2ff3fb75b68fa922af3d0e58"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantReady1.wav",
+          "label": "Připraven k práci.",
+          "sha256": "f1e23d806cdc96dc877dd1e391e85370960f94ba83466cf5d9838a5a148955ce"
+        },
+        {
+          "file": "sounds/PeasantYes1.wav",
+          "label": "Správně.",
+          "sha256": "1f6231625220f212aeefad67d5cf0293d36b19bcadc3ea2bd24168a6e8b38bc4"
+        },
+        {
+          "file": "sounds/PeasantYes3.wav",
+          "label": "Dobrá.",
+          "sha256": "0cf5e93f23e220331d5d5b8b1f97c946719aad29593174e5c943bba35a8c02e9"
+        },
+        {
+          "file": "sounds/PeasantWhat3.wav",
+          "label": "Zase práce?",
+          "sha256": "2ba3480c9d1363a75c436edb957b1082089f792cda83ab77ab7840b0faea73bb"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantYesAttack4.wav",
+          "label": "Už je to tak, je ze mě mrtvola.",
+          "sha256": "005c9c20ec1a00949bfad95b37c9052765523c03610bf424ff20abb9cb567c24"
+        },
+        {
+          "file": "sounds/PeasantYesAttack3.wav",
+          "label": "Nikdo jiný nebyl k dispozici...",
+          "sha256": "2d562bb343992430ed1fc769ceeecf544bb7c5f2dd6f9e47fd3ef3a1556cb898"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantWhat1.wav",
+          "label": "Ano, pane?",
+          "sha256": "89f83509f72fb0e3edab428ad7072a89936b6c806530fa8b51879bf99806a2d5"
+        },
+        {
+          "file": "sounds/PeasantWhat2.wav",
+          "label": "Co je?",
+          "sha256": "f3e2f047bf4b709648335677470e2946a7deb7a5b24bc87f19b84144d79dc4f2"
+        },
+        {
+          "file": "sounds/PeasantWhat3.wav",
+          "label": "Zase práce?",
+          "sha256": "2ba3480c9d1363a75c436edb957b1082089f792cda83ab77ab7840b0faea73bb"
+        },
+        {
+          "file": "sounds/PeasantWhat4.wav",
+          "label": "Cože?",
+          "sha256": "534edc0fc087d87f0d1968ed5f2677aecd2f91300d47e48c3c8017588b51bea3"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantYesAttack4.wav",
+          "label": "Už je to tak, je ze mě mrtvola.",
+          "sha256": "005c9c20ec1a00949bfad95b37c9052765523c03610bf424ff20abb9cb567c24"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantPissed1.wav",
+          "label": "Vy že jste král? Já vás volit nebudu!",
+          "sha256": "c088c8de3426c42c3dfdea45b17ea6d472537b8edbcf9d03b8aa75144d0fcb5b"
+        },
+        {
+          "file": "sounds/PeasantPissed2.wav",
+          "label": "Našli jsme čarodějnici! Můžem ji upálit?",
+          "sha256": "932ec4fc62bbf2cd8c76144aff603aa1832a9492c4e2ef270c94d8ad83a4d1e3"
+        },
+        {
+          "file": "sounds/PeasantPissed3.wav",
+          "label": "Pomóc! Pomóc! Jsem utlačovanej!",
+          "sha256": "78ae51c1b7c7f732127efa8a129d00108315c8507e3caf7d4238741eda181077"
+        },
+        {
+          "file": "sounds/PeasantPissed4.wav",
+          "label": "Jednou mě kopnul kůň. Bolelo to.",
+          "sha256": "2d7562fb1155059a78f3e4104b97c311aafc637059cbdad76dbf1089a4f86807"
+        },
+        {
+          "file": "sounds/PeasantPissed5.wav",
+          "label": "D'oh!",
+          "sha256": "a1b87212e4926513c4d1d3c0e4682b46c2077012aed08c981b850bb5ee7c29eb"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-its-always-sunny-in-philadelphia",
+  "display_name": "TV — It's Always Sunny in Philadelphia",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/94faaaf698e6-cheese-is-a-strange-thing.mp3",
+          "label": "Cheese Is A Strange Thing",
+          "sha256": "9a6853666396c2cabc42f7283c3f20d38a88860197ef6dc577a2d01ffb2edb61"
+        },
+        {
+          "file": "sounds/ade0af0d2b50-dennis-you-son-of-a-bitch.mp3",
+          "label": "Dennis, You Son of a bitch!",
+          "sha256": "45075e35ffa5b61555a408f4576afe095cec2a2e6bcf568126e9fc79d5270619"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ade0af0d2b50-dennis-you-son-of-a-bitch.mp3",
+          "label": "Dennis, You Son of a bitch!",
+          "sha256": "45075e35ffa5b61555a408f4576afe095cec2a2e6bcf568126e9fc79d5270619"
+        },
+        {
+          "file": "sounds/45d45bb8e48c-i-look-like-a-hore.mp3",
+          "label": "I Look Like A hore",
+          "sha256": "bc68ef58a40811018dc7e4b24c78649ad7e71b93599e454a8756b7bc1b14cac1"
+        },
+        {
+          "file": "sounds/778c9bb04df2-youre-fired.mp3",
+          "label": "You're Fired",
+          "sha256": "25ed5b3602ac41e082d05f3ba50f39888eb47ac9fa973c4d032872c42ab853ee"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/598b071dfefe-i-wanna-see-you-on-your-dirty-balls.mp3",
+          "label": "I wanna see you on your dirty balls",
+          "sha256": "de7d41a52bbda32d82e6ca1314e80a87e348bf5e917c13bdca94a08e6bef24e9"
+        },
+        {
+          "file": "sounds/3a79f7c99753-were-not-gonna-find-a-bang-maid.mp3",
+          "label": "We're not gonna find a bang maid",
+          "sha256": "00d93f31753fe1040d426773e5b632a7da8a24652a8943026db3c6fd44cea07c"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/778c9bb04df2-youre-fired.mp3",
+          "label": "You're Fired",
+          "sha256": "25ed5b3602ac41e082d05f3ba50f39888eb47ac9fa973c4d032872c42ab853ee"
+        }
+      ]
+    }
+  }
+}

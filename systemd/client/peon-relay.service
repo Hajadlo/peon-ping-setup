@@ -1,0 +1,15 @@
+[Unit]
+Description=Peon Ping relay: play sounds requested by agents on a remote server
+After=graphical-session.target
+
+[Service]
+# Loopback only; the server reaches it through peon-tunnel's reverse forward.
+# `peon` must be on PATH for the user manager (brew: /opt/homebrew/bin or
+# /home/linuxbrew/.linuxbrew/bin). Adjust ExecStart if it lives elsewhere.
+Environment=PATH=%h/.local/bin:/home/linuxbrew/.linuxbrew/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/env peon relay --port=19998 --bind=127.0.0.1
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

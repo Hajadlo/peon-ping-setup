@@ -1,0 +1,49 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-house-m-d",
+  "display_name": "TV — House M.D.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/f3fa5ab786f9-i-am-a-board-certified-diagnostician.mp3",
+          "label": "I Am a Board Certified Diagnostician",
+          "sha256": "41ba554453cdfd6621a6dfc836e59ac19698e5cbaea238bc3d5bd2340b76b5ef"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/3fb368aef7d0-times-up.mp3",
+          "label": "Time's Up",
+          "sha256": "4352d36b09ca11695a3f3f9dcacdfbbcea499149b4d0fd3de615154b04180755"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/f3fa5ab786f9-i-am-a-board-certified-diagnostician.mp3",
+          "label": "I Am a Board Certified Diagnostician",
+          "sha256": "41ba554453cdfd6621a6dfc836e59ac19698e5cbaea238bc3d5bd2340b76b5ef"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/3fb368aef7d0-times-up.mp3",
+          "label": "Time's Up",
+          "sha256": "4352d36b09ca11695a3f3f9dcacdfbbcea499149b4d0fd3de615154b04180755"
+        }
+      ]
+    }
+  }
+}

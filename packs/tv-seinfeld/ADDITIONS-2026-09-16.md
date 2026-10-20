@@ -1,0 +1,2 @@
+- input.required: No soup for you! — https://www.soundboard.com/sb/sound/321548
+- input.required: George is getting upset! — https://clip.cafe/seinfeld-1989/george-getting-upset-s1/

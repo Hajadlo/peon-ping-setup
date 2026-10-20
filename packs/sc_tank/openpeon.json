@@ -1,0 +1,122 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc_tank",
+  "display_name": "StarCraft Siege Tank",
+  "version": "2.0.0",
+  "author": {
+    "name": "kschmidtjr1",
+    "github": "kschmidtjr1"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ReadyToRollOut.mp3",
+          "label": "Ready to roll out!",
+          "sha256": "191ee01084d13d6172181682895e36c4a76f9ec2c368e4f708ba4b44ed025648"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/MoveIt.mp3",
+          "label": "Move it!",
+          "sha256": "c328373d59c89113f3f35403a585d279e0b537d0e63c914efe7d3477c1a5f82a"
+        },
+        {
+          "file": "sounds/Proceedin.mp3",
+          "label": "Pro-ceedin'!",
+          "sha256": "933555039cfe2373b8d84073310c328e266f6d5ced8488a4df547740b30ac630"
+        },
+        {
+          "file": "sounds/DelightedToSir.mp3",
+          "label": "De-lighted to, SIR!",
+          "sha256": "22cbc796c9977e1e6ce80d81131e16b38abdd59dfb7158500ab3974f9f8a2771"
+        },
+        {
+          "file": "sounds/Absolutely.mp3",
+          "label": "Ab-so-lutely!",
+          "sha256": "fe546d051c1819fcffeed27c83d28d9d715edd2b9f15ea8ad3fe5bd6bc464d3d"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/YesSir.mp3",
+          "label": "Yes sir?!",
+          "sha256": "cfd50dbaae1f5b858a63c21f805a3c260b909aa9fbe25cfd0164eedb1ff6de93"
+        },
+        {
+          "file": "sounds/DestinationST.mp3",
+          "label": "Destination?!",
+          "sha256": "ba072d9346331341418f6b1ea0accef8a6c05db468ab1aea067d0d6ecd8181d8"
+        },
+        {
+          "file": "sounds/IdentifyTarget.mp3",
+          "label": "I-dentify target!",
+          "sha256": "5aaf39b719705cbb794585c887d752e030d74f5eb3dfe0e343643068472e7791"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/Death1.mp3",
+          "label": "Death",
+          "sha256": "43ddd015f6948bd4d99afe071388af3ba6e75173b71cbd7ac8fee3a336df88b0"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/DestinationST.mp3",
+          "label": "Destination?!",
+          "sha256": "ba072d9346331341418f6b1ea0accef8a6c05db468ab1aea067d0d6ecd8181d8"
+        },
+        {
+          "file": "sounds/OrdersSir.mp3",
+          "label": "Orders, SIR!",
+          "sha256": "f1b3c7d9108458e87fd77dd6863889dcf5776a7e26ad2aae04ef430b5f1832f9"
+        },
+        {
+          "file": "sounds/IdentifyTarget.mp3",
+          "label": "I-dentify target!",
+          "sha256": "5aaf39b719705cbb794585c887d752e030d74f5eb3dfe0e343643068472e7791"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/RideOfTheValkyries.mp3",
+          "label": "(hums Ride of the Valkyries)",
+          "sha256": "97f09f00b5a9114d08c27dcbd3a38aabe7bc1ca9fc5d6434d097d3efc1670fcc"
+        },
+        {
+          "file": "sounds/AboutToDropTheHammer.mp3",
+          "label": "I'm about to drop the hammer...",
+          "sha256": "82bafe50bf8548a6208705e9503126acd91370305b24247dcc947018b7d014d2"
+        },
+        {
+          "file": "sounds/DispenseIndiscriminateJustice.mp3",
+          "label": "...and dispense some indiscriminate justice!",
+          "sha256": "9cee7c239adaec3b239dbab666bb690946416fc2d01db1b4ac4db4791939cec8"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/WhatIsYourMajorMalfunction.mp3",
+          "label": "What IS your major malfunction?",
+          "sha256": "02a5810a203f7cd5b8b5763e6f42faa9c3b761f0058add1009e13ec38c0255a3"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-breaking-bad",
+  "display_name": "TV — Breaking Bad",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/5a62324f0358-80-000-000.mp3",
+          "label": "$80,000,000",
+          "sha256": "3d6728d5d0e1a4da19658672aaa150ddfa541652fce3754f64db6fe734a2acd2"
+        },
+        {
+          "file": "sounds/537963510fcb-i-have-money.mp3",
+          "label": "I have money",
+          "sha256": "1b2c8859cd57f9244576cdfc62c8a178143c835f0a6b6e4bc41a6f92befa4f1e"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/969c36378c7d-you-are-my-free-pass-bitch.mp3",
+          "label": "You are my free pass Bitch",
+          "sha256": "8b538a926c2493e138b36c2f40f1c676270ca164008a2c771b69ae7690dd427f"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/5db7141ddd8c-where-is-my-money-bitch.mp3",
+          "label": "Where Is My Money Bitch",
+          "sha256": "8445c439f351bd1a25016bf7fbdf7fabca675917bc6a160fc7e99440d90ec87c"
+        },
+        {
+          "file": "sounds/15043a029d7f-you-got-something-for-me.mp3",
+          "label": "You Got Something For Me?",
+          "sha256": "285d5a18eed9cfeaee710493747b38f7b108c9fa69e082a65dd9909c70b4bbe5"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/5a62324f0358-80-000-000.mp3",
+          "label": "$80,000,000",
+          "sha256": "3d6728d5d0e1a4da19658672aaa150ddfa541652fce3754f64db6fe734a2acd2"
+        },
+        {
+          "file": "sounds/5db7141ddd8c-where-is-my-money-bitch.mp3",
+          "label": "Where Is My Money Bitch",
+          "sha256": "8445c439f351bd1a25016bf7fbdf7fabca675917bc6a160fc7e99440d90ec87c"
+        }
+      ]
+    }
+  }
+}

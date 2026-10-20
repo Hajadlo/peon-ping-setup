@@ -1,0 +1,122 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc_marine",
+  "display_name": "StarCraft Marine",
+  "version": "1.0.0",
+  "author": {
+    "name": "harrymunro",
+    "github": "harrymunro"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/YouWannaPieceOfMe.mp3",
+          "label": "You want a piece of me, boy?",
+          "sha256": "0e3cece53e945b241106884e947e8db1c17f0e26c5e6152e956ad8d73cb3956e"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/GoGoGo.mp3",
+          "label": "Go go go!",
+          "sha256": "0257b4a93a76418f8d965e3da1aff1aab2b6d3524cad55f6e9d2fd3ede0db86b"
+        },
+        {
+          "file": "sounds/LetsMove.mp3",
+          "label": "Let's move!",
+          "sha256": "4ec1626f87d0fd5408a638c2d1f95f8041f8353b3f79de0271b8844678914f06"
+        },
+        {
+          "file": "sounds/Outstanding.mp3",
+          "label": "Outstanding!",
+          "sha256": "abdf7c429c112281af215eefb0cb95e851a7db98445df6606700288ec6d7ec8a"
+        },
+        {
+          "file": "sounds/RockAndRoll.mp3",
+          "label": "Rock 'n' roll!",
+          "sha256": "78988bdbbd1bdf36c2e301331eaa881501a8d7b839f42fb8d4717039197d9d36"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/JackedUpAndGoodToGo.mp3",
+          "label": "Jacked up and good to go",
+          "sha256": "46e337e52375aa981d3e37edc3a8477abdfd53a4a102e548ca812ac6a8f5c312"
+        },
+        {
+          "file": "sounds/GimmeSomethingToShoot.mp3",
+          "label": "Gimme something to shoot",
+          "sha256": "68d43d723165ef223c5fa7c3a2fe8cfbfd1b9f97b4d44b06a7bd86071350d49c"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/Death1.mp3",
+          "label": "Ugh!",
+          "sha256": "ce52bedd96d1ed174c0498216cc25afbd17b7e270be813a86a778c9c0add25d0"
+        },
+        {
+          "file": "sounds/Death2.mp3",
+          "label": "Ahh!",
+          "sha256": "dbbbf0f302733486309f412c380f622c599b2c04769121370d993f3181489487"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/Commander.mp3",
+          "label": "Commander?",
+          "sha256": "2d68ec3a211c78bd71a5c72b558104aa90fe5d15ea72b1650cfe0916e7a3d6dc"
+        },
+        {
+          "file": "sounds/StandinBy.mp3",
+          "label": "Standin' by",
+          "sha256": "0ce675d4a6a48dbdec10b307b6e93a8fac6db4b82cc3a55b49203f6dadbf90c3"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/WeGottaMove.mp3",
+          "label": "We gotta move!",
+          "sha256": "b5f631003de3e2efccd902b9330b462cb13c66d3f9c730ea11701c22f26ec32b"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/GiveMeOrders.mp3",
+          "label": "Are you gonna give me orders?",
+          "sha256": "8aee492bac50a201ebf3c186d9d02ce0653ba1f6647e6f5daa4128d03a107fd8"
+        },
+        {
+          "file": "sounds/HesWhacked.mp3",
+          "label": "Oh my God, he's whacked!",
+          "sha256": "525812251aeee7362935da7badbc9b1ce10c3a8068067dea9d47c6f5e0b4cea1"
+        },
+        {
+          "file": "sounds/FragCommander.mp3",
+          "label": "I vote we frag this commander",
+          "sha256": "a13402198925666130b7b4a88820c55746030a380254778e16626879bcf177af"
+        },
+        {
+          "file": "sounds/GetOutOfOutfit.mp3",
+          "label": "How do I get out of this outfit?!",
+          "sha256": "93f03951a23e2f92d1ee5f10dc113319bb526b6f2cffa8800cd5e791707b63b2"
+        }
+      ]
+    }
+  }
+}

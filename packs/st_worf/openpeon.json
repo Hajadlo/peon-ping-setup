@@ -1,0 +1,51 @@
+{
+  "cesp_version": "1.0",
+  "name": "st_worf",
+  "display_name": "Worf (Star Trek)",
+  "version": "1.0.2",
+  "author": { "name": "OmegaZero", "github": "OmegaZero" },
+  "license": "MIT",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/WorfSonOfMogh.wav", "label": "I am Worf, Son of Mogh" }        
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/IAmPrepared.wav", "label": "I am prepared" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/DayToDie.wav", "label": "Today is a good day to die" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/UnidentifiedVessel.wav", "label": "Unidentified Vessel" },
+        { "file": "sounds/WheresCaptain.wav", "label": "Cannot locate the Captain" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/IncomingMessage.wav", "label": "Captain, Incoming Message" },
+        { "file": "sounds/BeingHailed.wav", "label": "We are being hailed sir" },
+        { "file": "sounds/HailingOpen.wav", "label": "Hailing Frequencies Open Sir" }        
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/WeakHuman.wav", "label": "Blocked" },
+        { "file": "sounds/MerryWorf.wav", "label": "Sir, I protest I am not a merry man!" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/DoNotHugMe.wav", "label": "Do Not Hug Me" },
+        { "file": "sounds/Delay.wav", "label": "It's a tactical delay" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "name": "seinfeld_kramer",
+  "display_name": "Kramer (Seinfeld)",
+  "version": "1.0.0",
+  "description": "Cosmo Kramer quotes for your Claude Code notifications. 18 clips across 7 categories.",
+  "author": {
+    "name": "bdrang",
+    "github": "bdrang"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "tags": [
+    "tv-quotes",
+    "seinfeld",
+    "kramer",
+    "cosmo",
+    "comedy",
+    "90s"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/giddy-up.wav",
+          "sha256": "a809ae1cd1a9253b72c30a21debd035d6ea26ea8abe7d793f19c43e3bba269f7",
+          "label": "Giddy-up!"
+        },
+        {
+          "file": "sounds/out_there.wav",
+          "sha256": "8b67365bc1140bb8b61970fc435795eca2472105d9431d273ea2aca5bd255804",
+          "label": "I'm out there, Jerry, and I'm lovin' every minute of it!"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/yoyo_ma.wav",
+          "sha256": "1e3d251bac04b891a0299fc6427af30e9c9c4a63d8adcfadb6c3ba69ffc071e8",
+          "label": "Yo-Yo Ma."
+        },
+        {
+          "file": "sounds/motherload.wav",
+          "sha256": "21e04c37098d6d828bf678ecb511f0914954b620ea43f1672896437c92c30b59",
+          "label": "The motherlode."
+        },
+        {
+          "file": "sounds/vibe.wav",
+          "sha256": "7f6c69d7723ba3171d467ff488a0508888d6316519d78184d2aaf5dc1636a3a1",
+          "label": "I think I picked up on a vibe."
+        },
+        {
+          "file": "sounds/master_of_domain.wav",
+          "sha256": "9378177507ffea6501e0989e7464c987bacff54030d44e11ec46e9e9ab982a71",
+          "label": "Master of your domain."
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/payback.wav",
+          "sha256": "545b8ca138d6a116ef979ba8cfb3b67fac7f3ec8ddf119eb49c610d0552a1779",
+          "label": "It's payback time!"
+        },
+        {
+          "file": "sounds/oh_yeah.wav",
+          "sha256": "43f007a0b845c99805e07b42a4abc72d6a048ab09a3fd34f972823d04c0f1afa",
+          "label": "Oh yeah!!"
+        },
+        {
+          "file": "sounds/ice.wav",
+          "sha256": "6d20f424c230986b05a976d2173356549e0447eedb5760ac1b865c1dc93a7eb3",
+          "label": "Cuz I'm like ice, buddy."
+        },
+        {
+          "file": "sounds/giddy-up.wav",
+          "sha256": "a809ae1cd1a9253b72c30a21debd035d6ea26ea8abe7d793f19c43e3bba269f7",
+          "label": "Giddy-up!"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/crazy2.wav",
+          "sha256": "fd77017a00586af142b95fcf31d5a188f751754c1a836b98a1190fb8b7898f0e",
+          "label": "You're crazy!"
+        },
+        {
+          "file": "sounds/freak_out.wav",
+          "sha256": "a9d02740331c1b2baae7600f3e008f1c3abae9b612d5b17b93f475be1a172120",
+          "label": "Stop freakin' me out!"
+        },
+        {
+          "file": "sounds/cant_keep.wav",
+          "sha256": "f85e169d270f8f3b6f80d2e577842b14ac03ffc08db43c183a90e746801e60d6",
+          "label": "You can't keep this up!"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/pretzels.wav",
+          "sha256": "576e1d04d337956144ef965608a27d84854b086958561b774fe9d4964941226e",
+          "label": "These pretzels are makin' me thirsty."
+        },
+        {
+          "file": "sounds/help_brother.wav",
+          "sha256": "dedecf176498bad2bb7c82ef0637c147e026161305a5c5834864303d3267d53c",
+          "label": "Help a brother out."
+        },
+        {
+          "file": "sounds/pigman.wav",
+          "sha256": "261922c6e513137d07d0077b6a072c3eabdae9451088d15f3faebc803baa7937",
+          "label": "Hey, I just saw a pig-man."
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/power.wav",
+          "sha256": "10d41396c8817ffb929316338157036f01ade6c87d7e719c12313f500fc920af",
+          "label": "I have this power... and I have no control."
+        },
+        {
+          "file": "sounds/kervorka3.wav",
+          "sha256": "744cccdba41fdc7851a69649684b336270e5b4c4c57b81c5a0c732dcc4a28fd2",
+          "label": "The Kervorka, Jerry! The Kervorka!"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/naked.wav",
+          "sha256": "afe5da0543d3e73488f5d212b541314444cb293d8db0f2d042fdce39e801ca15",
+          "label": "I'm out here naked."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[Unit]
+Description=Reverse SSH tunnel: server loopback relay port -> this machine's Peon relay
+After=network-online.target peon-relay.service
+Wants=peon-relay.service
+
+[Service]
+# PEON_SERVER=<ssh host alias or user@host>, optional PEON_REMOTE_PORT / PEON_LOCAL_PORT.
+EnvironmentFile=%h/.config/peon-ping-setup/tunnel.env
+ExecStart=/usr/bin/ssh -N -o BatchMode=yes -o ExitOnForwardFailure=yes \
+  -o ServerAliveInterval=30 -o ServerAliveCountMax=3 \
+  -R 127.0.0.1:${PEON_REMOTE_PORT}:127.0.0.1:${PEON_LOCAL_PORT} ${PEON_SERVER}
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

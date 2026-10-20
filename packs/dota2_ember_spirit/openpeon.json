@@ -1,0 +1,172 @@
+{
+  "cesp_version": "1.0",
+  "name": "dota2_ember_spirit",
+  "display_name": "Ember Spirit (Dota 2)",
+  "version": "1.0.0",
+  "author": {
+    "name": "kmelkon",
+    "github": "kmelkon"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/EmberSpirit.mp3",
+          "label": "Ember Spirit!",
+          "sha256": "592693a93c0ac6c5b6d08f0b8b8c90d181e7999fe2b1ecf4cb68aaf37e12e4b6"
+        },
+        {
+          "file": "sounds/IAmEmberSpirit.mp3",
+          "label": "I am Ember Spirit.",
+          "sha256": "b35b8ba750b245e3e1b9e560c70f73357a9544bb61f7f30f14f8139c3c8f384b"
+        },
+        {
+          "file": "sounds/SomeCallMeXin.mp3",
+          "label": "Some call me Xin.",
+          "sha256": "4158d68d856a1a23a1d29e0a54276fd34ec07fa5b1371e03419c5724b5da45af"
+        },
+        {
+          "file": "sounds/GuardianOfTheFlame.mp3",
+          "label": "Guardian of the Flame.",
+          "sha256": "ebd02921996721b13e71d60e26a574dc7f848e2bca1f20a2b6aed4d122fc2983"
+        },
+        {
+          "file": "sounds/ICarryTheTorch.mp3",
+          "label": "I carry the torch.",
+          "sha256": "c783cbf56fe22847ab8cf35d65225e3fa4619d217900e4e4fc84be9b6417d09a"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/DestinyAwaitsUsAll.mp3",
+          "label": "Destiny awaits us all.",
+          "sha256": "b4e5fe685fd6926eb9f6cb3701faeaf1fa650eade26f2b528e757ab96c0125e3"
+        },
+        {
+          "file": "sounds/BalanceInAllThings.mp3",
+          "label": "Balance in all things.",
+          "sha256": "fb8f8a7d72e8de36d31191041c961feb0af74e9cf3ac1aa4661efaf5753de934"
+        },
+        {
+          "file": "sounds/FlameLightsTheWay.mp3",
+          "label": "Flame lights the way.",
+          "sha256": "f42eb467d3dbed3f121c858a3af94150d0f481213b0fae20193228e2f79131f3"
+        },
+        {
+          "file": "sounds/TheWayIsClear.mp3",
+          "label": "The way is clear.",
+          "sha256": "d68341003ee2610242c09a0b48500d6ced4eda5722ea2d406c1c97c0bee8972d"
+        },
+        {
+          "file": "sounds/AllActionIsReaction.mp3",
+          "label": "All action is reaction.",
+          "sha256": "66e05eeb0a2ce5c178f40e7c2e946319bc89099f115c33a166c6c5045469d52a"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/YouAreNoMore.mp3",
+          "label": "You are no more.",
+          "sha256": "52e377df804ac84b4cdf01c46395f8c38e7af80bf9caca70c3c408586ef50718"
+        },
+        {
+          "file": "sounds/FlamesClearTheWay.mp3",
+          "label": "Flames clear the way.",
+          "sha256": "b33f4a3ea09149bf381057da44b7ce2f34208ccfbd4d52e04a14b94c243e437b"
+        },
+        {
+          "file": "sounds/BurnAwayYourIgnorance.mp3",
+          "label": "Burn away your ignorance!",
+          "sha256": "bd9d986f903bdebd4450554be7a3103d31ccace7d80296acb48e341c80eebd4e"
+        },
+        {
+          "file": "sounds/IHaveAchievedEnlightenment.mp3",
+          "label": "I have achieved enlightenment.",
+          "sha256": "7837aec2fc6069c7cc7ee77f6e0a9ec2f966fbb14b94efa871b1f8a1dcaae116"
+        },
+        {
+          "file": "sounds/InTheBag.mp3",
+          "label": "It's in the bag!",
+          "sha256": "30fad18ffc73ba820618d1acee4c2a99057bce67bff0d1850f92a0edeb307d7f"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/AllLivesMustEnd.mp3",
+          "label": "All lives must end.",
+          "sha256": "5fc7fb24932e3edd19fdbe077d7cc2e085d497747726b8dfe1201118b0eafa9a"
+        },
+        {
+          "file": "sounds/TheRoadIsEndless.mp3",
+          "label": "The road is endless.",
+          "sha256": "ad84ff5dd023cbff7eb78831a7570e7a078d3949534f4494d90959e68e32c646"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/FireShallTeachYou.mp3",
+          "label": "Fire shall teach you.",
+          "sha256": "861ad3a7d41ef0a023b281eef428b6f68eecb881e29e41151fc811472612c75d"
+        },
+        {
+          "file": "sounds/YouFaceTheFlame.mp3",
+          "label": "You face the flame.",
+          "sha256": "6c20ad55abd5136fb12d8c8069a0d744fee4021bd7a7a3fb4481dc2460117206"
+        },
+        {
+          "file": "sounds/PrepareForALesson.mp3",
+          "label": "Prepare for a lesson.",
+          "sha256": "7c404533ed62995e2bb7ed2d444962e8ce242db625ddc1a0ebddfe109c42c7ab"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/FromKnowledgeComesSkill.mp3",
+          "label": "From knowledge comes skill.",
+          "sha256": "c7b01f765d303e0dd82bba37fcdc940d4b7974dd3ebcce6c66790ff500c2948e"
+        },
+        {
+          "file": "sounds/IBurnMoreBrightly.mp3",
+          "label": "I burn more brightly!",
+          "sha256": "13fb96991ce4a34e713431f12936434d34f3bc813cc6ca47bb03dc8a5c2aa580"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ATrialByFire.mp3",
+          "label": "A trial by fire!",
+          "sha256": "0778fc7ac9c71f7119c11429b2c346bc7a25ecb0b46b28b6571dff41231e54f0"
+        },
+        {
+          "file": "sounds/ComeAndLearnHumility.mp3",
+          "label": "Come and learn humility.",
+          "sha256": "b4f35537c1e633854e8a8dbc847c9be6fa450f84335d77c9223d2d18e0ffd87d"
+        },
+        {
+          "file": "sounds/BeWaryBeCautious.mp3",
+          "label": "Be wary, be cautious.",
+          "sha256": "24817e223f36b6d3d25f9ba56250cc7ec617301322a86e5148928ecdc834ca3e"
+        },
+        {
+          "file": "sounds/AFlashOfInspiration.mp3",
+          "label": "A flash of inspiration!",
+          "sha256": "67da35d1bce5c0fbfb1001be7c093fb4538ddc0a341c8a436c477f21d52db18d"
+        }
+      ]
+    }
+  }
+}

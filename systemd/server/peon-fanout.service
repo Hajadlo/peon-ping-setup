@@ -1,0 +1,13 @@
+[Unit]
+Description=Fan Peon Ping sounds out to every reachable client relay
+After=network-online.target
+
+[Service]
+# Optional: PEON_FANOUT_BACKENDS=127.0.0.1:19998,<laptop-ip>:19998
+EnvironmentFile=-%h/.config/peon-ping-setup/remote.env
+ExecStart=/usr/bin/python3 -u %h/.local/lib/peon-ping-setup/peon_fanout.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

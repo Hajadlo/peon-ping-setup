@@ -1,0 +1,31 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-red-dwarf",
+  "display_name": "TV — Red Dwarf",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/kipper.mp3",
+          "label": "Smoke me a kipper, I'll be back for breakfast.",
+          "sha256": "08d4cba2d78944fc5ffa6814cc406c957f679f10957472af0c1ad4127e262179"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/distract.mp3",
+          "label": "Could I just distract you for a brief second?",
+          "sha256": "cc366f48a80b899bfc7023851589a1243b0242454880c0a5dc71bc24b55d8f0c"
+        }
+      ]
+    }
+  }
+}

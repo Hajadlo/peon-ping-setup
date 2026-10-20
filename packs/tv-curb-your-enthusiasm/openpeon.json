@@ -1,0 +1,31 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-curb-your-enthusiasm",
+  "display_name": "TV — Curb Your Enthusiasm",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/pretty.mp3",
+          "label": "Pretty, pretty, pretty good.",
+          "sha256": "e4dd661d17d0590b51f25df10a27d603eb440bc5e23fcde3a59e321b2f725249"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/pretty.mp3",
+          "label": "Pretty, pretty, pretty good.",
+          "sha256": "e4dd661d17d0590b51f25df10a27d603eb440bc5e23fcde3a59e321b2f725249"
+        }
+      ]
+    }
+  }
+}

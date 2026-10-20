@@ -1,0 +1,82 @@
+#!/bin/bash
+# Hook entry point for Claude Code and Codex on a headless server whose sounds
+# play on another machine through a Peon relay (see SETUP.md, "Remote playback").
+#
+# Settings (environment, or ~/.config/peon-ping-setup/remote.env):
+#   PEON_RUNTIME       peon.sh to run   (default: ~/.local/share/peon-ping-runtime/peon.sh)
+#   PEON_SETUP_LIB     helper scripts   (default: ~/.local/lib/peon-ping-setup)
+#   PEON_RELAY_PORTS   comma-separated loopback relay ports tried in order
+#                      (default: 19996,19998: fan-out first, then a single tunnel)
+#   CLAUDE_PEON_DIR    Peon config/packs directory (default: ~/.claude/hooks/peon-ping)
+#   PEON_T3_GATE=0     do not silence T3/headless-worker hooks (default: 1)
+env_file="${XDG_CONFIG_HOME:-$HOME/.config}/peon-ping-setup/remote.env"
+# shellcheck disable=SC1090
+[ -r "$env_file" ] && { set -a; . "$env_file"; set +a; }
+runtime="${PEON_RUNTIME:-$HOME/.local/share/peon-ping-runtime/peon.sh}"
+lib="${PEON_SETUP_LIB:-$HOME/.local/lib/peon-ping-setup}"
+
+# Background helper jobs (e.g. title generators) can set PEON_QUIET=1.
+if [ -n "${PEON_QUIET:-}" ]; then
+  [ "$#" -eq 0 ] && cat >/dev/null
+  exit 0
+fi
+# Preserve the hook payload for Peon after the gates have read it.
+if [ "$#" -eq 0 ]; then
+  peon_input=$(cat)
+  if [ "${PEON_T3_GATE:-1}" = 1 ]; then
+    # Raw hooks from T3 Code or headless workers lack the main run's state;
+    # the optional t3-peon watcher plays verified main-thread events instead.
+    if python3 "$lib/peon_hook_gate.py" <<<"$peon_input"; then
+      exit 0
+    fi
+  fi
+  # A Claude Stop with background commands still running is not "done".
+  if python3 "$lib/peon_background_pending.py" <<<"$peon_input"; then
+    exit 0
+  fi
+fi
+# T3's temporary text-generation jobs inherit hooks but do not finish user turns.
+if python3 - <<'PY'
+import os
+from pathlib import Path
+import sys
+
+pid = os.getppid()
+while pid > 1:
+    try:
+        proc = Path('/proc') / str(pid)
+        args = proc.joinpath('cmdline').read_bytes().decode(errors='replace').split('\0')
+        if Path(args[0]).name == 'codex':
+            schema = args[args.index('--output-schema') + 1] if '--output-schema' in args else ''
+            helper = ('exec' in args and '--ephemeral' in args
+                      and any(part.startswith('t3code-codex-schema-')
+                              for part in (Path(schema).name, Path(schema).parent.name)))
+            sys.exit(0 if helper else 1)
+        status = proc.joinpath('status').read_text().splitlines()
+        pid = int(next(line.split()[1] for line in status if line.startswith('PPid:')))
+    except (OSError, ValueError, IndexError, StopIteration):
+        break
+sys.exit(1)
+PY
+then
+  exit 0
+fi
+# Agents may run outside SSH (systemd services), so route explicitly to the
+# first healthy loopback relay: the fan-out (several clients) or one tunnel.
+relay_port=
+ports="${PEON_RELAY_PORTS:-19996,19998}"
+for port in ${ports//,/ }; do
+  if curl -fsS --connect-timeout 1 --max-time 1 "http://127.0.0.1:$port/health" >/dev/null 2>&1; then
+    relay_port=$port
+    break
+  fi
+done
+# No client online: stay silent rather than queueing sounds.
+[ -n "$relay_port" ] || exit 0
+export PEON_PLATFORM=ssh PEON_RELAY_HOST=127.0.0.1 PEON_RELAY_PORT=$relay_port
+CLAUDE_PEON_DIR="$(realpath "${CLAUDE_PEON_DIR:-$HOME/.claude/hooks/peon-ping}")"
+export CLAUDE_PEON_DIR
+if [ "$#" -eq 0 ]; then
+  exec /bin/bash "$runtime" <<<"$peon_input"
+fi
+exec /bin/bash "$runtime" "$@"

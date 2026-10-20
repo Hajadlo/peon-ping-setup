@@ -1,0 +1,68 @@
+{
+  "cesp_version": "1.0",
+  "name": "dota2-sounds",
+  "display_name": "Dota 2 Sounds",
+  "version": "1.0.0",
+  "description": "Item and rune sounds from Dota 2. BKB for victories, silenced for errors, mana for limits.",
+  "author": {
+    "name": "Darko Cejkov",
+    "github": "darkocejkov"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "tags": ["gaming", "dota2"],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/reincarnate.wav",      "label": "Reincarnation music" },
+        { "file": "sounds/guardian_greaves.wav",  "label": "Guardian Greaves activated" },
+        { "file": "sounds/arcane_boots.wav",      "label": "Arcane Boots activated" },
+        { "file": "sounds/rune_arcane.wav",       "label": "Arcane rune pickup" },
+        { "file": "sounds/dominate.wav",          "label": "Dominate" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/blink_start.wav",      "label": "Blink Dagger (AM)" },
+        { "file": "sounds/force_staff.wav",       "label": "Force Staff activated" },
+        { "file": "sounds/rune_haste.wav",        "label": "Haste rune pickup" },
+        { "file": "sounds/smoke_of_deceit.wav",   "label": "Smoke of Deceit activated" },
+        { "file": "sounds/satanic.wav",           "label": "Satanic activated" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/hand_of_midas.wav",    "label": "Hand of Midas activated" },
+        { "file": "sounds/tome_of_knowledge.wav", "label": "Tome of Knowledge used" },
+        { "file": "sounds/rune_bounty.wav",       "label": "Bounty rune pickup" },
+        { "file": "sounds/rune_dd.wav",           "label": "Double Damage rune pickup" },
+        { "file": "sounds/black_king_bar.wav",    "label": "Black King Bar activated" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/silenced.wav",          "label": "Silenced" },
+        { "file": "sounds/orchid_malevolence.wav","label": "Orchid Malevolence activated" },
+        { "file": "sounds/skull_basher.wav",      "label": "Skull Basher bash" },
+        { "file": "sounds/ethereal_blade.wav",    "label": "Ethereal Blade activated" },
+        { "file": "sounds/linkens_sphere.wav",    "label": "Linken's Sphere blocked" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/magic_stick.wav",          "label": "Magic Stick activated" },
+        { "file": "sounds/dust_of_appearance.wav",   "label": "Dust of Appearance used" },
+        { "file": "sounds/medallion_of_courage.wav", "label": "Medallion of Courage activated" },
+        { "file": "sounds/lotus_orb.wav",            "label": "Lotus Orb cast" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/refresher_orb.wav",    "label": "Refresher Orb activated" },
+        { "file": "sounds/enchanted_mango.wav",   "label": "Enchanted Mango used" },
+        { "file": "sounds/rune_regen.wav",        "label": "Regeneration rune pickup" },
+        { "file": "sounds/rune_water.wav",        "label": "Water rune pickup" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "cesp_version": "1.0",
+  "name": "omar",
+  "display_name": "Omar Little (The Wire)",
+  "version": "1.1.1",
+  "description": "Omar comin'. Iconic Omar Little lines from The Wire.",
+  "author": {
+    "name": "Taylan Aydinli",
+    "github": "taylan"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "source_repo": "taylan/openpeon-omar",
+  "icon": "icons/pack.png",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/omar-dont-scare.mp3",
+          "label": "Omar don't scare.",
+          "sha256": "6a8bfa05fcf133a2b671fc608b5cd765da0d3ddc10175e6b392bbd55ccf7a7fe"
+        },
+        {
+          "file": "sounds/im-your-man.mp3",
+          "label": "I'm your man.",
+          "sha256": "a0a2de35770b94012a64653c29342e98818a0a8f6746e91917645205148ac83e"
+        },
+        {
+          "file": "sounds/i-know-youve-been-busy.mp3",
+          "label": "I know you've been busy.",
+          "sha256": "1ccf92402662208d930ce836662eaf6ac0c8136f30851ee5017f558b524da967"
+        },
+        {
+          "file": "sounds/no-sugar-water.mp3",
+          "label": "Ain't no sugar water running through them veins.",
+          "sha256": "dff1acda80c9970a85ab4ae947e3572ffe0d32f5e50fa99f1b85b982d2c50ff3"
+        },
+        {
+          "file": "sounds/omar-listenin.mp3",
+          "label": "Omar listenin'.",
+          "sha256": "ed255f0bb01035cd0c1e94b096c8017bf54c2cc0599bfaad88b03e3f0ede7560"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/indeed.mp3",
+          "label": "Oh, indeed.",
+          "sha256": "e3c1e334acc074b90883e8a54641201a6ad1b1fc2c282dfe2e0904d62e2901de"
+        },
+        {
+          "file": "sounds/omar-dont-scare.mp3",
+          "label": "Omar don't scare.",
+          "sha256": "6a8bfa05fcf133a2b671fc608b5cd765da0d3ddc10175e6b392bbd55ccf7a7fe"
+        },
+        {
+          "file": "sounds/all-in-the-game.mp3",
+          "label": "All in the game, yo.",
+          "sha256": "75f859012563c717d12917deb202a695aa840928e9936e61263a7d5df3569d81"
+        },
+        {
+          "file": "sounds/no-doubt.mp3",
+          "label": "No doubt.",
+          "sha256": "ac02b06e6825f3d654e60c9fee9d2c37d00271129f9ec56ae57e8ac56461022c"
+        },
+        {
+          "file": "sounds/indeed-short.mp3",
+          "label": "Indeed.",
+          "sha256": "1b86a012a5f05d8f59d951cce92e46c9da0b5a781d98aece780df498932ecdc0"
+        },
+        {
+          "file": "sounds/ok.mp3",
+          "label": "OK.",
+          "sha256": "7a714712122b8588b1f534114ed2132521771219e50862a2be5135b43f547223"
+        },
+        {
+          "file": "sounds/im-your-man.mp3",
+          "label": "I'm your man.",
+          "sha256": "a0a2de35770b94012a64653c29342e98818a0a8f6746e91917645205148ac83e"
+        },
+        {
+          "file": "sounds/caught-some-talk.mp3",
+          "label": "Yeah, caught some talk about that, too.",
+          "sha256": "b6591e07ba941d812fd2eab28f40d7d2739a1cc5e5f0b39720ec9a9cb33d0710"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/indeed.mp3",
+          "label": "Oh, indeed.",
+          "sha256": "e3c1e334acc074b90883e8a54641201a6ad1b1fc2c282dfe2e0904d62e2901de"
+        },
+        {
+          "file": "sounds/the-cheese-stands-alone.mp3",
+          "label": "And the cheese stands alone.",
+          "sha256": "0561b53e0423935dfda6483c4b00ef9b4ffbe75fca76412268b65ac532266e01"
+        },
+        {
+          "file": "sounds/just-came-to-make-that-clear.mp3",
+          "label": "I just came here to make that clear, man.",
+          "sha256": "dfa079589dd70b93c11ac91d2da1ce3bdd6630cd1209f68a1ba24a00c5b6d6a9"
+        },
+        {
+          "file": "sounds/no-mistakes-no-bystanders.mp3",
+          "label": "No mistakes, no bystanders.",
+          "sha256": "87832a019247558f3c3d3cbf49766dba3301291c244b42b04dbbcb3c8c1da0e4"
+        },
+        {
+          "file": "sounds/what-that-it.mp3",
+          "label": "What, that it?",
+          "sha256": "4f685bd5ff6d6996621e4b7001c8f43f9e4b41a946afc21d47ac57a827e30757"
+        },
+        {
+          "file": "sounds/cash-me-out.mp3",
+          "label": "Yo banker, cash me out, yo.",
+          "sha256": "bf0bdc98d4247d0117d68f39d17d6fdb5b73ac9167ba772845ea9d326650b42c"
+        },
+        {
+          "file": "sounds/i-rip-and-run.mp3",
+          "label": "I rip and run.",
+          "sha256": "860385a0b4165b2973b9c0b2c5ade47b7227ac0dd04d06fc0d907065e46b525b"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/come-at-the-king.mp3",
+          "label": "You come at the king, you best not miss.",
+          "sha256": "95283fd8dbef09e69db862eb8e9ec89f274eb90ec16edd57da0dfb7aa9616542"
+        },
+        {
+          "file": "sounds/i-dont-know-about-that.mp3",
+          "label": "I don't know about that.",
+          "sha256": "21ef1a667e3a1d00825754231cef1b67056d4a0524d7ae1b428708e46ffe01e4"
+        },
+        {
+          "file": "sounds/man-gotta-have-a-code.mp3",
+          "label": "A man got to have a code.",
+          "sha256": "6195f4e13841ad87922dec990ddb65404e4e204710e89e1748f7495414e8ac14"
+        },
+        {
+          "file": "sounds/some-rules-here-right.mp3",
+          "label": "I mean there are some rules here, right?",
+          "sha256": "e283f0261cc141db7af71d113003206c66087896c736671b0bfa769a4f2d3937"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/you-feel-me.mp3",
+          "label": "You feel me?",
+          "sha256": "371610cc46cafcb11255ed6a71ee1ea78d025ca2ec2dcd11e48cf535c18b54d3"
+        },
+        {
+          "file": "sounds/what-you-want-me-to-say.mp3",
+          "label": "What you want me to say?",
+          "sha256": "5380133c5a79bfd353acd7c4797ecb62a219f2615c55190223a23fa00f8343c6"
+        },
+        {
+          "file": "sounds/it-aint-all-up-to-me.mp3",
+          "label": "It ain't all up to me, right?",
+          "sha256": "8af5ef0dee0335cff018edeae22fa6e6e81a514e37ec451c4fadce4dbce5bf43"
+        },
+        {
+          "file": "sounds/omar-listenin.mp3",
+          "label": "Omar listenin'.",
+          "sha256": "ed255f0bb01035cd0c1e94b096c8017bf54c2cc0599bfaad88b03e3f0ede7560"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/day-at-a-time.mp3",
+          "label": "Day at a time, I suppose.",
+          "sha256": "0c885991c4455c14378c5f3b4b93a18d2006685b4b990fba5e00c13e3a73d2eb"
+        },
+        {
+          "file": "sounds/confused-with-a-man.mp3",
+          "label": "Boy, you got me confused with a man who repeats himself.",
+          "sha256": "4fe220333b32d2fd656d3b9e49fe70affbc93f57757d9f3d5694b8de5519de35"
+        },
+        {
+          "file": "sounds/you-know-how-that-be.mp3",
+          "label": "You know how that be.",
+          "sha256": "051e38b7af0a07a2151aa5837e36351a44d17863aab38a88e00cd3c78f0a72cc"
+        },
+        {
+          "file": "sounds/some-rules-here-right.mp3",
+          "label": "I mean there are some rules here, right?",
+          "sha256": "e283f0261cc141db7af71d113003206c66087896c736671b0bfa769a4f2d3937"
+        },
+        {
+          "file": "sounds/it-aint-all-up-to-me.mp3",
+          "label": "It ain't all up to me, right?",
+          "sha256": "8af5ef0dee0335cff018edeae22fa6e6e81a514e37ec451c4fadce4dbce5bf43"
+        },
+        {
+          "file": "sounds/one-in-the-chamber.mp3",
+          "label": "I keeps one in the chamber in case you're pondering.",
+          "sha256": "75f4afcc5e2ec00518c90a72f602d0cc31ddc5a34782a5ad243273886f4bdbb0"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/its-all-in-the-game.mp3",
+          "label": "It's all in the game though, right?",
+          "sha256": "0df4579f016980732dc2c6c860556c1099e065ac75f686b9b441cb972142d554"
+        },
+        {
+          "file": "sounds/live-and-let-live.mp3",
+          "label": "Live and let live, you know?",
+          "sha256": "a716547aa5dca51038588a4fc74d6b0f1cc041a196812dfd15fbfcda70ae098d"
+        },
+        {
+          "file": "sounds/cash-me-out.mp3",
+          "label": "Yo banker, cash me out, yo.",
+          "sha256": "bf0bdc98d4247d0117d68f39d17d6fdb5b73ac9167ba772845ea9d326650b42c"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/day-at-a-time.mp3",
+          "label": "Day at a time, I suppose.",
+          "sha256": "0c885991c4455c14378c5f3b4b93a18d2006685b4b990fba5e00c13e3a73d2eb"
+        },
+        {
+          "file": "sounds/play-or-get-played.mp3",
+          "label": "The game is out there, and it's either play or get played.",
+          "sha256": "5210e14ccc542bde45d2e5593a5e3f45cc4127293221ffe8a335b71a73a9aefe"
+        },
+        {
+          "file": "sounds/no-sugar-water.mp3",
+          "label": "Ain't no sugar water running through them veins.",
+          "sha256": "dff1acda80c9970a85ab4ae947e3572ffe0d32f5e50fa99f1b85b982d2c50ff3"
+        },
+        {
+          "file": "sounds/no-sweat-in-your-brow.mp3",
+          "label": "I don't see no sweat in your brow neither, bro.",
+          "sha256": "42be3039a22d80f2e38e9d1040db245d39fa2016350f960dfb97623c7ec7fd63"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/what-you-want-me-to-say.mp3",
+          "label": "What you want me to say?",
+          "sha256": "5380133c5a79bfd353acd7c4797ecb62a219f2615c55190223a23fa00f8343c6"
+        },
+        {
+          "file": "sounds/what-that-it.mp3",
+          "label": "What, that it?",
+          "sha256": "4f685bd5ff6d6996621e4b7001c8f43f9e4b41a946afc21d47ac57a827e30757"
+        },
+        {
+          "file": "sounds/one-in-the-chamber.mp3",
+          "label": "I keeps one in the chamber in case you're pondering.",
+          "sha256": "75f4afcc5e2ec00518c90a72f602d0cc31ddc5a34782a5ad243273886f4bdbb0"
+        }
+      ]
+    }
+  }
+}

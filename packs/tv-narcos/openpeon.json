@@ -1,0 +1,49 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-narcos",
+  "display_name": "TV — Narcos",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/323369f1b086-plata-o-plomo.mp3",
+          "label": "Plata o Plomo",
+          "sha256": "9817e69a243a47fd5dfdd8ae048f2c8227d091ce7deb670817a82d4a03f4e468"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/323369f1b086-plata-o-plomo.mp3",
+          "label": "Plata o Plomo",
+          "sha256": "9817e69a243a47fd5dfdd8ae048f2c8227d091ce7deb670817a82d4a03f4e468"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/323369f1b086-plata-o-plomo.mp3",
+          "label": "Plata o Plomo",
+          "sha256": "9817e69a243a47fd5dfdd8ae048f2c8227d091ce7deb670817a82d4a03f4e468"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/323369f1b086-plata-o-plomo.mp3",
+          "label": "Plata o Plomo",
+          "sha256": "9817e69a243a47fd5dfdd8ae048f2c8227d091ce7deb670817a82d4a03f4e468"
+        }
+      ]
+    }
+  }
+}

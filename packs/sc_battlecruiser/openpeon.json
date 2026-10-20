@@ -1,0 +1,99 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc_battlecruiser",
+  "display_name": "StarCraft Battlecruiser",
+  "version": "1.0.0",
+  "author": {
+    "name": "garysheng",
+    "github": "garysheng"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/BattlecruiserOperational.mp3",
+          "label": "Battlecruiser operational",
+          "sha256": "1753d7c25c75d2ed99a1ea5f1781d795674c77125dc693016483031f9eaa98d1"
+        },
+        {
+          "file": "sounds/AllCrewsReporting.mp3",
+          "label": "All crews reporting",
+          "sha256": "57e76ab35f5075fcdbe8f91a060955d59ea1d80bd50c5bf76ce966fd4d63a326"
+        },
+        {
+          "file": "sounds/ShieldsUp.mp3",
+          "label": "Shields up",
+          "sha256": "e4e634bc0a780ceefacef0a19a069cf039f2d495a454b01ce3666cba374a00aa"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/MakeItHappen.mp3",
+          "label": "Make it happen",
+          "sha256": "86ac500549187ef85e30520857c6ac1962f2d6a104eb4f061bb0a4d32ffcfbb1"
+        },
+        {
+          "file": "sounds/SetACourse.mp3",
+          "label": "Set a course",
+          "sha256": "976e228a61f4a21b5473a6ee9f765ef4b6f96a2b4161ba265fe8b433b3adf465"
+        },
+        {
+          "file": "sounds/Engage.mp3",
+          "label": "Engage",
+          "sha256": "12f6569ab424f71140b61b26da030fb2303bcc0ca15a06c5c95ed9d2cbbc78b9"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/HailingFrequenciesOpen.mp3",
+          "label": "Hailing frequencies open",
+          "sha256": "36b893bf772321241347f35dc44af08f0622210681a4ce0ce3e7196ab6f126ba"
+        },
+        {
+          "file": "sounds/ReceivingTransmission.mp3",
+          "label": "Receiving transmission",
+          "sha256": "5f9897d40326c3e66e042cac68c4239679197a3795cb1de1bca0a20e0365c54a"
+        },
+        {
+          "file": "sounds/GoodDayCommander.mp3",
+          "label": "Good day, Commander",
+          "sha256": "79097cf9e92415b9b31b668584664306ab53d059bccc102fd6df0388e8097c66"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/IdentifyYourself.mp3",
+          "label": "Identify yourself",
+          "sha256": "3d854d43ef9d1298973672d504c971aea6d6d799d9909835c8c499321e62b496"
+        },
+        {
+          "file": "sounds/ReceivingTransmission.mp3",
+          "label": "Receiving transmission",
+          "sha256": "5f9897d40326c3e66e042cac68c4239679197a3795cb1de1bca0a20e0365c54a"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ReallyHaveToGo.mp3",
+          "label": "I really have to go",
+          "sha256": "89c4df1d8036a0b16e606f808bdf81849c2f4810057d426f30c2746208ffa5f2"
+        },
+        {
+          "file": "sounds/WayBehindSchedule.mp3",
+          "label": "We are getting way behind schedule",
+          "sha256": "e89de6d5a336cfc928e1ed63a78ff6657fd19b6b50426d526d36cb8c7edd876c"
+        }
+      ]
+    }
+  }
+}

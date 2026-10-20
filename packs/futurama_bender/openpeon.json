@@ -1,0 +1,66 @@
+{
+  "cesp_version": "1.0",
+  "name": "futurama_bender",
+  "display_name": "Bender (Futurama)",
+  "version": "1.0.0",
+  "author": {
+    "name": "custom",
+    "github": ""
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/time-for-this-robot-to-get-back-to-work.mp3", "label": "Time for this robot to get back to work!" },
+        { "file": "sounds/ah-yes.mp3", "label": "Ah, yes!" },
+        { "file": "sounds/the-lovable-rascal.mp3", "label": "The lovable rascal." },
+        { "file": "sounds/this-is-sunset-squad-bike-bender-tron-4000.mp3", "label": "This is Bender!" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/ah-ok.mp3", "label": "Ah, ok." },
+        { "file": "sounds/ah-no-thanks-i-m-good.mp3", "label": "Ah, no thanks, I'm good." },
+        { "file": "sounds/true.mp3", "label": "True." },
+        { "file": "sounds/ah-what-s-the-point.mp3", "label": "Ah, what's the point..." }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/time-for-this-robot-to-get-back-to-work.mp3", "label": "Time for this robot to get back to work!" },
+        { "file": "sounds/tan-tan-tan.mp3", "label": "Tan tan tan!" },
+        { "file": "sounds/true.mp3", "label": "True." },
+        { "file": "sounds/the-lovable-rascal.mp3", "label": "The lovable rascal." }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/ah-crap.mp3", "label": "Ah, crap!" },
+        { "file": "sounds/ah-boo-hoo.mp3", "label": "Ah, boo hoo!" },
+        { "file": "sounds/there-s-no-booze-and-only-one-hooker.mp3", "label": "There's no booze and only one hooker!" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/um.mp3", "label": "Um..." },
+        { "file": "sounds/ah-what-s-the-point.mp3", "label": "Ah, what's the point?" },
+        { "file": "sounds/then-then-then-then-then-then-then-then-then-then.mp3", "label": "Then then then then..." },
+        { "file": "sounds/that-s-not-covered-by-my-insurance-fraud.mp3", "label": "That's not covered by my insurance fraud." }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/ah-what-s-the-point.mp3", "label": "Ah, what's the point..." },
+        { "file": "sounds/unless-i-m-getting-interference-from-a-gay-weather-balloon.mp3", "label": "Unless I'm getting interference..." }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/up-yours-bimbo.mp3", "label": "Up yours!" },
+        { "file": "sounds/the-only-reason-you-get-all-the-guys-is-because-you-dress-like-a-tramp.mp3", "label": "The only reason you get all the guys..." },
+        { "file": "sounds/ah-boo-hoo.mp3", "label": "Ah, boo hoo!" }
+      ]
+    }
+  }
+}

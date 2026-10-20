@@ -1,0 +1,49 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-brooklyn-nine-nine",
+  "display_name": "TV — Brooklyn Nine-Nine",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/bbd5a4329306-vindicatiooon.mp3",
+          "label": "VINDICATIOOON",
+          "sha256": "07e0c0a742adaacddbcb6c7ccdeed5dec4471fc4fa83204349d135f852273c8c"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/5b987c80e82a-you-look-like-a-corpse.mp3",
+          "label": "You Look Like A Corpse",
+          "sha256": "cf28d5b4059570681e4bc963f5eb9a54d1dc2b0c719aacb9ebdec80ac74a914d"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/103b847c260f-why-did-you-wake-me-up.mp3",
+          "label": "Why Did You Wake Me Up?",
+          "sha256": "e3c525f699831aced4046f4609438be475ddbe77bfa835de0cf485c7215883ec"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/103b847c260f-why-did-you-wake-me-up.mp3",
+          "label": "Why Did You Wake Me Up?",
+          "sha256": "e3c525f699831aced4046f4609438be475ddbe77bfa835de0cf485c7215883ec"
+        }
+      ]
+    }
+  }
+}

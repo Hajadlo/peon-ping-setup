@@ -1,0 +1,292 @@
+{
+  "cesp_version": "1.0",
+  "name": "lcars",
+  "display_name": "LCARS (Star Trek TNG)",
+  "version": "1.0.0",
+  "author": {
+    "name": "heidilux",
+    "github": "heidilux"
+  },
+  "license": "personal-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/start_lcars_1.wav",
+          "label": "LCARS startup 1",
+          "sha256": "ce0797ddfb86d3b56f29fe07d305b30bb551d5da041053c2648a05261d1a068a"
+        },
+        {
+          "file": "sounds/start_lcars_2.wav",
+          "label": "LCARS startup 2",
+          "sha256": "4cabce1ac8e24cc30c29b9279efca36684ff1be77ec5b2f25bf0cffdc60342be"
+        },
+        {
+          "file": "sounds/start_lcars_3.wav",
+          "label": "LCARS startup 3",
+          "sha256": "2d74169de3b71701691b116139a80441306824a13af4af771e3761ee224c2ff0"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ack_lcars_1.wav",
+          "label": "LCARS acknowledge 1",
+          "sha256": "da1fe9cf1ce47710d5afc5704dcb26848701ef09815ac4eebe996c220601f71c"
+        },
+        {
+          "file": "sounds/ack_lcars_2.wav",
+          "label": "LCARS acknowledge 2",
+          "sha256": "60502e7da5ae428b48ccbb7643f70885f4593b2106da570a848cf4353d7274d7"
+        },
+        {
+          "file": "sounds/ack_lcars_3.wav",
+          "label": "LCARS acknowledge 3",
+          "sha256": "d8fa5dffb282d9c7f58d4fc299729a878e8253443fce5d742474039b0cd2f64f"
+        },
+        {
+          "file": "sounds/ack_lcars_4.wav",
+          "label": "LCARS acknowledge 4",
+          "sha256": "39948c1e3b404557a2d444099248219b8b79d969b33fd92d27fb59f2daaa02f9"
+        },
+        {
+          "file": "sounds/ack_lcars_5.wav",
+          "label": "LCARS acknowledge 5",
+          "sha256": "dd1859238db63f5c27f9cee39f773297daef37db93a64082cf8d1f54f4479f2c"
+        },
+        {
+          "file": "sounds/ack_lcars_6.wav",
+          "label": "LCARS acknowledge 6",
+          "sha256": "afcc795b52e5ea3c17da44a671a6a194dad6b4dd0c286fcbebc84976e783caae"
+        },
+        {
+          "file": "sounds/ack_lcars_7.wav",
+          "label": "LCARS acknowledge 7",
+          "sha256": "ff01f6426ae9a8d5a25dcc4117554ef80f2f45f1b659c6b4dffc30812abfec1f"
+        },
+        {
+          "file": "sounds/ack_lcars_8.wav",
+          "label": "LCARS acknowledge 8",
+          "sha256": "ffa6252b370ac6bbfbf2633f7af2e1572a53ce08f401f360b457e4633d3a1d4c"
+        },
+        {
+          "file": "sounds/ack_lcars_9.wav",
+          "label": "LCARS acknowledge 9",
+          "sha256": "5b6e517bf684649ab428791f2f3d83475f2f9393ae62b136521ebe222a8d5639"
+        },
+        {
+          "file": "sounds/ack_lcars_10.wav",
+          "label": "LCARS acknowledge 10",
+          "sha256": "495967c7a384eb8749f86b83426e6eb951b292ff292a835d443016706730896e"
+        },
+        {
+          "file": "sounds/ack_lcars_11.wav",
+          "label": "LCARS acknowledge 11",
+          "sha256": "2c094d3d6f5a9017fdd41267034301948e6b16bd2d0e77aca79a9c964cce4113"
+        },
+        {
+          "file": "sounds/ack_lcars_12.wav",
+          "label": "LCARS acknowledge 12",
+          "sha256": "29be528e705e038b885b8b1e31b2819bd760d9046c7ab23bb19979e840128356"
+        },
+        {
+          "file": "sounds/ack_lcars_13.wav",
+          "label": "LCARS acknowledge 13",
+          "sha256": "6b9acbc8b1652fda783468e807a5d5c56ce5f8a898fbed67d2629490e18fcb20"
+        },
+        {
+          "file": "sounds/ack_lcars_14.wav",
+          "label": "LCARS acknowledge 14",
+          "sha256": "768669994a14a80446629d540d18e994093adce1aeedfdd160d3b2eb58a068bd"
+        },
+        {
+          "file": "sounds/ack_lcars_15.wav",
+          "label": "LCARS acknowledge 15",
+          "sha256": "e82e7cb693cd01efd22e81571738353520ac9dc625905f957844d837d075b956"
+        },
+        {
+          "file": "sounds/ack_lcars_16.wav",
+          "label": "LCARS acknowledge 16",
+          "sha256": "12ffaaf7d02c047a34915a3b2b0fcea5213775eed19a5c11644710759fb0b15c"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/done_lcars_1.wav",
+          "label": "LCARS complete 1",
+          "sha256": "2c627d61e2ab8249095c17bb0e49ef0e7bf7f23f25f8e45e09318edc223d8a26"
+        },
+        {
+          "file": "sounds/done_lcars_2.wav",
+          "label": "LCARS complete 2",
+          "sha256": "37dc3c2d2a4db48ee8dbd6eea22c20d6b14a42309b07184829dfde5cb98bd936"
+        },
+        {
+          "file": "sounds/done_lcars_3.wav",
+          "label": "LCARS complete 3",
+          "sha256": "4138bfe418bf8b85abd6d1946d5810258333a91af693bf46dbadbf57473760fb"
+        },
+        {
+          "file": "sounds/done_lcars_4.wav",
+          "label": "LCARS complete 4",
+          "sha256": "1a2b84d810c511facf1d81a30db8d01c20256776583e42a9d0a213e868d4cc16"
+        },
+        {
+          "file": "sounds/done_lcars_5.wav",
+          "label": "LCARS complete 5",
+          "sha256": "b15af3a6d39421cc1f241706d29c6385712e3fc262babe8fcaaa6dc8d292757b"
+        },
+        {
+          "file": "sounds/done_lcars_6.wav",
+          "label": "LCARS complete 6",
+          "sha256": "aa59b0ecc4110d16006c23b8cba3b144d6fe146bd7d16fc3b8ed138c4b7f4ffc"
+        },
+        {
+          "file": "sounds/done_lcars_7.wav",
+          "label": "LCARS complete 7",
+          "sha256": "86d83b9a461b060086706bd845675702e354d5e5f8c911674777f1326aed45c0"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/err_lcars_1.wav",
+          "label": "LCARS error 1",
+          "sha256": "49efb1aca4a7050cee07a286008036ef7efa64ffd2ff6ab683214f09f5d14028"
+        },
+        {
+          "file": "sounds/err_lcars_2.wav",
+          "label": "LCARS error 2",
+          "sha256": "dc5de1c19d0598d73506d581589918056df1b669697a1045f100eec6a1b50f6f"
+        },
+        {
+          "file": "sounds/err_lcars_3.wav",
+          "label": "LCARS error 3",
+          "sha256": "33753a6af2a98dadbf1e5ac11c8336a693d89ed6f9b4ec251fdaff8241eb8094"
+        },
+        {
+          "file": "sounds/err_lcars_4.wav",
+          "label": "LCARS error 4",
+          "sha256": "7d7b4c41a01bc70c450a9f819c168f9949195bc263824d4d47f697adcdc2cee9"
+        },
+        {
+          "file": "sounds/err_lcars_5.wav",
+          "label": "LCARS error 5",
+          "sha256": "174ba8fece253823e2c159cdde35f4bca803dd683dba74a1469b871d9cc8d68d"
+        },
+        {
+          "file": "sounds/err_lcars_6.wav",
+          "label": "LCARS error 6",
+          "sha256": "c8448b912af62d9e229f368a40b6a62edc41572cd1de5778f70a1fb110316ab6"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/input_lcars_1.wav",
+          "label": "LCARS input required 1",
+          "sha256": "d385a30693057d705949eb6f5e73a272f7b05df159105598b54be340a70a3e71"
+        },
+        {
+          "file": "sounds/input_lcars_2.wav",
+          "label": "LCARS input required 2",
+          "sha256": "d092e40649e0b45fd80dcd132d5cfb374fd57d3715ca8edb19a78fee120ac641"
+        },
+        {
+          "file": "sounds/input_lcars_3.wav",
+          "label": "LCARS input required 3",
+          "sha256": "5460a8006ca01f4e272088876ad3e37e9ee319586bc2834a943a5cee48537bb1"
+        },
+        {
+          "file": "sounds/input_lcars_4.wav",
+          "label": "LCARS input required 4",
+          "sha256": "d233dc83ba6713093d5073a939d9740b5afe1d76c5c5810e23f9d7068c0520a2"
+        },
+        {
+          "file": "sounds/input_lcars_5.wav",
+          "label": "LCARS input required 5",
+          "sha256": "fb9f4f944e1dadc759fc2c3ea66b9ab792e58308611ea839b2368b3eabf9e914"
+        },
+        {
+          "file": "sounds/input_lcars_6.wav",
+          "label": "LCARS input required 6",
+          "sha256": "fec00c7ae2326026b364f0e64b16368f54be366cc5b0bd948f5847f92c62b667"
+        },
+        {
+          "file": "sounds/input_lcars_7.wav",
+          "label": "LCARS input required 7",
+          "sha256": "a578d93ab7e25d8468cc5f9ade1d20e0cf91074fa04b2a68790b3f550434bead"
+        },
+        {
+          "file": "sounds/input_lcars_8.wav",
+          "label": "LCARS input required 8",
+          "sha256": "82eca0daf3e631446e39e47a1ce6d038f8a1bbd138883355d9c1b9a749b26df7"
+        },
+        {
+          "file": "sounds/input_lcars_9.wav",
+          "label": "LCARS input required 9",
+          "sha256": "92a6c17487cf1502ba11b065e01bbc6b4cc29f6d45420c88e2d6bf59eda1e933"
+        },
+        {
+          "file": "sounds/input_lcars_10.wav",
+          "label": "LCARS input required 10",
+          "sha256": "37092569a625c4430795f9e91110a867fbfc65eeb2258872a9113d313c4ccd28"
+        },
+        {
+          "file": "sounds/input_lcars_11.wav",
+          "label": "LCARS input required 11",
+          "sha256": "e041d47ca4f1eb78a0942cb4a007dc44a0db28ae335013fca920de978e5c57b3"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/limit_lcars_1.wav",
+          "label": "LCARS resource limit 1",
+          "sha256": "4631f7c7668e950cbb7f496f2ba33a3770600c23c1b788cc3a775194a9db316c"
+        },
+        {
+          "file": "sounds/limit_lcars_2.wav",
+          "label": "LCARS resource limit 2",
+          "sha256": "3cc44595432d87a0e585aea9b155b22d9894eb52e82adb8c3520e40327b947a0"
+        },
+        {
+          "file": "sounds/limit_lcars_3.wav",
+          "label": "LCARS resource limit 3",
+          "sha256": "a796e3e46be7c49a0e879547c63742c72b61cedd0dc2ca9db34f1eb01248362c"
+        },
+        {
+          "file": "sounds/limit_lcars_4.wav",
+          "label": "LCARS resource limit 4",
+          "sha256": "3556e02f7efe2777d632ee4e634ae554b11106ba1c6d87ea3e41e4146753af2b"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/spam_lcars_1.wav",
+          "label": "LCARS spam warning 1",
+          "sha256": "9ac052168baeb3246e8c2decea5082e6ee061bca2e7e27e334abc25fa919d45b"
+        },
+        {
+          "file": "sounds/spam_lcars_2.wav",
+          "label": "LCARS spam warning 2",
+          "sha256": "a1bde05ccbd06a660496ae83680ae9c51d1c2ea2e7dd8fd89e8d323973598a85"
+        },
+        {
+          "file": "sounds/spam_lcars_3.wav",
+          "label": "LCARS spam warning 3",
+          "sha256": "cbaf2b916c6aaad1debe8329bd162edf0198cccb494331fe62db54cd3111448b"
+        }
+      ]
+    }
+  }
+}

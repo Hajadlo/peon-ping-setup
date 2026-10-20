@@ -1,0 +1,172 @@
+{
+  "cesp_version": "1.0",
+  "name": "dota2_phantom_lancer",
+  "display_name": "Phantom Lancer (Dota 2)",
+  "version": "1.0.0",
+  "author": {
+    "name": "karmal",
+    "github": "karmal"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/PhantomLancer.mp3",
+          "label": "Phantom Lancer!",
+          "sha256": "d36dfef36b8cd4a99e902db5a1f7624df4a1ce1bbccceb4191fc18882fb2ad38"
+        },
+        {
+          "file": "sounds/ForHomeForPeace.mp3",
+          "label": "For home. For peace.",
+          "sha256": "c69c5d2645b3a54f836d5d433a8c10b547ac9a85ef21980c283b1376cdaf85c7"
+        },
+        {
+          "file": "sounds/FromOneAnArmy.mp3",
+          "label": "From one: an army.",
+          "sha256": "a841e8d253a2095b1f950fabde85274d6ab9c086ebcbab0bb724e09002dc89a3"
+        },
+        {
+          "file": "sounds/WeAreCoiledReadyToStrike.mp3",
+          "label": "We are coiled, ready to strike.",
+          "sha256": "3c9cbb558e7f84d71051bd18584fdce7467f92d41a23dbb47a030ec7fccab134"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/AsOrdered.mp3",
+          "label": "As ordered!",
+          "sha256": "14a9a1d4a8d9daf6f6451ade9a9faccd480831a429bf889ea68102212deff17f"
+        },
+        {
+          "file": "sounds/WeRush.mp3",
+          "label": "We rush.",
+          "sha256": "c557c8578087c4d16b89eec4fd68639a361250fff8517861fcf7524375f5f8c3"
+        },
+        {
+          "file": "sounds/Onward.mp3",
+          "label": "Onward.",
+          "sha256": "e16929ab13559e477aa1b80eedf003769de46d5b8e9b5d7640605ef447b0d05b"
+        },
+        {
+          "file": "sounds/AGoodIdea.mp3",
+          "label": "A good idea.",
+          "sha256": "e3bc5105fdef063f73f7e56e234df7b646a8d49a1c9dff9862e6a4860b7b6719"
+        },
+        {
+          "file": "sounds/WeMarch.mp3",
+          "label": "We march!",
+          "sha256": "4fe7db0a462ea3d15d7a1827d383f7dff650939d105c249d1e088cb4ceed580b"
+        },
+        {
+          "file": "sounds/Simple.mp3",
+          "label": "Simple!",
+          "sha256": "f2033144381b0e9f46d8f9e58dc623d62731254fd47e32486a9f878b02dc3f97"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/AllIsAsItShouldBe.mp3",
+          "label": "All is as it should be.",
+          "sha256": "14d5e727f212e470f80ca7a5ff9431785665ac51026ceb0ffc136bbf7d311034"
+        },
+        {
+          "file": "sounds/WePutYouToPeace.mp3",
+          "label": "We put you to peace.",
+          "sha256": "d2960371230b6775b0e86b22d97a8395c929b3af51a99d0a6e8b910e149c7489"
+        },
+        {
+          "file": "sounds/RestNow.mp3",
+          "label": "Rest now.",
+          "sha256": "d28d5ef8f3579bd2a7eb897878176f2158fcfea4b8d1df51fbbcc92a75026c26"
+        },
+        {
+          "file": "sounds/InTheBag.mp3",
+          "label": "I think all of us can agree: this one is in the bag!",
+          "sha256": "7df139b0a8dae3ce43908692ba51297e72e794fb9892d252e16fa4bdd9e25297"
+        },
+        {
+          "file": "sounds/ForVictory.mp3",
+          "label": "For victory!",
+          "sha256": "cdf5351cf28595c31ceec2dbb57c1ec12c70aee651995346e351470885a1ca8b"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ADecoy.mp3",
+          "label": "A decoy!",
+          "sha256": "983fa63cdc81eda12e5d668cb51e25782f5b04fa7656b4956267d95eea2313fb"
+        },
+        {
+          "file": "sounds/ChaseThis.mp3",
+          "label": "Chase this!",
+          "sha256": "ccfd414685e29ae860bf9cfd2e6f8542f7e60f6521279da3cd09f51583aaf9db"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/PrepareYourself.mp3",
+          "label": "Prepare yourself!",
+          "sha256": "95978cdb783d1adc8f1e4203f202a48ab70e7f7e96ce683a36b93ad05510b85e"
+        },
+        {
+          "file": "sounds/WeComeForYou.mp3",
+          "label": "We come for you!",
+          "sha256": "ab59635cfe5c11d732e67f8e35de14172a04ddaea2a3cd7464187d8316b28009"
+        },
+        {
+          "file": "sounds/OurForceComes.mp3",
+          "label": "Our force comes.",
+          "sha256": "357d22df2bd6f4b2530e2a6331951eab82763fae1290674f7b43913b55f8acaa"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/NothingCanStopOurMarch.mp3",
+          "label": "Nothing can stop our march!",
+          "sha256": "d637ac8afe475713a1d24ed80053df754b283f3ecbfc04d630307c06f56c866b"
+        },
+        {
+          "file": "sounds/BewareUsNow.mp3",
+          "label": "Beware us now!",
+          "sha256": "afae8316ee2ad92fea3c2cebb75f7f088cfc6901d60ef859dd615938c01b85bd"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/Rrrrrr.mp3",
+          "label": "R-r-r-r-r-r.",
+          "sha256": "981df98248cc7edc1923883648b813038b47ae1fc5c19ea0ff88dec08de28827"
+        },
+        {
+          "file": "sounds/WeAreBesideOurselves.mp3",
+          "label": "We are beside ourselves!",
+          "sha256": "c1d01b2751202e28ab66e2ad861b0679c364dc0b8de21b5c25dc30f83329a9e0"
+        },
+        {
+          "file": "sounds/StrengthInNumbers.mp3",
+          "label": "Strength in numbers!",
+          "sha256": "4aa6acf03ef12869f622ee67461f6abc4f70069b578e1fc58907ce26e95b5510"
+        },
+        {
+          "file": "sounds/Multiply.mp3",
+          "label": "Multiply!",
+          "sha256": "60afc5968714e1e41dff5749658ed102d1b373c18d976e81436be54245e904d3"
+        }
+      ]
+    }
+  }
+}

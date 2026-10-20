@@ -1,0 +1,118 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc_kerrigan",
+  "display_name": "Sarah Kerrigan (StarCraft)",
+  "version": "1.0.0",
+  "author": {
+    "name": "garysheng",
+    "github": "garysheng"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/KerriganReporting.mp3",
+          "label": "Lieutenant Kerrigan reporting",
+          "sha256": "48ff3826140bbdbcb1d5546abdd961060e4dacf7a010ea103e9354a0520b5816"
+        },
+        {
+          "file": "sounds/ImReady.mp3",
+          "label": "I'm ready",
+          "sha256": "8edd27592b57d594e9701dea07673ef86d32b82052b9a23cb362b5ae9e94809b"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/IGotcha.mp3",
+          "label": "I gotcha",
+          "sha256": "5b11f8c260551cc41908ee07f4f95a2e484d2da4b935e839ce2478e6bf0421ac"
+        },
+        {
+          "file": "sounds/ThinkingSameThing.mp3",
+          "label": "Thinking the same thing",
+          "sha256": "95993309508d3832d864e30ee2abf555e0af556fff843d871a0ca682c3dd89a7"
+        },
+        {
+          "file": "sounds/BeAPleasure.mp3",
+          "label": "It'd be a pleasure",
+          "sha256": "b3b7c6d08c2478c1e616de860c19e1491384b517c77cbb08b74449ad7fa5c190"
+        },
+        {
+          "file": "sounds/IReadYou.mp3",
+          "label": "I read you",
+          "sha256": "5fe451995b681bd0b389f137b9dffc923ffd21e0c15245d62719f5fe42b83bd3"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ImReady.mp3",
+          "label": "I'm ready",
+          "sha256": "8edd27592b57d594e9701dea07673ef86d32b82052b9a23cb362b5ae9e94809b"
+        },
+        {
+          "file": "sounds/WaitingOnYou.mp3",
+          "label": "I'm waiting on you",
+          "sha256": "f09c0a7268a7ef91ff5b4e86d06491d5f9bfae85dab6aa33fc33f8dd43f12cf3"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/Death1.mp3",
+          "label": "Ah!",
+          "sha256": "a83f3ed3d49882a6b4615c4439ee1d35195b8e382f422a9b0210155cbadcb05e"
+        },
+        {
+          "file": "sounds/Death2.mp3",
+          "label": "Ah!",
+          "sha256": "da50ef9193e92ac22157914d910afd8cc8cf371e8d76555cc2de11565a923a6b"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/WhatNow.mp3",
+          "label": "What now?",
+          "sha256": "b2fad8209b4419097fdb7a9e6e676e8ce874aed4e80c260305c5dbdf7ca56e5d"
+        },
+        {
+          "file": "sounds/WaitingOnYou.mp3",
+          "label": "I'm waiting on you",
+          "sha256": "f09c0a7268a7ef91ff5b4e86d06491d5f9bfae85dab6aa33fc33f8dd43f12cf3"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/EasilyAmused.mp3",
+          "label": "Easily amused, huh?",
+          "sha256": "a105d1cd0dd8df31f83417f7642a2e6487763ca9bdf9e0836a86562bfda47855"
+        },
+        {
+          "file": "sounds/Telepath.mp3",
+          "label": "Doesn't take a telepath to know what you're thinking",
+          "sha256": "b800e514945090b27cc5c17558366bb2a6f20fbc66f58b05acbfc9c962dd21a3"
+        },
+        {
+          "file": "sounds/AnnoyingPeople.mp3",
+          "label": "You get off on annoying people, don't you?",
+          "sha256": "0dc8223351bd47b8216b4495ba31d5fcdc4729dec152d5ac29a70bedaaa4f3e3"
+        },
+        {
+          "file": "sounds/GotAJobToDo.mp3",
+          "label": "I've got a job to do",
+          "sha256": "380489f544878b475fea2a6fd444b11c377f2fd154765e940261d75ccb74e4c3"
+        }
+      ]
+    }
+  }
+}

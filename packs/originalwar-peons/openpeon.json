@@ -1,0 +1,430 @@
+{
+  "cesp_version": "1.0",
+  "name": "originalwar-peons",
+  "display_name": "Original War Peons",
+  "version": "4.0.1",
+  "author": {
+    "name": "Hajadlo",
+    "github": "Hajadlo"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "cs",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ru_bel_ra_2.mp3",
+          "label": "Belkov: Připraven",
+          "sha256": "f0c41441347b419f5f43b25c48d62aaf854ce1ee3bdaa82a178fc5dceae304f2"
+        },
+        {
+          "file": "sounds/am_bobby_ra_1.mp3",
+          "label": "Bobby: Ready",
+          "sha256": "5ade5bf053d2549451a4971a2a7f612e7738385e90a4f96b103b31b37074738b"
+        },
+        {
+          "file": "sounds/ru_bur_rc_2.mp3",
+          "label": "Burlak: Hlásím se",
+          "sha256": "ee81007d9869b8ede1d5b75a062a9a05fe9cd8c35ca013ebcf6ee0df7c7decb7"
+        },
+        {
+          "file": "sounds/am_cyrus_ra_1.mp3",
+          "label": "Cyrus: Ready",
+          "sha256": "f9cfee8555ce870501a7a519429cc83b12bcc093e95c1eafe4c08ae41fc43012"
+        },
+        {
+          "file": "sounds/am_frank_ra_1.mp3",
+          "label": "Frank: Ready",
+          "sha256": "68fb7061418e5dc1ed0b216021fe22639e8ec983b5d10de5640ca7e31e9d029a"
+        },
+        {
+          "file": "sounds/ru_gla_ra_2.mp3",
+          "label": "Gladkov: Připraven",
+          "sha256": "4f61c7db8d793ab4ed6e438dafd60faea50269efe63126f2938e615af2d50512"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/am_bobby_ca_1.mp3",
+          "label": "Bobby: Confirm",
+          "sha256": "28011981d24a90740b897550ebfba43a44ccd50cf11b39b9c1461c38d4a7ad32"
+        },
+        {
+          "file": "sounds/am_frank_ca_2.mp3",
+          "label": "Frank: Confirm",
+          "sha256": "447720d72f2182d8bd54c12c8f843ef5b1d291c08ab0be08c4cf346c111260de"
+        },
+        {
+          "file": "sounds/ru_bur_ca_2.mp3",
+          "label": "Burlak: Confirm",
+          "sha256": "844cfd7323c0897a1fc252299eeb867f2099b57315f445511e0b6ab7b91e5383"
+        },
+        {
+          "file": "sounds/ru_gny_ca_1.mp3",
+          "label": "Gnyevko: Confirm",
+          "sha256": "1f879b751e49f26b3f7accb88b2a2045945004255771f16d4c486be451dfb8b7"
+        },
+        {
+          "file": "sounds/ru_gny_ca_2.mp3",
+          "label": "Gnyevko: Confirm",
+          "sha256": "10baae3d47a7d89c9e1296303d0186ec52407f6a4e35aa499a0eb1db933ebb69"
+        },
+        {
+          "file": "sounds/am_corn_ca_1.mp3",
+          "label": "Cornell: Rozumím",
+          "sha256": "cfbc8847b1404219ea0a2a78dbc008bb26738a12b062d4b40ef0736c3a130d65"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/am_cyrus_fa_2.mp3",
+          "label": "Cyrus: Finished",
+          "sha256": "73ee1cdce418ede6c8672a815320c75377494657774adf3c5b5602f90dae26ee"
+        },
+        {
+          "file": "sounds/am_cyrus_fg_2.mp3",
+          "label": "Cyrus: Task Done",
+          "sha256": "f830682de983be96c7fb6458aa41d76f518d655620507f614c79363b654cec8e"
+        },
+        {
+          "file": "sounds/am_frank_fa_2.mp3",
+          "label": "Frank: Finished",
+          "sha256": "abc2d7a271ea38e111329662c2b0523a2e11f1f7c2f38b608d7b9d0ff7785a76"
+        },
+        {
+          "file": "sounds/am_frank_fl_1.mp3",
+          "label": "Frank: Built",
+          "sha256": "bf7dc4878dec39ad1f70c3a7389cc0c13d0d83741c78141cf093acb8b26e7794"
+        },
+        {
+          "file": "sounds/am_jmm_fa_2.mp3",
+          "label": "Macmillan: Finished",
+          "sha256": "c667f714de2112ee44d31b35ee589270c46115ec7dff79cd63d6f6e3a28033cc"
+        },
+        {
+          "file": "sounds/am_jmm_fc_1.mp3",
+          "label": "Macmillan: Vehicle Built",
+          "sha256": "55f47ae626e093bcd9f49c01ce9d39b7af62653d11ae934e9e07cfca23314365"
+        },
+        {
+          "file": "sounds/am_jmm_fe_1.mp3",
+          "label": "Macmillan: All Done",
+          "sha256": "718901bbf568c816b704285ba8ba29f29ec72f60eb2b86255a99199957c6ba68"
+        },
+        {
+          "file": "sounds/am_jmm_fl_1.mp3",
+          "label": "Macmillan: Built",
+          "sha256": "62639cfc188b16a92bc495049da0bcdffc4d0a9fc29a8f9a4da573a0738cb026"
+        },
+        {
+          "file": "sounds/ru_bur_fa_1.mp3",
+          "label": "Burlak: Finished",
+          "sha256": "0d4e626a81e70a40311714d97e2bdba8c75366522138db1e80cca9cf66d0a496"
+        },
+        {
+          "file": "sounds/ru_bur_fd_1.mp3",
+          "label": "Burlak: Done",
+          "sha256": "d23e196af96d7b05112e14b8bcee458a13206dfeef3481bff1e2edf1515cdeaf"
+        },
+        {
+          "file": "sounds/ru_bur_fi_1.mp3",
+          "label": "Burlak: Research Done",
+          "sha256": "cbc5b8bfe5c61a16c97a32f13dd3df4295e21a81d52ae64de1b5bf4a316dbea5"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/am_frank_na_2.mp3",
+          "label": "Frank: Negative",
+          "sha256": "4f90157cd8e48c7c8a670f2c0941dc4ee4e6e60d4773d3e53d850e82106078f4"
+        },
+        {
+          "file": "sounds/am_bobby_ha_1.mp3",
+          "label": "Bobby: Hurt",
+          "sha256": "b4d712e15ab207201ef730f73f2db90b975933f6077324074a729d0b64557e90"
+        },
+        {
+          "file": "sounds/am_cyrus_ha_2.mp3",
+          "label": "Cyrus: Hurt",
+          "sha256": "8a21e11a9d4589dc1172ecd0aeb9a7f0701f2755c1a883883870460b4aa65041"
+        },
+        {
+          "file": "sounds/am_frank_ha_1.mp3",
+          "label": "Frank: Hurt",
+          "sha256": "d9bce553f7798d53616eed965f354849324f11028f8030b0c3d06c105769d15f"
+        },
+        {
+          "file": "sounds/am_bobby_ka_1.mp3",
+          "label": "Bobby: Under Fire",
+          "sha256": "9518003e402a52bb17ab334f55f1af16d6ffddb0c5176fc624da665bbb08431d"
+        },
+        {
+          "file": "sounds/am_cyrus_ka_1.mp3",
+          "label": "Cyrus: Under Fire",
+          "sha256": "983063ce219f55849fedb64c4acecfd245ff7cc0a20f8009ec174450033569fe"
+        },
+        {
+          "file": "sounds/am_frank_ka_1.mp3",
+          "label": "Frank: Under Fire",
+          "sha256": "3bbfc470db932ee4427fce8a77594ac91bb9528f7d0ce3a21fb66417c9e7d175"
+        },
+        {
+          "file": "sounds/am_jmm_ka_2.mp3",
+          "label": "Macmillan: Under Fire",
+          "sha256": "4e36d1dd944a614b096454d9ecc0d6df241b4500ed82c054dbe0ad66a7cce6fb"
+        },
+        {
+          "file": "sounds/ru_bur_ka_2.mp3",
+          "label": "Burlak: Under Fire",
+          "sha256": "879a5195679b36be278e7e83816a953e26596479ee4a5df3e6951db8445b20f0"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/am_frank_ia_1.mp3",
+          "label": "Frank: Idle",
+          "sha256": "8550fb43777edc1b921047587e1e8ce9fea40c71f37db05082adbd87bb51aaf7"
+        },
+        {
+          "file": "sounds/am_jmm_ia_2.mp3",
+          "label": "Macmillan: Idle",
+          "sha256": "59f3c9cd0a570bf51917bae34770d07182e4a7e15f20fb3386c5874878dd47ca"
+        },
+        {
+          "file": "sounds/ru_bel_ia_1.mp3",
+          "label": "Belkov: Čekám na rozkazy",
+          "sha256": "332310dc0bc00419a2a5730800fc335c243d4fec427a76a78b8a9907e87c7a50"
+        },
+        {
+          "file": "sounds/am_cyrus_ia_2.mp3",
+          "label": "Cyrus: Čekám na rozkazy",
+          "sha256": "b1d5dfba95b624da7bcef58bd096e40f543611868be2004e1c98aa80fcff24a9"
+        },
+        {
+          "file": "sounds/am_don_ia_1.mp3",
+          "label": "Donaldson: Čekám na rozkazy",
+          "sha256": "e907085390814e518047e327edf297dc15a10cce1d37758c87c36e48f2ae925f"
+        },
+        {
+          "file": "sounds/ru_gla_ia_1.mp3",
+          "label": "Gladkov: Čekám na rozkazy",
+          "sha256": "8e0cf528d9583e8bb95c4c08ca77e5be95200c16627a08e5d308714fe77db5c6"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/am_frank_xa_1.mp3",
+          "label": "Frank: Trapped",
+          "sha256": "a40111fe2c86031d4459bf68322792f976bab3591b46587a90f4455e3b3d3192"
+        },
+        {
+          "file": "sounds/am_cyrus_xb_1.mp3",
+          "label": "Cyrus: Depleted",
+          "sha256": "b4a3b0304e47b5664053cbe88c311184bc4e5f116ca14d0ae07fc341de6aba96"
+        },
+        {
+          "file": "sounds/am_frank_xc_1.mp3",
+          "label": "Frank: Sick",
+          "sha256": "22eac4c48273dddec7b7fee7433c114f18313d7407bc41a3a6d1d886b8d06e5c"
+        },
+        {
+          "file": "sounds/am_frank_xd_1.mp3",
+          "label": "Frank: Low Fuel",
+          "sha256": "be5144d2147820198857560398ffd4e7e03f696568d8db136375bfe23f02ad17"
+        },
+        {
+          "file": "sounds/am_frank_xe_1.mp3",
+          "label": "Frank: Destroyed",
+          "sha256": "8c5a5d0d925e34106336cd343ef52c6de10395ee1a81d19f86c5a4a57010f00f"
+        },
+        {
+          "file": "sounds/ru_bur_xc_1.mp3",
+          "label": "Burlak: Sick",
+          "sha256": "5c844aa7b8ee3b08c0212cc184204f16bc9fa064b236ef718ff7df3ea78048aa"
+        },
+        {
+          "file": "sounds/ru_bur_xe_1.mp3",
+          "label": "Burlak: Destroyed",
+          "sha256": "d9453cae3fbfb5cb0e5a897ccfaddcbb39aba0841155f87022d7c053e92e1683"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/am_bobby_oa_2.mp3",
+          "label": "Bobby: Annoyed",
+          "sha256": "f20a7bfe61390dcffd8618a0ab38205169aae0d1999361dfcef9af75f4f2e26d"
+        },
+        {
+          "file": "sounds/am_cyrus_of_2.mp3",
+          "label": "Cyrus: Fed Up",
+          "sha256": "f6438f4a52bc51b04fa5214add8fd1e517864febc298d11e8389dd1e2c722a95"
+        },
+        {
+          "file": "sounds/am_frank_oa_3.mp3",
+          "label": "Frank: Annoyed",
+          "sha256": "70eb2b03ce99d106501e5b6918f831a3364cb934ac76bba944ef008386e2099a"
+        },
+        {
+          "file": "sounds/ru_bel_oa_3.mp3",
+          "label": "Belkov: Otráveně",
+          "sha256": "c8c32ed43093c49b2e78c26dcbaa54f82d11c8028a97ec5447c6ec7b92ea92ad"
+        },
+        {
+          "file": "sounds/ru_bur_oa_2.mp3",
+          "label": "Burlak: Annoyed",
+          "sha256": "9d8eb8c32f401395a69aaedfb5294e06d7ab0ea70a7af95bd25baa54a1eb5d62"
+        },
+        {
+          "file": "sounds/ru_gla_oa_3.mp3",
+          "label": "Gladkov: Otráveně",
+          "sha256": "7b4e34d5b94e161437ad732dca031c39a3aac1a7cac66bb7a5a5ac92f33c1238"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/am_cyrus_ua_1.mp3",
+          "label": "Cyrus: Critical",
+          "sha256": "21eaf4fb1719e0ed40f366ce1e80b0443f24d5abd7d67e8888abc2c4f8afb948"
+        },
+        {
+          "file": "sounds/am_frank_ua_1.mp3",
+          "label": "Frank: Critical",
+          "sha256": "27a5ad265a97120b971d6ea57f1e7574b9b83e60ddaea35ae763ed705bef9425"
+        },
+        {
+          "file": "sounds/am_frank_wa_1.mp3",
+          "label": "Frank: Wounded",
+          "sha256": "4882c9741eff3b0c2278bc5eb1ee939a7d08706528b45757c7db677f4c1a4cde"
+        },
+        {
+          "file": "sounds/ru_bel_ua_1.mp3",
+          "label": "Belkov: Kritický stav",
+          "sha256": "5573c6a6c7190e2a7bcf053d2cb2fba27a8acb8fe09c72369b78fae5f2d17c2d"
+        },
+        {
+          "file": "sounds/am_bobby_ua_1.mp3",
+          "label": "Bobby: Critical",
+          "sha256": "4eca1451f087fc8b7e50d67998d577a312e3ba5e1a025454f1e47d83b36e585e"
+        },
+        {
+          "file": "sounds/ru_bur_ua_1.mp3",
+          "label": "Burlak: Critical",
+          "sha256": "14588f0cb4cf8e8861b5df024c95e9f7343c4f07feece36382ecbd94ba7f886c"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/am_bobby_ba_1.mp3",
+          "label": "Bobby: Battle",
+          "sha256": "079b73b9800694fab46dd5355ed016276faa37db940299304c913e9f2a36211a"
+        },
+        {
+          "file": "sounds/am_cyrus_ba_1.mp3",
+          "label": "Cyrus: Battle",
+          "sha256": "568690bbb79bed5e8a63e66d18542ff87b5d3a46accdeaf6ed67eed405d3a9af"
+        },
+        {
+          "file": "sounds/am_cyrus_ba_2.mp3",
+          "label": "Cyrus: Battle",
+          "sha256": "ab01a29742a666076260fb32aa04066fab60224a0e4143d6895809552d0242da"
+        },
+        {
+          "file": "sounds/am_frank_ba_1.mp3",
+          "label": "Frank: Battle",
+          "sha256": "c65da8cc5621e8ed7fe8a271866329ea47fd0cfd0bb55b1c5c505ba7c1a3362a"
+        },
+        {
+          "file": "sounds/am_frank_ba_2.mp3",
+          "label": "Frank: Battle",
+          "sha256": "6a247926110bedd5063cd2fa73065c332ff16700d09cb671a1da1e0feae5fd12"
+        },
+        {
+          "file": "sounds/am_frank_bc_1.mp3",
+          "label": "Frank: Battle",
+          "sha256": "ca15361ec3a7c1915c8a9d0195e79ec167cbac3d594a245f032d47d691f1dcb8"
+        },
+        {
+          "file": "sounds/am_frank_bd_1.mp3",
+          "label": "Frank: Battle",
+          "sha256": "355c16d4d634502e7da233107682c4c9b0e17a13075164ce7bb5b666adc7bc60"
+        },
+        {
+          "file": "sounds/am_jmm_bd_2.mp3",
+          "label": "Macmillan: Battle",
+          "sha256": "e91913ece5cea616e3ecfacace1d954ebfe2f89b9bbf0f7bca7418a17ed16089"
+        },
+        {
+          "file": "sounds/ru_bur_bd_1.mp3",
+          "label": "Burlak: Battle",
+          "sha256": "fa736736f4321cfff64eff860074063a43e2f87bdf15039f5ff1dc9afc8ab364"
+        },
+        {
+          "file": "sounds/ru_gny_ba_2.mp3",
+          "label": "Gnyevko: Battle",
+          "sha256": "bcfc5f23227c991bf34db9829530a4793eca8a72edd4446073fec56a19c72ea9"
+        },
+        {
+          "file": "sounds/am_bobby_ed_1.mp3",
+          "label": "Bobby: Spotted Target",
+          "sha256": "906208dd01a078388cdd543a4044f5a4412e80b811a91359f512339b360e3e67"
+        },
+        {
+          "file": "sounds/am_bobby_ee_2.mp3",
+          "label": "Bobby: Spotted Contact",
+          "sha256": "bc38c5a023ccf3cc24c9dbe24316e704dc9d9c92fb39797b3f878c8028ae6c47"
+        },
+        {
+          "file": "sounds/am_cyrus_ed_2.mp3",
+          "label": "Cyrus: Spotted Target",
+          "sha256": "5bdf47b03e112cbe94e4a4cc77214e625786d38b394bfabbd2c2bdd55427bcbe"
+        },
+        {
+          "file": "sounds/am_frank_ea_1.mp3",
+          "label": "Frank: Spotted",
+          "sha256": "0b5b678dcef99c66a341d8ed188452b3a3be07779d905997319b7d7258ba803f"
+        },
+        {
+          "file": "sounds/am_frank_eb_1.mp3",
+          "label": "Frank: Spotted Crates",
+          "sha256": "af9dc53444ec71cc3365d078da785010f037baa5f883ad844532d04346c01899"
+        },
+        {
+          "file": "sounds/am_frank_ee_1.mp3",
+          "label": "Frank: Spotted Contact",
+          "sha256": "d7c1cd672ceb0cdfd3cd15a841e7b2b530863ddc0e794dffef3f4e1acf2c8f1d"
+        },
+        {
+          "file": "sounds/am_jmm_ea_1.mp3",
+          "label": "Macmillan: Spotted",
+          "sha256": "6f8263af57acab9a7eacab4ddfc32226127860e273053a0f7f1a66f893ba8d31"
+        },
+        {
+          "file": "sounds/ru_bur_ea_2.mp3",
+          "label": "Burlak: Spotted",
+          "sha256": "b68a85fac55402b71222650c5cc2e5aaf22e81828943d8f91d1b201ea43ea5ef"
+        },
+        {
+          "file": "sounds/ru_gny_ea_1.mp3",
+          "label": "Gnyevko: Spotted",
+          "sha256": "deb7c74bcc7b43b3fac81e61b6974ba1bb71749d52cbfdee51e449b63573572d"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "pulp_fiction",
+  "display_name": "Pulp Fiction",
+  "version": "1.0.0",
+  "description": "Pulp Fiction quotes for your Claude Code notifications. 24 clips across 7 categories.",
+  "author": {
+    "name": "bdrang",
+    "github": "bdrang"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "tags": [
+    "movie-quotes",
+    "tarantino",
+    "pulp-fiction",
+    "samuel-l-jackson",
+    "john-travolta"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/im-winston-wolf-i-solve-problems-good-we-got-one-so-i-heard.mp3",
+          "sha256": "05e469a1e3b4a67133330209c107431c5b1c76e01357f64f43e14102f12c3ed5",
+          "label": "I'm Winston Wolf. I solve problems."
+        },
+        {
+          "file": "sounds/yo-vincent-vega-our-man-in-amsterdam.mp3",
+          "sha256": "88dc8e4258c5e4c865a679966ad507535351e4dd71968b9e6c5d4750696444ed",
+          "label": "Yo, Vincent Vega — our man in Amsterdam."
+        },
+        {
+          "file": "sounds/you-sendin-the-wolf.mp3",
+          "sha256": "3e272d5a313cd6b635d517ab3e4f046c42e5d6252aa217c15d6bbb6361b27310",
+          "label": "You sendin' the Wolf?"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/correctamundo.mp3",
+          "sha256": "457f410a4ced061132392af4beb4a4d49be9543ad0807a7d802ca5baf8b315e8",
+          "label": "Correctamundo."
+        },
+        {
+          "file": "sounds/hamburgers-the-cornerstone-of-any-nutritious-breakfast.mp3",
+          "sha256": "885b7b489375212e426affb1e56953785e4a1b1e4403ab2f595fe25e3b1d1bf5",
+          "label": "Hamburgers! The cornerstone of any nutritious breakfast."
+        },
+        {
+          "file": "sounds/this-is-a-tasty-burger.mp3",
+          "sha256": "5bbd0627d2f35d0beb15c9118ff9c87fef2e3a8c3ea0cdee3250222cf4a426fc",
+          "label": "This is a tasty burger!"
+        },
+        {
+          "file": "sounds/english-motherfucker-do-you-speak-it-yes.mp3",
+          "sha256": "61bde5de9a711fb603ab2967e06979e02c89d5bb57999ef03611a531f4e808c3",
+          "label": "English, motherfucker! Do you speak it?"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/whos-zed-zeds-dead-baby-zeds-dead.mp3",
+          "sha256": "63eb51283b29460f6f36c4ed3af5c4699353a53d250342717b7dcbfbac7b7d27",
+          "label": "Zed's dead, baby. Zed's dead."
+        },
+        {
+          "file": "sounds/mr-wolf-i-just-wanna-tell-you-it-was-a-real-pleasure-watching-you-work-yeah-really-and-thank-you-very-much-mr-wolf.mp3",
+          "sha256": "b55fb279f28c34ebbfc0775ed8750d6281e40ca7f9cfaa4c83fe864a2820ae46",
+          "label": "It was a real pleasure watching you work, Mr. Wolf."
+        },
+        {
+          "file": "sounds/its-30-minutes-away-ill-be-there-in-10.mp3",
+          "sha256": "06f3190ba351c579ada653dbe81e918f386f5d46ce68aef6f0312e60d73047ce",
+          "label": "It's 30 minutes away. I'll be there in 10."
+        },
+        {
+          "file": "sounds/lookin-good-butch.mp3",
+          "sha256": "e26d2c6a5ccd1fd2b3a3b4f97697456d447accfac9ac8f910b75e224a2c0b2a2",
+          "label": "Lookin' good, Butch."
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/well-bring-out-the-gimp.mp3",
+          "sha256": "f1d5b56c182bd0847758729590dfbd6fded8677b364ad41c671577845ce81a8f",
+          "label": "Well, bring out the Gimp."
+        },
+        {
+          "file": "sounds/oh-im-sorry-did-i-break-your-concentration-i-didnt-mean-to-do-that-please-continue.mp3",
+          "sha256": "a0b3235ec4ae29961e3f47a1a4a97aa02bce3c455a7067f497ee86b9438971aa",
+          "label": "Oh, I'm sorry, did I break your concentration?"
+        },
+        {
+          "file": "sounds/yeah-i-was-sittin-here-eatin-my-muffin-drinkin-my-coffee-replayin-the-incident-in-my-head-when-i-had-what-alcoholics-refer-to-as-a-moment-of-clarity.mp3",
+          "sha256": "798fabfefe93daaf778d225ed903de6148166e9f098e61ea65bc4b2dd6618215",
+          "label": "I had what alcoholics refer to as a moment of clarity."
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/say-what-again-i-dare-ya-i-double-dare-you-motherfucker-say-what-one-more-goddamn-time.mp3",
+          "sha256": "bd8eb36534319e33380b51738298ccbb1508ed89e9aa8eceb235549ad5a57b08",
+          "label": "Say 'what' again! I dare ya! I double dare you, motherfucker!"
+        },
+        {
+          "file": "sounds/what-i-say-what-again.mp3",
+          "sha256": "9e6fe7c460c17eb51208d4de6fd6b6bacea2ee7238a9dcbffb2736bff8c4d943",
+          "label": "What? I say 'what' again!"
+        },
+        {
+          "file": "sounds/would-you-give-a-guy-a-foot-massage.mp3",
+          "sha256": "ddfe6479715bd166c010144c7790aeb8b0e6bfd99e057589839c47ebe020163d",
+          "label": "Would you give a guy a foot massage?"
+        },
+        {
+          "file": "sounds/hello-2.mp3",
+          "sha256": "1ab9fc05b1fb83ea04639f763f442b65f47a1f963637e90bbd6cb5975ddad439",
+          "label": "Hello."
+        },
+        {
+          "file": "sounds/hold-it-right-there-goddamn-it.mp3",
+          "sha256": "422489531a2395623b56b712fe3f5b92ffaf937940e45681e610ae468e986591",
+          "label": "Hold it right there, goddamn it."
+        },
+        {
+          "file": "sounds/did-you-just-order-a-five-dollar-shake.mp3",
+          "sha256": "4428718347291f144e84b2f60c446d51377fd9fe4a6b30317f032a8f38c65c70",
+          "label": "Did you just order a five-dollar shake?"
+        },
+        {
+          "file": "sounds/call-me-winston.mp3",
+          "sha256": "e85d24fe9ce4fc9c7167aa59bfd3daca7e5a8e33eb3150a0fc157d16c10b8cdb",
+          "label": "Call me Winston."
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ezekiel-25-17-the-path-of-the-righteous-man-is-beset-on-all-sides-by-the-inequities-of-the-selfish-and-the-tyranny-of-evil-men.mp3",
+          "sha256": "37e1f4b8bcb4f4d0d5daab174f385f9083d4a935b35ce59ed02cf78d548a5772",
+          "label": "Ezekiel 25:17. The path of the righteous man..."
+        },
+        {
+          "file": "sounds/and-you-will-know-my-name-is-the-lord-when-i-lay-my-vengeance-upon-thee.mp3",
+          "sha256": "de7c907223a9fb26eb363ed5764c9b14f2f16e1c318e27994a7d900551f84f34",
+          "label": "And you will know my name is the Lord when I lay my vengeance upon thee!"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/any-of-you-fucking-pricks-move-and-ill-execute-every-motherfuckin-last-one-of-you.mp3",
+          "sha256": "c132fbea431d34e5153493e124b7ca3cde142a8a7dfb8eec04131eaaae557979",
+          "label": "Any of you fucking pricks move and I'll execute every motherfuckin' last one of you."
+        }
+      ]
+    }
+  }
+}

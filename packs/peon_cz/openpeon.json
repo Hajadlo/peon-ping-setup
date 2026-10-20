@@ -1,0 +1,177 @@
+{
+  "cesp_version": "1.0",
+  "name": "peon_cz",
+  "display_name": "Orčí peón (CZ)",
+  "version": "1.0.0",
+  "author": {
+    "name": "vojtabiberle",
+    "github": "vojtabiberle"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "cs",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/PeonReady1.wav",
+          "label": "Připraven k práci.",
+          "sha256": "4d73d9916649fe0429041b5712ead05b041a0e13bb735161f2b3fb7b1508f2b2"
+        },
+        {
+          "file": "sounds/PeonWhat1.wav",
+          "label": "Ano?",
+          "sha256": "6a4d075d65fee332f627c571c11933ee05f0406424a1585a205ffc1ec08833ad"
+        },
+        {
+          "file": "sounds/PeonWhat3.wav",
+          "label": "Co chceš?",
+          "sha256": "9c3e0d349b31b26f2f15c7eb6979f9909a716c056e25030c4fa6f6dba80cc98e"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/PeonYes1.wav",
+          "label": "Zvládnu to.",
+          "sha256": "cceb9bb323e6c9b8387329d4dc0a0088831ede08e116e3612eb2569d5fb592d3"
+        },
+        {
+          "file": "sounds/PeonYes2.wav",
+          "label": "Rád.",
+          "sha256": "73766a8fa9052a89a86f5c6c86586f682f669677121a2d260d33a40c62d49981"
+        },
+        {
+          "file": "sounds/PeonYes3.wav",
+          "label": "Práce, práce.",
+          "sha256": "bccbcf294e2e612a01a62d0501cebaaffec98278b959a0c24ae3a582c3235cd0"
+        },
+        {
+          "file": "sounds/PeonYes4.wav",
+          "label": "Dobrá.",
+          "sha256": "d08195f24be4fc144380074232fc281a07b2519e19c78132affa28ec0d70c5cf"
+        },
+        {
+          "file": "sounds/PeonYesAttack1.wav",
+          "label": "Dobře.",
+          "sha256": "e46e64f72c5e73b6e7876aa6ae0796d0531fae771009b181f6a668ca23385f59"
+        },
+        {
+          "file": "sounds/PeonYesAttack2.wav",
+          "label": "Zvládnu to.",
+          "sha256": "8ac9ed853b32a62a73189905e5e7c8a2004a725afe73c2a77265d17d4fa0f995"
+        },
+        {
+          "file": "sounds/PeonYesAttack3.wav",
+          "label": "Rád.",
+          "sha256": "bbfda2da68e2055525e37a2c3bb1d6a77d09d91c78d31a77dcfdc49998f11b15"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/PeonReady1.wav",
+          "label": "Připraven k práci.",
+          "sha256": "4d73d9916649fe0429041b5712ead05b041a0e13bb735161f2b3fb7b1508f2b2"
+        },
+        {
+          "file": "sounds/PeonWhat4.wav",
+          "label": "Něco potřebuješ?",
+          "sha256": "74eac67277179b0e3e211c0fb4069d6f820a9a6acfb12ed241e2baa569d32589"
+        },
+        {
+          "file": "sounds/PeonYes1.wav",
+          "label": "Zvládnu to.",
+          "sha256": "cceb9bb323e6c9b8387329d4dc0a0088831ede08e116e3612eb2569d5fb592d3"
+        },
+        {
+          "file": "sounds/PeonYes2.wav",
+          "label": "Rád.",
+          "sha256": "73766a8fa9052a89a86f5c6c86586f682f669677121a2d260d33a40c62d49981"
+        },
+        {
+          "file": "sounds/PeonYes3.wav",
+          "label": "Práce, práce.",
+          "sha256": "bccbcf294e2e612a01a62d0501cebaaffec98278b959a0c24ae3a582c3235cd0"
+        },
+        {
+          "file": "sounds/PeonYesAttack1.wav",
+          "label": "Dobře.",
+          "sha256": "e46e64f72c5e73b6e7876aa6ae0796d0531fae771009b181f6a668ca23385f59"
+        },
+        {
+          "file": "sounds/PeonYesAttack3.wav",
+          "label": "Rád.",
+          "sha256": "bbfda2da68e2055525e37a2c3bb1d6a77d09d91c78d31a77dcfdc49998f11b15"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/PeonPissed4.wav",
+          "label": "Já nejsem ten druh orka!",
+          "sha256": "979e22a8cd5c43d1eab4e27f2ae42bc66b72e6621f0e3ea5608cfee3c44bcba2"
+        },
+        {
+          "file": "sounds/PeonDeath.wav",
+          "label": "Ugh.",
+          "sha256": "2bd6d6d5a01f44a4b5b1a335e93ca3c09b050497f90215d80b15002b8964622b"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/PeonWhat4.wav",
+          "label": "Něco potřebuješ?",
+          "sha256": "74eac67277179b0e3e211c0fb4069d6f820a9a6acfb12ed241e2baa569d32589"
+        },
+        {
+          "file": "sounds/PeonWhat2.wav",
+          "label": "Hmm?",
+          "sha256": "7c52bf2719865065d5a477cc2a5da7ff58f45a73d0a82ef79856db3dc92bed8e"
+        },
+        {
+          "file": "sounds/PeonWhat3.wav",
+          "label": "Co chceš?",
+          "sha256": "9c3e0d349b31b26f2f15c7eb6979f9909a716c056e25030c4fa6f6dba80cc98e"
+        },
+        {
+          "file": "sounds/PeonWhat1.wav",
+          "label": "Ano?",
+          "sha256": "6a4d075d65fee332f627c571c11933ee05f0406424a1585a205ffc1ec08833ad"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/PeonWarcry1.wav",
+          "label": "Proč ne?",
+          "sha256": "b9dee1fde2a417526b15a30122d79e817158c0fb504033faf1d05d21525e8079"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/PeonPissed1.wav",
+          "label": "Cožééé?",
+          "sha256": "210e24246b7d4e7827f276d448d8eb8612e42a1ee4079ce1cf081e591daf7fc4"
+        },
+        {
+          "file": "sounds/PeonPissed2.wav",
+          "label": "Nech mě, mám práci!",
+          "sha256": "0df91b203fad18a6103a813171c77685415c4e85735606cb3074b1f9754038e6"
+        },
+        {
+          "file": "sounds/PeonPissed3.wav",
+          "label": "Teď není čas na hraní.",
+          "sha256": "8d31a787a3433a7bdd1468dbae176f1cd58eb5f397d49067cbedcf045485093e"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc_medic",
+  "display_name": "StarCraft Medic",
+  "version": "2.0.0",
+  "author": {
+    "name": "kschmidtjr1",
+    "github": "kschmidtjr1"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/PreppedAndReady.mp3",
+          "label": "Prepped and ready.",
+          "sha256": "0c1f0f51c58a61e605f4317f1c0dfe3d7011d77c5fd431f7118deb4a36d116c1"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/RightAway.mp3",
+          "label": "Right away.",
+          "sha256": "5d788bd17e7085130d9c996367ebc98cbcf5f1d411533cff296cce775b5f1431"
+        },
+        {
+          "file": "sounds/Stat.mp3",
+          "label": "Stat!",
+          "sha256": "c9474a1f08fe01a2c524ecd5e19b837121501af9c10e24d0b9bd855f444da350"
+        },
+        {
+          "file": "sounds/ImOnTheJob.mp3",
+          "label": "I'm on the job!",
+          "sha256": "d62332f4c7620b58e88624df1277645327549d714b667ee30f99726b429007b0"
+        },
+        {
+          "file": "sounds/OnMyWay.mp3",
+          "label": "On my way!",
+          "sha256": "3d44885e8e0623ca1cb6098db7c47646547c073f2c938f3753f837f34494cffe"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/NeedMedicalAttention.mp3",
+          "label": "Need medical attention?",
+          "sha256": "77914faf1142595ce09a4a64e7cc9d328043cddfd0839ba51e10e5e220de5819"
+        },
+        {
+          "file": "sounds/DidSomeonePageMe.mp3",
+          "label": "Did someone page me?",
+          "sha256": "450b6d7ddcb772e2ae4dcdddcc2837e531b10480c09536c4a8cedcbdf0e63ef6"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/Death1.mp3",
+          "label": "Death",
+          "sha256": "213cc2f0931bddf84815fbda9f9c96ee0e5caf5fe6cb8dbbab6526850af884ca"
+        },
+        {
+          "file": "sounds/HesDeadJim.mp3",
+          "label": "He's dead, Jim.",
+          "sha256": "b34c0eb01ea11120408a6bf1f07c4ead3ed85a977c4e7687d94c0684e1210371"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/StateTheNature.mp3",
+          "label": "State the nature of your medical emergency.",
+          "sha256": "a79da0aef7e0d838971207892051d7ce743dfdd1990d62368f46443460b46bc7"
+        },
+        {
+          "file": "sounds/WhereDoesItHurt.mp3",
+          "label": "Where does it hurt?",
+          "sha256": "ec98507b3c7a64c0eddf9d989bc66214595a0c5de323a5e574a22a2ddbe686f6"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/AlreadyCheckedYouOut.mp3",
+          "label": "I've already checked you out commander.",
+          "sha256": "5f9b3cc425038019c322a96c3a5f7bbf5ddd0e2b36a2116f20b395572a2d27df"
+        },
+        {
+          "file": "sounds/AnotherPhysical.mp3",
+          "label": "You want another physical?",
+          "sha256": "46549c0785fe6b5ff138c4721d7b0033469b777e532bb612a0c6221056724b97"
+        },
+        {
+          "file": "sounds/TurnYourHeadAndCough.mp3",
+          "label": "Turn your head and cough.",
+          "sha256": "82513ae55ed88f2cd14bbb642395324d3766b1b692c3ee172b0aa3eb56ade62f"
+        },
+        {
+          "file": "sounds/ReadyForYourSpongeBath.mp3",
+          "label": "Ready for your sponge-bath?",
+          "sha256": "5cffebcf84676e46b9c28d6c89119cd7c6c6a5ee63a973b4c86cf4c85d85fea3"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/EKGIsFlatlining.mp3",
+          "label": "His EKG is flatlining! Give me a defib stat!",
+          "sha256": "97ed160904d61be5fff9b0022314df5fc2632b2e86aede2636b0e1c8e548c295"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1175 @@
+{
+  "cesp_version": "1.0",
+  "name": "warcraft3-mix",
+  "display_name": "Warcraft III Mix CZ",
+  "version": "1.0.0",
+  "author": {
+    "name": "SgtMarmite",
+    "github": "SgtMarmite"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "cs",
+  "tags": [
+    "warcraft",
+    "warcraft3",
+    "blizzard",
+    "mix",
+    "rts"
+  ],
+  "description": "Mix ikonických českých hlášek z Warcraft III od různých jednotek a hrdinů.",
+  "categories": {
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/AbominationWhat1.wav",
+          "label": "AbominationWhat1",
+          "sha256": "0d2a8131ced26145eb18ae7f826ab3a3544cfc579f42c113e6f016a1f93729e5"
+        },
+        {
+          "file": "sounds/AcolyteWhat3.wav",
+          "label": "AcolyteWhat3",
+          "sha256": "592e5e708584bc8907273c6b087a2e36988986f2c0ec5871d9d3693f82d53ef6"
+        },
+        {
+          "file": "sounds/ArcherWhat2.wav",
+          "label": "ArcherWhat2",
+          "sha256": "0083d104e048c1db90b5335d56f7fced9217542fb43b3077f59f1af1437d4aff"
+        },
+        {
+          "file": "sounds/ArcherWhat3.wav",
+          "label": "ArcherWhat3",
+          "sha256": "43651149f2693e7e477c9bb9ff9a07ea87ebc72e1260678a42ab5ee02f5c05d7"
+        },
+        {
+          "file": "sounds/ArcherWhat4.wav",
+          "label": "ArcherWhat4",
+          "sha256": "396496d588e9ff1415566d349b95b49674a8394c9d66b25d3fc63527454dd2d9"
+        },
+        {
+          "file": "sounds/ArthasWhat5.wav",
+          "label": "ArthasWhat5",
+          "sha256": "03d1940d89b1050aab6ed363d04e983bf0be6a0cf6f7ab0287328239050a7778"
+        },
+        {
+          "file": "sounds/CaptainWhat3.wav",
+          "label": "CaptainWhat3",
+          "sha256": "bd5e8a20c9e834d840a312fd49f4abc58fc2711e350c2476fdbfba8ed6900a57"
+        },
+        {
+          "file": "sounds/CryptFiendWhat2.wav",
+          "label": "CryptFiendWhat2",
+          "sha256": "6014176ef162b86983ec09294f1cc73d9fef93b9d64a7460b40b474d5c6e0106"
+        },
+        {
+          "file": "sounds/CryptFiendWhat4.wav",
+          "label": "CryptFiendWhat4",
+          "sha256": "9becc6e29114ecb69fa5565cc425e3ed3069de278e3004b4a4c9592644a8b09b"
+        },
+        {
+          "file": "sounds/DemonHunterMorphedWhat4.wav",
+          "label": "DemonHunterMorphedWhat4",
+          "sha256": "53e03d0ab50e2e77c8a9e86814c1a94963652e9636ad304eef0f0a63883237eb"
+        },
+        {
+          "file": "sounds/DemonHunterMorphedWhat5.wav",
+          "label": "DemonHunterMorphedWhat5",
+          "sha256": "0f58b1bab58065efaa23821949b3e3c5d2e3b90c7968d4800d369856e7a404e3"
+        },
+        {
+          "file": "sounds/DragonHawkWhat3.wav",
+          "label": "DragonHawkWhat3",
+          "sha256": "c0ce270f028fcbae2e517ba527b82407ba232a1305a76f89204fee623103ff76"
+        },
+        {
+          "file": "sounds/DragonHawkWhat5.wav",
+          "label": "DragonHawkWhat5",
+          "sha256": "62dfd0a8f3c1b20b6dd7bca625b5ffda89ce6024987f990d64001d038a8a0fef"
+        },
+        {
+          "file": "sounds/EvilSylvanasWhat4.wav",
+          "label": "EvilSylvanasWhat4",
+          "sha256": "8e98df9ca550188cbfea52af94bea61196f05e89404db14467dc592d0a26fcc0"
+        },
+        {
+          "file": "sounds/FootmanPissed3.wav",
+          "label": "FootmanPissed3",
+          "sha256": "fb0d4018b240b55def057cf1fde6d245718b9ec711e5b7bbdce5f8ca28ef494d"
+        },
+        {
+          "file": "sounds/FootmanWhat1.wav",
+          "label": "FootmanWhat1",
+          "sha256": "d98007eaaadbd4e9baf4bc2aebe8580b8549a91f524355235109a79bddee46e5"
+        },
+        {
+          "file": "sounds/GromWhat1.wav",
+          "label": "GromWhat1",
+          "sha256": "2b078d70443077e05d85432a0767423875119e2b5b0eb71b0a0d1850a96a3609"
+        },
+        {
+          "file": "sounds/GruntWhat2.wav",
+          "label": "GruntWhat2",
+          "sha256": "4f03c7c25c3a5c67c4112ca14b8a0d50e5657d8a4da6d17165f7cfaef5ce4b0f"
+        },
+        {
+          "file": "sounds/GruntWhat3.wav",
+          "label": "GruntWhat3",
+          "sha256": "682c9e9dc7a02f05791a02b9c7706647cf7ae9ef0e888db4b5c217e82d93aa13"
+        },
+        {
+          "file": "sounds/GyrocopterWhat2.wav",
+          "label": "GyrocopterWhat2",
+          "sha256": "200358d186e8473fbe3ec4c3555519aaac154ed8328e09d6517447bdf308b9c2"
+        },
+        {
+          "file": "sounds/GyrocopterWhat4.wav",
+          "label": "GyrocopterWhat4",
+          "sha256": "e820b46ed4cd769803138858db2a1175c2017689b1127e6ca7766650acd5c084"
+        },
+        {
+          "file": "sounds/HeadHunterWhat3.wav",
+          "label": "HeadHunterWhat3",
+          "sha256": "ab6d83bbf2a2425b4f715daf34140480aeb2cc926ae6a3f4e6af1011d8d5c396"
+        },
+        {
+          "file": "sounds/HeroArchmageWhat2.wav",
+          "label": "HeroArchmageWhat2",
+          "sha256": "e99ca814be1ca49da536a3342bc67cbaba046a033bb86e14733a7440831b2ef7"
+        },
+        {
+          "file": "sounds/HeroArchmageWhat4.wav",
+          "label": "HeroArchmageWhat4",
+          "sha256": "e0a1d2b2bf6b12a5535959e34bc65855859f7ef382b50017d90ac4d90e3ae790"
+        },
+        {
+          "file": "sounds/HeroLichWhat2.wav",
+          "label": "HeroLichWhat2",
+          "sha256": "61c00dcd441c4ce2a3952d615267883579e8617691a3df5b7e8eb69d9afa4aa1"
+        },
+        {
+          "file": "sounds/HeroTaurenChieftainWhat1.wav",
+          "label": "HeroTaurenChieftainWhat1",
+          "sha256": "3f5933750604ce76b3153f04477eb5653bcae9996182f9f271fe03fe671fbe29"
+        },
+        {
+          "file": "sounds/HeroTaurenChieftainWhat2.wav",
+          "label": "HeroTaurenChieftainWhat2",
+          "sha256": "261593a497a358f38d6ef20a805482c565cf0e9ec0c1e9486e182f8ab488ac96"
+        },
+        {
+          "file": "sounds/HeroTaurenChieftainWhat3.wav",
+          "label": "HeroTaurenChieftainWhat3",
+          "sha256": "4c496d336fb15fd49438bf97bf996ee1caa561c37f6e8182d3ccc52d8b26413c"
+        },
+        {
+          "file": "sounds/HuntressWhat1.wav",
+          "label": "HuntressWhat1",
+          "sha256": "12b2f7e44008197f156882505af3722a092a4988dae8cd6e91ce120cc1fda6d2"
+        },
+        {
+          "file": "sounds/HuntressWhat4.wav",
+          "label": "HuntressWhat4",
+          "sha256": "4502a9a5d22e9c8ad911d9a3852f92fa4668a32600369caf64d1db86bb968e65"
+        },
+        {
+          "file": "sounds/KaelReady1.wav",
+          "label": "KaelReady1",
+          "sha256": "e546c3d49a9e6490633ea134a6a62c22c1300926770c4d06c68510f41197559a"
+        },
+        {
+          "file": "sounds/KnightWhat2.wav",
+          "label": "KnightWhat2",
+          "sha256": "e70875c02f3495febc84a5194eaab5da0050cbbd266b439081a510026bca09af"
+        },
+        {
+          "file": "sounds/LadyVashjWhat2.wav",
+          "label": "LadyVashjWhat2",
+          "sha256": "f1ed1d29cc4cc71656009864cc88d4cd5023b0b96037e12f3e7b7961db3eea69"
+        },
+        {
+          "file": "sounds/MuradinWhat3.wav",
+          "label": "MuradinWhat3",
+          "sha256": "81c172ce17722ecfbd951a531b0ed46d41b189efc430e897d3750a02622eba58"
+        },
+        {
+          "file": "sounds/NecromancerWhat3.wav",
+          "label": "NecromancerWhat3",
+          "sha256": "5cf80348907551adc444817565248773337d84d7a3cd2aad26a0502d79d9afda"
+        },
+        {
+          "file": "sounds/NecromancerYes4.wav",
+          "label": "NecromancerYes4",
+          "sha256": "f3a9e724b1f95f788652cd000b4ab6e0736aa7ab957050c2a7e68dd99b51c85f"
+        },
+        {
+          "file": "sounds/RokhanWarcry1.wav",
+          "label": "RokhanWarcry1",
+          "sha256": "75e401516b8128c102d2b3b82d511bb1d6fe5e64a42a1fdc591600c20f149015"
+        },
+        {
+          "file": "sounds/SorceressPissed1.wav",
+          "label": "SorceressPissed1",
+          "sha256": "9ab54f141671107003910ea1eb3ca3fbb0bde983d0e7c874790c4d761c4ea975"
+        },
+        {
+          "file": "sounds/TaurenWhat1.wav",
+          "label": "TaurenWhat1",
+          "sha256": "c2c70f6df54d798a7013366a4c2699b8f99bac7a2f94b75483eeb13ff15aa7ea"
+        },
+        {
+          "file": "sounds/TaurenWhat3.wav",
+          "label": "TaurenWhat3",
+          "sha256": "2e29a88150a0f5d68f5bc3925b6a4952ccd04c0b8bcfa592c3fb5303c4889448"
+        },
+        {
+          "file": "sounds/TichondriusWhat1.wav",
+          "label": "TichondriusWhat1",
+          "sha256": "7b735927ffe94d9394aa5b3764827880f61fa73512c031ba1be9b9b110aabd8f"
+        },
+        {
+          "file": "sounds/TichondriusWhat2.wav",
+          "label": "TichondriusWhat2",
+          "sha256": "7791d036e4df2433aad223efacd296f3105aefa30e60c1c095f7b24eca671b0f"
+        },
+        {
+          "file": "sounds/UtherPissed3.wav",
+          "label": "UtherPissed3",
+          "sha256": "820fadea3ced14aab5b812f89178fe82697dff899514eb791b6fed1d98c5d862"
+        },
+        {
+          "file": "sounds/UtherWhat4.wav",
+          "label": "UtherWhat4",
+          "sha256": "b96e18b320d5c557266eab1f995800adb01e21aefadf43fae67cbf1fa6e7cefe"
+        },
+        {
+          "file": "sounds/VarimathrasWhat5.wav",
+          "label": "VarimathrasWhat5",
+          "sha256": "785500dc50658e8d5a0f7388612e0e2a600a19a0a490912d2aecf85fcb08cf89"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/AcolytePissed3.wav",
+          "label": "AcolytePissed3",
+          "sha256": "1deec0c99c8ee6c24b855a8f180e633c2a1338d07ab4d626e6c02f14b4c39169"
+        },
+        {
+          "file": "sounds/GhoulWhat4.wav",
+          "label": "GhoulWhat4",
+          "sha256": "c2389d32ffe8efff62ed10682912ff66b653e46595b6fdbcabfdb6b9853b0e09"
+        },
+        {
+          "file": "sounds/HeroArchmagePissed4.wav",
+          "label": "HeroArchmagePissed4",
+          "sha256": "600097674a4d9a4864eb3df83e2c3f562c4102042d8f3b06ff1343eefd49f280"
+        },
+        {
+          "file": "sounds/HeroFarseerPissed4.wav",
+          "label": "HeroFarseerPissed4",
+          "sha256": "487581bb7149d63612fdcb31ff2e1b477f556ff4b24d7bab7a85d056fddddd32"
+        },
+        {
+          "file": "sounds/JainaYesAttack2.wav",
+          "label": "JainaYesAttack2",
+          "sha256": "ceca1ab79982e8ec7d41c2f80d89005770f3e19fffb2944d0038b33c3dc78478"
+        }
+      ]
+    },
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/AbominationReady1.wav",
+          "label": "AbominationReady1",
+          "sha256": "1da78e69c2c34568628c822374fb24fba503807cde0efa30f9fcae4ca64f7fae"
+        },
+        {
+          "file": "sounds/AcolyteReady1.wav",
+          "label": "AcolyteReady1",
+          "sha256": "7ddfa0a8c8acfdf1f051041feab4caf96b0c3ed545caeea4fa3ce47b56f5b159"
+        },
+        {
+          "file": "sounds/AkamaWhat1.wav",
+          "label": "AkamaWhat1",
+          "sha256": "436ed8cb15db5d61c323f1e6acf9e517b9ff696211edf009bca10f30df3e025a"
+        },
+        {
+          "file": "sounds/AkamaWhat3.wav",
+          "label": "AkamaWhat3",
+          "sha256": "d7fde3bcd9c5947fa946fb188fbc0149211854c4ad749f18d82b9e43cde5bb13"
+        },
+        {
+          "file": "sounds/ArcherReady1.wav",
+          "label": "ArcherReady1",
+          "sha256": "3c614526e34181627e59b677a9583c15c5201946b3f3cbd66538c44f1b4d67a8"
+        },
+        {
+          "file": "sounds/BansheeWhat1.wav",
+          "label": "BansheeWhat1",
+          "sha256": "abb2fd8702c6dfa19cf8f95cbe66b8be7987b7383ed3db3feff08fcec649367b"
+        },
+        {
+          "file": "sounds/BansheeWhat2.wav",
+          "label": "BansheeWhat2",
+          "sha256": "e3b9d13e9c0b613e75ab46aa53563104bc679e9f88b8e200fb797f54030b9d94"
+        },
+        {
+          "file": "sounds/BansheeWhat3.wav",
+          "label": "BansheeWhat3",
+          "sha256": "42445b37fd277b5fff59b0f00c3a0766957c68d52b2abe7cc4b6cc5791d104a3"
+        },
+        {
+          "file": "sounds/BansheeWhat4.wav",
+          "label": "BansheeWhat4",
+          "sha256": "d24d0043b629502bc69e251041d65df3739a529a26e8c3383df3e3bda3611732"
+        },
+        {
+          "file": "sounds/BansheeWhat5.wav",
+          "label": "BansheeWhat5",
+          "sha256": "598ef8bded60313ec9daa05f6eef500a0f5f0e12cfc58e1e12530295981f031a"
+        },
+        {
+          "file": "sounds/CryptFiendWhat3.wav",
+          "label": "CryptFiendWhat3",
+          "sha256": "5f2829add8341d607f7cfb1df024d851ac57d07f12318a6e5dd373a50ec2ef27"
+        },
+        {
+          "file": "sounds/DraeneiWhat1.wav",
+          "label": "DraeneiWhat1",
+          "sha256": "ccb7355cd44c21553613316040a3f868fb3d203cf8ffbe0be7a3b1e1f862335d"
+        },
+        {
+          "file": "sounds/DraeneiWhat4.wav",
+          "label": "DraeneiWhat4",
+          "sha256": "3acd9de95bca50c137091b41af0026c1bbe4db81f8969a498b7f2b43e7403c09"
+        },
+        {
+          "file": "sounds/DraeneiWhat5.wav",
+          "label": "DraeneiWhat5",
+          "sha256": "2fa062974c233c8fe8f7bd45eb078af47bfc63157505c85161e429d674a2e45a"
+        },
+        {
+          "file": "sounds/DraeneiYes2.wav",
+          "label": "DraeneiYes2",
+          "sha256": "b185ac858d21d2bebd5d6835d38ce9d4a1a9b29b2838974d5a22ea3211468bdc"
+        },
+        {
+          "file": "sounds/DryadWhat1.wav",
+          "label": "DryadWhat1",
+          "sha256": "499097480dd36686dab8146c8ca83dbfd6a84173e81c3e0ebf0966027a49438c"
+        },
+        {
+          "file": "sounds/DryadWhat2.wav",
+          "label": "DryadWhat2",
+          "sha256": "b7419412d515e95980e8411181c25c5aed618f0be8c43208508dadb2838a1079"
+        },
+        {
+          "file": "sounds/EvilArthasWhat4.wav",
+          "label": "EvilArthasWhat4",
+          "sha256": "f8a10f4d68068b4309df69274900f68ab700094c26f2fca4f2b77553b5a8fdf3"
+        },
+        {
+          "file": "sounds/FootmanWhat2.wav",
+          "label": "FootmanWhat2",
+          "sha256": "2516e8187a8a893093cc325665672f6ebadec6630913804764b020e1db26af1e"
+        },
+        {
+          "file": "sounds/GruntPissed1.wav",
+          "label": "GruntPissed1",
+          "sha256": "c670cd2ca964cbfdb426711ce622a37069249b28e7d9fb2f8eafb5a2490fe9b1"
+        },
+        {
+          "file": "sounds/GyrocopterWhat5.wav",
+          "label": "GyrocopterWhat5",
+          "sha256": "dcef1a34de96a9d976cc2f84327482a0cfe50a48466dc952077306fb5124a82a"
+        },
+        {
+          "file": "sounds/HeadHunterPissed1.wav",
+          "label": "HeadHunterPissed1",
+          "sha256": "1b3d6d488c70869a680247ec4ce8be7898f9b770f0a8f7ff19c6f19636edb685"
+        },
+        {
+          "file": "sounds/HeroArchmageWhat3.wav",
+          "label": "HeroArchmageWhat3",
+          "sha256": "950ed504cbc9c7d6c87ef796aecc91ca961152582da16edb4d00e4d7ef0daab4"
+        },
+        {
+          "file": "sounds/HeroArchmageYes1.wav",
+          "label": "HeroArchmageYes1",
+          "sha256": "b4e324245de87c956cc63a9e6ee161046e2380f646a25d6b2ea73e01e3249d8d"
+        },
+        {
+          "file": "sounds/HeroBlademasterWhat1.wav",
+          "label": "HeroBlademasterWhat1",
+          "sha256": "dc3679cff7e8b67abbeedeabd7df3348df9dec6ecf2d15a45dce9b8fd655df03"
+        },
+        {
+          "file": "sounds/HeroBlademasterWhat2.wav",
+          "label": "HeroBlademasterWhat2",
+          "sha256": "8d0cbaeab2c7c4563de73e6f6118d4ce9567f0e6140c831dd0bba5abd69d2314"
+        },
+        {
+          "file": "sounds/HeroBlademasterWhat3.wav",
+          "label": "HeroBlademasterWhat3",
+          "sha256": "589c93d52e486fc2a8792e697680a7cc27ff122c52ef4b4457b38b593c2b6ec2"
+        },
+        {
+          "file": "sounds/HeroFarseerWhat4.wav",
+          "label": "HeroFarseerWhat4",
+          "sha256": "a9758cc9c091eec2cbf752748da3de4206b7f5f735fa83bdd77fd2a71e02d372"
+        },
+        {
+          "file": "sounds/HeroTaurenChieftainWhat4.wav",
+          "label": "HeroTaurenChieftainWhat4",
+          "sha256": "0b9012e47b55bdd9878109ea7f58ba1e0649b112486bb812d91b534962f6494c"
+        },
+        {
+          "file": "sounds/JainaWhat4.wav",
+          "label": "JainaWhat4",
+          "sha256": "c2a9d282abfa8d18e371c11a7599b916b3cfd3ec5d12b10ceee2ddea7ac12d90"
+        },
+        {
+          "file": "sounds/KelThuzadWhat1.wav",
+          "label": "KelThuzadWhat1",
+          "sha256": "e88eb3e3ad3768b2d8cb9a56e67be3801e85c2fe335eaccc1ef4c0b72142c62e"
+        },
+        {
+          "file": "sounds/KelThuzadWhat3.wav",
+          "label": "KelThuzadWhat3",
+          "sha256": "7c656697dce6b94c25114fc1b211ba558ddfc54897ef40da28b119bd1e7ca587"
+        },
+        {
+          "file": "sounds/KnightWhat1.wav",
+          "label": "KnightWhat1",
+          "sha256": "58fbbab1a1223fe54c65e2cc05f2f349cf620e89ea957cd5e0dcf0d90284a91d"
+        },
+        {
+          "file": "sounds/MortarTeamWhat4.wav",
+          "label": "MortarTeamWhat4",
+          "sha256": "9f376f812b7297cd18fbc13675f5d0eccf267b42d097639969c126c2f1245b85"
+        },
+        {
+          "file": "sounds/NerubianCryptLordReady1.wav",
+          "label": "NerubianCryptLordReady1",
+          "sha256": "ea4470232c6410306e84d5b2b401b8be62a7b1c9f42e454e94cf36d125493d09"
+        },
+        {
+          "file": "sounds/PeasantReady1.wav",
+          "label": "PeasantReady1",
+          "sha256": "f1e23d806cdc96dc877dd1e391e85370960f94ba83466cf5d9838a5a148955ce"
+        },
+        {
+          "file": "sounds/PriestReady1.wav",
+          "label": "PriestReady1",
+          "sha256": "92bc22063c4554d62bbc961269e878d5d70279dff57e0e1cc5978691d796b58f"
+        },
+        {
+          "file": "sounds/PriestWhat1.wav",
+          "label": "PriestWhat1",
+          "sha256": "0a917784ce9a48d904c116183ea76ba153b76e550631e2388400eef884f34397"
+        },
+        {
+          "file": "sounds/PriestWhat3.wav",
+          "label": "PriestWhat3",
+          "sha256": "aacd014ad748b18958fc92b42147392bc1dac649ccc1bdf755a8bd626f0ef25c"
+        },
+        {
+          "file": "sounds/PriestYes1.wav",
+          "label": "PriestYes1",
+          "sha256": "9d1268a787c6687f479532edd754ed4ea617072f90b806732538d7946eecdeac"
+        },
+        {
+          "file": "sounds/RiflemanReady1.wav",
+          "label": "RiflemanReady1",
+          "sha256": "02d6b787a5eb6254d8ad0d25d236270a3f63d9d9dc0badbee002b63fda2123ae"
+        },
+        {
+          "file": "sounds/RiflemanWhat4.wav",
+          "label": "RiflemanWhat4",
+          "sha256": "1125b8a0b14b68688595bc16888b541aeaf5223ac19544db8a8de6130a465b75"
+        },
+        {
+          "file": "sounds/SorceressWhat1.wav",
+          "label": "SorceressWhat1",
+          "sha256": "fee8307a4b4d0985141c17a8c6b3ebddf42faa391e452e7217ca35b67a696363"
+        },
+        {
+          "file": "sounds/SorceressWhat4.wav",
+          "label": "SorceressWhat4",
+          "sha256": "7314e31607c8c8172c52cdc9ecfc38b3bb618c4f19eba73826912773ef19a7d4"
+        },
+        {
+          "file": "sounds/SorceressWhat5.wav",
+          "label": "SorceressWhat5",
+          "sha256": "a5d056608d5b01d325b571ed536ab98ba79f6cf0518f52b4abe25a28089a3b61"
+        },
+        {
+          "file": "sounds/VarimathrasWhat4.wav",
+          "label": "VarimathrasWhat4",
+          "sha256": "8c55b80531bfc468a59a9c94bc12cada72b4b115fea19149357295a9fe3ab69d"
+        },
+        {
+          "file": "sounds/WhiteTaurenWhat2.wav",
+          "label": "WhiteTaurenWhat2",
+          "sha256": "d9ba7a16865894a911d81dcb3eadb621afafe049d7c5c74fdf622693b14bea06"
+        },
+        {
+          "file": "sounds/WhiteTaurenWhat3.wav",
+          "label": "WhiteTaurenWhat3",
+          "sha256": "bd800a454d936f9e44a4b32fbfadde4aac8f68e858f5554fcb77cb2c4ec68979"
+        },
+        {
+          "file": "sounds/WolfriderWhat3.wav",
+          "label": "WolfriderWhat3",
+          "sha256": "af8b8cb73535c45feae5d0d61a86e391164026d822ec9dbd47aaa55687640e68"
+        },
+        {
+          "file": "sounds/WyvernRiderReady1.wav",
+          "label": "WyvernRiderReady1",
+          "sha256": "cb3681f1d65767e43ddb8b8fba5ca150835c6d69e02120be945f5de5ee8aa1eb"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/AcolyteYes1.wav",
+          "label": "AcolyteYes1",
+          "sha256": "31a700e58615ecb42ad075c5d97ed58f1a3bdbbcb4a834d770782fa1de2517bb"
+        },
+        {
+          "file": "sounds/AcolyteYes2.wav",
+          "label": "AcolyteYes2",
+          "sha256": "11a7e425a4d55ee72f658ea9da8d92a63a90464ea8031335706f6f17661c24fd"
+        },
+        {
+          "file": "sounds/AcolyteYes4.wav",
+          "label": "AcolyteYes4",
+          "sha256": "49b4f6fd177c4a952ff1bb799120eca049ea0dea8de26ff4e32177652d75e1c8"
+        },
+        {
+          "file": "sounds/ArcherYes4.wav",
+          "label": "ArcherYes4",
+          "sha256": "01ea8a1754e6be47ccc554b93c266ab04130e0e919ad887588e7b5c75072ee51"
+        },
+        {
+          "file": "sounds/ArthasPissed6.wav",
+          "label": "ArthasPissed6",
+          "sha256": "adf306b88a9aa6621e4d8101ce5ba45540560532b45a6d8810f3f0f11ed97fdb"
+        },
+        {
+          "file": "sounds/ArthasYes1.wav",
+          "label": "ArthasYes1",
+          "sha256": "ebc0219cae391dd18641c77e8837743196828593e77f0ac4ef5629a03966ed3a"
+        },
+        {
+          "file": "sounds/ArthasYes2.wav",
+          "label": "ArthasYes2",
+          "sha256": "09c77f945e813f3aa5a565e8355269546e164e8da425b2936bd8c15a3a35ad60"
+        },
+        {
+          "file": "sounds/ArthasYes3.wav",
+          "label": "ArthasYes3",
+          "sha256": "03d4d93df91712ff60f9b68a8517e643f21a7ef24f7f1dcb59d855704d48eb94"
+        },
+        {
+          "file": "sounds/CaptainYes2.wav",
+          "label": "CaptainYes2",
+          "sha256": "826201aeb3c5e049a13cb9e677db9a6f09fc9e7bf754275c8be422e06e3b8668"
+        },
+        {
+          "file": "sounds/CryptFiendYes2.wav",
+          "label": "CryptFiendYes2",
+          "sha256": "f6c7176650ec4deb9014b458e3d0fc5a3dc740080699f9a18244e12df7e5e5e1"
+        },
+        {
+          "file": "sounds/CryptFiendYes4.wav",
+          "label": "CryptFiendYes4",
+          "sha256": "c463be92c24c279d848df5a23401c24fdc2110ec50d6cc9f138fa0c133f097d8"
+        },
+        {
+          "file": "sounds/DraeneiYes3.wav",
+          "label": "DraeneiYes3",
+          "sha256": "871b88d4c41cbd9bf59273e28e08ab5203ba7724a5c23e8907439db9059dd2d5"
+        },
+        {
+          "file": "sounds/DraeneiYes4.wav",
+          "label": "DraeneiYes4",
+          "sha256": "abeed4d9dd74b22bca0fc6f565c16e43939b173406dcac10e558194346d2ee8f"
+        },
+        {
+          "file": "sounds/DraeneiYes5.wav",
+          "label": "DraeneiYes5",
+          "sha256": "51bd85ccb95bf77e9fe38c38eb0b58e6d1d55501365b94cd985a04522aa4135e"
+        },
+        {
+          "file": "sounds/DragonHawkPissed5.wav",
+          "label": "DragonHawkPissed5",
+          "sha256": "ac588637c530ae4b6570e3fa0908227f4848e001187db101a6a991b3edaee3f6"
+        },
+        {
+          "file": "sounds/DragonHawkYes1.wav",
+          "label": "DragonHawkYes1",
+          "sha256": "c903866dde3b3333a427aac1ef8b3ff208efaa6cc898235afdd8178588d5e48d"
+        },
+        {
+          "file": "sounds/EvilArthasYes3.wav",
+          "label": "EvilArthasYes3",
+          "sha256": "2dec8769836147978a1acfba09831b3f20d6f5a5da3d2bf2aa31de645c62b3b6"
+        },
+        {
+          "file": "sounds/FootmanWhat3.wav",
+          "label": "FootmanWhat3",
+          "sha256": "a1118220b0a9eefeeed13bb36fc629c9a3f65e097c96834969138a6ee5679669"
+        },
+        {
+          "file": "sounds/FootmanYes1.wav",
+          "label": "FootmanYes1",
+          "sha256": "3bc11152ecef41d3d6ee6536d0218b931218e29d28dc04980a2917e882a855c0"
+        },
+        {
+          "file": "sounds/FootmanYes3.wav",
+          "label": "FootmanYes3",
+          "sha256": "ac6cf5d12be5cdfa850d0e859c3a03f36f146950065118a72302ffa9b39c0e1f"
+        },
+        {
+          "file": "sounds/FootmanYes4.wav",
+          "label": "FootmanYes4",
+          "sha256": "5ef50dacaa2d18cdc374296bafcaa5d8a86130905f3e51bfdc21a440f662f372"
+        },
+        {
+          "file": "sounds/FurionPissed3.wav",
+          "label": "FurionPissed3",
+          "sha256": "3b2a9f63c5b72c13a3357ce177c812d1b446feb7b51c986f39cf27d9f64e0ce7"
+        },
+        {
+          "file": "sounds/FurionYes3.wav",
+          "label": "FurionYes3",
+          "sha256": "15335b019bc41b1948f0a8ba25b1778b39a6a4cc201e0d3f4be2154bd22d6361"
+        },
+        {
+          "file": "sounds/GromYes1.wav",
+          "label": "GromYes1",
+          "sha256": "4a473a02126fc9e649dc99bb2bc632b0778c1784def100fb819e81b11f9df1f2"
+        },
+        {
+          "file": "sounds/GromYes2.wav",
+          "label": "GromYes2",
+          "sha256": "a7e79adbda52a8b6c3ca5a17d89752e141fa5ed8a64bcf215e1aabd22fa5358a"
+        },
+        {
+          "file": "sounds/GyrocopterYes1.wav",
+          "label": "GyrocopterYes1",
+          "sha256": "4ee3aa58764b18029ccde39cc0dd6b1fd62648b491af7e6f310ef1fb049a8845"
+        },
+        {
+          "file": "sounds/GyrocopterYes2.wav",
+          "label": "GyrocopterYes2",
+          "sha256": "752034ab92a880073945da0962b1ed2f24cf31d080565148a155136e79433e2f"
+        },
+        {
+          "file": "sounds/GyrocopterYesAttack4.wav",
+          "label": "GyrocopterYesAttack4",
+          "sha256": "8f4f933ef60dde26afd3089339095f8a1c1e0b6eebd1ef91a07f418bcdbb31be"
+        },
+        {
+          "file": "sounds/HeadHunterYes2.wav",
+          "label": "HeadHunterYes2",
+          "sha256": "d5ab6f0d11e5dfa3c70ed88c7c67ce3b836ffb99ddd67d7d7009d5123351ca40"
+        },
+        {
+          "file": "sounds/HeadHunterYes3.wav",
+          "label": "HeadHunterYes3",
+          "sha256": "d3c903ba0d64cc7b30d33248e302b52ad67b9c10d5453a9b0577bac79cde2242"
+        },
+        {
+          "file": "sounds/HeadHunterYes4.wav",
+          "label": "HeadHunterYes4",
+          "sha256": "4a1c9354f34b5cb6bbe0a1d8ba2656289dfe040cd5a959ff4b8bcd886590ca15"
+        },
+        {
+          "file": "sounds/HeroArchmageYes2.wav",
+          "label": "HeroArchmageYes2",
+          "sha256": "2b25553cdb32f0ffc8beedb9c16120f604d1d704e6e576808dd5ab0f065a9270"
+        },
+        {
+          "file": "sounds/HeroArchmageYes3.wav",
+          "label": "HeroArchmageYes3",
+          "sha256": "4337b7a6fd4ef86b30e43ad6aa43dcf8df4f3f65fdcb1e2cd91cc13aa4400ce4"
+        },
+        {
+          "file": "sounds/HeroArchmageYes4.wav",
+          "label": "HeroArchmageYes4",
+          "sha256": "a96978ef53e0f6b8c4a649044e7e4ea7c67f06d846aae3fc8d25800d7505a4d7"
+        },
+        {
+          "file": "sounds/HeroBlademasterYes1.wav",
+          "label": "HeroBlademasterYes1",
+          "sha256": "e36f15fe570857bf05ccca9fac20dc2c4e18a83dd02acd6a74b9a42b58360f81"
+        },
+        {
+          "file": "sounds/HeroBlademasterYesAttack1.wav",
+          "label": "HeroBlademasterYesAttack1",
+          "sha256": "e97e31086a35564f210521490099199601b0e77d6b58336fb324715db100c789"
+        },
+        {
+          "file": "sounds/HeroFarseerYes2.wav",
+          "label": "HeroFarseerYes2",
+          "sha256": "6ede543d20bf4b1b09972212253d6de26681416e73d749a94783ddd98aae2c46"
+        },
+        {
+          "file": "sounds/HeroLichYes3.wav",
+          "label": "HeroLichYes3",
+          "sha256": "27fab5677f244dba5306d0f38dfc7dae62ac0d2ec0f658b591cf02a34ded7fe3"
+        },
+        {
+          "file": "sounds/HeroMoonPriestessWhat4.wav",
+          "label": "HeroMoonPriestessWhat4",
+          "sha256": "be74602d6bf4b98659e01d6a0da5c9545fc4211d783be9dd7764d373515c792a"
+        },
+        {
+          "file": "sounds/HeroTaurenChieftainYes1.wav",
+          "label": "HeroTaurenChieftainYes1",
+          "sha256": "2e2c6f84800b0c04102ba9c8ce7fc1e4e029bddd80e71ecc408f568e64094b66"
+        },
+        {
+          "file": "sounds/HeroTaurenChieftainYes2.wav",
+          "label": "HeroTaurenChieftainYes2",
+          "sha256": "dc81aa6323f8331578926fcbb7a8d91d17da59393d04586444e69c64c40ec882"
+        },
+        {
+          "file": "sounds/HeroTaurenChieftainYes4.wav",
+          "label": "HeroTaurenChieftainYes4",
+          "sha256": "7feb78f065dea2669d4e017676d8e0e5be6d2173cf770c26d4e582a14a8fb529"
+        },
+        {
+          "file": "sounds/HeroWardenYes2.wav",
+          "label": "HeroWardenYes2",
+          "sha256": "a4f04523526130baa26c6ce123dfb105c5bd6cc9943093bc38ed4e80b9530f45"
+        },
+        {
+          "file": "sounds/JainaYes1.wav",
+          "label": "JainaYes1",
+          "sha256": "9a120c30abc40f40fa516ac41b89b799c8208c00329d072e13b4350d344f39ad"
+        },
+        {
+          "file": "sounds/JainaYes2.wav",
+          "label": "JainaYes2",
+          "sha256": "54f6838e98c06d8d8720e1d9066545cc56a731747e594372be5698381bfaa747"
+        },
+        {
+          "file": "sounds/JainaYes3.wav",
+          "label": "JainaYes3",
+          "sha256": "e3db9fc106223859eede23267a3044d708fbea30788836c61fd6e688901a645d"
+        },
+        {
+          "file": "sounds/JainaYes4.wav",
+          "label": "JainaYes4",
+          "sha256": "6ef69556e7c52c6fc64774593ca61b8eb08c7f8caba699585eddb8e7533a37b7"
+        },
+        {
+          "file": "sounds/KaelYes1.wav",
+          "label": "KaelYes1",
+          "sha256": "69bfaa04788f319b1424d35a8aad153498d9302d51d77863f17c1fde2ca001bb"
+        },
+        {
+          "file": "sounds/KaelYes3.wav",
+          "label": "KaelYes3",
+          "sha256": "38bf8121389d7cff2982486c62c5e6a7cadce132e216ca6e16513cc3b33c08ce"
+        },
+        {
+          "file": "sounds/KelThuzadYes2.wav",
+          "label": "KelThuzadYes2",
+          "sha256": "46eeca4a914491d70b7a7d353fb8a73daa874b81899b691e5f043c2cc1d9c0dc"
+        },
+        {
+          "file": "sounds/KelThuzadYes4.wav",
+          "label": "KelThuzadYes4",
+          "sha256": "ef17f1151b716790b57d076a464dc2ffc3d800124e133721689e7547b559d944"
+        },
+        {
+          "file": "sounds/KnightYes2.wav",
+          "label": "KnightYes2",
+          "sha256": "0dde35bfa454a54342c9b3696043fa332c79f4663768178757fec5b7b4f1f0e7"
+        },
+        {
+          "file": "sounds/MortarTeamWhat1.wav",
+          "label": "MortarTeamWhat1",
+          "sha256": "bd2ab188dde9ebe78d08a8b4ba192300a6765663af4a779d72b03ea9b49f8810"
+        },
+        {
+          "file": "sounds/MortarTeamWhat2.wav",
+          "label": "MortarTeamWhat2",
+          "sha256": "1bc783fadac835a9c9bec1bd4ff359f5a804bbacf9aef50dc5db131516de9665"
+        },
+        {
+          "file": "sounds/MortarTeamYes5.wav",
+          "label": "MortarTeamYes5",
+          "sha256": "0bb341e41664d58883d858aa5ef1dac90b1863e7db5d2c8ebc56d9ae0a6f8ba0"
+        },
+        {
+          "file": "sounds/MuradinWhat4.wav",
+          "label": "MuradinWhat4",
+          "sha256": "4d566a8c7ce7fc6e739af8acf0f0df2f0c2a3fec9132122853c0991af0e4ef77"
+        },
+        {
+          "file": "sounds/MuradinYes2.wav",
+          "label": "MuradinYes2",
+          "sha256": "629e8f6f65573cf905288f2d7f99269f388ba2d9f142dfaaad2055ef21b5b229"
+        },
+        {
+          "file": "sounds/MuradinYes4.wav",
+          "label": "MuradinYes4",
+          "sha256": "f562974249dbfacbe2b89d141768f1230bf4f6a5521b42e0ccb4e94da0cdb765"
+        },
+        {
+          "file": "sounds/PeasantWhat3.wav",
+          "label": "PeasantWhat3",
+          "sha256": "2ba3480c9d1363a75c436edb957b1082089f792cda83ab77ab7840b0faea73bb"
+        },
+        {
+          "file": "sounds/PeasantYes1.wav",
+          "label": "PeasantYes1",
+          "sha256": "1f6231625220f212aeefad67d5cf0293d36b19bcadc3ea2bd24168a6e8b38bc4"
+        },
+        {
+          "file": "sounds/PeasantYes2.wav",
+          "label": "PeasantYes2",
+          "sha256": "97589dcfbfa3d3ca9b80d52b2ca8424cdcd893f6076e94e53e795a341d519e03"
+        },
+        {
+          "file": "sounds/PeasantYes3.wav",
+          "label": "PeasantYes3",
+          "sha256": "0cf5e93f23e220331d5d5b8b1f97c946719aad29593174e5c943bba35a8c02e9"
+        },
+        {
+          "file": "sounds/PeasantYes4.wav",
+          "label": "PeasantYes4",
+          "sha256": "70af8be999eeb830b08628af77ac763c5b0fa335b12a4900d20071696cb937b2"
+        },
+        {
+          "file": "sounds/PeasantYesAttack1.wav",
+          "label": "PeasantYesAttack1",
+          "sha256": "90a6293576add27f376a612194bd235601f6125b2f4e4b68de895f50d5bd6fc5"
+        },
+        {
+          "file": "sounds/PeasantYesAttack2.wav",
+          "label": "PeasantYesAttack2",
+          "sha256": "52c69ede795223ccc95ebb963deff67f931987ce2ff3fb75b68fa922af3d0e58"
+        },
+        {
+          "file": "sounds/PeasantYesAttack3.wav",
+          "label": "PeasantYesAttack3",
+          "sha256": "2d562bb343992430ed1fc769ceeecf544bb7c5f2dd6f9e47fd3ef3a1556cb898"
+        },
+        {
+          "file": "sounds/PeonYes1.wav",
+          "label": "PeonYes1",
+          "sha256": "cceb9bb323e6c9b8387329d4dc0a0088831ede08e116e3612eb2569d5fb592d3"
+        },
+        {
+          "file": "sounds/PeonYes3.wav",
+          "label": "PeonYes3",
+          "sha256": "bccbcf294e2e612a01a62d0501cebaaffec98278b959a0c24ae3a582c3235cd0"
+        },
+        {
+          "file": "sounds/PeonYes4.wav",
+          "label": "PeonYes4",
+          "sha256": "d08195f24be4fc144380074232fc281a07b2519e19c78132affa28ec0d70c5cf"
+        },
+        {
+          "file": "sounds/PeonYesAttack1.wav",
+          "label": "PeonYesAttack1",
+          "sha256": "e46e64f72c5e73b6e7876aa6ae0796d0531fae771009b181f6a668ca23385f59"
+        },
+        {
+          "file": "sounds/PeonYesAttack3.wav",
+          "label": "PeonYesAttack3",
+          "sha256": "bbfda2da68e2055525e37a2c3bb1d6a77d09d91c78d31a77dcfdc49998f11b15"
+        },
+        {
+          "file": "sounds/PriestYes2.wav",
+          "label": "PriestYes2",
+          "sha256": "1a3fd41f04c2968f2ca1f0f198e76b3fcfc63c095ba8e9019dae86f30f72ef9a"
+        },
+        {
+          "file": "sounds/PriestYes3.wav",
+          "label": "PriestYes3",
+          "sha256": "d6cafac4ea77938a2cce8f78e706be6884f92c73781c1c2238bf672f52a6113c"
+        },
+        {
+          "file": "sounds/PriestYes4.wav",
+          "label": "PriestYes4",
+          "sha256": "6f6f41779e4cc28126be63235550126ee4b921a84e344b6d107a3918bde76a69"
+        },
+        {
+          "file": "sounds/RiflemanYes1.wav",
+          "label": "RiflemanYes1",
+          "sha256": "ed0acb60d3477c3729569347a6c2009fbdd1bdcba035ed7178a7e4e1f40b9e70"
+        },
+        {
+          "file": "sounds/RiflemanYes2.wav",
+          "label": "RiflemanYes2",
+          "sha256": "fe98cdd636eef3842acc4b7107c2f78c15cf069385e709c067936d834a6b054a"
+        },
+        {
+          "file": "sounds/RiflemanYes3.wav",
+          "label": "RiflemanYes3",
+          "sha256": "29c1e933d8e5cd618f0febe4bc48eebc804594f0d084819ef9dfabb9a1d18d3b"
+        },
+        {
+          "file": "sounds/RiflemanYes4.wav",
+          "label": "RiflemanYes4",
+          "sha256": "fb7a0e2e5c0251254723c9ed59090b1b0526725a37f2d528281a4f3755309284"
+        },
+        {
+          "file": "sounds/RokhanYes4.wav",
+          "label": "RokhanYes4",
+          "sha256": "c9ead3032ef2e0f6355cb9ce662858e1419f3b5caa60d70b8aaf293c15b69a6a"
+        },
+        {
+          "file": "sounds/ShadowHunterYes2.wav",
+          "label": "ShadowHunterYes2",
+          "sha256": "8f876e325931d6799198772a2147a201a8065c6f8f16c67e4f21245c75b39688"
+        },
+        {
+          "file": "sounds/ShadowHunterYes7.wav",
+          "label": "ShadowHunterYes7",
+          "sha256": "5f4f8da3242c97fc9472d8d9789622d4106d0c4655cc9cea3e0969df1e0a2f7b"
+        },
+        {
+          "file": "sounds/SorceressYes1.wav",
+          "label": "SorceressYes1",
+          "sha256": "9a7de16b7b535f87e2bbaa6b01b0c332e6986168b57b02988db76b6f5eef6479"
+        },
+        {
+          "file": "sounds/SorceressYes2.wav",
+          "label": "SorceressYes2",
+          "sha256": "65dcfc6551e7dc7c26b091b80bb2c7404e822fb99bf90dd0a85c879c2f1e3e4c"
+        },
+        {
+          "file": "sounds/SuccubusReady1.wav",
+          "label": "SuccubusReady1",
+          "sha256": "5b27675ae778b8ba927cd73f125f98f20708f7aad1c1d558d58d43b397704e64"
+        },
+        {
+          "file": "sounds/TaurenYes2.wav",
+          "label": "TaurenYes2",
+          "sha256": "f0a2524173ed0b6d982c18474c89deb87e6423c1467c03d88b46c26b2b5bc1fa"
+        },
+        {
+          "file": "sounds/TaurenYes3.wav",
+          "label": "TaurenYes3",
+          "sha256": "8edc6689656e1cc3fd8105081d96a2895d676149368cb5ff8bba25fabed10872"
+        },
+        {
+          "file": "sounds/ThrallYes2.wav",
+          "label": "ThrallYes2",
+          "sha256": "882c17de4233e44532f7edf7c96333663698c1357976dcc73ec4c86cb31577ec"
+        },
+        {
+          "file": "sounds/TichondriusYes3.wav",
+          "label": "TichondriusYes3",
+          "sha256": "2e5eb19af66ec52b130c65db81bd95353a3583b4c80c982760cc6fff3841ed77"
+        },
+        {
+          "file": "sounds/TichondriusYes4.wav",
+          "label": "TichondriusYes4",
+          "sha256": "1e737eee656df3c1df05b7e4a85f5dc2c207c48942551380218f9caaa9275ccf"
+        },
+        {
+          "file": "sounds/UtherWhat2.wav",
+          "label": "UtherWhat2",
+          "sha256": "003b136e62393a83e1e87075cf64f9301f33e8aaa56b0d79b996eced29848a4a"
+        },
+        {
+          "file": "sounds/VarimathrasYes4.wav",
+          "label": "VarimathrasYes4",
+          "sha256": "b9c824427f314744e8da42171b19020a926ad80698a249bb5952b9942548b79c"
+        },
+        {
+          "file": "sounds/VarimathrasYes5.wav",
+          "label": "VarimathrasYes5",
+          "sha256": "a9731cbfa8a4b5e1a785990bd2656617161018bdd5e0e16a0fb56acc2d824463"
+        },
+        {
+          "file": "sounds/WhiteTaurenYes3.wav",
+          "label": "WhiteTaurenYes3",
+          "sha256": "9ec1ddf419e05cbc616604f96d096de42755a4441c97e0dbd70fba86c78ced6f"
+        },
+        {
+          "file": "sounds/WolfriderYes1.wav",
+          "label": "WolfriderYes1",
+          "sha256": "cc86353eba231ce3aa0c2f402b62da1cbea6e1a17b4b148d812a10de4c99e053"
+        },
+        {
+          "file": "sounds/WolfriderYes4.wav",
+          "label": "WolfriderYes4",
+          "sha256": "059e0762b68ff5f8e4e6db73fbd0154e66768560f4a4d43a28e717051cfb3a1f"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/CaptainWhat1.wav",
+          "label": "CaptainWhat1",
+          "sha256": "c97519e6a780fd26fd10a5b46ea6dd411f9448a0a1949a3b03fb058fe68b60e6"
+        },
+        {
+          "file": "sounds/DragonHawkWhat1.wav",
+          "label": "DragonHawkWhat1",
+          "sha256": "de8c81469dafd32bffc666cd79e39d366b360840edb6ad3923dbe727d224740c"
+        },
+        {
+          "file": "sounds/FootmanReady1.wav",
+          "label": "FootmanReady1",
+          "sha256": "98bf328c6703966e3df5e0be5d0497c78e61fdf3a7d530816c4597704d910981"
+        },
+        {
+          "file": "sounds/MuradinWhat2.wav",
+          "label": "MuradinWhat2",
+          "sha256": "51ed68c687c5ef94ecfc3f7dd10731daf9fb97f773b26c3ea4e3a185877a4ad0"
+        },
+        {
+          "file": "sounds/NecromancerReady1.wav",
+          "label": "NecromancerReady1",
+          "sha256": "1c6b65dd4038691e8a5429caf5181c9a783bf3122f8b28490a5d9f91225f75cc"
+        },
+        {
+          "file": "sounds/PeonWhat4.wav",
+          "label": "PeonWhat4",
+          "sha256": "74eac67277179b0e3e211c0fb4069d6f820a9a6acfb12ed241e2baa569d32589"
+        },
+        {
+          "file": "sounds/WyvernRiderWhat4.wav",
+          "label": "WyvernRiderWhat4",
+          "sha256": "0c0a07a483658e0e2f0186bd2ed5b519009a4d966b7104806feca94c7ae1dccf"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/AcolytePissed1.wav",
+          "label": "AcolytePissed1",
+          "sha256": "aead5f13eefc6fb5416dccf5fe986e96206c9a24ee0fca0055c29354491da58e"
+        },
+        {
+          "file": "sounds/CaptainPissed1.wav",
+          "label": "CaptainPissed1",
+          "sha256": "c649d80518b2dc4f2cf2e6e55ff5eab7adb77ccf8d2e77fd9c55c141c0cb513c"
+        },
+        {
+          "file": "sounds/CryptFiendPissed7.wav",
+          "label": "CryptFiendPissed7",
+          "sha256": "173bd08af6f12d103f0ed40b071d2da74e42ec5680a9f2947b703b07430f54e5"
+        },
+        {
+          "file": "sounds/DraeneiPissed2.wav",
+          "label": "DraeneiPissed2",
+          "sha256": "70b55ef11b9fd9fb791d5bdbae195e88388a6df4bb5a1aea8702b7ed88a7206a"
+        },
+        {
+          "file": "sounds/DraeneiPissed5.wav",
+          "label": "DraeneiPissed5",
+          "sha256": "2955a0bfa295b5fc4c610a006d43d55dae0e0f537f0ee49e04759d2b266d8a14"
+        },
+        {
+          "file": "sounds/FurionWhat1.wav",
+          "label": "FurionWhat1",
+          "sha256": "4af87c5ff7f5fd518c8c8c24a790539e647b0b90688f89d6a89c2b5e7e6d9497"
+        },
+        {
+          "file": "sounds/GromPissed2.wav",
+          "label": "GromPissed2",
+          "sha256": "c82da38322d4100a8245b388359e93fd3a250e83c26bbde7ff2b8c2f3b15dc51"
+        },
+        {
+          "file": "sounds/GyrocopterPissed1.wav",
+          "label": "GyrocopterPissed1",
+          "sha256": "702ff6bf702dce2370d774cebc0874e892b0fbaf2c6aa73acbe3e3f82213be53"
+        },
+        {
+          "file": "sounds/HeroBlademasterWhat4.wav",
+          "label": "HeroBlademasterWhat4",
+          "sha256": "fdcfa69730cfb6ce7ba7b60c28fbdb19e06a0408e40a4c3e2a1c1f1df95d406b"
+        },
+        {
+          "file": "sounds/HeroFarseerPissed5.wav",
+          "label": "HeroFarseerPissed5",
+          "sha256": "c2d267c8c056f9e070a7bfe3ec904b452bebaa50c8fc8e9efc3555f0c224d00b"
+        },
+        {
+          "file": "sounds/IceTrollPissed1.wav",
+          "label": "IceTrollPissed1",
+          "sha256": "d0aaba568334c1e92dba76b20666faf9d478c9dd77ac69200f405bfc4d2b5d31"
+        },
+        {
+          "file": "sounds/JainaPissed5.wav",
+          "label": "JainaPissed5",
+          "sha256": "1dc982bff4c4098193fdc0e56f6ca859120f1b1d1d50bdf0b48d4271f3dc6a31"
+        },
+        {
+          "file": "sounds/JainaWhat2.wav",
+          "label": "JainaWhat2",
+          "sha256": "83822f064c45c14fec793a18c09e46a10bb5a585fc780797e0880913239b42bd"
+        },
+        {
+          "file": "sounds/KaelPissed3.wav",
+          "label": "KaelPissed3",
+          "sha256": "3ea3e9ce6d39cabee4ba945a5ca737fb1e0d24777c02e57e08e061f57881106f"
+        },
+        {
+          "file": "sounds/KaelPissed4.wav",
+          "label": "KaelPissed4",
+          "sha256": "08b6cac1767817701193376acde756a238fcf79520d4093836b19a3b3cb13d63"
+        },
+        {
+          "file": "sounds/KaelWhat2.wav",
+          "label": "KaelWhat2",
+          "sha256": "f1891ab0e7f47cb04eaa685f9acbd85a9339f0881c702269cf99a7064b269dfc"
+        },
+        {
+          "file": "sounds/PeonDeath.wav",
+          "label": "PeonDeath",
+          "sha256": "2bd6d6d5a01f44a4b5b1a335e93ca3c09b050497f90215d80b15002b8964622b"
+        },
+        {
+          "file": "sounds/TaurenWarcry1.wav",
+          "label": "TaurenWarcry1",
+          "sha256": "a4b8f16dc2e033bb1398ebc10126db783a680931b6d41b7ecc683175cb23bda7"
+        },
+        {
+          "file": "sounds/UtherPissed2.wav",
+          "label": "UtherPissed2",
+          "sha256": "8596cee8c5d324de4a74e0f566272102e7c58b711a65471986234b8f7c360219"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/HeroArchmagePissed2.wav",
+          "label": "HeroArchmagePissed2",
+          "sha256": "696df9c116b49a564c75782e68419778f3715dd9d064b23923e872a062dce709"
+        },
+        {
+          "file": "sounds/JainaWhat3.wav",
+          "label": "JainaWhat3",
+          "sha256": "fb124ee63f13805f7eecad9e602f70f7453ec55358a8278b52eb9a4af98430fb"
+        },
+        {
+          "file": "sounds/PeasantPissed3.wav",
+          "label": "PeasantPissed3",
+          "sha256": "78ae51c1b7c7f732127efa8a129d00108315c8507e3caf7d4238741eda181077"
+        },
+        {
+          "file": "sounds/PeonPissed2.wav",
+          "label": "PeonPissed2",
+          "sha256": "0df91b203fad18a6103a813171c77685415c4e85735606cb3074b1f9754038e6"
+        }
+      ]
+    }
+  }
+}

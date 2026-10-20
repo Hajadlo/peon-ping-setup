@@ -1,0 +1,723 @@
+{
+  "abes-oddysee-abe": {
+    "display_name": "Abe's Oddysee - Abe",
+    "origin": "registry",
+    "author": {
+      "name": "Ioseb Laghidze",
+      "github": "onebadninja"
+    },
+    "source_repo": "OneBadNinja/openpeon-abes-oddyssey-abe",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 11
+  },
+  "counterstrike": {
+    "display_name": "Counter-Strike",
+    "origin": "registry",
+    "author": {
+      "name": "colbyfayock",
+      "github": "colbyfayock"
+    },
+    "source_repo": "colbyfayock/openpeon-counterstrike",
+    "source_ref": "v1.0.2",
+    "source_path": ".",
+    "version": "1.0.2",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 15
+  },
+  "d2_deckard_cain": {
+    "display_name": "Deckard Cain (Diablo 2)",
+    "origin": "registry",
+    "author": {
+      "name": "rootbarb",
+      "github": "rootbarb"
+    },
+    "source_repo": "rootbarb/openpeon-d2-deckard-cain",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 14
+  },
+  "deadlock_dynamo": {
+    "display_name": "Dynamo (Deadlock)",
+    "origin": "registry",
+    "author": {
+      "name": "mwaterman29",
+      "github": "mwaterman29"
+    },
+    "source_repo": "mwaterman29/openpeon-deadlock-dynamo",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 48
+  },
+  "djt": {
+    "display_name": "Donald J. Trump",
+    "origin": "registry",
+    "author": {
+      "name": "bdrang",
+      "github": "BaraqD"
+    },
+    "source_repo": "BaraqD/pack-djt",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 33
+  },
+  "dota2-sounds": {
+    "display_name": "Dota 2 Sounds",
+    "origin": "registry",
+    "author": {
+      "name": "darkocejkov",
+      "github": "darkocejkov"
+    },
+    "source_repo": "darkocejkov/peonping-dota2-sounds",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 28
+  },
+  "dota2_axe": {
+    "display_name": "Axe (Dota 2)",
+    "origin": "registry",
+    "author": {
+      "name": "x-n2o",
+      "github": "x-n2o"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.3.0",
+    "source_path": "dota2_axe",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 20
+  },
+  "dota2_ember_spirit": {
+    "display_name": "Ember Spirit (Dota 2)",
+    "origin": "registry",
+    "author": {
+      "name": "kmelkon",
+      "github": "kmelkon"
+    },
+    "source_repo": "kmelkon/openpeon-dota2",
+    "source_ref": "main",
+    "source_path": "dota2_ember_spirit",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 26
+  },
+  "dota2_invoker": {
+    "display_name": "Invoker (Dota 2)",
+    "origin": "registry",
+    "author": {
+      "name": "bwarren2",
+      "github": "bwarren2"
+    },
+    "source_repo": "bwarren2/peonpack-invoker",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 24
+  },
+  "dota2_phantom_lancer": {
+    "display_name": "Phantom Lancer (Dota 2)",
+    "origin": "registry",
+    "author": {
+      "name": "kmelkon",
+      "github": "kmelkon"
+    },
+    "source_repo": "kmelkon/openpeon-dota2",
+    "source_ref": "v1.0.0",
+    "source_path": "dota2_phantom_lancer",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 26
+  },
+  "dota2_witch_doctor": {
+    "display_name": "Witch Doctor (Dota 2)",
+    "origin": "registry",
+    "author": {
+      "name": "kmelkon",
+      "github": "kmelkon"
+    },
+    "source_repo": "kmelkon/openpeon-dota2",
+    "source_ref": "main",
+    "source_path": "dota2_witch_doctor",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 26
+  },
+  "dota2_zeus": {
+    "display_name": "Zeus (Dota 2)",
+    "origin": "registry",
+    "author": {
+      "name": "kmelkon",
+      "github": "kmelkon"
+    },
+    "source_repo": "kmelkon/openpeon-dota2",
+    "source_ref": "main",
+    "source_path": "dota2_zeus",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 34
+  },
+  "futurama_bender": {
+    "display_name": "Bender (Futurama)",
+    "origin": "registry",
+    "author": {
+      "name": "ravenrs",
+      "github": "ravenrs"
+    },
+    "source_repo": "ravenrs/peon-ping-futurama-bender-",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 18
+  },
+  "gilfoyle": {
+    "display_name": "Gilfoyle",
+    "origin": "registry",
+    "author": {
+      "name": "mpospirit",
+      "github": "mpospirit"
+    },
+    "source_repo": "mpospirit/openpeon-gilfoyle",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 40
+  },
+  "glados": {
+    "display_name": "GLaDOS (Portal)",
+    "origin": "registry",
+    "author": {
+      "name": "DoubleGremlin181",
+      "github": "DoubleGremlin181"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.0.0",
+    "source_path": "glados",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 23
+  },
+  "jara-cimrman": {
+    "display_name": "Jára Cimrman",
+    "origin": "registry",
+    "author": {
+      "name": "Majkle",
+      "github": "Majkle"
+    },
+    "source_repo": "Majkle/openpeon-jara-cimrman",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "cs",
+    "sounds": 64
+  },
+  "lcars": {
+    "display_name": "LCARS (Star Trek TNG)",
+    "origin": "registry",
+    "author": {
+      "name": "heidilux",
+      "github": "heidilux"
+    },
+    "source_repo": "heidilux/openpeon-lcars",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "personal-use",
+    "language": "en",
+    "sounds": 50
+  },
+  "milujipraci": {
+    "display_name": "Miluji Práci",
+    "origin": "registry",
+    "author": {
+      "name": "František Záhora",
+      "github": "arguit"
+    },
+    "source_repo": "arguit/openpeon-milujipraci",
+    "source_ref": "v1.0.1",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "cs",
+    "sounds": 30
+  },
+  "mr_meeseeks": {
+    "display_name": "Mr. Meeseeks",
+    "origin": "registry",
+    "author": {
+      "name": "kasperhendriks",
+      "github": "kasperhendriks"
+    },
+    "source_repo": "kasperhendriks/openpeon-mrmeeseeks",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 30
+  },
+  "omar": {
+    "display_name": "Omar Little (The Wire)",
+    "origin": "registry",
+    "author": {
+      "name": "Taylan Aydinli",
+      "github": "taylan"
+    },
+    "source_repo": "taylan/openpeon-omar",
+    "source_ref": "v1.1.1",
+    "source_path": ".",
+    "version": "1.1.1",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 32
+  },
+  "originalwar-peons": {
+    "display_name": "Original War Peons",
+    "origin": "github",
+    "author": {
+      "name": "Hajadlo",
+      "github": "Hajadlo"
+    },
+    "source_repo": "Hajadlo/originalwar-peons",
+    "source_ref": "main",
+    "source_path": ".",
+    "version": "4.0.1",
+    "license": "CC-BY-NC-4.0",
+    "language": "cs",
+    "sounds": 76
+  },
+  "peasant": {
+    "display_name": "Human Peasant",
+    "origin": "registry",
+    "author": {
+      "name": "thomasKn",
+      "github": "thomasKn"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.0.0",
+    "source_path": "peasant",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 18
+  },
+  "peasant_cz": {
+    "display_name": "Lidský rolník (CZ)",
+    "origin": "registry",
+    "author": {
+      "name": "vojtabiberle",
+      "github": "vojtabiberle"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.0.0",
+    "source_path": "peasant_cz",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "cs",
+    "sounds": 18
+  },
+  "peon": {
+    "display_name": "Orc Peon",
+    "origin": "registry",
+    "author": {
+      "name": "tonyyont",
+      "github": "tonyyont"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.0.0",
+    "source_path": "peon",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 18
+  },
+  "peon_cz": {
+    "display_name": "Orčí peón (CZ)",
+    "origin": "registry",
+    "author": {
+      "name": "vojtabiberle",
+      "github": "vojtabiberle"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.0.0",
+    "source_path": "peon_cz",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "cs",
+    "sounds": 18
+  },
+  "pulp_fiction": {
+    "display_name": "Pulp Fiction",
+    "origin": "registry",
+    "author": {
+      "name": "bdrang",
+      "github": "bdrang"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "c795d88964369d3c60a171a2d6a03cc28d4c0fd9",
+    "source_path": "pulp_fiction",
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 24
+  },
+  "r2d2": {
+    "display_name": "R2D2 Pack",
+    "origin": "registry",
+    "author": {
+      "name": "A3mercury",
+      "githubc": "A3mercury"
+    },
+    "source_repo": "A3mercury/openpeon-r2d2",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 13
+  },
+  "sc_battlecruiser": {
+    "display_name": "StarCraft Battlecruiser",
+    "origin": "registry",
+    "author": {
+      "name": "garysheng",
+      "github": "garysheng"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.0.0",
+    "source_path": "sc_battlecruiser",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 12
+  },
+  "sc_firebat": {
+    "display_name": "StarCraft Firebat",
+    "origin": "registry",
+    "author": {
+      "name": "kschmidtjr1",
+      "github": "kschmidtjr1"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.3.0",
+    "source_path": "sc_firebat",
+    "version": "2.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 17
+  },
+  "sc_kerrigan": {
+    "display_name": "Sarah Kerrigan (StarCraft)",
+    "origin": "registry",
+    "author": {
+      "name": "garysheng",
+      "github": "garysheng"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.0.0",
+    "source_path": "sc_kerrigan",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 14
+  },
+  "sc_marine": {
+    "display_name": "StarCraft Marine",
+    "origin": "registry",
+    "author": {
+      "name": "harrymunro",
+      "github": "harrymunro"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.2.0",
+    "source_path": "sc_marine",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 16
+  },
+  "sc_medic": {
+    "display_name": "StarCraft Medic",
+    "origin": "registry",
+    "author": {
+      "name": "kschmidtjr1",
+      "github": "kschmidtjr1"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.3.0",
+    "source_path": "sc_medic",
+    "version": "2.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 16
+  },
+  "sc_scv": {
+    "display_name": "StarCraft SCV",
+    "origin": "registry",
+    "author": {
+      "name": "harrymunro",
+      "github": "harrymunro"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.2.0",
+    "source_path": "sc_scv",
+    "version": "2.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 19
+  },
+  "sc_tank": {
+    "display_name": "StarCraft Siege Tank",
+    "origin": "registry",
+    "author": {
+      "name": "kschmidtjr1",
+      "github": "kschmidtjr1"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.3.0",
+    "source_path": "sc_tank",
+    "version": "2.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 14
+  },
+  "seinfeld_kramer": {
+    "display_name": "Kramer (Seinfeld)",
+    "origin": "registry",
+    "author": {
+      "name": "bdrang",
+      "github": "BaraqD"
+    },
+    "source_repo": "BaraqD/pack-seinfeld_kramer",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 18
+  },
+  "sopranos": {
+    "display_name": "Tony Soprano",
+    "origin": "registry",
+    "author": {
+      "name": "voider1",
+      "github": "voider1"
+    },
+    "source_repo": "PeonPing/og-packs",
+    "source_ref": "v1.0.0",
+    "source_path": "sopranos",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 30
+  },
+  "st_worf": {
+    "display_name": "Worf (Star Trek)",
+    "origin": "registry",
+    "author": {
+      "name": "OmegaZero",
+      "github": "OmegaZero"
+    },
+    "source_repo": "OmegaZero/openpeon-worf",
+    "source_ref": "v1.0.2",
+    "source_path": ".",
+    "version": "1.0.2",
+    "license": "MIT",
+    "language": "en",
+    "sounds": 12
+  },
+  "storm-spirit": {
+    "display_name": "Storm Spirit (Dota 2)",
+    "origin": "registry",
+    "author": {
+      "name": "m1z23r",
+      "github": "m1z23r"
+    },
+    "source_repo": "m1z23r/openpeon-storm",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 34
+  },
+  "tv-breaking-bad": {
+    "display_name": "TV — Breaking Bad",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 5
+  },
+  "tv-brooklyn-nine-nine": {
+    "display_name": "TV — Brooklyn Nine-Nine",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 3
+  },
+  "tv-curb-your-enthusiasm": {
+    "display_name": "TV — Curb Your Enthusiasm",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 1
+  },
+  "tv-house-m-d": {
+    "display_name": "TV — House M.D.",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 2
+  },
+  "tv-its-always-sunny-in-philadelphia": {
+    "display_name": "TV — It's Always Sunny in Philadelphia",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 6
+  },
+  "tv-mad-men": {
+    "display_name": "TV — Mad Men",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 4
+  },
+  "tv-narcos": {
+    "display_name": "TV — Narcos",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 1
+  },
+  "tv-parks-and-recreation": {
+    "display_name": "TV — Parks and Recreation",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 6
+  },
+  "tv-red-dwarf": {
+    "display_name": "TV — Red Dwarf",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 2
+  },
+  "tv-seinfeld": {
+    "display_name": "TV — Seinfeld",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 5
+  },
+  "tv-the-office-us": {
+    "display_name": "TV — The Office (US)",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 9
+  },
+  "tywin-lannister": {
+    "display_name": "Tywin Lannister",
+    "origin": "registry",
+    "author": {
+      "name": "dmltdev",
+      "github": "dmltdev"
+    },
+    "source_repo": "dmltdev/openpeon-tywin-lannister",
+    "source_ref": "v1.1.1",
+    "source_path": ".",
+    "version": "1.1.1",
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "sounds": 32
+  },
+  "warcraft3-mix": {
+    "display_name": "Warcraft III Mix CZ",
+    "origin": "registry",
+    "author": {
+      "name": "SgtMarmite",
+      "github": "SgtMarmite"
+    },
+    "source_repo": "SgtMarmite/peonping-warcraft3-mix",
+    "source_ref": "v1.0.0",
+    "source_path": ".",
+    "version": "1.0.0",
+    "license": "CC-BY-NC-4.0",
+    "language": "cs",
+    "sounds": 225
+  }
+}

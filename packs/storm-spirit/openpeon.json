@@ -1,0 +1,212 @@
+{
+  "cesp_version": "1.0",
+  "name": "storm-spirit",
+  "display_name": "Storm Spirit (Dota 2)",
+  "version": "1.0.0",
+  "author": {
+    "name": "m1z23r",
+    "github": "m1z23r"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/session-start/arrived.mp3",
+          "label": "Storm Spirit has arrived!",
+          "sha256": "2ddc5600e96c8a82d729547998b538d6a2793e4082e23bbf8fa72a550068b3da"
+        },
+        {
+          "file": "sounds/session-start/here-haha.mp3",
+          "label": "Ha ha! I am here!",
+          "sha256": "35937579f3cd1b3e0ca997450a95746bd12faaacc38537e866026e61e038580a"
+        },
+        {
+          "file": "sounds/session-start/feel-the-wind.mp3",
+          "label": "Feel the wind in your hair!",
+          "sha256": "07b37dfb19264bd557d9de1873cec9f03f255200ed809395a67d52daed1fc426"
+        },
+        {
+          "file": "sounds/session-start/stormy-weather.mp3",
+          "label": "Stormy weather...",
+          "sha256": "8e10f77decdfcbd72e5410ed56dff4d530e4bdea5ecacf67cf4241a67105dd71"
+        },
+        {
+          "file": "sounds/session-start/calm-before.mp3",
+          "label": "The calm before the storm...",
+          "sha256": "a2c5b01ccd1b48a15c43c55a94cb7b82dd80433cdd2be8e8b09ded9f2b862114"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/task-acknowledge/lightning-strike.mp3",
+          "label": "Lightning strike!",
+          "sha256": "5793704e2b73ac1db078ebb522fdc2230731daa1dc0026aa1da91d6bdca62d40"
+        },
+        {
+          "file": "sounds/task-acknowledge/all-mine.mp3",
+          "label": "All mine!",
+          "sha256": "50ca14c1a06a4436467a6c18d01e63b88dedabe0ea66333c797c2c139201deba"
+        },
+        {
+          "file": "sounds/task-acknowledge/glorious.mp3",
+          "label": "Glorious!",
+          "sha256": "75d7d5f753cdba37ad617576ffea534b094fb9700b6adb8aa2d631606fc4cec5"
+        },
+        {
+          "file": "sounds/task-acknowledge/break-like-wind.mp3",
+          "label": "I break like the wind!",
+          "sha256": "293f7ce6e0a58863fd571d7f482797db279c5e5ed7a4230cb5198ed51c554a3a"
+        },
+        {
+          "file": "sounds/task-acknowledge/stupendous.mp3",
+          "label": "Stupendous!",
+          "sha256": "1bd135f6192c46a26630b7f9abefc0faaf00ef61236dc1f9fe2427b5ff81d224"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/task-complete/blown-away.mp3",
+          "label": "Blown away!",
+          "sha256": "4fa3795c0e3e9f966843d0df3ec36b9e8137b8248805413dbe0bce56da52aa2d"
+        },
+        {
+          "file": "sounds/task-complete/storm-was-coming.mp3",
+          "label": "Told you a storm was coming!",
+          "sha256": "96b73d735b345a650e74c70bf1c4d9152c09a7106f9bf2d6632e0071d66bc448"
+        },
+        {
+          "file": "sounds/task-complete/had-your-warning.mp3",
+          "label": "You had your warning!",
+          "sha256": "51c31e17affe8444a906b7665031ae61cfdb1ad996cea65655d4c59ffa4f610f"
+        },
+        {
+          "file": "sounds/task-complete/no-whining.mp3",
+          "label": "No whining now!",
+          "sha256": "c32f884cc4fd51129e01e980de5bae6b2e3779d81c35bf1f9ca898f923fb97a5"
+        },
+        {
+          "file": "sounds/task-complete/in-the-bag.mp3",
+          "label": "It's in the bag!",
+          "sha256": "8746178f3d3f25c15b99ee0a50bb47493d4dc835b3869edec32b83bdeae3ebd9"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/task-error/i-blew-it.mp3",
+          "label": "I blew it...",
+          "sha256": "baab328c33c32c27fb9d14ce9f73b4ca0a3a1b34ecf4de566ecbbda86600a8ab"
+        },
+        {
+          "file": "sounds/task-error/lights-out.mp3",
+          "label": "Lights out...",
+          "sha256": "96fcd61071cbd2ca363c1cca72f644d33ac0e18866710e1892b38666f40ce0eb"
+        },
+        {
+          "file": "sounds/task-error/spirit-sinks.mp3",
+          "label": "My spirit...sinks...",
+          "sha256": "a1d9eab4536dfcab1776489fd47dd2880c23a77c127c9bd884852dd9cf3bebbd"
+        },
+        {
+          "file": "sounds/task-error/spirit-away.mp3",
+          "label": "Spirit...away...",
+          "sha256": "b54679f6f6a44f5c80ad8d220b029b1db0bfb11f74787f2c86e6e4c3808313d9"
+        },
+        {
+          "file": "sounds/task-error/denied.mp3",
+          "label": "Denied!",
+          "sha256": "5902a629ffad1931b02f5b9c152493a6b7706590cb6ceecdd5e524870c25b5f6"
+        },
+        {
+          "file": "sounds/task-error/denied-huhha.mp3",
+          "label": "Huh ha! Denied!",
+          "sha256": "2378739152a7d6ffb3de9b20a27ff938a4273398a45291b03265a41f92bd68fe"
+        },
+        {
+          "file": "sounds/task-error/denied-cackle.mp3",
+          "label": "Ha ha ha ha! Denied!",
+          "sha256": "d8906d89ae0248e672453dfbe1ca52d7ac8c78d9157be0aa93887ca2df61192e"
+        },
+        {
+          "file": "sounds/task-error/wind-from-sails.mp3",
+          "label": "That'll take the wind from their sails!",
+          "sha256": "cb6255df75210624df10e984b90440c3eaa5ab8fc849eac1935dfaf9904179df"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/resource-limit/exhausted.mp3",
+          "label": "Ex...hausted...",
+          "sha256": "8785294d1ec17a9a5e62ae677110d5264cfc5bb6e66d68e5fc950b76905cd5e1"
+        },
+        {
+          "file": "sounds/resource-limit/last-breath.mp3",
+          "label": "I'll fight to the last...breath...",
+          "sha256": "e4073bada27fb0c3ca15f1e3be98bdac311660c1f47f3bc1a747ac9ddbc7a762"
+        },
+        {
+          "file": "sounds/resource-limit/cant-breathe.mp3",
+          "label": "Can't breathe!",
+          "sha256": "ed37ce4a49e42bff9c5c8354ca80a46d449006bf224353b54e82573eb9085d6a"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/input-required/what-did-i-miss.mp3",
+          "label": "Whoa, what'd I miss?",
+          "sha256": "c4108e86c68a92b657ba0080bbaef41e0e3a7c6b3f6b3300bb2f659edf231c5b"
+        },
+        {
+          "file": "sounds/input-required/lookin-for-me.mp3",
+          "label": "Lookin for me?",
+          "sha256": "9afd98f95dc12153b444e6e9d01db5e9315f0deccea93f654f1d2830e323b065"
+        },
+        {
+          "file": "sounds/input-required/im-over-here.mp3",
+          "label": "I'm over here!",
+          "sha256": "8f8e2aee6c99e70ed15eed3c40ec0e8a98aa9982f24e5adef3d07c3551ae3ae1"
+        },
+        {
+          "file": "sounds/input-required/wheres-the-party.mp3",
+          "label": "Where's the party?",
+          "sha256": "ebf2f57540a40ccbe6feeb618f839f4b009d2d36087ce0397f18761702c08aa9"
+        },
+        {
+          "file": "sounds/input-required/let-the-fun-begin.mp3",
+          "label": "Let the fun begin!",
+          "sha256": "6fb891d6736326f407560f0ca5be97e88fe7b539125d1341086584245a2f68d5"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/user-spam/complain-about-weather.mp3",
+          "label": "Everyone complains about the weather...",
+          "sha256": "2b300c7b38712b03e00afe1873398c835c98da8cb83b1be80125e683c7f97259"
+        },
+        {
+          "file": "sounds/user-spam/blue-tangos.mp3",
+          "label": "I only want blue tangos in my dressing room!",
+          "sha256": "2b1d39f6a064168d1e10dd81a2d43f2d58064564be5f1237a035d69299ba4a5c"
+        },
+        {
+          "file": "sounds/user-spam/warm-cold-front.mp3",
+          "label": "When a warm front and a cold front love each other very much...",
+          "sha256": "69c573bbaa3f2a65a2020643e6982ff9005c84aca1fd3d7dfefeaff3439b10ac"
+        }
+      ]
+    }
+  }
+}

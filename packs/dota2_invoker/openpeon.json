@@ -1,0 +1,162 @@
+{
+  "cesp_version": "1.0",
+  "name": "dota2_invoker",
+  "display_name": "Invoker (Dota 2)",
+  "version": "1.0.0",
+  "author": {
+    "name": "x-n2o",
+    "github": "x-n2o"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/Invoker.mp3",
+          "label": "Invoker!",
+          "sha256": "50a54d173289cc6ff6d63bae83e547362a85baa5cb69c4107b6a4e5a00d3d023"
+        },
+        {
+          "file": "sounds/ThusIInvokeMyself.mp3",
+          "label": "Thus I invoke myself!",
+          "sha256": "c0b46429cc05bff79d948ed9beecf364a0eb992ecaa0a787474f56010d54f9f4"
+        },
+        {
+          "file": "sounds/NewAgeOfKnowledge.mp3",
+          "label": "So begins a new age of knowledge.",
+          "sha256": "986a8a187c5f6cb4c5623a470fe9ef636a0788dd8daeeff1b99447fff1d802ce"
+        },
+        {
+          "file": "sounds/KnowledgeIsPower.mp3",
+          "label": "Knowledge is power!",
+          "sha256": "b7e218274c40bda630c627e3380c7c2b42f8644f5ef930088b46d06b52a4efe5"
+        },
+        {
+          "file": "sounds/GloriousInvocation.mp3",
+          "label": "Glorious invocation!",
+          "sha256": "31cb5623a43949c3e9e07188286de0efb39376f567912f4ec12515aaef8d6b72"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/Mindfully.mp3",
+          "label": "Mindfully.",
+          "sha256": "b89346dfb6df4868a71dfd2e3c24f8b5c9cf0a61e955527a7945fbda796e550c"
+        },
+        {
+          "file": "sounds/IAmCommitted.mp3",
+          "label": "I am committed.",
+          "sha256": "bb6ab985cafb55987da0778ed08994da910ad0b5eec34a9e66d3210ddf35309c"
+        },
+        {
+          "file": "sounds/IProceed.mp3",
+          "label": "I proceed.",
+          "sha256": "1236bd5029cae462b31ba61469905862bca0e1b12293a3e78040466022364a3e"
+        },
+        {
+          "file": "sounds/ThitherIGo.mp3",
+          "label": "Thither I go.",
+          "sha256": "f456ac8f1e4aab631d2e255b8a2a16fa9e0129f8577aa8701cc1e0449c375598"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/Behold.mp3",
+          "label": "Behold!",
+          "sha256": "69930f3b6637abc57d33060cc7d31bdfe6b2bb31f553db9818a00c491c507120"
+        },
+        {
+          "file": "sounds/OneOfMyFavorites.mp3",
+          "label": "One of my favorites.",
+          "sha256": "7d5dbd69add0e0ae789438ea3ca250e64e62089f02207a6a2d8e90cff1c33846"
+        },
+        {
+          "file": "sounds/WitnessTrueSorcery.mp3",
+          "label": "Witness true sorcery!",
+          "sha256": "aedffc7fd8a53565fc346b42fb108dfffcae8d7c2b7779606b594a95c59c03e8"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/WordsFailMe.mp3",
+          "label": "Words fail me...",
+          "sha256": "b0951ffb0be04ca6575901926313b629f176e9b88fb82ecc80961579a2f0cf52"
+        },
+        {
+          "file": "sounds/DidIMiscast.mp3",
+          "label": "Did I miscast?",
+          "sha256": "b0917ace5607b61676b249542cac987abfc897889ab03b4fdb07b2d771739ef7"
+        },
+        {
+          "file": "sounds/AnEndToAgesOfLearning.mp3",
+          "label": "An end to ages of learning.",
+          "sha256": "64eb50ed5735beb23e021726c2627a235409c364e410841763aba78df4a9447c"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/OverYon.mp3",
+          "label": "Over yon?",
+          "sha256": "049d8352fe15e3f8cde79308442237dd31baacbf25ad4fac3b7f6f9495a7cdd4"
+        },
+        {
+          "file": "sounds/Denied.mp3",
+          "label": "Denied!",
+          "sha256": "6206cad6119ead0413ed3b047967656e279eb4187c0749374b456a745a15e268"
+        },
+        {
+          "file": "sounds/ImBetwixtMyself.mp3",
+          "label": "I'm betwixt myself.",
+          "sha256": "934a6db704e3c0b91066a4c3075f7b2ec564b34b02ff7540b694db44bc69af21"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/Denied1.mp3",
+          "label": "Denied!",
+          "sha256": "6206cad6119ead0413ed3b047967656e279eb4187c0749374b456a745a15e268"
+        },
+        {
+          "file": "sounds/Denied2.mp3",
+          "label": "Denied!",
+          "sha256": "98284eebf5ea83912654fa89c56d43928af70faaf413022ab0e7d7b4c563c7c5"
+        },
+        {
+          "file": "sounds/Demised.mp3",
+          "label": "Demised.",
+          "sha256": "95bc097f4ee6be50b10be660ab5e7b92d6d960e2c5aa764cf3b7cf2193bb30f5"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/TisTedious.mp3",
+          "label": "'Tis tedious.",
+          "sha256": "35b72a75b57a1986b2a104a88323ba0ed420c2e84ccb5c0af4daebf1d314c126"
+        },
+        {
+          "file": "sounds/ThisBoresMe.mp3",
+          "label": "This bores me.",
+          "sha256": "dcef83630587f6c94b559602770ddf9254b4f85b4a19f04d132b43fdc7084d96"
+        },
+        {
+          "file": "sounds/Lamentable.mp3",
+          "label": "Lamentable.",
+          "sha256": "3a4b269fb12c54a7694172f7bc89fcc88204d24ca712f2bb0d7a79e9c201937d"
+        }
+      ]
+    }
+  }
+}

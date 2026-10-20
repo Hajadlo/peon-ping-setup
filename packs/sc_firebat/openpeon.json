@@ -1,0 +1,127 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc_firebat",
+  "display_name": "StarCraft Firebat",
+  "version": "2.0.0",
+  "author": {
+    "name": "kschmidtjr1",
+    "github": "kschmidtjr1"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/NeedALight.mp3",
+          "label": "Need a light?",
+          "sha256": "8f396fc7e0e702e649ab4889dcf2fdde8f63406000f271bda98ee5f6a89d5567"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/Naturally.mp3",
+          "label": "Naturally.",
+          "sha256": "b39181f438b3bdb23d96f20c8f5573e6f81a65d2fd0240436f162070dc6bb8f2"
+        },
+        {
+          "file": "sounds/Slammin.mp3",
+          "label": "Slammin'!",
+          "sha256": "7e8f62ddb71769844b7f71336192c5c2b199559078e3556e054759e5d4bc44b7"
+        },
+        {
+          "file": "sounds/YouGotIt.mp3",
+          "label": "You got it.",
+          "sha256": "aeaeef384d2125b40c3c704147abd3faed8221176d09b5c363e42527bf92442b"
+        },
+        {
+          "file": "sounds/LetsBurn.mp3",
+          "label": "Let's burn!",
+          "sha256": "2c69de41c081fe8eff18e26a7992c46d9297db48f0a61a752493fcfdea6f53c3"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/FireItUp.mp3",
+          "label": "Fire it up!",
+          "sha256": "92ab94806c3be293239140519cd1ffa23b8407dbdd781c8c037269bd71f2019b"
+        },
+        {
+          "file": "sounds/YouGotMyAttention.mp3",
+          "label": "You got my attention.",
+          "sha256": "2400cdae5699cd2b83c0a1551ca11bc147aa1d5ed73531f2d9615e7391454d4f"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/Death1.mp3",
+          "label": "Death 1",
+          "sha256": "a6e531cd6a5467edb17e230c933716489ecde5e6bc79330e77f9eed64bfe5bd8"
+        },
+        {
+          "file": "sounds/Death2.mp3",
+          "label": "Death 2",
+          "sha256": "3c515e3cae6a3f4d1625543235f0577eab3292557e91834f0fccc6952b776e32"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/Yes.mp3",
+          "label": "Yes...",
+          "sha256": "4df5915bef0746c08e6dfa9c408dbff8bb0712e37bc90036de921c83c028a9f2"
+        },
+        {
+          "file": "sounds/TurnUpTheHeat.mp3",
+          "label": "Wanna turn up the heat?",
+          "sha256": "69dbc4f15adf0f3594421ba0ca50a62cb274a0fda737beca0ceb61c821190577"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/SmellOfNapalm.mp3",
+          "label": "I love the smell of napalm.",
+          "sha256": "b088604d6e0e0ff19a3ac39fb9964961435f2e2230d6f9af8c871b17f7ec4629"
+        },
+        {
+          "file": "sounds/NothingLikeAGoodSmoke.mp3",
+          "label": "Nothin' like a good smoke.",
+          "sha256": "609768c59659639607561f522643e47ee9469c6ff886be731f0034f8d0cc6496"
+        },
+        {
+          "file": "sounds/NextBarbecue.mp3",
+          "label": "You tryin' to get invited to my next barbecue?",
+          "sha256": "232fee0ccc6f844c59daeac2394f1165426df6dc482172817bbb372052286e84"
+        },
+        {
+          "file": "sounds/QuestionsAboutPropane.mp3",
+          "label": "Got any questions about propane?",
+          "sha256": "d56aa4143f9954875b3c38b01b594923a35a22bb43d52e853bef5127b7d16233"
+        },
+        {
+          "file": "sounds/PropaneAccessories.mp3",
+          "label": "Or... propane accessories?",
+          "sha256": "a9c0c67499375abc66d9fe642486272cd9eb7598c4888392619fd36ef9f6169a"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/IsSomethingBurning.mp3",
+          "label": "Is something burning?",
+          "sha256": "013afb931085c6dd49bd2871ae4e1500f7b5b3f2e834f4f901fad34fe357853d"
+        }
+      ]
+    }
+  }
+}

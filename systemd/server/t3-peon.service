@@ -1,0 +1,12 @@
+[Unit]
+Description=Peon sounds for main T3 Code completions and needed input
+After=network-online.target peon-fanout.service
+
+[Service]
+EnvironmentFile=-%h/.config/peon-ping-setup/remote.env
+ExecStart=/usr/bin/python3 -u %h/.local/lib/peon-ping-setup/t3_peon.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

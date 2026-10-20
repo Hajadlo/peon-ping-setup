@@ -1,0 +1,142 @@
+{
+  "cesp_version": "1.0",
+  "name": "dota2_axe",
+  "display_name": "Axe (Dota 2)",
+  "version": "1.0.0",
+  "author": {
+    "name": "x-n2o",
+    "github": "x-n2o"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/AxeIsReady.mp3",
+          "label": "Axe is ready!",
+          "sha256": "253aba73db978d8bae7738e3ec0a64ba62f285ce3c9084a5fcff965ea5c95d77"
+        },
+        {
+          "file": "sounds/LetTheCarnageBegin.mp3",
+          "label": "Let the carnage begin.",
+          "sha256": "3d496af3fe6e0b153cf1125690cbf745e65472f3f0150b710186e37ea54540c0"
+        },
+        {
+          "file": "sounds/AxeManComes.mp3",
+          "label": "The Axe-man comes!",
+          "sha256": "ff160899d4b9f131df08fff28a27bc050a2fbca94f85db0b44b34bf4a4c5319c"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/AxeGoes.mp3",
+          "label": "Axe goes!",
+          "sha256": "f3e1360bcde26a1b09d78783356ff7e1cbcbacaebdf7a09f5fa26b89c378d23e"
+        },
+        {
+          "file": "sounds/Forward.mp3",
+          "label": "Forward!",
+          "sha256": "8397f36529958683a98fcf88ec1681cb3d018d91898f419779ccfeaea51b93ee"
+        },
+        {
+          "file": "sounds/ToBattle.mp3",
+          "label": "To battle!",
+          "sha256": "53a544122d0298be2c3da64447eaf181572fe54e6ce384e9faead92cb268bdcb"
+        },
+        {
+          "file": "sounds/CutAndRun.mp3",
+          "label": "Cut and run!",
+          "sha256": "75df6d03d3b15c230539d723fb06734319968294e81d8b610de263fa0779081d"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/AxeHappened.mp3",
+          "label": "What happened? Axe happened!",
+          "sha256": "57efc1836934f217a34e023d961c903a51e183d579afcedc13213c5b6fe728c5"
+        },
+        {
+          "file": "sounds/Axeactly.mp3",
+          "label": "Axe-actly!",
+          "sha256": "05111a24dc5061b8eca00107cb9f342efc8b4841b4733b01dc978ac73347eaf6"
+        },
+        {
+          "file": "sounds/YouGetNothing.mp3",
+          "label": "You get nothing. Good day, sir!",
+          "sha256": "4d79c6f78bd080077b39e0addf8c4510ddf4b2d55c509cd4e171a5509cea3829"
+        },
+        {
+          "file": "sounds/CutAbove.mp3",
+          "label": "A cut above the rest!",
+          "sha256": "dba86c1e5e04414550b4c54f347bbf3e5a6fdf4efb28289410a74f40b16000c2"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/FoughtBadly.mp3",
+          "label": "You fought badly. Died worse.",
+          "sha256": "d6ce4f42d1d27e4252fb4882113dc45e33d6e51404b6125d2bbbf77398fbd2b0"
+        },
+        {
+          "file": "sounds/Culled.mp3",
+          "label": "Culled!",
+          "sha256": "c5274f122d59a4d8aad1821a83f54dad905878017e15a0faeb011114ae690b67"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/ComeAndGetIt.mp3",
+          "label": "Come and get it!",
+          "sha256": "96db09d5a789f4f21f0ea29cbccec8e422d96332bd6e4a43558bd1ff8d644614"
+        },
+        {
+          "file": "sounds/GoodDayToFight.mp3",
+          "label": "Good day to fight!",
+          "sha256": "cf7d13131a93f843cf93d54081b3cda98179963fd320b34e8175d5c0f0e67258"
+        },
+        {
+          "file": "sounds/ISaidGoodDaySir.mp3",
+          "label": "I said good day, sir!",
+          "sha256": "56b8727dace81acc5666cf2bf25f8e1d3395becef6a02572357dd03ebfb65fe8"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/NotSoFast.mp3",
+          "label": "Not so fast!",
+          "sha256": "e658c42f4f0e541fb53a723825c3972f3dfe69d830c8413f36c05d90d4112e79"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/NoTeamInAxe.mp3",
+          "label": "There is no team in Axe!",
+          "sha256": "9f39a52673cb236e762c114fe18162e726698bdb01616aa4df8825ffc733dbd2"
+        },
+        {
+          "file": "sounds/RestForTheDead.mp3",
+          "label": "Rest is for the dead!",
+          "sha256": "664420e9fd2530bd9f749458f2c4ff9e494407ec4eabb5eb8a55cb285aec7655"
+        },
+        {
+          "file": "sounds/NoEscapingAxe.mp3",
+          "label": "No escaping Axe!",
+          "sha256": "8231be9b0134839160de972f04a7e56a6e5efbac6ed61b42c88c309d54562d11"
+        }
+      ]
+    }
+  }
+}

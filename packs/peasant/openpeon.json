@@ -1,0 +1,167 @@
+{
+  "cesp_version": "1.0",
+  "name": "peasant",
+  "display_name": "Human Peasant",
+  "version": "1.0.0",
+  "author": {
+    "name": "thomasKn",
+    "github": "thomasKn"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantReady1.wav",
+          "label": "Ready to work.",
+          "sha256": "94a657afa715d3676cf26df3bb1f358489ba0e17471f6815a4503f585dba20bc"
+        },
+        {
+          "file": "sounds/PeasantWhat1.wav",
+          "label": "Yes, milord?",
+          "sha256": "4ad281624ddf878c2bc4e058f541b60251ef89d149262dc9ae2689cbed45a76b"
+        },
+        {
+          "file": "sounds/PeasantWhat2.wav",
+          "label": "What is it?",
+          "sha256": "66317040434b02a843c4a21c17f5b20a4106011daaacdb3219ee43f9097ae164"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantYes1.wav",
+          "label": "Right-o.",
+          "sha256": "6ce4f352d9de59f1a5d90315033a1fa3e480bb459c64745e42ada1041d5b3db0"
+        },
+        {
+          "file": "sounds/PeasantYes2.wav",
+          "label": "Yes, milord.",
+          "sha256": "d3052fc5d1d9a6794d2e770a7d81e7ffd9134aa815758c4e1018ba262ecb53b7"
+        },
+        {
+          "file": "sounds/PeasantYes3.wav",
+          "label": "All right.",
+          "sha256": "477da47a5d1572b7f95dd42938d5cf80eb82d1f372b4c865b7a86a6d2ece48a3"
+        },
+        {
+          "file": "sounds/PeasantYes4.wav",
+          "label": "Off I go, then!",
+          "sha256": "fe9735ed427bacd15dc2bc94474c49e36d9734dc0d146002fbd2ef24b121b1b8"
+        },
+        {
+          "file": "sounds/PeasantYesAttack1.wav",
+          "label": "I guess I can...",
+          "sha256": "b6e96fc911525467c203e1b4d4157c04d5b4b64fd8f63e59524c83f06fc0f396"
+        },
+        {
+          "file": "sounds/PeasantYesAttack2.wav",
+          "label": "If you want...",
+          "sha256": "90531d741be625a11c92ef92d41b20c77c8303fbcb5ec6b2d7de54719820b105"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantReady1.wav",
+          "label": "Ready to work.",
+          "sha256": "94a657afa715d3676cf26df3bb1f358489ba0e17471f6815a4503f585dba20bc"
+        },
+        {
+          "file": "sounds/PeasantYes1.wav",
+          "label": "Right-o.",
+          "sha256": "6ce4f352d9de59f1a5d90315033a1fa3e480bb459c64745e42ada1041d5b3db0"
+        },
+        {
+          "file": "sounds/PeasantYes3.wav",
+          "label": "All right.",
+          "sha256": "477da47a5d1572b7f95dd42938d5cf80eb82d1f372b4c865b7a86a6d2ece48a3"
+        },
+        {
+          "file": "sounds/PeasantWhat3.wav",
+          "label": "More work?",
+          "sha256": "c6b39e894c3083fd7804eaae86efd6f60f2b33ca8f4106264d7b80cc88bb4e3f"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantYesAttack4.wav",
+          "label": "That's it. I'm dead.",
+          "sha256": "b09207f9aa276d70e01778926cd5965bc3b4152fdfe08a98f9be8d71ab1724b9"
+        },
+        {
+          "file": "sounds/PeasantYesAttack3.wav",
+          "label": "No one else available...",
+          "sha256": "b284300c6dd3cbb375ffec78f80df39c3243e05310b7f1bdff06e838d05e2da0"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantWhat1.wav",
+          "label": "Yes, milord?",
+          "sha256": "4ad281624ddf878c2bc4e058f541b60251ef89d149262dc9ae2689cbed45a76b"
+        },
+        {
+          "file": "sounds/PeasantWhat2.wav",
+          "label": "What is it?",
+          "sha256": "66317040434b02a843c4a21c17f5b20a4106011daaacdb3219ee43f9097ae164"
+        },
+        {
+          "file": "sounds/PeasantWhat3.wav",
+          "label": "More work?",
+          "sha256": "c6b39e894c3083fd7804eaae86efd6f60f2b33ca8f4106264d7b80cc88bb4e3f"
+        },
+        {
+          "file": "sounds/PeasantWhat4.wav",
+          "label": "What?",
+          "sha256": "dda9f2a2125403a96ff800aacf8ab4191aa6ab492815f03999178e6e19918777"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantYesAttack4.wav",
+          "label": "That's it. I'm dead.",
+          "sha256": "b09207f9aa276d70e01778926cd5965bc3b4152fdfe08a98f9be8d71ab1724b9"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/PeasantAngry1.wav",
+          "label": "You're the king? Well, I didn't vote for you.",
+          "sha256": "5ec9ab3450d4ecaa1e62ac0a7f7253c1d4964c59078eb49154a1d2498436e6c4"
+        },
+        {
+          "file": "sounds/PeasantAngry2.wav",
+          "label": "We found a witch! May we burn her?",
+          "sha256": "c3b17efcdfd7f4e35c9c2279c4e5bd77215c2de340cfe17d2530c3ac3eca3bdf"
+        },
+        {
+          "file": "sounds/PeasantAngry3.wav",
+          "label": "Help! Help! I'm being repressed!",
+          "sha256": "dfc49d455933535f11cbd638ba31c3301e58b571498607f1f95dfadbef32959a"
+        },
+        {
+          "file": "sounds/PeasantAngry4.wav",
+          "label": "A horse kicked me once. It hurt.",
+          "sha256": "6ec48283c61734cd55892796af4d8644845c1229e9e0864f4ef716e3bd8cde43"
+        },
+        {
+          "file": "sounds/PeasantAngry5.wav",
+          "label": "D'oh!",
+          "sha256": "97ed942cedf0742b3879a3392ddd81c865bba5fb5fd5f70495e6b904720c19a8"
+        }
+      ]
+    }
+  }
+}

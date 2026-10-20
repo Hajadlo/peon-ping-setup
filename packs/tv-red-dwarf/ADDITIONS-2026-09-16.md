@@ -1,0 +1,2 @@
+- task.complete: Smoke me a kipper, I'll be back for breakfast. — https://www.thehutch.com/wavepage/dwarfwav/kipper.wav
+- input.required: Could I just distract you for a brief second? — https://www.thehutch.com/wavepage/dwarfwav/distract.wav

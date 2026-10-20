@@ -1,0 +1,79 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-the-office-us",
+  "display_name": "TV — The Office (US)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/896f9bc308f2-always-the-padawan.mp3",
+          "label": "Always The Padawan",
+          "sha256": "f5707c5839dbe7a9f058f5b95f60d31ff705e319c99982212de91cfd9885bf93"
+        },
+        {
+          "file": "sounds/d31f1764c42b-boom-roasted.mp3",
+          "label": "Boom, roasted.",
+          "sha256": "1c4230a0180b1a9e1c28b0e5d971858af47b857f1b44ea0d368aef7929ea182f"
+        },
+        {
+          "file": "sounds/e0b037386d95-not-superstitious.mp3",
+          "label": "Not Superstitious",
+          "sha256": "9ca5bf07e6ccd620d0d0425f6916d96a9ea2f1c075cc4d8c22efb3318ad733d4"
+        },
+        {
+          "file": "sounds/turntables.mp3",
+          "label": "Well, well, well. How the turntables?",
+          "sha256": "8d1a4ad5d937cfdf88551c9bf050824eacba20109457dba4d1c8c680c06d6c06"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/832ded698f6c-buttlicker.mp3",
+          "label": "Buttlicker",
+          "sha256": "bdc4e17a35df3300794e8df9dc835aed1b94d8ccc8e0c421507882c6ceb6edf3"
+        },
+        {
+          "file": "sounds/cac22086fb42-dwight-you-ignorant-slut.mp3",
+          "label": "Dwight you ignorant slut",
+          "sha256": "333641216426def071b464187d5cd1ee9650bd652ef6544d204c265e335aeab2"
+        },
+        {
+          "file": "sounds/65ac3374ec97-no-god-please-no.mp3",
+          "label": "No God Please No!",
+          "sha256": "83aa223414386b325bec41cd657180359f26a6478ee8a7ff1c7e31d957361232"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/5211a3cae9ee-how-do-i-look.mp3",
+          "label": "How Do I Look?",
+          "sha256": "2293f3e409ea425ce03982822066d6c0f2b2b62ce2bb44a036661f2271e5568f"
+        },
+        {
+          "file": "sounds/bankruptcy.mp3",
+          "label": "I declare bankruptcy!",
+          "sha256": "c48c3e2cd4a6c265a68d015e7ecb5234a87e520b90378d25de6efc781e593ad4"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/65ac3374ec97-no-god-please-no.mp3",
+          "label": "No God Please No!",
+          "sha256": "83aa223414386b325bec41cd657180359f26a6478ee8a7ff1c7e31d957361232"
+        }
+      ]
+    }
+  }
+}

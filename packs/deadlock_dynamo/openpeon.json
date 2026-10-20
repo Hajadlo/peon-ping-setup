@@ -1,0 +1,282 @@
+{
+  "cesp_version": "1.0",
+  "name": "deadlock_dynamo",
+  "display_name": "Dynamo (Deadlock)",
+  "version": "1.0.0",
+  "author": {
+    "name": "mwaterman29",
+    "github": "mwaterman29"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/dynamo_select_06.mp3",
+          "label": "Well then, looks like we have work to do.",
+          "sha256": "4cdf8468a8fc743687e0f14df64566a31550254727f2a0c549fc7d8a32b575fb"
+        },
+        {
+          "file": "sounds/dynamo_select_09.mp3",
+          "label": "Ohh, this is going to be exciting!",
+          "sha256": "0cf323c2141eaec113ad92d55ad1e1e914626ae71b69eab49f2c6eeffc693f80"
+        },
+        {
+          "file": "sounds/dynamo_select_03.mp3",
+          "label": "Oh, I wouldn't miss this for the world!",
+          "sha256": "f00c169a2a5abb23cab1d2ce7f36b224c8249a2c9376a9e39252ddbaf74c6fe8"
+        },
+        {
+          "file": "sounds/dynamo_select_07.mp3",
+          "label": "And here I was, thinking I would be reviewing term papers all day.",
+          "sha256": "66f6e12b4e76a650fe74834550e3c782dc18e4db819c931dc286f81598541833"
+        },
+        {
+          "file": "sounds/dynamo_select_08.mp3",
+          "label": "Time for a little field work.",
+          "sha256": "d0af8f0f26d6308d0bffde1a651c811c38b79c037c4219ecc8282751db334847"
+        },
+        {
+          "file": "sounds/dynamo_select_01.mp3",
+          "label": "Grading can wait.",
+          "sha256": "7283610571b0e8febbf263cc5ce5d33f46e49d7f1d7acadb8ca2a5acdcdcec29"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/dynamo_match_start_yamato_dynamo_convo01_02.mp3",
+          "label": "Yes.",
+          "sha256": "1798a0888464c41b3d024a0a056ec4a59499b3789fcf8916919c96059b7c521a"
+        },
+        {
+          "file": "sounds/dynamo_match_start_yamato_dynamo_convo01_04.mp3",
+          "label": "Sounds good.",
+          "sha256": "788d63cf8f5b58690d6465aea35adfe4e8c69deb8182f28267d460b56635fdf2"
+        },
+        {
+          "file": "sounds/dynamo_match_start_yamato_dynamo_convo01_06.mp3",
+          "label": "We got this.",
+          "sha256": "214d631822fc662c266e228ad7c31c5273dcedf2db408de32b3949fdc58f512b"
+        },
+        {
+          "file": "sounds/dynamo_use_power2_05.mp3",
+          "label": "Here we go.",
+          "sha256": "c6435aa27fb3b8333351d8c734b1c65b2ebe0e0ea02448cad3aef21de9868d3f"
+        },
+        {
+          "file": "sounds/dynamo_ping_affermative_01.mp3",
+          "label": "Sounds good.",
+          "sha256": "0da775080ff9aad41d2afe09b69b7c402154cf877d2068137fb32c135ca2f7ba"
+        },
+        {
+          "file": "sounds/dynamo_ping_affermative_02.mp3",
+          "label": "I like it.",
+          "sha256": "6c8eb639e549b093a91003e2c04210cef9f06bd80ec53a749a130c4d5c42383a"
+        },
+        {
+          "file": "sounds/dynamo_repeat_blackhole_02.mp3",
+          "label": "One more time...",
+          "sha256": "6433dc2f687e343f15ad17974e3c9a907d3247a7e20f40406eae462590568e0d"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/dynamo_tower_got_denied_03.mp3",
+          "label": "Good work!",
+          "sha256": "fe3e72ef7b374779b95c773de4dc9638e5357cf895f7f69c69f5d9c1168b5def"
+        },
+        {
+          "file": "sounds/dynamo_kill_team_blackhole_03.mp3",
+          "label": "Impressive work, everyone!",
+          "sha256": "420617800f856a1d1ce599e3da674ceff44a558504f62fe8a303928a5e25a181"
+        },
+        {
+          "file": "sounds/dynamo_ping_good_job_01.mp3",
+          "label": "Good job.",
+          "sha256": "35d1688bf9214f417a5f8a8d155dc0548f4be18b6d3d8fdf3b75fbacd361b017"
+        },
+        {
+          "file": "sounds/dynamo_ping_nice_work_01.mp3",
+          "label": "Nice work!",
+          "sha256": "35d987110d0c57beff2a57cc5fd286afffaae0455900233f9e56b0fefe5ab398"
+        },
+        {
+          "file": "sounds/dynamo_kill_team_blackhole_01.mp3",
+          "label": "Textbook!",
+          "sha256": "34bb8283232b07baa80c9795823ea0641359c64e94d58da18806c39cace48f5c"
+        },
+        {
+          "file": "sounds/dynamo_select_10.mp3",
+          "label": "Splendid!",
+          "sha256": "960718aba0764dd2d293c363ec9b71e07859d78b0ca100194ba2a57880db5e06"
+        },
+        {
+          "file": "sounds/dynamo_congrats_05.mp3",
+          "label": "Pleasure working with you...",
+          "sha256": "5d0835b778577792ad8ee081fb1a4e74d425c4cd02ae2b6e8d28342bdab8afc9"
+        },
+        {
+          "file": "sounds/dynamo_congrats_04.mp3",
+          "label": "Just glad I was able to help!",
+          "sha256": "3c2e008f2edfbc60762221cad4c767e09ab67862fd536187a85950c8268546dd"
+        },
+        {
+          "file": "sounds/dynamo_congrats_03.mp3",
+          "label": "We make a great team!",
+          "sha256": "a616e941e33258bfebcd11214a32efc7af786e1c6a09a62b4acd22bf8dcd4d09"
+        },
+        {
+          "file": "sounds/dynamo_win_02.mp3",
+          "label": "We did it!",
+          "sha256": "4ea9db039802d5ce2d129ba70fc18e1906c7a6e61248f38e84c6d74c4190c67f"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/dynamo_no_allies_help_blackhole_03.mp3",
+          "label": "Need some help here!",
+          "sha256": "607e385bd32fcf0901b6c44b861456140bf1141f5ebdd2f44b4fd8fae3aac630"
+        },
+        {
+          "file": "sounds/dynamo_killstreak_mid_02.mp3",
+          "label": "Feel free to give up.",
+          "sha256": "0e60cdd057ee9677c11f4e134c9678f93cd8eef574c190bd66cc7bd0764cbae4"
+        },
+        {
+          "file": "sounds/dynamo_lose_01.mp3",
+          "label": "We're trying our best, sometimes it's just not enough.",
+          "sha256": "fc56d6a0c8a9100886bcc068fe2153968de71daf1410a75caa0f00918620ca3f"
+        },
+        {
+          "file": "sounds/dynamo_lose_05.mp3",
+          "label": "Not exactly how I pictured this ending.",
+          "sha256": "3db90c055bc2a2bfd4831a4d432c441b8748361450c9bce854ffad562488ee27"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/dynamo_use_power2_18.mp3",
+          "label": "Hope I reassemble...",
+          "sha256": "1a3d089f5a52cd2630c560e036d561cde8c696ad4c55b132d71a9247ef1d6c94"
+        },
+        {
+          "file": "sounds/dynamo_use_power2_11.mp3",
+          "label": "Translocating.",
+          "sha256": "b6aa434d75a3c0f027ae7ccc67adbde4840f4a6ca85801d94d367989b5877a9a"
+        },
+        {
+          "file": "sounds/dynamo_use_phantom_strike_02.mp3",
+          "label": "Teleporting in!",
+          "sha256": "e9ba32275984bb99c15c3d7ae7ee3b9c3aa599ace2cd58a7011a95a513e1d87b"
+        },
+        {
+          "file": "sounds/dynamo_use_power2_07.mp3",
+          "label": "Now or never.",
+          "sha256": "b32b375f9cffdbcbe4c3a86f22d5b36dbb2dbb0d9ebc3018e14a0a40aad49105"
+        },
+        {
+          "file": "sounds/dynamo_use_power2_20.mp3",
+          "label": "Rearranging atoms...",
+          "sha256": "5f8c427ce33dc5a8baca157cc2cd06b4e921cfef299b0cea580016f8f3f82e97"
+        },
+        {
+          "file": "sounds/dynamo_use_power1_08.mp3",
+          "label": "Sending shockwave!",
+          "sha256": "910378c206640b90c80c4cfb2395fbb306fdb9e0c3ca33567ceb7fc227e9335f"
+        },
+        {
+          "file": "sounds/dynamo_upgrade_power4_01.mp3",
+          "label": "My team is counting on me.",
+          "sha256": "83572abaa754d95fd2fa8824ec10840e5ea06d2f4735af99c8e88e5297aecd81"
+        },
+        {
+          "file": "sounds/dynamo_use_vampiric_burst_03.mp3",
+          "label": "I'll give them everything I got!",
+          "sha256": "cc721eb29156e5a1ecb126e8b1645d696a0accd7a037d42e9cb6b53e5acd8528"
+        },
+        {
+          "file": "sounds/dynamo_use_vampiric_burst_02.mp3",
+          "label": "Ready to open fire!",
+          "sha256": "6733aae90ca2bfe66b3dcd052e6699d3ec008f57b3af27c8c26f1536a67d8930"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/dynamo_t1_shop_reminder_01.mp3",
+          "label": "I think a little shopping is in order.",
+          "sha256": "23a5dd78fd801a8c8c06960d6cb5fd5848c56556fbbb77ffecc89f05dfbe7853"
+        },
+        {
+          "file": "sounds/dynamo_t1_shop_reminder_03.mp3",
+          "label": "Might be time to get something.",
+          "sha256": "e89affa8efcad5c8a12acc049250cfdda3c64009598d539fb91e22a670b407b9"
+        },
+        {
+          "file": "sounds/dynamo_t2_shop_reminder_02.mp3",
+          "label": "Maybe I should invest in myself...",
+          "sha256": "96e1443458629474f2eed333ceec5d5b86a75ea9b12a5ac3b8985063e7a18eb3"
+        },
+        {
+          "file": "sounds/dynamo_t2_shop_reminder_03.mp3",
+          "label": "I need more supplies...",
+          "sha256": "9d791c27a052c35019fb0b238b2ffac2a25459e640f6891fb88c981b55e2ed52"
+        },
+        {
+          "file": "sounds/dynamo_t3_shop_reminder_03.mp3",
+          "label": "It's time to get more supplies...",
+          "sha256": "3508198a0eca0e5089c41db5b5fc0e8c33bbd866a6c99a59e820df044e85bc9e"
+        },
+        {
+          "file": "sounds/dynamo_ping_ability4_not_ready.mp3",
+          "label": "Singularity's on cooldown.",
+          "sha256": "a94112f604079459a601e166ac973161d524c1205929852f8de8c40eab342c7d"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/Dynamo_desperation_power1_01.mp3",
+          "label": "I am not going down without a fight!",
+          "sha256": "b89b60be69ec12109609240d902ec6d616f14d8ff3f356e564573b597f764b35"
+        },
+        {
+          "file": "sounds/Dynamo_use_power1_03.mp3",
+          "label": "It's you or me!",
+          "sha256": "5066af096f7c90826d3e35887241a67ebf1e986a3c626f0d8b789fcfcb7274eb"
+        },
+        {
+          "file": "sounds/Dynamo_use_power1_10.mp3",
+          "label": "Stay back!",
+          "sha256": "b391ae7092ca7511dcbce2a3c39675e90f6ae1ef6be95b42e8875a9f10193215"
+        },
+        {
+          "file": "sounds/Dynamo_use_power1_04.mp3",
+          "label": "Give up!",
+          "sha256": "2de8e6cdf3fb06d0378fe9dc3e586d6f196f1ab108489437b0b77dab2ea74152"
+        },
+        {
+          "file": "sounds/Dynamo_upgrade_power1_02.mp3",
+          "label": "Marla always did warn me about my temper.",
+          "sha256": "eb3859477a76ee604ecedb6fbf5527c839f9bac2a439582f90ac02db1a31d7bd"
+        },
+        {
+          "file": "sounds/Dynamo_upgrade_power1_05.mp3",
+          "label": "I can't be a pushover!",
+          "sha256": "42ef1889207523d73e5568b59086f90c88383391ce0d98740678ea16f7a7903b"
+        }
+      ]
+    }
+  }
+}

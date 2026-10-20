@@ -1,0 +1,55 @@
+{
+    "cesp_version": "1.0",
+    "name": "r2d2_pack",
+    "display_name": "R2D2 Pack",
+    "version": "1.0.0",
+    "author": {
+        "name": "A3mercury",
+        "github": "A3mercury"
+    },
+    "license": "CC-BY-NC-4.0",
+    "language": "en",
+    "categories": {
+        "session.start": {
+            "sounds": [
+                { "file": "sounds/Activate.mp3", "label": "Activate" }
+            ]
+        },
+        "task.acknowledge": {
+            "sounds": [
+                { "file": "sounds/Acknowledge.mp3", "label": "Acknowledge" }
+            ]
+        },
+        "task.complete": {
+            "sounds": [
+                { "file": "sounds/Complete1.mp3", "label": "Complete 1" },
+                { "file": "sounds/Complete2.mp3", "label": "Complete 2" },
+                { "file": "sounds/Complete3.mp3", "label": "Complete 3" }
+            ]
+        },
+        "task.error": {
+            "sounds": [
+                { "file": "sounds/Error1.mp3", "label": "Error 1" },
+                { "file": "sounds/Error2.mp3", "label": "Error 2" },
+                { "file": "sounds/Error3.mp3", "label": "Error 3" }
+            ]
+        },
+        "input.required": {
+            "sounds": [
+                { "file": "sounds/Input1.mp3", "label": "Input 1" },
+                { "file": "sounds/Input2.mp3", "label": "Input 2" },
+                { "file": "sounds/Input3.mp3", "label": "Input 3" }
+            ]
+        },
+        "resource.limit": {
+            "sounds": [
+                { "file": "sounds/ResourceLimit.mp3", "label": "Resource Limit" }
+            ]
+        },
+        "user.spam": {
+            "sounds": [
+                { "file": "sounds/UserSpam.mp3", "label": "User Spam" }
+            ]
+        }
+    }
+}

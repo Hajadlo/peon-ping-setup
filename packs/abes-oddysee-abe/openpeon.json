@@ -1,0 +1,57 @@
+{
+  "cesp_version": "1.0",
+  "name": "abes-oddysee-abe",
+  "display_name": "Abe's Oddysee - Abe",
+  "version": "1.0.0",
+  "description": "Sound pack featuring voice clips of Abe from Oddworld: Abe's Oddysee.",
+  "author": {
+    "name": "Ioseb Laghidze",
+    "github": "onebadninja"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/Alloya.mp3", "label": "Alloya" },
+        { "file": "sounds/Hello.mp3", "label": "Hello" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/Chanting.mp3", "label": "Chanting" },
+        { "file": "sounds/Work.mp3", "label": "Work" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/Follow_Me.mp3", "label": "Follow me" },
+        { "file": "sounds/Stop_It.mp3", "label": "Stop It" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/Falling.mp3", "label": "Falling" },
+        { "file": "sounds/Angry.mp3", "label": "Angry" },
+        { "file": "sounds/Wait.mp3", "label": "Wait" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/Alloya.mp3", "label": "Alloya" },
+        { "file": "sounds/Hello.mp3", "label": "Hello" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/Sorry.mp3", "label": "Sorry" },
+        { "file": "sounds/Wait.mp3", "label": "Wait" }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        { "file": "sounds/GoodBye.mp3", "label": "Goodbye" }
+      ]
+    }
+  }
+}

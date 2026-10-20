@@ -1,0 +1,61 @@
+{
+  "cesp_version": "1.0",
+  "name": "milujipraci",
+  "display_name": "Miluji Práci",
+  "version": "1.0.0",
+  "description": "Legendary quotes of Luboš fixing Lakatoš.",
+  "author": {
+    "name": "František Záhora",
+    "github": "arguit"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "cs",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/hosi-to-je-neuveritelne.mp3", "label": "Hoši, toto je neuvěřitelné!" },
+        { "file": "sounds/jedinou-picovinku.mp3", "label": "Jedinou pičovinku!" },
+        { "file": "sounds/pockej-kamo.mp3", "label": "Počkej kámo!" },
+        { "file": "sounds/abych-mohl-toto.mp3", "label": "Abys mohl toto!" },
+        { "file": "sounds/banalni-vec.mp3", "label": "Banální věc!" },
+        { "file": "sounds/tady-musis-vsechno-rozdelat.mp3", "label": "Tady musíš všechno rozdělat!" },
+        { "file": "sounds/tuto-picu-potrebuju-utahnout.mp3", "label": "Tuto píču potřebuju utáhnout!" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/ja-to-mrdam.mp3", "label": "Já to mrdám!" },
+        { "file": "sounds/nebudu-to-delat.mp3", "label": "Nebudu to dělat!" },
+        { "file": "sounds/ja-to-nejdu-delat.mp3", "label": "Já to nejdu dělat!" },
+        { "file": "sounds/jedu-do-pici-stadyma.mp3", "label": "Jedu do píči!" },
+        { "file": "sounds/zasrane-zamrdane.mp3", "label": "Zasrané, zamrdané!" },
+        { "file": "sounds/ani-za-kokot-vole.mp3", "label": "Ani za kokot vole!" },
+        { "file": "sounds/nenasadim.mp3", "label": "Nenasadím!" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/kurva.mp3", "label": "KURVA!" },
+        { "file": "sounds/do-pice.mp3", "label": "Do píče!" },
+        { "file": "sounds/kurva-do-pice-to-neni-mozne.mp3", "label": "To není možné!" },
+        { "file": "sounds/to-je-pico-nemozne.mp3", "label": "To je nemožné!" },
+        { "file": "sounds/to-neni-normalni-kurva.mp3", "label": "To není normální!" },
+        { "file": "sounds/hajzli-jedni.mp3", "label": "Hajzli jedni!" },
+        { "file": "sounds/ja-se-z-toho-musim-pojebat.mp3", "label": "Já se z toho musím pojebat!" },
+        { "file": "sounds/past-vedle-pasti-pico.mp3", "label": "Past vedle pasti!" },
+        { "file": "sounds/to-sou-nervy-ty-pico.mp3", "label": "To sou nervy ty píčo!" },
+        { "file": "sounds/kurva-uz.mp3", "label": "Kurva už!" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/nevim-jak.mp3", "label": "Nevím jak!" },
+        { "file": "sounds/neresitelny-problem-hosi.mp3", "label": "Neřešitelný problém hoši!" },
+        { "file": "sounds/okamzite-zabit-ty-kurvy.mp3", "label": "Okamžitě zabít ty kurvy!" },
+        { "file": "sounds/ne-nenasadis-ho.mp3", "label": "Ne, nenasadíš ho!" },
+        { "file": "sounds/ani-ocko-nenasadis.mp3", "label": "Ani očko nenasadíš!" },
+        { "file": "sounds/nejvetsi-blbec-na-zemekouli.mp3", "label": "Největší blbec na zeměkouli!" }
+      ]
+    }
+  }
+}
