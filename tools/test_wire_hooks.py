@@ -45,6 +45,16 @@ class WireHooksTests(unittest.TestCase):
             self.assertEqual(len(json.loads(settings.read_text())['hooks']), len(CLAUDE_EVENTS))
             self.assertEqual(len(list(Path(directory).glob('settings.json.bak-peon-*'))), 1)
 
+    def test_if_missing_leaves_existing_peon_hooks_alone(self):
+        with tempfile.TemporaryDirectory() as directory:
+            settings = Path(directory) / 'settings.json'
+            original = '{"hooks": {"Stop": [{"hooks": [{"type": "command", "command": "/x/peon-ping/peon.sh"}]}]}}'
+            settings.write_text(original)
+            subprocess.run([sys.executable, '-I', str(SCRIPT), '--command', '/bin/peon', '--settings', str(settings),
+                            '--if-missing', '--apply'], check=True, capture_output=True)
+            self.assertEqual(settings.read_text(), original)
+            self.assertEqual(list(Path(directory).glob('settings.json.bak-peon-*')), [])
+
 
 if __name__ == '__main__':
     unittest.main()

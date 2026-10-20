@@ -4,10 +4,14 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 from pathlib import Path
 import sqlite3
+import sys
 import tempfile
 import threading
 import unittest
 from unittest.mock import patch
+
+# The watcher reuses the remote extra's gate and worker helpers.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'remote'))
 
 from t3_policy import advance, baseline
 from t3_state import snapshot, RunProof

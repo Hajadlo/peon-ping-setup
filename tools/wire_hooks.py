@@ -5,6 +5,7 @@
   python3 tools/wire_hooks.py --command ~/.local/bin/peon-remote --apply  # edit + backup
   python3 tools/wire_hooks.py --command ... --replace peon-ping/peon.sh --apply
   python3 tools/wire_hooks.py --command ... --codex                       # print TOML only
+  python3 tools/wire_hooks.py --command ... --if-missing --apply          # only if no Peon hook yet
 
 Idempotent: an event that already runs the command is left alone. Other hooks
 are kept, except those --replace names.
@@ -47,6 +48,12 @@ def merge_claude(settings, command, timeout=3, replace=None):
     return added
 
 
+def has_peon_hook(settings):
+    """True when any hook command already runs Peon (peon.sh, peon-remote, an adapter)."""
+    return any('peon' in h.get('command', '') for groups in settings.get('hooks', {}).values()
+               for g in groups for h in g.get('hooks', []))
+
+
 def codex_toml(command, timeout=3):
     lines = ['[features]', 'hooks = true', '']
     for event in CODEX_EVENTS:
@@ -63,12 +70,17 @@ def main():
     parser.add_argument('--replace', metavar='SUBSTRING',
                         help='remove other hook commands containing SUBSTRING (e.g. peon-ping/peon.sh)')
     parser.add_argument('--codex', action='store_true', help='print the Codex config.toml block and exit')
+    parser.add_argument('--if-missing', action='store_true',
+                        help='leave settings alone when any hook already runs Peon (e.g. the upstream installer wired it)')
     args = parser.parse_args()
     command = str(Path(args.command).expanduser())
     if args.codex:
         print(codex_toml(command))
         return
     settings = json.loads(args.settings.read_text()) if args.settings.exists() else {}
+    if args.if_missing and has_peon_hook(settings):
+        print(f'Claude Code hooks already run Peon in {args.settings}; left unchanged')
+        return
     before = json.dumps(settings)
     added = merge_claude(settings, command, replace=args.replace)
     changed = json.dumps(settings) != before

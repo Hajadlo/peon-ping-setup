@@ -2,30 +2,36 @@
 
 A ready-to-use configuration for [peon-ping](https://github.com/PeonPing/peon-ping),
 the Claude Code / Codex hook that plays a game or TV voice line when an agent
-finishes a task or needs your input. One clone contains everything: 51 sound
-packs (as installed and loudness-normalised), the config with its weighted
-pack rotation, install script, and optional extras for agents that run on a
-headless server.
+finishes a task or needs your input. One clone has everything: 51 sound packs
+(loudness-normalised), the config with its weighted pack rotation, and an
+installer.
 
-Hand [SETUP.md](SETUP.md) to a coding agent (or follow it yourself) to reproduce
-the setup on Linux or macOS.
+## Quick start
 
-## What's in it
+```bash
+git clone https://github.com/Hajadlo/peon-ping-setup.git
+cd peon-ping-setup
+./install.sh
+```
 
-| Path | What |
-| --- | --- |
-| `packs/` | 51 OpenPeon packs with audio, manifests and their own README/LICENSE files, ~132 MiB |
-| `pack-sources.json` | Author, source repo, ref, licence for every pack |
-| `config.json` | The peon-ping config: categories, volume, cooldowns, weighted rotation |
-| `install.sh` | Copies packs, merges the config, optional registry refresh / normalisation / remote helpers |
-| `tools/normalize_peon_audio.py` | Loudness normaliser (-23 LUFS, -6 dBTP ceiling, attenuation only) |
-| `tools/wire_hooks.py` | Adds the hook command to Claude Code settings; prints the Codex block |
-| `tools/peon-remote` + helpers | Optional: agents on a server, sounds on your desktop |
-| `tools/t3_peon.py` + helpers | Optional: [T3 Code](https://github.com/pingdotgg/t3code) watcher that sounds only for main-thread completions |
-| `systemd/` | User units for the relay, reverse tunnel, fan-out and T3 watcher |
-| `check.sh` | Shell syntax, optional shellcheck, all unit tests (no audio is played) |
+Run it on the machine where Claude Code / Codex run; sounds play there. Linux
+or macOS, with `bash`, `curl`, `git` and Python 3.11+.
 
-## Config choices
+`./install.sh` installs peon-ping with its upstream installer if it is missing
+(Homebrew when `brew` exists), copies the packs, merges the config, and makes
+sure Claude Code hooks run Peon (it checks Codex too when `~/.codex` exists).
+Anything it replaces is backed up first; `./install.sh --dry-run` shows the
+plan without changing anything. Then test it: `peon preview task.complete`, or
+start a new session and give the agent a small task.
+
+`./install.sh --help` lists the single steps (`--packs`, `--config`, `--hooks`),
+`--refresh-registry` (re-download registry packs from their authors) and
+`--normalize` (even out loudness again afterwards; needs ffmpeg).
+[SETUP.md](SETUP.md) is the same setup as a runbook for a coding agent.
+
+## What you get
+
+### Config choices
 
 `config.json` is the live config. The settings worth knowing:
 
@@ -39,7 +45,7 @@ the setup on Linux or macOS.
   dubs are); `default_pack` is `originalwar-peons`.
 - **`volume: 0.5`** with every clip normalised to at most -23 LUFS integrated
   and -6 dBTP true peak, so packs sit at a similar level and nothing blasts.
-- **`desktop_notifications: false`**: the IDE/T3 already shows a popup; Peon only
+- **`desktop_notifications: false`**: the IDE already shows a popup; Peon only
   plays sound. Set it to `true` for Peon's own popups.
 - **`suppress_subagent_complete: true`**: subagents finishing do not play "done".
 - `annoyed_threshold` 3 within `annoyed_window_seconds` 10, and
@@ -48,7 +54,7 @@ the setup on Linux or macOS.
   output), `debug: true` with 7-day log retention (`peon logs`), trainer off,
   no `path_rules` or `project_name_map` (add your own per-project packs there).
 
-## Packs
+### Packs
 
 Pack audio is **not** covered by this repo's MIT licence: each pack keeps the
 licence stated in its manifest and below. The 39 registry packs come from the
@@ -69,7 +75,7 @@ personal notification purposes. Each `tv-*` pack's `ADDITIONS-*.md` and README
 lists where its later clips came from. `originalwar-peons` is published
 separately at <https://github.com/Hajadlo/originalwar-peons>.
 
-### Warcraft, StarCraft and Original War
+#### Warcraft, StarCraft and Original War
 
 | Pack | Author | Source | Licence | Clips | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -87,7 +93,7 @@ separately at <https://github.com/Hajadlo/originalwar-peons>.
 | `sc_scv` — StarCraft SCV | [harrymunro](https://github.com/harrymunro) | [PeonPing/og-packs](https://github.com/PeonPing/og-packs/tree/v1.2.0/sc_scv) @ `v1.2.0` | CC-BY-NC-4.0 | 19 | 2 |
 | `sc_tank` — StarCraft Siege Tank | [kschmidtjr1](https://github.com/kschmidtjr1) | [PeonPing/og-packs](https://github.com/PeonPing/og-packs/tree/v1.3.0/sc_tank) @ `v1.3.0` | CC-BY-NC-4.0 | 14 | 3 |
 
-### Dota 2, Deadlock and other games
+#### Dota 2, Deadlock and other games
 
 | Pack | Author | Source | Licence | Clips | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -105,7 +111,7 @@ separately at <https://github.com/Hajadlo/originalwar-peons>.
 | `abes-oddysee-abe` — Abe's Oddysee - Abe | [Ioseb Laghidze](https://github.com/onebadninja) | [OneBadNinja/openpeon-abes-oddyssey-abe](https://github.com/OneBadNinja/openpeon-abes-oddyssey-abe) @ `v1.0.0` | CC-BY-NC-4.0 | 11 | 2 |
 | `glados` — GLaDOS (Portal) | [DoubleGremlin181](https://github.com/DoubleGremlin181) | [PeonPing/og-packs](https://github.com/PeonPing/og-packs/tree/v1.0.0/glados) @ `v1.0.0` | CC-BY-NC-4.0 | 23 | 3 |
 
-### Film, TV and sci-fi (community packs)
+#### Film, TV and sci-fi (community packs)
 
 | Pack | Author | Source | Licence | Clips | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -122,14 +128,14 @@ separately at <https://github.com/Hajadlo/originalwar-peons>.
 | `r2d2` — R2D2 Pack | [A3mercury](https://github.com/A3mercury) | [A3mercury/openpeon-r2d2](https://github.com/A3mercury/openpeon-r2d2) @ `v1.0.0` | CC-BY-NC-4.0 | 13 | 3 |
 | `djt` — Donald J. Trump | [bdrang](https://github.com/BaraqD) | [BaraqD/pack-djt](https://github.com/BaraqD/pack-djt) @ `v1.0.0` | fair-use | 33 | 7 |
 
-### Czech
+#### Czech
 
 | Pack | Author | Source | Licence | Clips | Weight |
 | --- | --- | --- | --- | --- | --- |
 | `jara-cimrman` — Jára Cimrman | [Majkle](https://github.com/Majkle) | [Majkle/openpeon-jara-cimrman](https://github.com/Majkle/openpeon-jara-cimrman) @ `v1.0.0` | CC-BY-NC-4.0 | 64 | 2 |
 | `milujipraci` — Miluji Práci | [František Záhora](https://github.com/arguit) | [arguit/openpeon-milujipraci](https://github.com/arguit/openpeon-milujipraci) @ `v1.0.1` | CC-BY-NC-4.0 | 30 | 7 |
 
-### TV excerpts made for this setup (`tv-*`)
+#### TV excerpts made for this setup (`tv-*`)
 
 | Pack | Author | Source | Licence | Clips | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -148,6 +154,30 @@ separately at <https://github.com/Hajadlo/originalwar-peons>.
 `warcraft3-czech` ([gizmax/claude-code-wc3-sounds](https://github.com/gizmax/claude-code-wc3-sounds))
 was installed with no sound files and is not part of this repo; install it with
 `peon packs install warcraft3-czech` if you want it.
+
+## Advanced: agents on another machine, T3 Code
+
+Most people need none of this. Two optional extras, each with its own README:
+
+- [`extras/remote/`](extras/remote/README.md): agents run on a headless server,
+  sounds play on your desktop through a peon relay and an SSH reverse tunnel
+  (optionally fanned out to several machines).
+- [`extras/t3-code/`](extras/t3-code/README.md): for
+  [T3 Code](https://github.com/pingdotgg/t3code), sound only when the main
+  thread finishes or needs input, not for every child agent.
+
+## Repo layout
+
+| Path | What |
+| --- | --- |
+| `install.sh` | The installer (`--help` for single steps) |
+| `config.json` | The peon-ping config: categories, volume, cooldowns, weighted rotation |
+| `packs/` | 51 OpenPeon packs with audio, manifests and their own README/LICENSE files, ~132 MiB |
+| `pack-sources.json` | Author, source repo, ref, licence for every pack |
+| `tools/wire_hooks.py` | Adds the hook command to Claude Code settings; prints the Codex block |
+| `tools/normalize_peon_audio.py` | Loudness normaliser (-23 LUFS, -6 dBTP ceiling, attenuation only) |
+| `extras/` | Remote relay and T3 Code watcher (above) |
+| `check.sh` | Shell syntax, optional shellcheck, all unit tests (no audio is played) |
 
 ## Credits
 
