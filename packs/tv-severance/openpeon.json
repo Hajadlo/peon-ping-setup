@@ -1,0 +1,23 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-severance",
+  "display_name": "TV — Severance",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/severance-devour-feculence.mp3",
+          "label": "Devour feculence.",
+          "sha256": "4ab37afea7ddb9809dfe91a09e5e703e0222100b8081c52a27583728896e55f2",
+          "source": "https://www.facebook.com/appletv/videos/severance-devour-feculence-apple-tv/457766620663825/"
+        }
+      ]
+    }
+  }
+}

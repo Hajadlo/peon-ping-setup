@@ -1,0 +1,23 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-the-wire",
+  "display_name": "TV — The Wire",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/wire-sheeeit.mp3",
+          "label": "Sheeeeeeeeeeeeet",
+          "sha256": "b15d1c88e43cfb6db87cd1e22e957443dc53cbad40d80ec096478241c3cf30fd",
+          "source": "https://www.myinstants.com/en/instant/clay-davis-shieeet-5199/"
+        }
+      ]
+    }
+  }
+}

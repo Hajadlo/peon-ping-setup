@@ -1,0 +1,23 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-band-of-brothers",
+  "display_name": "TV — Band of Brothers",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/bob-surrounded.mp3",
+          "label": "We're paratroopers, Lieutenant. We're supposed to be surrounded.",
+          "sha256": "406aaeb4be78991393b3db8f9425189fcf4918813dcdf849501ab64fe9a90930",
+          "source": "https://www.facebook.com/jamieflynnbase/videos/we-are-paratroopers-we-are-meant-to-be-surroundednext-bit-of-inspirational-in-my/4990060157686413/"
+        }
+      ]
+    }
+  }
+}

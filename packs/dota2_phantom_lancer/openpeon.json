@@ -20,7 +20,7 @@
         {
           "file": "sounds/ForHomeForPeace.mp3",
           "label": "For home. For peace.",
-          "sha256": "c69c5d2645b3a54f836d5d433a8c10b547ac9a85ef21980c283b1376cdaf85c7"
+          "sha256": "d0f2d93ae659aa0155c229c27f27a2a602aff3a12b6d9b9c561a569632df1f8d"
         },
         {
           "file": "sounds/FromOneAnArmy.mp3",
@@ -44,12 +44,12 @@
         {
           "file": "sounds/WeRush.mp3",
           "label": "We rush.",
-          "sha256": "c557c8578087c4d16b89eec4fd68639a361250fff8517861fcf7524375f5f8c3"
+          "sha256": "e8221ef09bbc002dec6fecfca13c35e6c715d71790c1821095f6509215ea9b21"
         },
         {
           "file": "sounds/Onward.mp3",
           "label": "Onward.",
-          "sha256": "e16929ab13559e477aa1b80eedf003769de46d5b8e9b5d7640605ef447b0d05b"
+          "sha256": "951ed516be8067870c1b941bbcd9345b3e969c7191a3d473591c726da839a88f"
         },
         {
           "file": "sounds/AGoodIdea.mp3",
@@ -107,7 +107,7 @@
         {
           "file": "sounds/ChaseThis.mp3",
           "label": "Chase this!",
-          "sha256": "ccfd414685e29ae860bf9cfd2e6f8542f7e60f6521279da3cd09f51583aaf9db"
+          "sha256": "431235701d31ef93a6d8a61a22d06c25cd63d8505928123fc1e4d7fe8d136f7b"
         }
       ]
     },
@@ -116,7 +116,7 @@
         {
           "file": "sounds/PrepareYourself.mp3",
           "label": "Prepare yourself!",
-          "sha256": "95978cdb783d1adc8f1e4203f202a48ab70e7f7e96ce683a36b93ad05510b85e"
+          "sha256": "d0ed661d5be956cbe3c0e7f1b5e6b1dab5a14326bb6e502ed37a9a7b8438abdc"
         },
         {
           "file": "sounds/WeComeForYou.mp3",

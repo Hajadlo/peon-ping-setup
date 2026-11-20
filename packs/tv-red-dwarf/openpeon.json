@@ -24,6 +24,12 @@
           "file": "sounds/distract.mp3",
           "label": "Could I just distract you for a brief second?",
           "sha256": "cc366f48a80b899bfc7023851589a1243b0242454880c0a5dc71bc24b55d8f0c"
+        },
+        {
+          "file": "sounds/reddwarf-everybodys-dead.mp3",
+          "label": "Everybody's dead, Dave.",
+          "sha256": "d3f9d895c4543a23deee2faaa498f948b85f81ea4a9f11af34a864f3fa36d998",
+          "source": "https://www.myinstants.com/en/instant/everyone-is-dead-dave-51722/"
         }
       ]
     }

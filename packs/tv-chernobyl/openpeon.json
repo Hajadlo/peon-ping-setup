@@ -1,0 +1,33 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-chernobyl",
+  "display_name": "TV — Chernobyl",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/chernobyl-not-great.mp3",
+          "label": "3.6. Not great, not terrible.",
+          "sha256": "beb01c925449714ad8eb7a49b52f09baa49962007f1c3f09a3858c8912a3ae6b",
+          "source": "https://www.101soundboards.com/sounds/71906-36-not-great-not-terrible"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/chernobyl-graphite.mp3",
+          "label": "You didn't see graphite. You didn't! Because it's not there!",
+          "sha256": "c7fd20a5120600cc0cdf903086e583b7e2d2692399525c01c966cea1cb526e6a",
+          "source": "https://www.tiktok.com/@money.ae/video/7538138660105899286"
+        }
+      ]
+    }
+  }
+}

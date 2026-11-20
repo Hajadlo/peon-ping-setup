@@ -15,6 +15,12 @@
           "file": "sounds/acc036088e9e-i-got-it.mp3",
           "label": "I Got It!",
           "sha256": "c35a0db216c39ad182d1440f285969e45a2242f6d1391a2af18fc56ba4b93f4e"
+        },
+        {
+          "file": "sounds/seinfeld-yada-b.mp3",
+          "label": "Yada yada yada.",
+          "sha256": "06cb254ed5312de1e23e8033c3e41062dfaa2ff39829a7603e0c9071850230c5",
+          "source": "https://www.facebook.com/TBSNetwork/videos/seinfeld-30-yada-yada/1039413023115856/"
         }
       ]
     },
@@ -43,6 +49,18 @@
           "file": "sounds/george.mp3",
           "label": "George is getting upset!",
           "sha256": "c0c27fabcbd4d16ffc1f0d9b42705090018f7a8db3c04954a7347c909e4b9546"
+        },
+        {
+          "file": "sounds/seinfeld-hello-newman.mp3",
+          "label": "Hello Newman",
+          "sha256": "5957ab8413b47ed9ed275b7e6c6f1ff33bc65d7594cb6bd6f3e70fb6e263414f",
+          "source": "https://www.myinstants.com/en/instant/hello-newman-70889/"
+        },
+        {
+          "file": "sounds/seinfeld-hellooo.mp3",
+          "label": "Hellooooo",
+          "sha256": "9a7d47ea9cded8a63003e5260e7c2de8f76cf8faaf4c7c7fdbe2d51b0b1ddd5f",
+          "source": "https://www.myinstants.com/en/instant/seinfeld-hello-56533/"
         }
       ]
     },

@@ -25,7 +25,7 @@
         {
           "file": "sounds/SomeCallMeXin.mp3",
           "label": "Some call me Xin.",
-          "sha256": "4158d68d856a1a23a1d29e0a54276fd34ec07fa5b1371e03419c5724b5da45af"
+          "sha256": "3e1a8f5ddf3fd7d4501e9572d377cbcdb7025dfc15b98db8c4509ca78cc104db"
         },
         {
           "file": "sounds/GuardianOfTheFlame.mp3",
@@ -102,12 +102,12 @@
         {
           "file": "sounds/AllLivesMustEnd.mp3",
           "label": "All lives must end.",
-          "sha256": "5fc7fb24932e3edd19fdbe077d7cc2e085d497747726b8dfe1201118b0eafa9a"
+          "sha256": "f9c2750c5665e53c3fb1ee8cbe19419b05211f2b280ec2cf187caae8b90c628a"
         },
         {
           "file": "sounds/TheRoadIsEndless.mp3",
           "label": "The road is endless.",
-          "sha256": "ad84ff5dd023cbff7eb78831a7570e7a078d3949534f4494d90959e68e32c646"
+          "sha256": "37cfc3517df9b9f8ecce7a89684263b39b80a2417ff6886eb4699a588b940848"
         }
       ]
     },
@@ -126,7 +126,7 @@
         {
           "file": "sounds/PrepareForALesson.mp3",
           "label": "Prepare for a lesson.",
-          "sha256": "7c404533ed62995e2bb7ed2d444962e8ce242db625ddc1a0ebddfe109c42c7ab"
+          "sha256": "9b3c0377b55eb1186116ed738713bfa1f13023f5a9effc8048c02dde159b60a1"
         }
       ]
     },

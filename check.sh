@@ -5,6 +5,6 @@ cd "$(dirname "$(readlink -f "$0")")"
 scripts=(install.sh check.sh extras/remote/peon-remote)
 bash -n "${scripts[@]}"
 if shellcheck --version >/dev/null 2>&1; then shellcheck -S warning "${scripts[@]}"; fi
-for dir in tools extras/remote extras/t3-code; do
+for dir in tools extras/remote extras/t3-code extras/deck; do
   python3 -I -m unittest discover -s "$dir" "$@"
 done

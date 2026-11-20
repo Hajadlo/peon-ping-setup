@@ -106,7 +106,7 @@
         {
           "file": "sounds/no-mistakes-no-bystanders.mp3",
           "label": "No mistakes, no bystanders.",
-          "sha256": "87832a019247558f3c3d3cbf49766dba3301291c244b42b04dbbcb3c8c1da0e4"
+          "sha256": "a703cfd240f38a98f61074253605b12938cc9d1eb7f03527862d45dce7c8e090"
         },
         {
           "file": "sounds/what-that-it.mp3",
@@ -122,6 +122,21 @@
           "file": "sounds/i-rip-and-run.mp3",
           "label": "I rip and run.",
           "sha256": "860385a0b4165b2973b9c0b2c5ade47b7227ac0dd04d06fc0d907065e46b525b"
+        },
+        {
+          "file": "sounds/come-at-the-king.mp3",
+          "label": "You come at the king, you best not miss.",
+          "sha256": "95283fd8dbef09e69db862eb8e9ec89f274eb90ec16edd57da0dfb7aa9616542"
+        },
+        {
+          "file": "sounds/all-in-the-game.mp3",
+          "label": "All in the game, yo.",
+          "sha256": "75f859012563c717d12917deb202a695aa840928e9936e61263a7d5df3569d81"
+        },
+        {
+          "file": "sounds/man-gotta-have-a-code.mp3",
+          "label": "A man got to have a code.",
+          "sha256": "6195f4e13841ad87922dec990ddb65404e4e204710e89e1748f7495414e8ac14"
         }
       ]
     },
@@ -170,6 +185,11 @@
           "file": "sounds/omar-listenin.mp3",
           "label": "Omar listenin'.",
           "sha256": "ed255f0bb01035cd0c1e94b096c8017bf54c2cc0599bfaad88b03e3f0ede7560"
+        },
+        {
+          "file": "sounds/confused-with-a-man.mp3",
+          "label": "Boy, you got me confused with a man who repeats himself.",
+          "sha256": "4fe220333b32d2fd656d3b9e49fe70affbc93f57757d9f3d5694b8de5519de35"
         }
       ]
     },

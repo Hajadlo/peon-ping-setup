@@ -1,0 +1,71 @@
+{
+  "cesp_version": "1.0",
+  "name": "game-polda-cz",
+  "display_name": "Polda (CZ)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "cs",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/p2-problematika.mp3",
+          "label": "Problematika té vaší otázky spočívá již v její podstatě.",
+          "sha256": "380fb4a68d30466b0ede0ad94b4e90bef77922626ad3c8c85a179ae98bf6cb1e",
+          "source": "https://www.youtube.com/watch?v=hhQbaCVYqaE (66.0-70.6 s)"
+        },
+        {
+          "file": "sounds/p2-zvaneni.mp3",
+          "label": "Hele, nechte toho žvanění a nechte mě zahrát.",
+          "sha256": "e83f6aa0e6032c62551c617c18cc890be7c9011d18e9de6c50d6bdad21e41f7a",
+          "source": "https://www.youtube.com/watch?v=hhQbaCVYqaE (88.15-91.0 s)"
+        },
+        {
+          "file": "sounds/p2-idiot-vepr.mp3",
+          "label": "Nyní už vás mám za idiota kombinovaného s vepřem.",
+          "sha256": "820e140170e2d8b64753b25d970d3359ff3e823e4ed61caf7c962413a0ce9b52",
+          "source": "https://www.youtube.com/watch?v=hhQbaCVYqaE (129.9-134.4 s)"
+        },
+        {
+          "file": "sounds/p2-krovky.mp3",
+          "label": "A proto vám, vy debile, doporučuji zatáhnout krovky a věnovat se svojí práci.",
+          "sha256": "35cb92d1cf9315e63762ce38eb705246e1cdc4b0730f838aa58533845f666a66",
+          "source": "https://www.youtube.com/watch?v=hhQbaCVYqaE (170.85-178.2 s)"
+        },
+        {
+          "file": "sounds/p2-onkologicky.mp3",
+          "label": "Nerušit! Právě jsem projel státní příspěvky na Dětský onkologický ústav. – No hlavně, že se daří.",
+          "sha256": "4c0fa3077fa1be333cd56f365f30e373d81cabea760aa71998357585ba879ec2",
+          "source": "https://www.youtube.com/watch?v=hhQbaCVYqaE (187.75-195.45 s)"
+        },
+        {
+          "file": "sounds/p2-duchody.mp3",
+          "label": "Tak co? – Důchody jsou v čoudu. Na to vyjde příště.",
+          "sha256": "c2d8065a3b65e09373ad5f97c3445ae0ece8fd14a2e6b47d17309db1858debea",
+          "source": "https://www.youtube.com/watch?v=hhQbaCVYqaE (196.3-200.2 s)"
+        },
+        {
+          "file": "sounds/p2-d4.mp3",
+          "label": "Tak co? – Pozastavují výstavbu dálnice D4. – Hm, to začíná být vážný.",
+          "sha256": "5f526c695978fcc61a6533b52b44f11567b1a8e952e991e142e49e2a3a609199",
+          "source": "https://www.youtube.com/watch?v=hhQbaCVYqaE (200.4-206.7 s)"
+        },
+        {
+          "file": "sounds/p2-tiskova-mluvci.mp3",
+          "label": "Tak co? – Od této chvíle se s touto otázkou obracejte na mou tiskovou mluvčí.",
+          "sha256": "b28d3aac3583221a7988d527462ff9c2faf4425f3526ca5c0be0aeafb878956f",
+          "source": "https://www.youtube.com/watch?v=hhQbaCVYqaE (207.15-213.95 s)"
+        },
+        {
+          "file": "sounds/p3-jednicka.mp3",
+          "label": "Jste tady úplně správně. Na hledání jsem jednička.",
+          "sha256": "477c4cf6513c23ba073ac95ddbc88eda5afde2b55fc971867677a94c151ab085",
+          "source": "https://www.youtube.com/watch?v=bkxlAz6Dwbw (64.3-68.75 s)"
+        }
+      ]
+    }
+  }
+}

@@ -30,6 +30,18 @@
           "file": "sounds/turntables.mp3",
           "label": "Well, well, well. How the turntables?",
           "sha256": "8d1a4ad5d937cfdf88551c9bf050824eacba20109457dba4d1c8c680c06d6c06"
+        },
+        {
+          "file": "sounds/office-twss-b.mp3",
+          "label": "That's what she said.",
+          "sha256": "a3032cc669c90125cb6782a91990c16d282fa9bc7a6cc49da972abe2eda64f86",
+          "source": "https://www.myinstants.com/en/instant/thats-what-she-said-the-office-34878/"
+        },
+        {
+          "file": "sounds/office-bears-beets.mp3",
+          "label": "Bears. Beets. Battlestar Galactica.",
+          "sha256": "429d10b1fa193184a5dd40543f96dcf2f658d600d496ef3c0e2c2e7fd7c6acc8",
+          "source": "https://magichour.ai/templates/details/clv1nvoxu018tl4my0ms1z04e--bears--beets--battlestar-galactica----the-office"
         }
       ]
     },
@@ -63,6 +75,28 @@
           "file": "sounds/bankruptcy.mp3",
           "label": "I declare bankruptcy!",
           "sha256": "c48c3e2cd4a6c265a68d015e7ecb5234a87e520b90378d25de6efc781e593ad4"
+        },
+        {
+          "file": "sounds/65ac3374ec97-no-god-please-no.mp3",
+          "label": "No God Please No!",
+          "sha256": "83aa223414386b325bec41cd657180359f26a6478ee8a7ff1c7e31d957361232"
+        },
+        {
+          "file": "sounds/cac22086fb42-dwight-you-ignorant-slut.mp3",
+          "label": "Dwight you ignorant slut",
+          "sha256": "333641216426def071b464187d5cd1ee9650bd652ef6544d204c265e335aeab2"
+        },
+        {
+          "file": "sounds/office-stay-calm.mp3",
+          "label": "Everybody stay calm!",
+          "sha256": "fb2028cd073ab576606a8ecfde9baab2d6b73ab4823405df40bf73fec8e0fa54",
+          "source": "https://www.myinstants.com/en/instant/the-office-stay-calm-44855/"
+        },
+        {
+          "file": "sounds/office-identity-theft.mp3",
+          "label": "Identity theft is not a joke, Jim. Millions of families suffer every year.",
+          "sha256": "bc4e8cb3ecfdae1900b5255a58a05e88836e3bd77d5b8d8e537a3ade10822236",
+          "source": "https://www.myinstants.com/en/instant/the-office-identity-theft-is-not-a-joke-82159/"
         }
       ]
     },

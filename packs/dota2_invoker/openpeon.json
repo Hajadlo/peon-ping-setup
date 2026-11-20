@@ -20,7 +20,7 @@
         {
           "file": "sounds/ThusIInvokeMyself.mp3",
           "label": "Thus I invoke myself!",
-          "sha256": "c0b46429cc05bff79d948ed9beecf364a0eb992ecaa0a787474f56010d54f9f4"
+          "sha256": "bbc8950c97cf69c687deafeeb3e58e48a40c85578cd290d218a7331784874c79"
         },
         {
           "file": "sounds/NewAgeOfKnowledge.mp3",
@@ -54,7 +54,7 @@
         {
           "file": "sounds/IProceed.mp3",
           "label": "I proceed.",
-          "sha256": "1236bd5029cae462b31ba61469905862bca0e1b12293a3e78040466022364a3e"
+          "sha256": "3b2285670410ee8e5a0b6b97ece6356624f030da69b98c2e8f042ba454b02d37"
         },
         {
           "file": "sounds/ThitherIGo.mp3",
@@ -78,7 +78,7 @@
         {
           "file": "sounds/WitnessTrueSorcery.mp3",
           "label": "Witness true sorcery!",
-          "sha256": "aedffc7fd8a53565fc346b42fb108dfffcae8d7c2b7779606b594a95c59c03e8"
+          "sha256": "10dcdbea30790d774b798e9eb3b6f6fe77bf079db876a8322bb3a08fe9d2c13b"
         }
       ]
     },

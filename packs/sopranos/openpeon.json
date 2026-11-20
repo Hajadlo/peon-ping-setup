@@ -20,7 +20,7 @@
         {
           "file": "sounds/Greeting_OhYeah.mp3",
           "label": "Oh yeah?",
-          "sha256": "967793bf0ce59cf584a5a0cc3617a4ab14514cbf25412e44184eccdc4523d9dd"
+          "sha256": "1234af2bf1dfcf3493cb802bbe92ff8ff9c09cd68d659433ae47f49dbe5fd11d"
         },
         {
           "file": "sounds/Greeting_SomethingToSay.mp3",
@@ -39,7 +39,7 @@
         {
           "file": "sounds/Acknowledge_DulyNoted.mp3",
           "label": "Duly noted",
-          "sha256": "3e95c00c7e641071fd171cb748c86fe05001ea533dc278ce30e695ac2262798f"
+          "sha256": "c90175f84141953226df5dc9089edf8156b240094cedf0a92a9c908ddbf94550"
         },
         {
           "file": "sounds/Acknowledge_MakeItHappen.mp3",
@@ -59,7 +59,7 @@
         {
           "file": "sounds/Acknowledge_ThatsIt.mp3",
           "label": "That's it",
-          "sha256": "9f47e5ce52a40f949bb3146d497d34f75e8f3b3d4dc7162796fe09dc2586b9e4"
+          "sha256": "c74aacec2aa21c64a8868ad0af29adf06f349cb5af5a9a0a18068d91228a91a7"
         }
       ]
     },
@@ -83,7 +83,23 @@
         {
           "file": "sounds/Complete_Progress.mp3",
           "label": "Progress",
-          "sha256": "ee9dd609e20cc4b43ca8b709510790343af8f3105f9036ef78a79afaf25155a4"
+          "sha256": "17601f3c7badab2862b561320787a2a601638b28d3093212b8222c7e76ef235e"
+        },
+        {
+          "file": "sounds/Error_OofMarone.mp3",
+          "label": "Oof, marone!",
+          "sha256": "9b691371fe0fe225742eae1f392d5e713930a06c85b21ed0cbf2211ea83ee01e"
+        },
+        {
+          "file": "sounds/Error_FknInterwebs.mp3",
+          "label": "F*ckin' internet",
+          "sha256": "7ea89123548d98b823dde0672dca92801983a2876798392c5bd0cdaaf8aaa0b7"
+        },
+        {
+          "file": "sounds/sopranos-czechoslovakians.mp3",
+          "label": "He killed sixteen Czechoslovakians. Guy was an interior decorator.",
+          "sha256": "31a0b8ed6671a592add3dcb5f67fce6482ef9a539a6f829379058f385b2fda9d",
+          "source": "https://www.facebook.com/praguereporter/videos/he-killed-16-czechoslovakians/234483657069350/"
         }
       ]
     },
@@ -102,7 +118,7 @@
         {
           "file": "sounds/Error_Wtf.mp3",
           "label": "What the f*ck?",
-          "sha256": "b32e56f5fa802d568143c89dfefa0deb2b3ddc8eddf6f2e3473b1347df368b94"
+          "sha256": "8573641eecf97b776250fec4c3f7b2d7581d5922db749a5022ff869a3df94f80"
         },
         {
           "file": "sounds/Error_FknInterwebs.mp3",
@@ -136,12 +152,32 @@
         {
           "file": "sounds/Permission_WhatsHeWant.mp3",
           "label": "What's he want?",
-          "sha256": "36e7a88108f29138d26b9710a69f41705a318746fa234f3e19bc30c298edbfd9"
+          "sha256": "e8f650f9ffa4d65158dd274bae3a12d6b59eb27e7d5aa5022349025d91e482ab"
         },
         {
           "file": "sounds/Permission_DidIAngerYou.mp3",
           "label": "Did I anger you?",
           "sha256": "1d207087609388f50b31f53257015b59ab8085d77567abdd4d94d01f2c80aa92"
+        },
+        {
+          "file": "sounds/Acknowledge_MakeItHappen.mp3",
+          "label": "Make it happen",
+          "sha256": "2c3c55a55132bfc42fb84a29c54be7cd6203930dfe9792bfecae1e2e05e31a57"
+        },
+        {
+          "file": "sounds/Greeting_SomethingToSay.mp3",
+          "label": "Something you wanna say to me?",
+          "sha256": "8eb6c5ee9b31b90da72e0d407fb30545f435955f5b7e07889b42bd271e4e53a4"
+        },
+        {
+          "file": "sounds/Annoyed_StopGettingCunty.mp3",
+          "label": "Stop getting cunty!",
+          "sha256": "51fa8e4b1fef0c14d3addb47a94acaab3f6749255a8ac145246d1ca61e0dada8"
+        },
+        {
+          "file": "sounds/Annoyed_OhPoorYou.mp3",
+          "label": "Oh, poor you",
+          "sha256": "9a4214f89ee04eb6bc2f228e057f26c577775f4cdaeb7426c7d7f3b9eb8d2728"
         }
       ]
     },

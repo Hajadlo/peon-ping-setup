@@ -1,0 +1,77 @@
+{
+  "cesp_version": "1.0",
+  "name": "game-fishfillets-cz",
+  "display_name": "Fish Fillets (CZ)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "GPL-2.0",
+  "language": "cs",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ff-kd-dobry-den-ryby.mp3",
+          "label": "Dobrý den, ryby.",
+          "sha256": "7ede12561f6cbc967ceba41094965c44b0ac9420ca8b310d92d737008b3b75d3",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-kd-gral.mp3",
+          "label": "A také nezapomeňte najít svatý grál.",
+          "sha256": "5583d39d6cdd746dc9b27800df54425598729ff309f1bd14c32bd9bc74075d55",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-1st-m-proc.mp3",
+          "label": "Proč se nic neděje?",
+          "sha256": "07e82345d91572228af9b2e00ad1ef7949fc12a223aff40fe942537cb366a055",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-1st-v-pribral.mp3",
+          "label": "Nějak jsem asi přibral.",
+          "sha256": "da47191aa083533fddfc4fbf58cdd33305df27fbd24c83d834a34f42df41995a",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-kuf-m-je.mp3",
+          "label": "Jé, už zase...",
+          "sha256": "dd10dd36716c67aee01d012b8f3b9ac3965bfcda20dc5770fc79fe2100ac1b5e",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-pra-v-schvalne.mp3",
+          "label": "Přiznáváme, tohle jsme na tebe narafičili schválně.",
+          "sha256": "437d7700b7c303b3ecd0cb2a4ff49a4906f69e031533e0b02ce5f79cc283255b",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-sch-v-setkani.mp3",
+          "label": "Setkání lastury s květináčem. To je skoro jako setkání žehličky s šicím strojem na operačním stole.",
+          "sha256": "9e4669b2d1246ec8fb5fb80c49a36f5f1dac625370e82e50623aaf03f85227b3",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-uts-m-matrace.mp3",
+          "label": "Matrace. To nejlepší, co pod vodou seženete.",
+          "sha256": "ae18ce5fd97a1d8181e69dce6e03988673a515e39921dc5d92b651384193be1a",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-wc-m-prasecinky.mp3",
+          "label": "Já jsem ti říkala, že zrovna my splachovací záchod nepotřebujeme. A ještě tu visí ty tvoje prasečinky.",
+          "sha256": "1e330d85ae463942076769b90ccbc75be05d7881d20029bb76f8c08feff6f48b",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        },
+        {
+          "file": "sounds/ff-wc-m-nevis.mp3",
+          "label": "Copak nevíš, kde končí svůj život spousta akvarijních rybiček?",
+          "sha256": "7711fff8ab314e3e391a7ac0d22cef3f9f9a9f519759f9db9c02b2afab59aa41",
+          "source": "Fish Fillets NG data, Czech voices (Debian fillets-ng-data-cs 1.0.1, GPL-2.0)"
+        }
+      ]
+    }
+  }
+}

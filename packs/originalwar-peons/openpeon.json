@@ -20,12 +20,12 @@
         {
           "file": "sounds/am_bobby_ra_1.mp3",
           "label": "Bobby: Ready",
-          "sha256": "5ade5bf053d2549451a4971a2a7f612e7738385e90a4f96b103b31b37074738b"
+          "sha256": "82033052add9dff603e502e9e7c0059ba5f4ac5b18cb2518683ff9d36b445649"
         },
         {
           "file": "sounds/ru_bur_rc_2.mp3",
           "label": "Burlak: Hlásím se",
-          "sha256": "ee81007d9869b8ede1d5b75a062a9a05fe9cd8c35ca013ebcf6ee0df7c7decb7"
+          "sha256": "c35981f53f63f3083c802498e5c5364ceec93435bef28accba72a8381924f2ce"
         },
         {
           "file": "sounds/am_cyrus_ra_1.mp3",
@@ -118,7 +118,7 @@
         {
           "file": "sounds/am_jmm_fl_1.mp3",
           "label": "Macmillan: Built",
-          "sha256": "62639cfc188b16a92bc495049da0bcdffc4d0a9fc29a8f9a4da573a0738cb026"
+          "sha256": "f3ff0a4881f6c5e48195c44b5bb4af4b28a8bf7f9a7250c1718fbb828bc652b7"
         },
         {
           "file": "sounds/ru_bur_fa_1.mp3",
@@ -172,7 +172,7 @@
         {
           "file": "sounds/am_frank_ka_1.mp3",
           "label": "Frank: Under Fire",
-          "sha256": "3bbfc470db932ee4427fce8a77594ac91bb9528f7d0ce3a21fb66417c9e7d175"
+          "sha256": "2a4ee3656fb6fce184ef90ac0d87cd035f724ff3ef4a3a27de6422242eca1cd4"
         },
         {
           "file": "sounds/am_jmm_ka_2.mp3",
@@ -284,7 +284,7 @@
         {
           "file": "sounds/ru_bur_oa_2.mp3",
           "label": "Burlak: Annoyed",
-          "sha256": "9d8eb8c32f401395a69aaedfb5294e06d7ab0ea70a7af95bd25baa54a1eb5d62"
+          "sha256": "fa2cbe67199e26d2339cd878293170aa2f4e04ac11639eeafb1e98fb2c273bfc"
         },
         {
           "file": "sounds/ru_gla_oa_3.mp3",
@@ -323,7 +323,7 @@
         {
           "file": "sounds/ru_bur_ua_1.mp3",
           "label": "Burlak: Critical",
-          "sha256": "14588f0cb4cf8e8861b5df024c95e9f7343c4f07feece36382ecbd94ba7f886c"
+          "sha256": "867a766fc3ed7e7f8c07981087993f833d6d4fa25340a6acc0dc98312f9a1cfe"
         }
       ]
     },
@@ -372,7 +372,7 @@
         {
           "file": "sounds/ru_bur_bd_1.mp3",
           "label": "Burlak: Battle",
-          "sha256": "fa736736f4321cfff64eff860074063a43e2f87bdf15039f5ff1dc9afc8ab364"
+          "sha256": "3d3e47870cf546bd91abc2bf06aad4fbdd6013930597b1aadfd3771ae7b03bcb"
         },
         {
           "file": "sounds/ru_gny_ba_2.mp3",
@@ -417,7 +417,7 @@
         {
           "file": "sounds/ru_bur_ea_2.mp3",
           "label": "Burlak: Spotted",
-          "sha256": "b68a85fac55402b71222650c5cc2e5aaf22e81828943d8f91d1b201ea43ea5ef"
+          "sha256": "4b77136edcb91ab50d14041c73c6cab42b8a6b91e32be7819ff4de53ae4e31da"
         },
         {
           "file": "sounds/ru_gny_ea_1.mp3",

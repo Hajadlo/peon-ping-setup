@@ -30,7 +30,7 @@
         {
           "file": "sounds/dynamo_select_07.mp3",
           "label": "And here I was, thinking I would be reviewing term papers all day.",
-          "sha256": "66f6e12b4e76a650fe74834550e3c782dc18e4db819c931dc286f81598541833"
+          "sha256": "e3cbfa5ffa775dcff0ec9c42640884ec371c17adf960bf4ee99e3c0970d34fe0"
         },
         {
           "file": "sounds/dynamo_select_08.mp3",
@@ -54,7 +54,7 @@
         {
           "file": "sounds/dynamo_match_start_yamato_dynamo_convo01_04.mp3",
           "label": "Sounds good.",
-          "sha256": "788d63cf8f5b58690d6465aea35adfe4e8c69deb8182f28267d460b56635fdf2"
+          "sha256": "bd50888935ee73bd749674b61608f35f5cbe5191fa6535eab563436d896e4dda"
         },
         {
           "file": "sounds/dynamo_match_start_yamato_dynamo_convo01_06.mp3",
@@ -128,7 +128,7 @@
         {
           "file": "sounds/dynamo_congrats_03.mp3",
           "label": "We make a great team!",
-          "sha256": "a616e941e33258bfebcd11214a32efc7af786e1c6a09a62b4acd22bf8dcd4d09"
+          "sha256": "4d22e747df14f4704a5be44574b9213dc4e111db32335ebf6c83a1ec3286c7b4"
         },
         {
           "file": "sounds/dynamo_win_02.mp3",
@@ -142,7 +142,7 @@
         {
           "file": "sounds/dynamo_no_allies_help_blackhole_03.mp3",
           "label": "Need some help here!",
-          "sha256": "607e385bd32fcf0901b6c44b861456140bf1141f5ebdd2f44b4fd8fae3aac630"
+          "sha256": "5638ed26c1c8d76a6f75cd8a24938ee49812aef3987ddee3f4a0e65ae367189c"
         },
         {
           "file": "sounds/dynamo_killstreak_mid_02.mp3",
@@ -166,7 +166,7 @@
         {
           "file": "sounds/dynamo_use_power2_18.mp3",
           "label": "Hope I reassemble...",
-          "sha256": "1a3d089f5a52cd2630c560e036d561cde8c696ad4c55b132d71a9247ef1d6c94"
+          "sha256": "3bd4267926c896feeb34e2175edf053583ad711aff3fb75f600e6d3361771d07"
         },
         {
           "file": "sounds/dynamo_use_power2_11.mp3",
@@ -196,12 +196,12 @@
         {
           "file": "sounds/dynamo_upgrade_power4_01.mp3",
           "label": "My team is counting on me.",
-          "sha256": "83572abaa754d95fd2fa8824ec10840e5ea06d2f4735af99c8e88e5297aecd81"
+          "sha256": "a7e81e595552ae1552d4bbd13d9bf871b461ca8ba5180b70c29364381e46c6c3"
         },
         {
           "file": "sounds/dynamo_use_vampiric_burst_03.mp3",
           "label": "I'll give them everything I got!",
-          "sha256": "cc721eb29156e5a1ecb126e8b1645d696a0accd7a037d42e9cb6b53e5acd8528"
+          "sha256": "b5d3266ed22900c3fe7bdeca7aa9aa8e8f63d2e0f671eefbdc285094b5d468da"
         },
         {
           "file": "sounds/dynamo_use_vampiric_burst_02.mp3",
@@ -230,7 +230,7 @@
         {
           "file": "sounds/dynamo_t2_shop_reminder_03.mp3",
           "label": "I need more supplies...",
-          "sha256": "9d791c27a052c35019fb0b238b2ffac2a25459e640f6891fb88c981b55e2ed52"
+          "sha256": "423e4754c7e2b5874917b9e2d0e366f7454eabab3f908e0f0de0d9d4b973adf4"
         },
         {
           "file": "sounds/dynamo_t3_shop_reminder_03.mp3",
@@ -240,7 +240,7 @@
         {
           "file": "sounds/dynamo_ping_ability4_not_ready.mp3",
           "label": "Singularity's on cooldown.",
-          "sha256": "a94112f604079459a601e166ac973161d524c1205929852f8de8c40eab342c7d"
+          "sha256": "c219a723f8d0de3dc7e686cb48750665fb41e7560db457429bfb02a8b5501304"
         }
       ]
     },
@@ -254,7 +254,7 @@
         {
           "file": "sounds/Dynamo_use_power1_03.mp3",
           "label": "It's you or me!",
-          "sha256": "5066af096f7c90826d3e35887241a67ebf1e986a3c626f0d8b789fcfcb7274eb"
+          "sha256": "42387b75b470e35d8875f3ba6a9506af2bfe825a1dd0ce8a63a4c1e2513f8da6"
         },
         {
           "file": "sounds/Dynamo_use_power1_10.mp3",

@@ -77,6 +77,16 @@
           "file": "sounds/giddy-up.wav",
           "sha256": "a809ae1cd1a9253b72c30a21debd035d6ea26ea8abe7d793f19c43e3bba269f7",
           "label": "Giddy-up!"
+        },
+        {
+          "file": "sounds/out_there.wav",
+          "sha256": "8b67365bc1140bb8b61970fc435795eca2472105d9431d273ea2aca5bd255804",
+          "label": "I'm out there, Jerry, and I'm lovin' every minute of it!"
+        },
+        {
+          "file": "sounds/master_of_domain.wav",
+          "sha256": "9378177507ffea6501e0989e7464c987bacff54030d44e11ec46e9e9ab982a71",
+          "label": "Master of your domain."
         }
       ]
     },

@@ -194,6 +194,73 @@
     "language": "en",
     "sounds": 18
   },
+  "game-fishfillets-cz": {
+    "display_name": "Fish Fillets (CZ)",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "GPL-2.0",
+    "language": "cs",
+    "sounds": 10,
+    "note": "Source: Fish Fillets NG Czech voice data (Debian fillets-ng-data-cs 1.0.1)."
+  },
+  "game-flashpoint-cz": {
+    "display_name": "Operace Flashpoint (CZ dabing)",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.1.0",
+    "license": "fair-use",
+    "language": "cs",
+    "sounds": 8
+  },
+  "game-kcd2-cz": {
+    "display_name": "Kingdom Come: Deliverance II (CZ)",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "cs",
+    "sounds": 2
+  },
+  "game-mafia-cz": {
+    "display_name": "Mafia (CZ dabing)",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.1.0",
+    "license": "fair-use",
+    "language": "cs",
+    "sounds": 20
+  },
+  "game-mafia2-cz": {
+    "display_name": "Mafia II (CZ dabing)",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "cs",
+    "sounds": 9
+  },
+  "game-polda-cz": {
+    "display_name": "Polda (CZ)",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "cs",
+    "sounds": 9
+  },
   "gilfoyle": {
     "display_name": "Gilfoyle",
     "origin": "registry",
@@ -301,14 +368,11 @@
   },
   "originalwar-peons": {
     "display_name": "Original War Peons",
-    "origin": "github",
+    "origin": "this-repo",
     "author": {
       "name": "Hajadlo",
       "github": "Hajadlo"
     },
-    "source_repo": "Hajadlo/originalwar-peons",
-    "source_ref": "main",
-    "source_path": ".",
     "version": "4.0.1",
     "license": "CC-BY-NC-4.0",
     "language": "cs",
@@ -537,7 +601,7 @@
     "version": "1.0.0",
     "license": "CC-BY-NC-4.0",
     "language": "en",
-    "sounds": 30
+    "sounds": 31
   },
   "st_worf": {
     "display_name": "Worf (Star Trek)",
@@ -569,6 +633,28 @@
     "language": "en",
     "sounds": 34
   },
+  "tv-band-of-brothers": {
+    "display_name": "TV — Band of Brothers",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 1
+  },
+  "tv-better-call-saul": {
+    "display_name": "TV — Better Call Saul",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 2
+  },
   "tv-breaking-bad": {
     "display_name": "TV — Breaking Bad",
     "origin": "this-repo",
@@ -578,7 +664,7 @@
     "version": "1.0.0",
     "license": "fair-use",
     "language": "en",
-    "sounds": 5
+    "sounds": 11
   },
   "tv-brooklyn-nine-nine": {
     "display_name": "TV — Brooklyn Nine-Nine",
@@ -591,8 +677,30 @@
     "language": "en",
     "sounds": 3
   },
+  "tv-chernobyl": {
+    "display_name": "TV — Chernobyl",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 2
+  },
   "tv-curb-your-enthusiasm": {
     "display_name": "TV — Curb Your Enthusiasm",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 1
+  },
+  "tv-game-of-thrones": {
+    "display_name": "TV — Game of Thrones",
     "origin": "this-repo",
     "author": {
       "name": "Hajadlo"
@@ -611,7 +719,7 @@
     "version": "1.0.0",
     "license": "fair-use",
     "language": "en",
-    "sounds": 2
+    "sounds": 4
   },
   "tv-its-always-sunny-in-philadelphia": {
     "display_name": "TV — It's Always Sunny in Philadelphia",
@@ -622,7 +730,7 @@
     "version": "1.0.0",
     "license": "fair-use",
     "language": "en",
-    "sounds": 6
+    "sounds": 11
   },
   "tv-mad-men": {
     "display_name": "TV — Mad Men",
@@ -633,7 +741,7 @@
     "version": "1.0.0",
     "license": "fair-use",
     "language": "en",
-    "sounds": 4
+    "sounds": 6
   },
   "tv-narcos": {
     "display_name": "TV — Narcos",
@@ -666,7 +774,7 @@
     "version": "1.0.0",
     "license": "fair-use",
     "language": "en",
-    "sounds": 2
+    "sounds": 3
   },
   "tv-seinfeld": {
     "display_name": "TV — Seinfeld",
@@ -677,7 +785,29 @@
     "version": "1.0.0",
     "license": "fair-use",
     "language": "en",
-    "sounds": 5
+    "sounds": 8
+  },
+  "tv-severance": {
+    "display_name": "TV — Severance",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 1
+  },
+  "tv-the-good-place": {
+    "display_name": "TV — The Good Place",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 3
   },
   "tv-the-office-us": {
     "display_name": "TV — The Office (US)",
@@ -688,7 +818,18 @@
     "version": "1.0.0",
     "license": "fair-use",
     "language": "en",
-    "sounds": 9
+    "sounds": 13
+  },
+  "tv-the-wire": {
+    "display_name": "TV — The Wire",
+    "origin": "this-repo",
+    "author": {
+      "name": "Hajadlo"
+    },
+    "version": "1.0.0",
+    "license": "fair-use",
+    "language": "en",
+    "sounds": 1
   },
   "tywin-lannister": {
     "display_name": "Tywin Lannister",

@@ -1,0 +1,137 @@
+{
+  "cesp_version": "1.0",
+  "name": "game-mafia-cz",
+  "display_name": "Mafia (CZ dabing)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "cs",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/m1-pozdravuje.mp3",
+          "label": "Pozdravuje vás pan Salieri.",
+          "sha256": "bf0e3fb41a9034327fc0210d4e90c5ed258da8895ab32e2322d0c58f841afa05",
+          "source": "https://www.youtube.com/watch?v=4HBBgdfwK8A (25.0-27.9 s)"
+        },
+        {
+          "file": "sounds/m1-dobra-prace-tome.mp3",
+          "label": "Dobrá práce, Tome!",
+          "sha256": "b1f7e6a72cf238ae03a2ce2f41c854556ae7ec33ec7115e4b47b5f08347432cd",
+          "source": "mafia.scorpions.cz/download/hlasky salieri-zip (95.9-97.3 s)"
+        },
+        {
+          "file": "sounds/m1-tohle-se-povedlo.mp3",
+          "label": "Tome, tak tohle se povedlo.",
+          "sha256": "9b4c4bc42025c00f440f1bf923f828e0a49639e401578495742caf0be2a9da57",
+          "source": "mafia.scorpions.cz/download/hlasky mafia_mix2-zip (166.2-168.4 s)"
+        },
+        {
+          "file": "sounds/m1-pripad-uzavren.mp3",
+          "label": "Případ uzavřen pro nedostatek důkazů.",
+          "sha256": "74555c9d039d0e9554e7b2cb7c272fb2ec050da72e34ccefba60c73a7949b6d7",
+          "source": "https://www.youtube.com/watch?v=CKihmpl0cIw (482.9-485.4 s)"
+        },
+        {
+          "file": "sounds/m1-mistr-tesar.mp3",
+          "label": "Sorry, ale i mistr tesař se někdy utne.",
+          "sha256": "0c28cb38aa74c0baf2a1cd021c0bace70c630be4e24c15d64f5116411b0898d5",
+          "source": "https://www.youtube.com/watch?v=CKihmpl0cIw (35.0-37.95 s)"
+        },
+        {
+          "file": "sounds/m1-game-over.mp3",
+          "label": "Jo! Game over, bastardi!",
+          "sha256": "b647ee322522e13ceac4167a2175f5397b5964b4dcd27176f8a24bf9e0edb9d1",
+          "source": "https://www.youtube.com/watch?v=CKihmpl0cIw (135.1-138.1 s)"
+        },
+        {
+          "file": "sounds/m1-luna-park.mp3",
+          "label": "Co si to kurva ty parchanti o sobě do prdele myslej? Že je to tady nějakej zasranej Luna Park, nebo co?",
+          "sha256": "71d66763f493995b678db97ca05c32b0d176c475ead4ad4cffb54520663da0d0",
+          "source": "https://www.youtube.com/watch?v=0eIoTzIKZPI (51.6-57.2 s)"
+        },
+        {
+          "file": "sounds/m1-zacinas-me-srat.mp3",
+          "label": "No Tome, začínáš mě docela srát!",
+          "sha256": "85d6f30636a96b1cb1a07ed64e650e8604e82115ba68b78dad6ac41e2121b7fa",
+          "source": "mafia.scorpions.cz/download/hlasky mix_hlasek-zip (192.6-194.35 s)"
+        },
+        {
+          "file": "sounds/m1-zadna-prdel.mp3",
+          "label": "Se mnou není žádná prdel!",
+          "sha256": "bde188c7a2d50e05c85b56e5a72cb2eb3e2027524668ad9abb5ffadbb7a046c4",
+          "source": "https://www.youtube.com/watch?v=CKihmpl0cIw (412.8-414.5 s)"
+        },
+        {
+          "file": "sounds/de-diamanty.mp3",
+          "label": "A nejsou diamanty nejtvrdší věc na světě? – Když nepočítáme moje péro. (Definitive Edition 2020)",
+          "sha256": "9984b1b570ffa719e0fa3c96dd22fae10474810d37a7c65689e58df56195a0bb",
+          "source": "https://www.youtube.com/watch?v=3BdJ6K5c8nE (64.3-69.25 s)"
+        },
+        {
+          "file": "sounds/de-prochcanej.mp3",
+          "label": "Jsem prochcanej na kost. (Definitive Edition 2020)",
+          "sha256": "53d67905edfc70a46b325645032ba0f62541434e17569ee7cea4717929c76553",
+          "source": "https://www.youtube.com/watch?v=3BdJ6K5c8nE (44.95-46.8 s)"
+        },
+        {
+          "file": "sounds/de-zaparkovany.mp3",
+          "label": "Je tak zpitej, že by ho mohlo přejet i zaparkovaný auto. (Definitive Edition 2020)",
+          "sha256": "38f48796dc4451827059997ccfbe18781c83535e4dac28dbe088b0258cec65ee",
+          "source": "https://www.youtube.com/watch?v=3BdJ6K5c8nE (86.9-89.45 s)"
+        },
+        {
+          "file": "sounds/de-do-kalhot.mp3",
+          "label": "Až odsud cítím, jak sis nasral do kalhot. (Definitive Edition 2020)",
+          "sha256": "4a0acb9e49e56ced91cf385625a63a91d4ffb76449eaf7754974734950cc5ad7",
+          "source": "https://www.youtube.com/watch?v=3BdJ6K5c8nE (92.1-95.25 s)"
+        },
+        {
+          "file": "sounds/de-prostor.mp3",
+          "label": "Honí se mi hlavou spousta věcí. – Vážně? Já měl za to, že tam tolik prostoru není. (Definitive Edition 2020)",
+          "sha256": "ac8434969d280daee92e09f98c3edd90a10b7451baf56ff4b5321212e1541905",
+          "source": "https://www.youtube.com/watch?v=3BdJ6K5c8nE (205.0-211.1 s)"
+        },
+        {
+          "file": "sounds/de-zumpa.mp3",
+          "label": "Tohle město je zkorumpovaná žumpa. (Definitive Edition 2020)",
+          "sha256": "d55d1194247d590128f36cc08e7ec76f7e6020dbbac1ec1e306b1e5acb4f8364",
+          "source": "https://www.youtube.com/watch?v=3BdJ6K5c8nE (166.75-169.7 s)"
+        },
+        {
+          "file": "sounds/de-hlavu-z-prdele.mp3",
+          "label": "Hej, mistře! Vytáhni si hlavu z prdele! (Definitive Edition 2020)",
+          "sha256": "455bc98609eff04b5811041e480bcba4360d7c9b061661b32ca8b449d545e811",
+          "source": "https://www.youtube.com/watch?v=A8r6Y0JlTIg (5.1-11.9 s)"
+        },
+        {
+          "file": "sounds/de-brzdovy-lanka.mp3",
+          "label": "Jednou ti přeříznu brzdový lanka, kreténe. (Definitive Edition 2020)",
+          "sha256": "1e9fb3cfd332e48fac04dda03398a784e9bee4e678bcc49de620f9a85dc2ea83",
+          "source": "https://www.youtube.com/watch?v=A8r6Y0JlTIg (72.7-75.45 s)"
+        },
+        {
+          "file": "sounds/m1-castejc.mp3",
+          "label": "Takovouhle práci bysme měli dělat častějc.",
+          "sha256": "94bae8af7ae45ee23e0f7f8b4d5e535b22aca5aa9e1393f0119b6664ae23cef4",
+          "source": "https://www.youtube.com/watch?v=ShuooEzfD88 (350.0-352.35 s)"
+        },
+        {
+          "file": "sounds/m1-napijeme.mp3",
+          "label": "No to se povedlo. Na to se napijeme.",
+          "sha256": "8a1f76a65a48995944bfc142fbb2828b300941e348035e73cea2544108aa78c1",
+          "source": "https://www.youtube.com/watch?v=ShuooEzfD88 (574.08-576.5 s)"
+        },
+        {
+          "file": "sounds/m1-za-nama.mp3",
+          "label": "Už je to za náma, jedeme domů.",
+          "sha256": "9d219999e70e6d1f5c39db1ced5edb52847b1e3052d0f48183c1dae0e6167694",
+          "source": "https://www.youtube.com/watch?v=ShuooEzfD88 (369.2-370.7 s)"
+        }
+      ]
+    }
+  }
+}

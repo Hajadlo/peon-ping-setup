@@ -1,0 +1,29 @@
+{
+  "cesp_version": "1.0",
+  "name": "game-kcd2-cz",
+  "display_name": "Kingdom Come: Deliverance II (CZ)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "cs",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/kcd-necky.mp3",
+          "label": "Napustil mě jako necky.",
+          "sha256": "218b6e331cfcc29689e7ff1ea471112a531b136063d78fd68ffdc03c0469761f",
+          "source": "https://www.youtube.com/watch?v=6qEeiipYCqw (69.6-72.5 s)"
+        },
+        {
+          "file": "sounds/kcd-uriznu.mp3",
+          "label": "Sáhni na mě a uříznu ti ptáka.",
+          "sha256": "18041dcc11c06bd99309a36c6198e28997c823ad87f5d34a70b857f8711c2399",
+          "source": "https://www.youtube.com/watch?v=ETTMDFw4BIA (48.8-51.9 s)"
+        }
+      ]
+    }
+  }
+}

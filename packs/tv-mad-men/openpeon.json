@@ -20,6 +20,12 @@
           "file": "sounds/dc1dd7eed0d0-when-god-close-the-door-he-opens-the-dress.mp3",
           "label": "When God Close The Door He Opens The Dress",
           "sha256": "a31e137c5d3707c3e8cd3d19931d3e53829bedcc75659cb6e47a7494aed6cfdf"
+        },
+        {
+          "file": "sounds/madmen-dont-think-about-you.mp3",
+          "label": "I don't think about you at all.",
+          "sha256": "3b0c1a2b07fdc7212ca97d1e2d662b43cc8a72c5475e0e34b66867df156a527b",
+          "source": "https://www.facebook.com/StreamOnU/videos/mad-men-i-dont-think-about-you-at-all/587810520104920/"
         }
       ]
     },
@@ -38,6 +44,12 @@
           "file": "sounds/0f373a49c653-i-dont-think-i-have-to-tell-you-what-you-witnessed-here.mp3",
           "label": "I Don't Think I Have To Tell You What You Witnessed Here",
           "sha256": "4df570ff3238688d8b17312f3c87d99d74bb3c76d9c125d0e06b42b7c400f6c3"
+        },
+        {
+          "file": "sounds/madmen-money.mp3",
+          "label": "That's what the money is for!",
+          "sha256": "f04ff8d924ac6e33fc8e4abee917f34c42feb70204b0487ce7c6ea97fc827170",
+          "source": "https://www.101soundboards.com/sounds/3952921-thats-what-the-money-is-for-don-draper-mad-men-money-jon-hamm-peggy-olson"
         }
       ]
     },

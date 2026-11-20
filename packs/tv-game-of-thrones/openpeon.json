@@ -1,0 +1,23 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-game-of-thrones",
+  "display_name": "TV — Game of Thrones",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/got-drink-know-things.mp3",
+          "label": "That's what I do. I drink and I know things.",
+          "sha256": "ff8c2ed23bc2d575c82b95686e633ef8896df691c10821cfd9023e3dc086abc6",
+          "source": "https://www.facebook.com/rottentomatoes/videos/game-of-thrones-quote-i-drink-and-i-know-things/315332265797247/"
+        }
+      ]
+    }
+  }
+}

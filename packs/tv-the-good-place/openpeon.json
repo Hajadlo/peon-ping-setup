@@ -1,0 +1,39 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-the-good-place",
+  "display_name": "TV — The Good Place",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/goodplace-hi-there.mp3",
+          "label": "Hi there",
+          "sha256": "58dee2b7911310f744651f63b23277240a1f28681f805288187a36a30bb8d24a",
+          "source": "https://www.101soundboards.com/sounds/46358928-hello-you-beautiful-spirits-can-i-offer-you-two-something-to-drink-janet-hi-there"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/goodplace-shirtballs-b.mp3",
+          "label": "Holy mother-forking shirtballs!",
+          "sha256": "e72687cc6c840e10b7ccc8f9f8b26dd85da73ac269670c189f98a0bfe0a6bb94",
+          "source": "https://www.myinstants.com/en/instant/holy-forking-shirtballs-40422/"
+        },
+        {
+          "file": "sounds/goodplace-ya-basic.mp3",
+          "label": "Ya basic!",
+          "sha256": "2ce2e5e3ad7b0e9f5d4aa019620652bfb96677912b58bd98ce07e2435f0b36b1",
+          "source": "https://www.facebook.com/NetflixUK/videos/ya-basic-the-good-place/2711499755549312/"
+        }
+      ]
+    }
+  }
+}

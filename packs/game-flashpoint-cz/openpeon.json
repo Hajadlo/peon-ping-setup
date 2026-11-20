@@ -1,0 +1,65 @@
+{
+  "cesp_version": "1.0",
+  "name": "game-flashpoint-cz",
+  "display_name": "Operace Flashpoint (CZ dabing)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "cs",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ofp-srac.mp3",
+          "label": "Sráč jedna, tady sráč dva. Potřebujeme palebnou podporu.",
+          "sha256": "2ffcdd5cda711da5c96e7eccecc557888d94f9fa89562b5f0d70089eb87a7051",
+          "source": "https://www.youtube.com/watch?v=QQYg_O0rtr0 (0.6-4.85 s)"
+        },
+        {
+          "file": "sounds/ofp-skvela-prace.mp3",
+          "label": "Skvělá práce, vojáku. Věděl jsem, že to dokážete.",
+          "sha256": "157c1ac534fe2762fa72f107b0898dc9c694bbb8049901c955f701b8ec8b09f2",
+          "source": "https://www.youtube.com/watch?v=d8GAfB1E5ZY (5.3-8.7 s)"
+        },
+        {
+          "file": "sounds/ofp-zachranili-svet.mp3",
+          "label": "Alfa 1, tady táta Medvěd. Už jste zachránili svět? – No, pochopitelně, taťko.",
+          "sha256": "4fa918a418b8c26df9c66ae56e06c172ea1863a3e144acfa94ea9d9e68129aa8",
+          "source": "https://www.youtube.com/watch?v=b47iXWNIwB8 (1344.1-1351.3 s)"
+        },
+        {
+          "file": "sounds/ofp-basa-piv.mp3",
+          "label": "Alfa, tady Nomád 1. Hezky jste to tam uklidili. Máte u nás basu piv.",
+          "sha256": "60c0e042a3d622548b98e3480ce1e6ac033e47683208435f64a2d3acc3940337",
+          "source": "https://www.youtube.com/watch?v=b47iXWNIwB8 (65.75-69.65 s)"
+        },
+        {
+          "file": "sounds/ofp-povel.mp3",
+          "label": "Čekáme na váš povel k útoku.",
+          "sha256": "f11bb4577d8c84e5392d1eceb85dc35190e432804ca020e37ff23c11b991a277",
+          "source": "https://www.youtube.com/watch?v=b47iXWNIwB8 (697.9-699.75 s)"
+        },
+        {
+          "file": "sounds/g-james-bond.mp3",
+          "label": "Gastovski. James Gastovski.",
+          "sha256": "6b70dcc32b29c6b36086a750dccf5ccc205d5c942916178b998f38e1e349acf5",
+          "source": "https://www.youtube.com/watch?v=b47iXWNIwB8 (266.96-269.02 s)"
+        },
+        {
+          "file": "sounds/g-konec.mp3",
+          "label": "Já zůstanu tady a pomůžu těm chlapcům z Rudohy. Gastovski, konec.",
+          "sha256": "005558bb835f679c81c2dcf6c410e775f7d464c4feac5eec02eebfefaa6092af",
+          "source": "https://www.youtube.com/watch?v=b47iXWNIwB8 (523.58-528.30 s)"
+        },
+        {
+          "file": "sounds/g-tatko.mp3",
+          "label": "No pochopitelně, taťko. Raketa je na hadry a Guba v řetězích.",
+          "sha256": "398455a07a3d3d1bdacd8d66636e29d1c23f92019c91a676c2cbd0b455a62a9b",
+          "source": "https://www.youtube.com/watch?v=b47iXWNIwB8 (1349.14-1353.98 s)"
+        }
+      ]
+    }
+  }
+}

@@ -12,18 +12,20 @@
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/pretty.mp3",
+          "file": "sounds/curb-pretty-b2.mp3",
           "label": "Pretty, pretty, pretty good.",
-          "sha256": "e4dd661d17d0590b51f25df10a27d603eb440bc5e23fcde3a59e321b2f725249"
+          "sha256": "aa6a4b3b6140d44777cf1cd5c819b18f692ded5f4e90cdcd10cc33a136d1879c",
+          "source": "trim of existing pretty.mp3 (2.85-8.95 s)"
         }
       ]
     },
     "input.required": {
       "sounds": [
         {
-          "file": "sounds/pretty.mp3",
+          "file": "sounds/curb-pretty-b2.mp3",
           "label": "Pretty, pretty, pretty good.",
-          "sha256": "e4dd661d17d0590b51f25df10a27d603eb440bc5e23fcde3a59e321b2f725249"
+          "sha256": "aa6a4b3b6140d44777cf1cd5c819b18f692ded5f4e90cdcd10cc33a136d1879c",
+          "source": "trim of existing pretty.mp3 (2.85-8.95 s)"
         }
       ]
     }

@@ -44,7 +44,7 @@
         {
           "file": "sounds/DivineInvasion.mp3",
           "label": "Divine invasion!",
-          "sha256": "05bea4cf23fc2102e41cf892e44ff591022fec778b0f0d231773ed52c143a5e4"
+          "sha256": "ba415179910df7d1fd87007bc944505ed3c453a13a89100aebf74bd3debe865b"
         },
         {
           "file": "sounds/IOrdainIt.mp3",
@@ -59,7 +59,7 @@
         {
           "file": "sounds/SoundAdvice.mp3",
           "label": "Sound advice.",
-          "sha256": "736fdb7a5765b7a047dee24836e6a85b3f60c03023931b40cfa09078d1e12f7c"
+          "sha256": "fc5aced1706ae2808dd6543620c58215ac6d298cf31abed4898dbef51bb25188"
         },
         {
           "file": "sounds/ByTheGods.mp3",
@@ -93,7 +93,7 @@
         {
           "file": "sounds/ThunderousApplause.mp3",
           "label": "Thunderous applause!",
-          "sha256": "88935eaf9ec225a14ecc67dcbb0f3e618a4d71ae01c9de645b692af94b2edafb"
+          "sha256": "a8bf8d08e00622155764b7816c7adc9c58a1b64c7fa27d2f3f0c76a08acadfae"
         },
         {
           "file": "sounds/GodsWrath.mp3",

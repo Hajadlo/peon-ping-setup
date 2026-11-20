@@ -1,0 +1,71 @@
+{
+  "cesp_version": "1.0",
+  "name": "game-mafia2-cz",
+  "display_name": "Mafia II (CZ dabing)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "cs",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/m2-zatleskam.mp3",
+          "label": "Ty vole, já ti snad zatleskám.",
+          "sha256": "f995801cd59aefd895e84f485116e50ff7349061ccf41bb20578bbddd2d0267b",
+          "source": "mafia.scorpions.cz/download/hlasky joe-mafia2-scorpions-cz-rar (0-9 s)"
+        },
+        {
+          "file": "sounds/m2-na-tvy-strane.mp3",
+          "label": "Jsem rád, že jsem na tvý straně, kámo.",
+          "sha256": "971a8c215e5d4207bab98bab04a729cf6e09f5e1512bebbd93a315acbb2d4c3a",
+          "source": "mafia.scorpions.cz/download/hlasky joe-mafia2-scorpions-cz-rar (0-9 s)"
+        },
+        {
+          "file": "sounds/m2-genialni.mp3",
+          "label": "Kurva, to bylo geniální.",
+          "sha256": "2c0ee69881150c75c22e97b71918d421708988a2e794bc7181e82669f8567b52",
+          "source": "mafia.scorpions.cz/download/hlasky joe-fight-mafia2-scorpions-cz-rar (0-9 s)"
+        },
+        {
+          "file": "sounds/m2-dojem.mp3",
+          "label": "Dělám dojem sám na sebe.",
+          "sha256": "ccd456d35ccf4f856c4a5dd221baf475f6023fa5287bcf5700b9a5fe7148363c",
+          "source": "mafia.scorpions.cz/download/hlasky joe-fight-mafia2-scorpions-cz-rar (0-9 s)"
+        },
+        {
+          "file": "sounds/m2-hrobar.mp3",
+          "label": "Ha! Další práce pro hrobaře!",
+          "sha256": "dfd9731aa22f021a80440893acbfdd18312dd529489e9fa01d6fe0ffd5686788",
+          "source": "mafia.scorpions.cz/download/hlasky joe-fight-mafia2-scorpions-cz-rar (0-9 s)"
+        },
+        {
+          "file": "sounds/m2-nasrat.mp3",
+          "label": "Do prdele, tebe nechci nikdy nasrat!",
+          "sha256": "b7f48c8992faac84b9dc881eefbd8b1688b246e820594f81abc5ddc9dd9b4178",
+          "source": "mafia.scorpions.cz/download/hlasky joe-mafia2-scorpions-cz-rar (0-9 s)"
+        },
+        {
+          "file": "sounds/m2-smrad.mp3",
+          "label": "Ale kurva, dělej, táhne se to jako smrad.",
+          "sha256": "6553d13a9fb22240fb0d9a0d1d4baa87e1dfd986e2073ece60e0b3397f3d2485",
+          "source": "mafia.scorpions.cz/download/hlasky joe-mafia2-scorpions-cz-rar (0-9 s)"
+        },
+        {
+          "file": "sounds/m2-s-kym-mluvis.mp3",
+          "label": "Víš kurva, s kým mluvíš?",
+          "sha256": "fe192b632392e89c754d7ed82a363e099b60a3c432c2aef5a13cade5e8c67d4c",
+          "source": "mafia.scorpions.cz/download/hlasky joe-mafia2-scorpions-cz-rar (0-9 s)"
+        },
+        {
+          "file": "sounds/m2-zrcatko.mp3",
+          "label": "Slečno, vy máte v kapse zrcátko? Protože já se vidím ve vašich kalhotkách.",
+          "sha256": "bfcb958adf6b92053cd40ccd8a8f7d73d149199b6a1ffc00132149e5f07ccb0d",
+          "source": "https://www.youtube.com/watch?v=P0qw-0YTZ74 (283.95-287.9 s)"
+        }
+      ]
+    }
+  }
+}

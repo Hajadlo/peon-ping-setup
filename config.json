@@ -20,198 +20,222 @@
   "no_rc": false,
   "pack_rotation": [
     "abes-oddysee-abe",
+    "abes-oddysee-abe",
     "counterstrike",
+    "counterstrike",
+    "d2_deckard_cain",
+    "d2_deckard_cain",
     "d2_deckard_cain",
     "deadlock_dynamo",
     "djt",
-    "dota2-sounds",
+    "djt",
+    "djt",
+    "djt",
+    "djt",
+    "djt",
+    "djt",
     "dota2_axe",
+    "dota2_axe",
+    "dota2_ember_spirit",
+    "dota2_ember_spirit",
     "dota2_ember_spirit",
     "dota2_invoker",
     "dota2_phantom_lancer",
+    "dota2_phantom_lancer",
+    "dota2_witch_doctor",
+    "dota2_witch_doctor",
+    "dota2_witch_doctor",
     "dota2_witch_doctor",
     "dota2_zeus",
+    "dota2_zeus",
+    "dota2_zeus",
+    "dota2_zeus",
+    "dota2_zeus",
     "futurama_bender",
+    "futurama_bender",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-fishfillets-cz",
+    "game-flashpoint-cz",
+    "game-flashpoint-cz",
+    "game-flashpoint-cz",
+    "game-flashpoint-cz",
+    "game-flashpoint-cz",
+    "game-flashpoint-cz",
+    "game-flashpoint-cz",
+    "game-kcd2-cz",
+    "game-kcd2-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia-cz",
+    "game-mafia2-cz",
+    "game-mafia2-cz",
+    "game-mafia2-cz",
+    "game-mafia2-cz",
+    "game-mafia2-cz",
+    "game-mafia2-cz",
+    "game-mafia2-cz",
+    "game-mafia2-cz",
+    "game-polda-cz",
+    "game-polda-cz",
+    "game-polda-cz",
+    "game-polda-cz",
+    "game-polda-cz",
+    "game-polda-cz",
+    "game-polda-cz",
+    "game-polda-cz",
+    "game-polda-cz",
+    "gilfoyle",
+    "gilfoyle",
+    "gilfoyle",
+    "gilfoyle",
+    "gilfoyle",
     "gilfoyle",
     "glados",
+    "jara-cimrman",
+    "jara-cimrman",
+    "jara-cimrman",
+    "jara-cimrman",
+    "jara-cimrman",
+    "jara-cimrman",
+    "jara-cimrman",
+    "jara-cimrman",
+    "jara-cimrman",
+    "lcars",
+    "lcars",
+    "lcars",
+    "lcars",
+    "lcars",
     "lcars",
     "milujipraci",
+    "milujipraci",
+    "milujipraci",
+    "milujipraci",
+    "milujipraci",
+    "milujipraci",
+    "milujipraci",
+    "mr_meeseeks",
+    "mr_meeseeks",
     "mr_meeseeks",
     "omar",
+    "omar",
+    "omar",
+    "omar",
+    "omar",
+    "omar",
+    "omar",
+    "omar",
+    "omar",
+    "originalwar-peons",
+    "originalwar-peons",
+    "originalwar-peons",
+    "originalwar-peons",
+    "originalwar-peons",
+    "originalwar-peons",
+    "originalwar-peons",
     "originalwar-peons",
     "peasant_cz",
     "peon_cz",
+    "peon_cz",
+    "peon_cz",
     "pulp_fiction",
     "r2d2",
+    "r2d2",
+    "sc_battlecruiser",
+    "sc_battlecruiser",
     "sc_battlecruiser",
     "sc_firebat",
+    "sc_firebat",
+    "sc_kerrigan",
     "sc_kerrigan",
     "sc_marine",
+    "sc_marine",
+    "sc_medic",
     "sc_medic",
     "sc_scv",
+    "sc_scv",
+    "sc_tank",
     "sc_tank",
     "seinfeld_kramer",
+    "seinfeld_kramer",
+    "seinfeld_kramer",
+    "seinfeld_kramer",
+    "seinfeld_kramer",
+    "sopranos",
+    "sopranos",
+    "sopranos",
+    "sopranos",
+    "sopranos",
+    "sopranos",
     "sopranos",
     "st_worf",
     "storm-spirit",
+    "storm-spirit",
+    "storm-spirit",
+    "storm-spirit",
+    "storm-spirit",
+    "tv-band-of-brothers",
+    "tv-better-call-saul",
+    "tv-breaking-bad",
+    "tv-breaking-bad",
+    "tv-breaking-bad",
+    "tv-breaking-bad",
+    "tv-breaking-bad",
+    "tv-breaking-bad",
     "tv-breaking-bad",
     "tv-brooklyn-nine-nine",
+    "tv-chernobyl",
+    "tv-curb-your-enthusiasm",
+    "tv-game-of-thrones",
+    "tv-house-m-d",
     "tv-house-m-d",
     "tv-its-always-sunny-in-philadelphia",
+    "tv-its-always-sunny-in-philadelphia",
+    "tv-its-always-sunny-in-philadelphia",
+    "tv-its-always-sunny-in-philadelphia",
+    "tv-mad-men",
     "tv-mad-men",
     "tv-narcos",
     "tv-parks-and-recreation",
-    "tv-seinfeld",
-    "tv-the-office-us",
-    "tywin-lannister",
-    "warcraft3-mix",
-    "abes-oddysee-abe",
-    "counterstrike",
-    "d2_deckard_cain",
-    "deadlock_dynamo",
-    "djt",
-    "dota2-sounds",
-    "dota2_axe",
-    "dota2_ember_spirit",
-    "dota2_invoker",
-    "dota2_phantom_lancer",
-    "dota2_witch_doctor",
-    "dota2_zeus",
-    "futurama_bender",
-    "gilfoyle",
-    "glados",
-    "lcars",
-    "milujipraci",
-    "mr_meeseeks",
-    "omar",
-    "originalwar-peons",
-    "peasant_cz",
-    "peon_cz",
-    "pulp_fiction",
-    "r2d2",
-    "sc_battlecruiser",
-    "sc_firebat",
-    "sc_kerrigan",
-    "sc_marine",
-    "sc_medic",
-    "sc_scv",
-    "sc_tank",
-    "seinfeld_kramer",
-    "sopranos",
-    "storm-spirit",
-    "tv-breaking-bad",
-    "tv-its-always-sunny-in-philadelphia",
-    "tv-mad-men",
     "tv-parks-and-recreation",
-    "tv-the-office-us",
-    "tywin-lannister",
-    "warcraft3-mix",
-    "d2_deckard_cain",
-    "deadlock_dynamo",
-    "djt",
-    "dota2-sounds",
-    "dota2_axe",
-    "dota2_ember_spirit",
-    "dota2_invoker",
-    "dota2_phantom_lancer",
-    "dota2_witch_doctor",
-    "dota2_zeus",
-    "futurama_bender",
-    "gilfoyle",
-    "glados",
-    "lcars",
-    "milujipraci",
-    "mr_meeseeks",
-    "omar",
-    "originalwar-peons",
-    "peasant_cz",
-    "peon_cz",
-    "pulp_fiction",
-    "r2d2",
-    "sc_battlecruiser",
-    "sc_tank",
-    "seinfeld_kramer",
-    "sopranos",
-    "storm-spirit",
-    "tv-the-office-us",
-    "tywin-lannister",
-    "warcraft3-mix",
-    "deadlock_dynamo",
-    "djt",
-    "dota2-sounds",
-    "dota2_axe",
-    "dota2_ember_spirit",
-    "dota2_phantom_lancer",
-    "dota2_witch_doctor",
-    "dota2_zeus",
-    "futurama_bender",
-    "gilfoyle",
-    "lcars",
-    "milujipraci",
-    "mr_meeseeks",
-    "omar",
-    "originalwar-peons",
-    "peasant_cz",
-    "peon_cz",
-    "pulp_fiction",
-    "sopranos",
-    "storm-spirit",
-    "tywin-lannister",
-    "warcraft3-mix",
-    "deadlock_dynamo",
-    "djt",
-    "dota2-sounds",
-    "dota2_ember_spirit",
-    "dota2_phantom_lancer",
-    "dota2_witch_doctor",
-    "dota2_zeus",
-    "gilfoyle",
-    "lcars",
-    "milujipraci",
-    "mr_meeseeks",
-    "omar",
-    "originalwar-peons",
-    "peon_cz",
-    "storm-spirit",
-    "tywin-lannister",
-    "warcraft3-mix",
-    "deadlock_dynamo",
-    "djt",
-    "dota2_witch_doctor",
-    "dota2_zeus",
-    "gilfoyle",
-    "lcars",
-    "milujipraci",
-    "mr_meeseeks",
-    "omar",
-    "originalwar-peons",
-    "peon_cz",
-    "tywin-lannister",
-    "warcraft3-mix",
-    "deadlock_dynamo",
-    "djt",
-    "dota2_zeus",
-    "gilfoyle",
-    "lcars",
-    "milujipraci",
-    "mr_meeseeks",
-    "omar",
-    "originalwar-peons",
-    "peon_cz",
-    "warcraft3-mix",
-    "deadlock_dynamo",
-    "originalwar-peons",
-    "deadlock_dynamo",
-    "originalwar-peons",
-    "deadlock_dynamo",
-    "originalwar-peons",
-    "originalwar-peons",
-    "jara-cimrman",
-    "jara-cimrman",
     "tv-red-dwarf",
-    "tv-red-dwarf",
-    "tv-curb-your-enthusiasm",
-    "tv-curb-your-enthusiasm"
+    "tv-seinfeld",
+    "tv-seinfeld",
+    "tv-severance",
+    "tv-the-good-place",
+    "tv-the-good-place",
+    "tv-the-office-us",
+    "tv-the-office-us",
+    "tv-the-office-us",
+    "tv-the-office-us",
+    "tv-the-office-us",
+    "tv-the-office-us",
+    "tv-the-wire",
+    "tywin-lannister",
+    "tywin-lannister",
+    "warcraft3-mix",
+    "warcraft3-mix",
+    "warcraft3-mix",
+    "warcraft3-mix"
   ],
   "pack_rotation_mode": "shuffle",
   "path_rules": [],
@@ -238,5 +262,368 @@
     "reminder_interval_minutes": 20,
     "reminder_min_gap_minutes": 5
   },
-  "notification_title_ide": true
+  "notification_title_ide": true,
+  "disabled_sounds": {
+    "futurama_bender": {
+      "task.complete": [
+        "true.mp3",
+        "the-lovable-rascal.mp3"
+      ],
+      "input.required": [
+        "um.mp3",
+        "then-then-then-then-then-then-then-then-then-then.mp3"
+      ]
+    },
+    "jara-cimrman": {
+      "task.complete": [
+        "XCgvvSpEqeY7PVZMBO.mp3",
+        "ZBiZoRBJq5lUckLdOZ.mp3",
+        "h4aNvBSMJM1tEKaWsc.mp3",
+        "jUFHeb6500OCt5P5kb.mp3"
+      ],
+      "input.required": [
+        "JQw7F8cJOMwOJU3VoE.mp3",
+        "Vzr5bX7785rvCeUceQ.mp3",
+        "WRRGu6YxbbOWnVc6wk.mp3",
+        "eGNmwRMdUQ5YT7TCcb.mp3"
+      ]
+    },
+    "tv-mad-men": {
+      "task.complete": [
+        "f3ae794bcf9a-i-want-to-tell-you-something-you-are-very-dear-to-me.mp3"
+      ]
+    },
+    "pulp_fiction": {
+      "task.complete": [
+        "whos-zed-zeds-dead-baby-zeds-dead.mp3",
+        "lookin-good-butch.mp3",
+        "mr-wolf-i-just-wanna-tell-you-it-was-a-real-pleasure-watching-you-work-yeah-really-and-thank-you-very-much-mr-wolf.mp3"
+      ],
+      "input.required": [
+        "hello-2.mp3",
+        "hold-it-right-there-goddamn-it.mp3",
+        "call-me-winston.mp3",
+        "what-i-say-what-again.mp3",
+        "would-you-give-a-guy-a-foot-massage.mp3",
+        "did-you-just-order-a-five-dollar-shake.mp3"
+      ]
+    },
+    "mr_meeseeks": {
+      "input.required": [
+        "most_importantly_you_gotta_relax.mp3",
+        "remember_to_square_your_shoulders_jerry.mp3",
+        "okay_jerry_you_gotta_just_choke_up_on_the_club.mp3",
+        "can_you_help_me_get_two_strokes_off_of_jerrys_golf_swing.mp3",
+        "let_me_try_something.mp3"
+      ],
+      "task.complete": [
+        "okay.mp3",
+        "ooh_okay.mp3",
+        "oh_yeah_yes_maam.mp3",
+        "yes_sirreeee.mp3"
+      ]
+    },
+    "gilfoyle": {
+      "input.required": [
+        "what.wav",
+        "not-for-myself-obviously-but-for-the-team.wav",
+        "what-2.wav",
+        "what-do-i-do.wav"
+      ],
+      "task.complete": [
+        "were-all-set-here.wav"
+      ]
+    },
+    "warcraft3-mix": {
+      "task.complete": [
+        "DragonHawkWhat1.wav",
+        "MuradinWhat2.wav",
+        "FootmanReady1.wav"
+      ],
+      "input.required": [
+        "AcolyteWhat3.wav",
+        "ArcherWhat4.wav",
+        "ArthasWhat5.wav",
+        "CryptFiendWhat2.wav",
+        "DemonHunterMorphedWhat5.wav",
+        "EvilSylvanasWhat4.wav",
+        "FootmanWhat1.wav",
+        "GromWhat1.wav",
+        "GruntWhat2.wav",
+        "GruntWhat3.wav",
+        "GyrocopterWhat4.wav",
+        "HeroArchmageWhat2.wav",
+        "HeroArchmageWhat4.wav",
+        "HeroLichWhat2.wav",
+        "HeroTaurenChieftainWhat1.wav",
+        "HeroTaurenChieftainWhat2.wav",
+        "HeroTaurenChieftainWhat3.wav",
+        "KaelReady1.wav",
+        "NecromancerYes4.wav",
+        "TaurenWhat3.wav",
+        "HuntressWhat4.wav",
+        "NecromancerWhat3.wav",
+        "TichondriusWhat1.wav",
+        "UtherPissed3.wav",
+        "UtherWhat4.wav",
+        "VarimathrasWhat5.wav"
+      ]
+    },
+    "deadlock_dynamo": {
+      "task.complete": [
+        "dynamo_tower_got_denied_03.mp3",
+        "dynamo_ping_good_job_01.mp3",
+        "dynamo_ping_nice_work_01.mp3",
+        "dynamo_select_10.mp3",
+        "dynamo_kill_team_blackhole_01.mp3",
+        "dynamo_congrats_05.mp3",
+        "dynamo_congrats_04.mp3",
+        "dynamo_congrats_03.mp3",
+        "dynamo_win_02.mp3"
+      ],
+      "input.required": [
+        "dynamo_use_power2_11.mp3",
+        "dynamo_use_phantom_strike_02.mp3",
+        "dynamo_use_power1_08.mp3",
+        "dynamo_use_vampiric_burst_03.mp3",
+        "dynamo_use_vampiric_burst_02.mp3",
+        "dynamo_use_power2_18.mp3",
+        "dynamo_use_power2_07.mp3",
+        "dynamo_use_power2_20.mp3",
+        "dynamo_upgrade_power4_01.mp3"
+      ]
+    },
+    "lcars": {
+      "task.complete": [
+        "done_lcars_5.wav"
+      ],
+      "input.required": [
+        "input_lcars_5.wav",
+        "input_lcars_7.wav",
+        "input_lcars_9.wav",
+        "input_lcars_11.wav"
+      ]
+    },
+    "originalwar-peons": {
+      "task.complete": [
+        "am_jmm_fa_2.mp3",
+        "am_jmm_fc_1.mp3",
+        "am_jmm_fe_1.mp3"
+      ],
+      "input.required": [
+        "am_don_ia_1.mp3"
+      ]
+    },
+    "sopranos": {
+      "input.required": [
+        "Permission_TellMe.mp3",
+        "Acknowledge_MakeItHappen.mp3"
+      ]
+    },
+    "tywin-lannister": {
+      "task.complete": [
+        "good.mp3",
+        "of-course.mp3",
+        "i-respect-that.mp3",
+        "ai-youve-exceeded-my-expectations-dont-let-it-become-a-habit.mp3"
+      ],
+      "input.required": [
+        "what-do-you-want.mp3",
+        "ai-make-a-decision-any-decision-but-make-one.mp3",
+        "ai-speak-plainly-i-have-no-patience-for-riddles.mp3"
+      ]
+    },
+    "peon_cz": {
+      "task.complete": [
+        "PeonWhat4.wav",
+        "PeonYesAttack1.wav",
+        "PeonYesAttack3.wav",
+        "PeonYes2.wav"
+      ],
+      "input.required": [
+        "PeonWhat4.wav",
+        "PeonWhat2.wav",
+        "PeonWhat1.wav"
+      ]
+    },
+    "game-mafia-cz": {
+      "task.complete": [
+        "m1-pozdravuje.mp3",
+        "m1-pripad-uzavren.mp3",
+        "m1-castejc.mp3",
+        "m1-napijeme.mp3",
+        "m1-za-nama.mp3"
+      ]
+    },
+    "omar": {
+      "task.complete": [
+        "i-rip-and-run.mp3"
+      ],
+      "input.required": [
+        "you-feel-me.mp3",
+        "what-you-want-me-to-say.mp3"
+      ]
+    },
+    "djt": {
+      "input.required": [
+        "hey.mp3"
+      ]
+    },
+    "tv-breaking-bad": {
+      "input.required": [
+        "bb-we-need-to-cook.mp3"
+      ]
+    },
+    "dota2_zeus": {
+      "task.complete": [
+        "Thunderstruck.mp3",
+        "EhMortal.mp3"
+      ],
+      "input.required": [
+        "HeavenHelpYou.mp3",
+        "Beware.mp3",
+        "Attack.mp3"
+      ]
+    },
+    "storm-spirit": {
+      "input.required": [
+        "im-over-here.mp3",
+        "wheres-the-party.mp3"
+      ]
+    },
+    "dota2-sounds": {
+      "task.complete": [
+        "hand_of_midas.wav",
+        "tome_of_knowledge.wav",
+        "rune_bounty.wav",
+        "rune_dd.wav",
+        "black_king_bar.wav"
+      ],
+      "input.required": [
+        "magic_stick.wav",
+        "dust_of_appearance.wav",
+        "medallion_of_courage.wav",
+        "lotus_orb.wav"
+      ]
+    },
+    "dota2_witch_doctor": {
+      "task.complete": [
+        "HexMarksDeSpot.mp3",
+        "AskNotForWhom.mp3"
+      ],
+      "input.required": [
+        "ACurseLaid.mp3"
+      ]
+    },
+    "seinfeld_kramer": {
+      "task.complete": [
+        "out_there.wav"
+      ]
+    },
+    "tv-its-always-sunny-in-philadelphia": {
+      "input.required": [
+        "sunny-pepe-silvia.mp3"
+      ]
+    },
+    "game-mafia2-cz": {
+      "task.complete": [
+        "m2-hrobar.mp3"
+      ]
+    },
+    "dota2_ember_spirit": {
+      "task.complete": [
+        "YouAreNoMore.mp3",
+        "InTheBag.mp3"
+      ],
+      "input.required": [
+        "FireShallTeachYou.mp3",
+        "YouFaceTheFlame.mp3",
+        "PrepareForALesson.mp3"
+      ]
+    },
+    "dota2_phantom_lancer": {
+      "task.complete": [
+        "WePutYouToPeace.mp3",
+        "RestNow.mp3",
+        "ForVictory.mp3"
+      ],
+      "input.required": [
+        "PrepareYourself.mp3",
+        "WeComeForYou.mp3",
+        "OurForceComes.mp3"
+      ]
+    },
+    "peasant_cz": {
+      "task.complete": [
+        "PeasantYes1.wav",
+        "PeasantYes3.wav",
+        "PeasantWhat3.wav"
+      ]
+    },
+    "game-flashpoint-cz": {
+      "task.complete": [
+        "g-tatko.mp3"
+      ]
+    },
+    "dota2_axe": {
+      "task.complete": [
+        "Axeactly.mp3",
+        "CutAbove.mp3"
+      ],
+      "input.required": [
+        "ComeAndGetIt.mp3",
+        "GoodDayToFight.mp3"
+      ]
+    },
+    "glados": {
+      "task.complete": [
+        "Congratulations.mp3",
+        "Goodbye.mp3"
+      ],
+      "input.required": [
+        "SoftwareIntrusionDetected.mp3",
+        "CanYouHearMe.mp3"
+      ]
+    },
+    "tv-seinfeld": {
+      "input.required": [
+        "seinfeld-hellooo.mp3"
+      ]
+    },
+    "dota2_invoker": {
+      "task.complete": [
+        "Behold.mp3",
+        "WitnessTrueSorcery.mp3"
+      ],
+      "input.required": [
+        "OverYon.mp3",
+        "Denied.mp3",
+        "ImBetwixtMyself.mp3"
+      ]
+    },
+    "r2d2": {
+      "task.complete": [
+        "Complete2.mp3"
+      ],
+      "input.required": [
+        "Input1.mp3",
+        "Input2.mp3",
+        "Input3.mp3"
+      ]
+    },
+    "sc_scv": {
+      "input.required": [
+        "YesSir.mp3",
+        "IReadYou.mp3"
+      ]
+    },
+    "sc_tank": {
+      "task.complete": [
+        "IdentifyTarget.mp3"
+      ],
+      "input.required": [
+        "DestinationST.mp3"
+      ]
+    }
+  }
 }

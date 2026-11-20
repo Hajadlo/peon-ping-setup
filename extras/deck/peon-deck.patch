@@ -1,0 +1,109 @@
+--- a/peon.sh	2026-11-19 13:54:03.247766158 +0100
++++ b/peon.sh	2026-11-19 13:54:03.248766181 +0100
+@@ -5183,6 +5183,7 @@
+ 
+ # --- Pack rotation: pin a pack per session ---
+ rotation_mode = cfg.get('pack_rotation_mode', 'random')
++_deck_active = False
+ 
+ # --- Path rules and IDE rules: first match wins in each layer ---
+ # session_override > path_rules > ide_rules > rotation > default_pack
+@@ -5250,8 +5251,12 @@
+ elif _ide_rule_pack:
+     # IDE rule beats rotation and default when no path rule matched.
+     active_pack = _ide_rule_pack
+-elif pack_rotation and rotation_mode in ('random', 'round-robin', 'shuffle'):
+-    if rotation_mode == 'shuffle':
++elif pack_rotation and rotation_mode in ('random', 'round-robin', 'shuffle', 'deck'):
++    if rotation_mode == 'deck':
++        # Deck: pack and file are drawn together at sound-pick time. Provisional pack until then.
++        _deck_active = True
++        active_pack = random.choice(pack_rotation)
++    elif rotation_mode == 'shuffle':
+         # Shuffle: pick a random pack for every sound event, no session caching
+         active_pack = random.choice(pack_rotation)
+     else:
+@@ -5768,6 +5773,65 @@
+ # --- Pick sound (skip if no category or paused) ---
+ sound_file = ''
+ icon_path = ''
++_deck_choice = None
++_deck_left = None
++if category and not paused and _deck_active:
++    # Deck mode: one deck per category over the unique rotation packs; draw without replacement.
++    try:
++        _elig = []
++        _seen = set()
++        for _dp in dict.fromkeys(pack_rotation):
++            _dpd = os.path.join(peon_dir, 'packs', _dp)
++            _dm = None
++            for _mn in ('openpeon.json', 'manifest.json'):
++                if os.path.exists(os.path.join(_dpd, _mn)):
++                    _dm = json.load(open(os.path.join(_dpd, _mn)))
++                    break
++            _dis = cfg.get('disabled_sounds', {}).get(_dp, {}).get(category, []) or []
++            _root = os.path.realpath(_dpd) + os.sep
++            for _ds in ((_dm or {}).get('categories', {}).get(category, {}).get('sounds', []) or []):
++                _df = str(_ds.get('file', ''))
++                if not _df or os.path.basename(_df) in _dis or (_dp, _df) in _seen:
++                    continue
++                _dc = os.path.realpath(os.path.join(_dpd, _df if '/' in _df else os.path.join('sounds', _df)))
++                if _dc.startswith(_root) and os.path.isfile(_dc):
++                    _seen.add((_dp, _df))
++                    _elig.append((_dp, _df))
++        if _elig:
++            _decks = state.get('deck')
++            if not isinstance(_decks, dict):
++                _decks = {}
++            _entry = _decks.get(category)
++            if not isinstance(_entry, dict):
++                _entry = {}
++            _eset = set(_elig)
++            _known = set(tuple(x) for x in _entry.get('known', []) if isinstance(x, list) and len(x) == 2)
++            _rem = []
++            for _x in _entry.get('remaining', []):
++                _x = tuple(_x) if isinstance(_x, list) and len(_x) == 2 else None
++                if _x in _eset and _x not in _rem:
++                    _rem.append(_x)
++            if not _rem:
++                _rem = list(_elig)
++                random.shuffle(_rem)
++            else:
++                for _x in _elig:
++                    if _x not in _known and _x not in _rem:
++                        _rem.insert(random.randint(0, len(_rem)), _x)
++            _lp = _entry.get('last_pack', '')
++            _i = next((n for n, _x in enumerate(_rem) if _x[0] != _lp), 0)
++            _deck_choice = _rem.pop(_i)
++            _deck_left = len(_rem)
++            _decks[category] = {'remaining': [list(_x) for _x in _rem], 'known': [list(_x) for _x in _elig], 'last_pack': _deck_choice[0]}
++            state['deck'] = _decks
++            state_dirty = True
++            active_pack = _deck_choice[0]
++            if isinstance(state.get('last_active'), dict):
++                state['last_active']['pack'] = active_pack
++    except Exception as _e:
++        _deck_choice = None
++        log('sound', error='deck: ' + str(_e), fallback='random')
++
+ if category and not paused:
+     pack_dir = os.path.join(peon_dir, 'packs', active_pack)
+     try:
+@@ -5787,6 +5851,8 @@
+             last_played = state.get('last_played', {})
+             last_file = last_played.get(category, '')
+             candidates = sounds if len(sounds) <= 1 else [s for s in sounds if s['file'] != last_file]
++            if _deck_choice:
++                candidates = [s for s in sounds if str(s.get('file', '')) == _deck_choice[1]][:1] or candidates
+             pick = random.choice(candidates)
+             last_played[category] = pick['file']
+             state['last_played'] = last_played
+@@ -5833,7 +5899,7 @@
+         log('sound', error=str(_e), fallback='none')
+ 
+ if sound_file:
+-    log('sound', file=os.path.basename(sound_file), pack=active_pack, candidates=len(candidates) if 'candidates' in dir() else 0, no_repeat=True)
++    log('sound', file=os.path.basename(sound_file), pack=active_pack, candidates=len(candidates) if 'candidates' in dir() else 0, no_repeat=True, **({'deck_left': _deck_left} if _deck_left is not None else {}))
+ elif category and not paused:
+     log('sound', error='no sound found', pack=active_pack, fallback='none')
+ 

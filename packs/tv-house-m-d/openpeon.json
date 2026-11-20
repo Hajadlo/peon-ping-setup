@@ -15,6 +15,12 @@
           "file": "sounds/f3fa5ab786f9-i-am-a-board-certified-diagnostician.mp3",
           "label": "I Am a Board Certified Diagnostician",
           "sha256": "41ba554453cdfd6621a6dfc836e59ac19698e5cbaea238bc3d5bd2340b76b5ef"
+        },
+        {
+          "file": "sounds/house-never-lupus.mp3",
+          "label": "It's never lupus.",
+          "sha256": "c13aa9b4f2a186409f719d3b2a4315da4c39e62479e9892dbc4b8b9901c50c9a",
+          "source": "https://tuna.voicemod.net/sound/c08de160-6e55-41cb-bddb-9c506466d385"
         }
       ]
     },
@@ -33,6 +39,17 @@
           "file": "sounds/f3fa5ab786f9-i-am-a-board-certified-diagnostician.mp3",
           "label": "I Am a Board Certified Diagnostician",
           "sha256": "41ba554453cdfd6621a6dfc836e59ac19698e5cbaea238bc3d5bd2340b76b5ef"
+        },
+        {
+          "file": "sounds/3fb368aef7d0-times-up.mp3",
+          "label": "Time's Up",
+          "sha256": "4352d36b09ca11695a3f3f9dcacdfbbcea499149b4d0fd3de615154b04180755"
+        },
+        {
+          "file": "sounds/house-everybody-lies.mp3",
+          "label": "Everybody lies.",
+          "sha256": "e245696602f788a8a4085e2bc55c950c0f4c90467b5af1dc68189e7dc60c90f7",
+          "source": "https://www.101soundboards.com/sounds/414046-its-basic-truth-of-the-human-condition-that-everybody-lies"
         }
       ]
     },

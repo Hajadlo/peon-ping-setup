@@ -1,0 +1,33 @@
+{
+  "cesp_version": "1.0",
+  "name": "tv-better-call-saul",
+  "display_name": "TV — Better Call Saul",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hajadlo"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/bcs-sall-good.mp3",
+          "label": "It's all good, man.",
+          "sha256": "9824eddd32837284ae9acc3ea42725166d6405e2c5cdcee8de2f3d14e5ddda1b",
+          "source": "https://www.instagram.com/reel/C5UuQ-CN9f1/"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/bcs-better-call-saul.mp3",
+          "label": "Better call Saul.",
+          "sha256": "e949baff7fd98edb63423dd6d3809db7ae564965b3202770c35702cf6f9e41bc",
+          "source": "https://www.facebook.com/StanAustralia/videos/this-is-by-far-the-best-commercial-ever-created-watch-every-episode-of-breakingb/1528076394529652/"
+        }
+      ]
+    }
+  }
+}

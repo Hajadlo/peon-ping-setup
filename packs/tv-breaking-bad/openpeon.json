@@ -20,6 +20,35 @@
           "file": "sounds/537963510fcb-i-have-money.mp3",
           "label": "I have money",
           "sha256": "1b2c8859cd57f9244576cdfc62c8a178143c835f0a6b6e4bc41a6f92befa4f1e"
+        },
+        {
+          "file": "sounds/969c36378c7d-you-are-my-free-pass-bitch.mp3",
+          "label": "You are my free pass Bitch",
+          "sha256": "8b538a926c2493e138b36c2f40f1c676270ca164008a2c771b69ae7690dd427f"
+        },
+        {
+          "file": "sounds/bb-science.mp3",
+          "label": "Yeah, Mr. White, yeah, science!",
+          "sha256": "254e1f126021e24a2a83f4cf25bea02f88f79bfe18a2f9bf85c16d553d0483fc",
+          "source": "https://www.myinstants.com/en/instant/yeah-science/"
+        },
+        {
+          "file": "sounds/bb-goddamn-right.mp3",
+          "label": "You're goddamn right.",
+          "sha256": "21114089d62ed0c502cba1fad1601e210e8db6e1ca36f13f18113da6ef53f459",
+          "source": "https://www.myinstants.com/en/instant/you-are-god-damn-right-60909/"
+        },
+        {
+          "file": "sounds/bb-magnets.mp3",
+          "label": "YEAH BITCH! MAGNETS!",
+          "sha256": "6f24448b3d69a4bd87bfb9bccd337853cab89a542dfd76e2f882ecade5643f18",
+          "source": "https://audio.com/john-tyler-8/audio/breaking-bad-yeah-bitch-magnets-oh"
+        },
+        {
+          "file": "sounds/bb-one-who-knocks.mp3",
+          "label": "I am the one who knocks.",
+          "sha256": "c228ef34634ba05305465b3772c908896e35f01ab7e9dbca2c708bc1f15a6a1c",
+          "source": "https://www.myinstants.com/en/instant/i-am-the-one-who-knocks/"
         }
       ]
     },
@@ -43,6 +72,18 @@
           "file": "sounds/15043a029d7f-you-got-something-for-me.mp3",
           "label": "You Got Something For Me?",
           "sha256": "285d5a18eed9cfeaee710493747b38f7b108c9fa69e082a65dd9909c70b4bbe5"
+        },
+        {
+          "file": "sounds/bb-say-my-name.mp3",
+          "label": "Say my name.",
+          "sha256": "a8021b6754233fd680294eacc26249ea2e1964d15739b185c6e4d6873d4f142c",
+          "source": "https://www.myinstants.com/en/instant/say-my-name-breaking-bad-74216/"
+        },
+        {
+          "file": "sounds/bb-we-need-to-cook.mp3",
+          "label": "We need to cook.",
+          "sha256": "9a9fb3b00bea4c176e8d708d0e7d5283d37830e2668c43a539c539b5a370bfc6",
+          "source": "Breaking Bad S03E10"
         }
       ]
     },

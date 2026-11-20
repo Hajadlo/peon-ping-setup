@@ -24,7 +24,7 @@
         {
           "file": "sounds/MoveIt.mp3",
           "label": "Move it!",
-          "sha256": "c328373d59c89113f3f35403a585d279e0b537d0e63c914efe7d3477c1a5f82a"
+          "sha256": "dc0f25f9f6b3039f2ac8525cef7c7fb9d41688291d6f314171c0824ba318b891"
         },
         {
           "file": "sounds/Proceedin.mp3",
@@ -34,7 +34,7 @@
         {
           "file": "sounds/DelightedToSir.mp3",
           "label": "De-lighted to, SIR!",
-          "sha256": "22cbc796c9977e1e6ce80d81131e16b38abdd59dfb7158500ab3974f9f8a2771"
+          "sha256": "8c20ca7970b91e7b58a4dfdeee34317c9a02be137ff581b4e9fedca829217019"
         },
         {
           "file": "sounds/Absolutely.mp3",
@@ -53,7 +53,7 @@
         {
           "file": "sounds/DestinationST.mp3",
           "label": "Destination?!",
-          "sha256": "ba072d9346331341418f6b1ea0accef8a6c05db468ab1aea067d0d6ecd8181d8"
+          "sha256": "0a203aff2d00cfddf3add407e0c98a7dfdc5681e4ffdb204f9d8c0049ef579b4"
         },
         {
           "file": "sounds/IdentifyTarget.mp3",
@@ -76,7 +76,7 @@
         {
           "file": "sounds/DestinationST.mp3",
           "label": "Destination?!",
-          "sha256": "ba072d9346331341418f6b1ea0accef8a6c05db468ab1aea067d0d6ecd8181d8"
+          "sha256": "0a203aff2d00cfddf3add407e0c98a7dfdc5681e4ffdb204f9d8c0049ef579b4"
         },
         {
           "file": "sounds/OrdersSir.mp3",
@@ -114,7 +114,7 @@
         {
           "file": "sounds/WhatIsYourMajorMalfunction.mp3",
           "label": "What IS your major malfunction?",
-          "sha256": "02a5810a203f7cd5b8b5763e6f42faa9c3b761f0058add1009e13ec38c0255a3"
+          "sha256": "b19942a641fad308439bcdc01c4f3ea02c929041b2b7c974c5f3e1bca13576a1"
         }
       ]
     }

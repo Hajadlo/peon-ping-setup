@@ -34,7 +34,7 @@ With no options it:
    exists, otherwise
    `curl -fsSL https://raw.githubusercontent.com/PeonPing/peon-ping/main/install.sh | bash`.
    Upstream registers the Claude Code hooks, and Codex hooks when `~/.codex` exists;
-2. copies the 51 packs into `<peon-dir>/packs` (`<peon-dir>` is usually
+2. copies the 64 packs into `<peon-dir>/packs` (`<peon-dir>` is usually
    `~/.claude/hooks/peon-ping`);
 3. merges `config.json` into `<peon-dir>/config.json`: keys from this repo win,
    keys it does not set keep their current values;
@@ -56,12 +56,13 @@ python3 tools/wire_hooks.py --command "<peon-dir>/peon.sh" --codex
 Codex asks the user to review and trust new hooks on its next start.
 
 To change packs or weights, edit `pack_rotation` in `<peon-dir>/config.json`
-(a pack listed N times is N times as likely).
+(a pack listed N times is N times as likely). `disabled_sounds` in the same
+file switches single clips off per pack and category.
 
 ## 3. Verify
 
 ```bash
-peon packs list            # the 51 packs appear
+peon packs list            # the 64 packs appear
 python3 -c "import json,os; h=json.load(open(os.path.expanduser('~/.claude/settings.json')))['hooks']; print(sorted(e for e,g in h.items() if 'peon' in json.dumps(g)))"
 ```
 
@@ -93,3 +94,4 @@ the summary shows `"boosted": 0` and `"peak_violations": 0`.
 
 Agents on a different machine from the speakers, or T3 Code: see
 [extras/remote](extras/remote/README.md) and [extras/t3-code](extras/t3-code/README.md).
+Optional deck rotation mode (every clip once before repeats): [extras/deck](extras/deck/README.md).

@@ -20,6 +20,18 @@
           "file": "sounds/ade0af0d2b50-dennis-you-son-of-a-bitch.mp3",
           "label": "Dennis, You Son of a bitch!",
           "sha256": "45075e35ffa5b61555a408f4576afe095cec2a2e6bcf568126e9fc79d5270619"
+        },
+        {
+          "file": "sounds/sunny-wildcard.mp3",
+          "label": "Wildcard, bitches!",
+          "sha256": "05ed5fdc910034f39d5f2f9fd60c8e24d90f0d2503fa855041865752c584b2b1",
+          "source": "https://www.101soundboards.com/sounds/210630-wild-card-bitches-yeehaw"
+        },
+        {
+          "file": "sounds/sunny-science-liar.mp3",
+          "label": "Science is a liar sometimes.",
+          "sha256": "c236527540a37cbe96abd179a48554a32639fd99b508cd2c13481ef702dec513",
+          "source": "https://www.instagram.com/reel/C5qlHiKu0Nn/"
         }
       ]
     },
@@ -53,6 +65,24 @@
           "file": "sounds/3a79f7c99753-were-not-gonna-find-a-bang-maid.mp3",
           "label": "We're not gonna find a bang maid",
           "sha256": "00d93f31753fe1040d426773e5b632a7da8a24652a8943026db3c6fd44cea07c"
+        },
+        {
+          "file": "sounds/sunny-egg.mp3",
+          "label": "Can I offer you a nice egg in this trying time?",
+          "sha256": "83d50d48e6b4b169d83f9748a64d90e7ccb62cb588bef0ae26bbeaed76fc08a0",
+          "source": "https://www.myinstants.com/en/instant/can-i-offer-you-a-nice-egg-in-this-trying-time-34533/"
+        },
+        {
+          "file": "sounds/sunny-implication.mp3",
+          "label": "because of the implication.",
+          "sha256": "f92813f6cd5d1ab74389091c25cf082afa30602c386392f681302558b3dfbb91",
+          "source": "https://www.101soundboards.com/sounds/210625-because-of-the-implication"
+        },
+        {
+          "file": "sounds/sunny-pepe-silvia.mp3",
+          "label": "Pepe Silvia!",
+          "sha256": "0a822195611fac04681904a76678ceaa91e4c3fb69e81bea639418fb791bd0f7",
+          "source": "https://www.myinstants.com/en/instant/pepe-silvia-26949/"
         }
       ]
     },
